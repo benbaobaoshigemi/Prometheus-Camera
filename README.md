@@ -1,5 +1,8 @@
 # Prometheus Camera
 
+普罗米修斯把火种带到人间，我们想做的，只是把另一束光带到这台相机上。
+所以，它叫 Prometheus Camera。
+
 Prometheus Camera 是面向 Xiaomi 14 Ultra（`aurora`）的 Xiaomi 17 Ultra 相机移植项目。
 
 本仓库用于发布可安装的二进制构建，不提供工程源码。请仅从本仓库的 [Releases](https://github.com/benbaobaoshigemi/Prometheus-Camera/releases) 页面获取正式版本。
