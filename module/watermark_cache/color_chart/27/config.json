@@ -1,0 +1,226 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_color_chart_27_name",
+    "id": "27",
+    "description": "color_chart_1",
+    "limitation": {
+    },
+    "reminder_not_support_mode": ["multi", "raw", "200m", "doc", "pano", "mimoji", "instant"],
+    "exclude_cases": ["200m"],
+    "priority": 1
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "horizontal",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "center",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "background_optional": true,
+          "childViews": [
+            {
+              "type": "Layout",
+              "id": "left_padding",
+              "orientation": "horizontal",
+              "layout_width": "48dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            },
+            {
+              "type": "Layout",
+              "id": "content_layout",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "signature_top_icon",
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "40dp",
+                  "display_height": "112dp",
+                  "display_width": "0dp",
+                  "path": "pathType=select;path=signature_top_icon;foreground=3"
+                },
+                {
+                  "type": "ImageView",
+                  "id": "color_rect_imageview",
+                  "layout_gravity": "center_vertical",
+                  "margin_left": "0dp",
+                  "margin_top": "40dp",
+                  "display_height": "wrap_content",
+                  "display_width": "match_parent",
+                  "path": "pathType=colorChartBuild;type=rect;num=4;tileWidth=0;tileHeight=12;space=20;order=ascend"
+                },
+                {
+                  "type": "ImageView",
+                  "id": "src_image_view",
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "10dp",
+                  "display_height": "0dp",
+                  "path": ""
+                },
+                {
+                  "type": "Layout",
+                  "id": "bottom_padding1",
+                  "orientation": "horizontal",
+                  "layout_width": "match_parent",
+                  "layout_height": "80dp",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": []
+                },
+                {
+                  "type": "Layout",
+                  "id": "bottom_content_layout",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "childViews": [
+                        {
+                          "type": "ImageView",
+                          "id": "logo",
+                          "layout_gravity": "center_vertical",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "display_height": "40dp",
+                          "display_width": "0dp",
+                          "path": "pathType=fill;path=${logo};foreground=3"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model= @{series}@{versionNumber}",
+                          "text_upper": false,
+                          "font_ref": "f1"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model_versionName",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model=@{versionName}",
+                          "text_upper": false,
+                          "font_ref": "f2",
+                          "rect_params": {
+                            "rect_text_width_gap": 9,
+                            "rect_text_height_gap": 0,
+                            "rect_line_width": 2,
+                            "rect_radius": [7, 7, 7, 7, 7, 7, 7, 7],
+                            "rect_line_color": "@foreground=2",
+                            "rect_width": "wrap_content",
+                            "rect_height": "30dp"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "mix_text_1",
+                      "optional": true,
+                      "margin_top": "9dp",
+                      "layout_gravity": "center_horizontal",
+                      "text": "@mix=off;@locationLimit=0.8;@time=@wm_time_yyyy_MM_dd_HH_mm;@exif=@{focal}mm  F@{aperture}  ISO@{iso}  @{speed}s",
+                      "font_ref": "f3"
+                    }
+                  ]
+                },
+                {
+                  "type": "Layout",
+                  "id": "bottom_padding2",
+                  "orientation": "horizontal",
+                  "layout_width": "match_parent",
+                  "layout_height": "80dp",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": []
+                }
+              ]
+            },
+            {
+              "type": "Layout",
+              "id": "right_padding",
+              "orientation": "horizontal",
+              "layout_width": "48dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "transparent_white",
+        "icon": "@img=icon_background_white.webp",
+        "value": "@color=#FFFFFFFF",
+        "foreground": ["#FF000000", "#80000000", "#BF000000", "black"]
+      },
+      {
+        "name": "transparent_black",
+        "icon": "@img=icon_background_black.webp",
+        "value": "@color=#FF141414",
+        "foreground": ["#FFFFFFFF", "#80FFFFFF", "#BFFFFFFF", "white"]
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 36.0,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f2": {
+        "size": 20.0,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 451",
+        "letterSpacing": 0.04
+      },
+      "f3": {
+        "size": 24.0,
+        "color": "@foreground=1",
+        "typeface": "default",
+        "variation": "'wght' 451",
+        "letterSpacing": 0.083
+      }
+    }
+  }
+}

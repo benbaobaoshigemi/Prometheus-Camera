@@ -1,0 +1,253 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_leica_4_name",
+    "id": "4",
+    "description": "leica_4",
+    "reminder_not_support_mode": ["front", "multi", "raw", "200m", "doc", "pano", "mimoji"],
+    "limitation": {
+      "device_type": ["leica"]
+    },
+    "priority": 4,
+    "exclude_cases": ["front", "multi", "cosmetic", "doc", "pano", "mimoji", "200m"]
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "horizontal",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "center",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=white",
+          "background_optional": true,
+          "childViews": [
+            {
+              "type": "Layout",
+              "id": "left_padding",
+              "orientation": "horizontal",
+              "layout_width": "48dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            },
+            {
+              "type": "Layout",
+              "id": "content_layout",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "top_padding",
+                  "orientation": "horizontal",
+                  "layout_width": "match_parent",
+                  "layout_height": "48dp",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": []
+                },
+                {
+                  "type": "ImageView",
+                  "id": "src_image_view",
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "0dp",
+                  "path": ""
+                },
+                {
+                  "type": "Layout",
+                  "id": "bottom_content_layout",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "356dp",
+                  "gravity": "center",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "brand_leica_exif_layout",
+                      "orientation": "vertical",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "childViews":[
+                        {
+                          "type": "Layout",
+                          "id": "brand_leica",
+                          "orientation": "horizontal",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "center",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "childViews":[
+                            {
+                              "type": "ImageView",
+                              "id": "logo",
+                              "layout_gravity": "center_vertical",
+                              "margin_left": "0dp",
+                              "margin_top": "0dp",
+                              "display_height": "40dp",
+                              "display_width": "0dp",
+                              "path": "pathType=fill;path=${logo};foreground=3"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@model= @{series}@{versionNumber}@{versionName}",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "Layout",
+                              "id": "line_layout",
+                              "orientation": "horizontal",
+                              "layout_width": "2dp",
+                              "layout_height": "26dp",
+                              "background": "@foreground=1",
+                              "gravity": "center_vertical",
+                              "margin_left": "24dp",
+                              "margin_top": "0dp",
+                              "childViews": []
+                            },
+                            {
+                              "type": "ImageView",
+                              "id": "leica",
+                              "layout_gravity": "center_vertical",
+                              "margin_left": "24dp",
+                              "margin_top": "0dp",
+                              "display_height": "40dp",
+                              "display_width": "0dp",
+                              "path": "pathType=direct;path=leica.webp"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "exif_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "center",
+                          "margin_left": "0dp",
+                          "margin_top": "36dp",
+                          "childViews":[
+                            {
+                              "type": "TextView",
+                              "id": "focal",
+                              "layout_gravity": "center_vertical",
+                              "text": "@exif=@{focal}mm",
+                              "font_ref": "f2"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "aperture",
+                              "margin_left": "60dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@exif=f\/@{aperture}",
+                              "font_ref": "f2"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "speed",
+                              "margin_left": "60dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@exif=@{speed}s",
+                              "font_ref": "f2"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "iso",
+                              "margin_left": "60dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@exif=ISO@{iso}",
+                              "font_ref": "f2"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Layout",
+              "id": "right_padding",
+              "orientation": "horizontal",
+              "layout_width": "48dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "white",
+        "description": "@wm_background_white",
+        "icon": "@img=icon_background_white.webp",
+        "value": "@color=#FFFFFFFF",
+        "foreground": ["#FF000000", "#33000000", "#80000000", "black"]
+      },
+      {
+        "name": "black",
+        "description": "@wm_background_black",
+        "icon": "@img=icon_background_black.webp",
+        "value": "@color=#FF141414",
+        "foreground": ["#FFFFFFFF", "#33FFFFFF", "#80FFFFFF", "white"]
+      },
+      {
+        "name": "light_blur",
+        "description": "@wm_background_light_blur",
+        "icon": "@img=icon_background_light_blur.webp",
+        "value": "@algo=light_blur",
+        "foreground": ["#FF000000", "#33000000", "#80000000", "black"]
+      },
+      {
+        "name": "dark_blur",
+        "description": "@wm_background_dark_blur",
+        "icon": "@img=icon_background_dark_blur.webp",
+        "value": "@algo=dark_blur",
+        "foreground": ["#FFFFFFFF", "#33FFFFFF", "#80FFFFFF", "white"]
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 32.0,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f2": {
+        "size": 24.0,
+        "color": "@foreground=2",
+        "typeface": "default",
+        "variation": "'wght' 451"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1.0,
+  "miviVersion": 3.001,
+  "metadata": {
+    "name": "@wm_2026_graduation_season_139",
+    "id": "139",
+    "description": "2026_graduation_season_139",
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "show_in_menu": true,
+    "setting_img": "img_setting.webp",
+    "priority": 2,
+    "exclude_cases": [
+      "200m"
+    ],
+    "limitation": {
+      "system_properties": {
+        "ro.product.device": []
+      },
+      "device_type": []
+    }
+  }
+}

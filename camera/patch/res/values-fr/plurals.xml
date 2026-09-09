@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="f5p">
+        <item quantity="other">"&lt;Data>La version de l'Appareil photo que vous utilisez n'est pas compatible avec le modèle de votre appareil.&lt;br>L'application se fermera dans &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Désinstaller les mises à jour de l'Appareil photo et réessayer.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>La version de l'Appareil photo que vous utilisez n'est pas compatible avec le modèle de votre appareil.&lt;br>L'application se fermera dans &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Désinstaller les mises à jour de l'Appareil photo et réessayer.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fb1">
+        <item quantity="other">Focus. %d visages détectés</item>
+        <item quantity="one">Focalisé. %d visage détecté</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d photos en rafale</item>
+        <item quantity="one">%d photo en rafale</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Intervalle : %d secondes</item>
+        <item quantity="one">Intervalle : %d seconde</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Durée : %d minutes</item>
+        <item quantity="one">Durée : %d minute</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Vitesse : %d X</item>
+        <item quantity="one">Vitesse : %d X</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Durée: %d secondes</item>
+        <item quantity="one">Durée: %d seconde</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d caractères saisis.</item>
+        <item quantity="one">%d caractère saisi.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">"Saisir jusqu'à %d caractères."</item>
+        <item quantity="one">"Saisir jusqu'à %d caractère."</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">"Vous pouvez connecter jusqu'à %d caméras au même réseau"</item>
+        <item quantity="one">"Vous pouvez connecter jusqu'à %d caméra au même réseau"</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">"Vous pouvez connecter jusqu'à %d moniteurs au même réseau"</item>
+        <item quantity="one">"Vous pouvez connecter jusqu'à %d moniteur au même réseau"</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">"Vous pouvez créer jusqu'à %d clones à la fois."</item>
+        <item quantity="one">"Vous pouvez créer jusqu'à %d clone à la fois."</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Impossible de se connecter à la caméra.&lt;br>Cette application sera fermée dans &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Après cela, attendez une minute ou deux et réessayez.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Impossible de se connecter à la caméra.&lt;br>Cette application sera fermée dans &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Après cela, attendez une minute ou deux et réessayez.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">"&lt;Data>Cet appareil est trop chaud maintenant.&lt;br>L'application sera fermée dans &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. La progression actuelle a été enregistrée automatiquement.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Cet appareil est trop chaud maintenant.&lt;br>L'application sera fermée dans &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. La progression actuelle a été enregistrée automatiquement.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">"&lt;Data>La version de l'Appareil photo que vous utilisez n'est pas compatible avec le modèle de votre appareil.&lt;br>L'application se fermera dans &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Désinstaller les mises à jour de l'Appareil photo et réessayer.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>La version de l'Appareil photo que vous utilisez n'est pas compatible avec le modèle de votre appareil.&lt;br>L'application se fermera dans &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Désinstaller les mises à jour de l'Appareil photo et réessayer.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d secs</item>
+        <item quantity="one">%1$d sec</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Minuteur activé (%1$d secondes). Les photos seront transférées sur cet appareil.</item>
+        <item quantity="one">Minuteur activé (%1$d seconde). Les photos seront transférées sur cet appareil.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Supprimer %1$d brouillons ?</item>
+        <item quantity="one">Supprimer %1$d brouillon ?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">"Ajouter jusqu'à %d réglages"</item>
+        <item quantity="one">"Ajouter jusqu'à %d réglage"</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Supprimer %d présélections maintenant ?</item>
+        <item quantity="one">Supprimer %d présélection maintenant ?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d présélections supprimés</item>
+        <item quantity="one">%d présélection supprimé</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d présélections importés</item>
+        <item quantity="one">%d présélection importé</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d nouvelles notifications</item>
+        <item quantity="one">%d nouvelle notification</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">"Capture d'un moment en direct, jusqu'à %d secondes"</item>
+        <item quantity="one">"Capture d'un moment en direct, jusqu'à %d seconde"</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Enregistrement %d secondes</item>
+        <item quantity="one">Enregistrement %d seconde</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">"Vous ne pouvez enregistrer des vidéos de temps de figer qu'avec %d objets."</item>
+        <item quantity="one">"Vous ne pouvez enregistrer des vidéos de temps de figer qu'avec %d objet."</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s photos</item>
+        <item quantity="one">%1$s photo</item>
+    </plurals>
+</resources>

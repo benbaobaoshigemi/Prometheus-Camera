@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="f5n">
+        <item quantity="other">"&lt;Data>কেমেৰালৈ সংযোগ কৰিব নোৱাৰি।&lt;br>এই এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। ইয়াৰ পিছত, কেইমিনিটমান অপেক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক।&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>কেমেৰালৈ সংযোগ কৰিব নোৱাৰি।&lt;br>এই এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। ইয়াৰ পিছত, কেইমিনিটমান অপেক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক।&lt;/Data>"</item>
+    </plurals>
+    <plurals name="f5p">
+        <item quantity="other">"&lt;Data>আপুনি ব্যৱহাৰ কৰি থকা কেমেৰাৰ সংস্কৰণটো আপোনাৰ ডিভাইচ মডেলৰ সৈতে সুসম নহয়।&lt;br>এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। কেমেৰা আপডেট আনইনষ্টল কৰক আৰু পুনৰ চেষ্টা কৰক।&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>আপুনি ব্যৱহাৰ কৰি থকা কেমেৰাৰ সংস্কৰণটো আপোনাৰ ডিভাইচ মডেলৰ সৈতে সুসম নহয়।&lt;br>এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। কেমেৰা আপডেট আনইনষ্টল কৰক আৰু পুনৰ চেষ্টা কৰক।&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fb1">
+        <item quantity="other">"ফ'কাচ হৈছে। %d খন মুখ চিনাক্ত হৈছে"</item>
+        <item quantity="one">"ফ'কাচ হৈছে। %d খন মুখ চিনাক্ত হৈছে"</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">এটা বাৰ্ষ্ট শ্বটত %d খন ফটো</item>
+        <item quantity="one">এটা বাৰ্ষ্ট শ্বটত %d খন ফটো</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">বিৰতি: %d ছেকেণ্ড</item>
+        <item quantity="one">বিৰতি: %d ছেকেণ্ড</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">সময়কাল: %d মিনিট</item>
+        <item quantity="one">সময়কাল: %d মিনিট</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">সময়কাল: %dX</item>
+        <item quantity="one">সময়কাল: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">সময়কাল: %d ছেকেণ্ড</item>
+        <item quantity="one">সময়কাল: %d ছেকেণ্ড</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">%d টা বৰ্ণ প্ৰৱিষ্ট কৰা হৈছে</item>
+        <item quantity="one">%d টা বৰ্ণ প্ৰৱিষ্ট কৰা হৈছে</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">%d টা পৰ্যন্ত বৰ্ণ প্ৰৱিষ্ট কৰক।</item>
+        <item quantity="one">%d টা পৰ্যন্ত বৰ্ণ প্ৰৱিষ্ট কৰক।</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%dছেকেণ্ড</item>
+        <item quantity="one">%dছেকেণ্ড</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">আপুনি একেটা নেটৱৰ্কলৈ %d টা পৰ্যন্ত কেমেৰা যোগ কৰিব পাৰে</item>
+        <item quantity="one">আপুনি একেটা নেটৱৰ্কলৈ %d টা পৰ্যন্ত কেমেৰা যোগ কৰিব পাৰে</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">আপুনি একেটা নেটৱৰ্কলৈ %d টা পৰ্যন্ত মনিটৰ যোগ কৰিব পাৰে</item>
+        <item quantity="one">আপুনি একেটা নেটৱৰ্কলৈ %d টা পৰ্যন্ত মনিটৰ যোগ কৰিব পাৰে</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">আপুনি এটা সময়ত %d টা পৰ্যন্ত ক্লন সৃষ্টি কৰিব পাৰে।</item>
+        <item quantity="one">আপুনি এটা সময়ত %d টা পৰ্যন্ত ক্লন সৃষ্টি কৰিব পাৰে।</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">"&lt;Data>কেমেৰালৈ সংযোগ কৰিব নোৱাৰি।&lt;br>এই এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। ইয়াৰ পিছত, কেইমিনিটমান অপেক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক।&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>কেমেৰালৈ সংযোগ কৰিব নোৱাৰি।&lt;br>এই এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। ইয়াৰ পিছত, কেইমিনিটমান অপেক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক।&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">"&lt;Data>এই ডিভাইচটো এতিয়া অতি গৰম।&lt;br>এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। বৰ্তমানৰ প্ৰগতি স্বয়ংক্ৰিয়ভাৱে সংৰক্ষণ কৰা হৈছিল।&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>এই ডিভাইচটো এতিয়া অতি গৰম।&lt;br>এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। বৰ্তমানৰ প্ৰগতি স্বয়ংক্ৰিয়ভাৱে সংৰক্ষণ কৰা হৈছিল।&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">"&lt;Data>আপুনি ব্যৱহাৰ কৰি থকা কেমেৰাৰ সংস্কৰণটো আপোনাৰ ডিভাইচ মডেলৰ সৈতে সুসম নহয়।&lt;br>এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। কেমেৰা আপডেট আনইনষ্টল কৰক আৰু পুনৰ চেষ্টা কৰক।&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>আপুনি ব্যৱহাৰ কৰি থকা কেমেৰাৰ সংস্কৰণটো আপোনাৰ ডিভাইচ মডেলৰ সৈতে সুসম নহয়।&lt;br>এপটো &lt;font color=#FFCE16>&lt;b>%1$d ছেকেণ্ড&lt;/b>&lt;/font>ত বন্ধ হ'ব। কেমেৰা আপডেট আনইনষ্টল কৰক আৰু পুনৰ চেষ্টা কৰক।&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d মিনিট</item>
+        <item quantity="one">%1$d মিনিট</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d ছেকেণ্ড</item>
+        <item quantity="one">%1$d ছেকেণ্ড</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">"টাইমাৰ অন কৰক (%1$d ছেকেণ্ড)। ফটোসমূহ এই ডিভাইচলৈ স্থানান্তৰ কৰা হ'ব।"</item>
+        <item quantity="one">"টাইমাৰ অন কৰক (%1$d ছেকেণ্ড)। ফটোসমূহ এই ডিভাইচলৈ স্থানান্তৰ কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">%1$d টা খচৰা বিলোপ কৰিবনে?</item>
+        <item quantity="one">%1$d টা খচৰা বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">%d টা পৰ্যন্ত পূৰ্বছেট যোগ কৰক</item>
+        <item quantity="one">%d টা পৰ্যন্ত পূৰ্বছেট যোগ কৰক</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">এতিয়া %d টা পুৰ্বছেট বিলোপ কৰিবনে?</item>
+        <item quantity="one">এতিয়া %d টা পুৰ্বছেট বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d টা পুৰ্বছেট বিলোপ কৰা হৈছে</item>
+        <item quantity="one">%d টা পুৰ্বছেট বিলোপ কৰা হৈছে</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d টা পুৰ্বছেট আমদানি কৰা হৈছে</item>
+        <item quantity="one">%d টা পুৰ্বছেট আমদানি কৰা হৈছে</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%dছে</item>
+        <item quantity="one">%dছে</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s মিনিট</item>
+        <item quantity="one">%1$s মিনিট</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">লাইভ মূহূৰ্ত কেপছাৰ কৰি আছে, %d ছেকেণ্ড পৰ্যন্ত</item>
+        <item quantity="one">লাইভ মূহূৰ্ত কেপছাৰ কৰি আছে, %d ছেকেণ্ড পৰ্যন্ত</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">%d ছেকেণ্ড ৰেকৰ্ড কৰক</item>
+        <item quantity="one">%d ছেকেণ্ড ৰেকৰ্ড কৰক</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">"আপুনি %d টা পৰ্যন্ত বিষয়ৰ সৈতে সময় ফ্ৰীজ ভিডিঅ'সমূহ শ্বুট কৰিব পাৰে।"</item>
+        <item quantity="one">"আপুনি কেৱল %d টা বিষয়ৰ সৈতেহে সময় ফ্ৰীজ ভিডিঅ'সমূহ শ্বুট কৰিব পাৰে।"</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s খন ফটো</item>
+        <item quantity="one">%1$s খন ফটো</item>
+    </plurals>
+</resources>

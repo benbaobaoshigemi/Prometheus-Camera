@@ -1,0 +1,10 @@
+{
+  "wm_signature_26_name": {
+    "default": "SIGNATURE THREE",
+    "zh-rCN": "签名3"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

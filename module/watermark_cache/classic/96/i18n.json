@@ -1,0 +1,10 @@
+{
+  "wm_classic_96_name": {
+    "default": "小字版经典水印2",
+    "zh-rCN": "小字版经典水印2"
+  },
+  "wm_time_yyyy_MM_dd": {
+    "default": "yyyy.MM.dd",
+    "zh-rCN": "yyyy.MM.dd"
+  }
+}

@@ -1,0 +1,1178 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_tag_9_name",
+    "id": "9",
+    "description": "tag_1",
+    "reminder": "@wm_tag_reminder_v2",
+    "limitation": {
+      "ro.miui.build.region": ["cn"]
+    },
+    "priority": 1,
+    "show_in_menu": true,
+    "exclude_cases": ["livephoto", "multi", "supermoon", "street", "ambilight", "pro", "portrait", "night", "pixel"],
+    "include_cases": ["preview"],
+    "position": "in"
+  },
+  "layout_group": [
+    {
+      "bottom_left": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "bottom",
+              "margin_left": "72dp",
+              "margin_top": "-72dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time_hh_mm",
+                          "support_scale": true,
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@time=@wm_time_HH_mm",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "6dp",
+                          "layout_height": "80dp",
+                          "background": "#FFFFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_week_layout",
+                          "orientation": "vertical",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "left|center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time_yyy_mm_dd",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "time_week",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_week",
+                              "font_ref": "f1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "support_scale": true,
+                      "optional": true,
+                      "layout_gravity": "left",
+                      "margin_left": "0dp",
+                      "margin_top": "20dp",
+                      "text": "@location=location_address_list;@locationLimit=0.54;@locationMaxLines=2",
+                      "font_ref": "f1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bottom_middle": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "bottom|center_horizontal",
+              "margin_left": "0dp",
+              "margin_top": "-72dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time_hh_mm",
+                          "support_scale": true,
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@time=@wm_time_HH_mm",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "6dp",
+                          "layout_height": "80dp",
+                          "background": "#FFFFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_week_layout",
+                          "orientation": "vertical",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "left|center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time_yyy_mm_dd",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "time_week",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_week",
+                              "font_ref": "f1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "support_scale": true,
+                      "optional": true,
+                      "layout_gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "20dp",
+                      "text": "@location=location_address_list;@locationLimit=0.54;@locationMaxLines=2",
+                      "font_ref": "f1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bottom_right": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "bottom|right",
+              "margin_left": "-72dp",
+              "margin_top": "-72dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "right|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time_hh_mm",
+                          "support_scale": true,
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@time=@wm_time_HH_mm",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "6dp",
+                          "layout_height": "80dp",
+                          "background": "#FFFFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_week_layout",
+                          "orientation": "vertical",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "left|center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time_yyy_mm_dd",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "time_week",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_week",
+                              "font_ref": "f1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "support_scale": true,
+                      "optional": true,
+                      "layout_gravity": "right",
+                      "margin_left": "0dp",
+                      "margin_top": "20dp",
+                      "text": "@location=location_address_list;@locationLimit=0.54;@locationMaxLines=2",
+                      "font_ref": "f1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "top_left": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "top|left",
+              "margin_left": "72dp",
+              "margin_top": "72dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time_hh_mm",
+                          "support_scale": true,
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@time=@wm_time_HH_mm",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "6dp",
+                          "layout_height": "80dp",
+                          "background": "#FFFFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_week_layout",
+                          "orientation": "vertical",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "left|center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time_yyy_mm_dd",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "time_week",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_week",
+                              "font_ref": "f1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "support_scale": true,
+                      "optional": true,
+                      "layout_gravity": "left",
+                      "margin_left": "0dp",
+                      "margin_top": "20dp",
+                      "text": "@location=location_address_list;@locationLimit=0.54;@locationMaxLines=2",
+                      "font_ref": "f1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "top_middle": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "top|center_horizontal",
+              "margin_left": "0dp",
+              "margin_top": "72dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time_hh_mm",
+                          "support_scale": true,
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@time=@wm_time_HH_mm",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "6dp",
+                          "layout_height": "80dp",
+                          "background": "#FFFFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_week_layout",
+                          "orientation": "vertical",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "left|center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time_yyy_mm_dd",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "time_week",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_week",
+                              "font_ref": "f1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "support_scale": true,
+                      "optional": true,
+                      "layout_gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "20dp",
+                      "text": "@location=location_address_list;@locationLimit=0.54;@locationMaxLines=2",
+                      "font_ref": "f1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "top_right": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "top|right",
+              "margin_left": "-72dp",
+              "margin_top": "72dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "right|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time_hh_mm",
+                          "support_scale": true,
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@time=@wm_time_HH_mm",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "6dp",
+                          "layout_height": "80dp",
+                          "background": "#FFFFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_week_layout",
+                          "orientation": "vertical",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "left|center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time_yyy_mm_dd",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "time_week",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_week",
+                              "font_ref": "f1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "support_scale": true,
+                      "optional": true,
+                      "layout_gravity": "right",
+                      "margin_left": "0dp",
+                      "margin_top": "20dp",
+                      "text": "@location=location_address_list;@locationLimit=0.54;@locationMaxLines=2",
+                      "font_ref": "f1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "center_left": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center_vertical|left",
+              "margin_left": "72dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time_hh_mm",
+                          "support_scale": true,
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@time=@wm_time_HH_mm",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "6dp",
+                          "layout_height": "80dp",
+                          "background": "#FFFFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_week_layout",
+                          "orientation": "vertical",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "left|center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time_yyy_mm_dd",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "time_week",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_week",
+                              "font_ref": "f1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "support_scale": true,
+                      "optional": true,
+                      "layout_gravity": "left",
+                      "margin_left": "0dp",
+                      "margin_top": "20dp",
+                      "text": "@location=location_address_list;@locationLimit=0.54;@locationMaxLines=2",
+                      "font_ref": "f1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "center_middle": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time_hh_mm",
+                          "support_scale": true,
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@time=@wm_time_HH_mm",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "6dp",
+                          "layout_height": "80dp",
+                          "background": "#FFFFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_week_layout",
+                          "orientation": "vertical",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "left|center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time_yyy_mm_dd",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "time_week",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_week",
+                              "font_ref": "f1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "support_scale": true,
+                      "optional": true,
+                      "layout_gravity": "center",
+                      "margin_left": "0dp",
+                      "margin_top": "20dp",
+                      "text": "@location=location_address_list;@locationLimit=0.54;@locationMaxLines=2",
+                      "font_ref": "f1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "center_right": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center_vertical|right",
+              "margin_left": "-72dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "right|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time_hh_mm",
+                          "support_scale": true,
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@time=@wm_time_HH_mm",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "6dp",
+                          "layout_height": "80dp",
+                          "background": "#FFFFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_week_layout",
+                          "orientation": "vertical",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "left|center_vertical",
+                          "margin_left": "33dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time_yyy_mm_dd",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "time_week",
+                              "support_scale": true,
+                              "margin_left": "0dp",
+                              "layout_gravity": "left",
+                              "text": "@time=@wm_time_week",
+                              "font_ref": "f1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "support_scale": true,
+                      "optional": true,
+                      "layout_gravity": "right",
+                      "margin_left": "0dp",
+                      "margin_top": "20dp",
+                      "text": "@location=location_address_list;@locationLimit=0.54;@locationMaxLines=2",
+                      "font_ref": "f1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "orientation": {
+      "orientation_vertical": {
+        "tab": ["top", "center", "bottom"]
+      },
+      "orientation_horizontal": {
+        "tab": ["left", "middle", "right"]
+      }
+    },
+    "fonts": {
+      "f1": {
+        "size": 38,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      },
+      "f2": {
+        "size": 96,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      },
+      "f3": {
+        "size": 39,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "letterSpacing": 0.051,
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      }
+    }
+  }
+}

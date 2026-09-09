@@ -1,0 +1,28 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_2026_parents_day_136",
+    "id": "136",
+    "description": "2026_parents_day_136",
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "show_in_menu": true,
+    "priority": 1,
+    "exclude_cases": [
+      "200m"
+    ],
+    "limitation": {
+      "system_properties": {
+        "ro.product.device": []
+      },
+      "device_type": []
+    }
+  }
+}

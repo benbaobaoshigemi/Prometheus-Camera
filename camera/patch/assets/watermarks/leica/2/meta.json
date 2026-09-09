@@ -1,0 +1,29 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_leica_2_name",
+    "id": "2",
+    "description": "leica_2",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "show_in_menu": true,
+    "priority": 2,
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "200m"
+    ]
+  }
+}

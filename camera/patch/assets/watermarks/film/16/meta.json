@@ -1,0 +1,21 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_film_16_name",
+    "id": "16",
+    "description": "film_5",
+    "priority": 5,
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "exclude_cases": [
+      "200m"
+    ]
+  }
+}

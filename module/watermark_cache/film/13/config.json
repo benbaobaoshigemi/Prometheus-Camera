@@ -1,0 +1,230 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_film_13_name",
+    "id": "13",
+    "description": "film_2",
+    "priority": 2,
+    "reminder_not_support_mode": ["multi", "raw", "200m", "doc", "pano", "mimoji", "instant"],
+    "exclude_cases": ["200m"],
+    "limitation": {
+    }
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "horizontal",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "center",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=texture_black",
+          "background_optional": true,
+          "childViews": [
+            {
+              "type": "Layout",
+              "id": "left_padding",
+              "orientation": "horizontal",
+              "layout_width": "74dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            },
+            {
+              "type": "Layout",
+              "id": "content_layout",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "top_padding",
+                  "orientation": "horizontal",
+                  "layout_width": "match_parent",
+                  "layout_height": "76dp",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": []
+                },
+                {
+                  "type": "ImageView",
+                  "id": "src_image_view",
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "0dp",
+                  "path": ""
+                },
+                {
+                  "type": "Layout",
+                  "id": "bottom_content_layout",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "322dp",
+                  "gravity": "center",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "128dp",
+                      "childViews": [
+                        {
+                          "type": "ImageView",
+                          "id": "logo",
+                          "layout_gravity": "center_vertical",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "display_height": "40dp",
+                          "display_width": "0dp",
+                          "path": "pathType=fill;path=${logo};foreground=3"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model= @{series}@{versionNumber}",
+                          "text_upper": false,
+                          "font_ref": "f1"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model_versionName",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model=@{versionName}",
+                          "text_upper": false,
+                          "font_ref": "f2",
+                          "rect_params": {
+                            "rect_text_width_gap": 9,
+                            "rect_text_height_gap": 0,
+                            "rect_line_width": 2,
+                            "rect_radius": [7, 7, 7, 7, 7, 7, 7, 7],
+                            "rect_line_color": "@foreground=2",
+                            "rect_width": "wrap_content",
+                            "rect_height": "30dp"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Layout",
+              "id": "right_padding",
+              "orientation": "horizontal",
+              "layout_width": "74dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "texture_black",
+        "description": "@wm_background_texture_black",
+        "icon": "@img=icon_background_texture_black.webp",
+        "value": "@color=#FF1C1D1F;@img=background_texture_1.png",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      },
+      {
+        "name": "texture_white",
+        "description": "@wm_background_texture_white",
+        "icon": "@img=icon_background_texture_white.webp",
+        "value": "@color=#FFFFFFFF;@img=background_texture_1.png",
+        "foreground": ["#FF000000", "#4D000000", "#BF000000", "black"]
+      },
+      {
+        "name": "texture_rose_gray",
+        "description": "@wm_background_texture_rose_gray",
+        "icon": "@img=icon_background_texture_rose_gray.webp",
+        "value": "@color=#FF9F7F85;@img=background_texture_1.png",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      },
+      {
+        "name": "texture_blue_gray_light",
+        "description": "@wm_background_texture_blue_gray_light",
+        "icon": "@img=icon_background_texture_blue_gray_light.webp",
+        "value": "@color=#FFB3BEC7;@img=background_texture_1.png",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      },
+      {
+        "name": "texture_blue_gray_dark",
+        "description": "@wm_background_texture_blue_gray_dark",
+        "icon": "@img=icon_background_texture_blue_gray_dark.webp",
+        "value": "@color=#FF63788B;@img=background_texture_1.png",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      },
+      {
+        "name": "texture_blue_gray",
+        "description": "@wm_background_texture_blue_gray",
+        "icon": "@img=icon_background_texture_blue_gray.webp",
+        "value": "@color=#FF737F7D;@img=background_texture_1.png",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      },
+      {
+        "name": "texture_green_dark",
+        "description": "@wm_background_texture_green_dark",
+        "icon": "@img=icon_background_texture_green_dark.webp",
+        "value": "@color=#FF39372C;@img=background_texture_1.png",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      },
+      {
+        "name": "texture_green_gray_light",
+        "description": "@wm_background_texture_green_gray_light",
+        "icon": "@img=icon_background_texture_green_gray_light.webp",
+        "value": "@color=#FF7D8473;@img=background_texture_1.png",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      },
+      {
+        "name": "texture_brown_gray",
+        "description": "@wm_background_texture_brown_gray",
+        "icon": "@img=icon_background_texture_brown_gray.webp",
+        "value": "@color=#FF776D5D;@img=background_texture_1.png",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 36.0,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f2": {
+        "size": 20.0,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 451",
+        "letterSpacing": 0.04
+      }
+    }
+  }
+}

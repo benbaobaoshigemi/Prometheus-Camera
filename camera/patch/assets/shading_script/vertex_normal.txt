@@ -1,0 +1,15 @@
+#version 310 es
+uniform mat4 uMVPMatrix;
+uniform mat4 uSTMatrix;
+uniform float u_PointSize;
+layout (location = 0) in vec3 aPosition;
+layout (location = 1) in vec2 aTexCoord;
+out vec2 vTexCoord;
+out vec2 vOriginalTexCoord;
+void main()
+{
+   gl_Position = uMVPMatrix * vec4(aPosition,1);
+   vTexCoord = (uSTMatrix * vec4(aTexCoord,0,1)).st;
+   vOriginalTexCoord = aTexCoord;
+   gl_PointSize = u_PointSize;
+}

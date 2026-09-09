@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="f5p">
+        <item quantity="other">"&lt;Data>La versione della Fotocamera che stai utilizzando non è compatibile con il modello del tuo dispositivo.&lt;br>L'app si chiuderà fra &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Disinstalla gli aggiornamenti della Fotocamera e riprova.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>La versione della Fotocamera che stai utilizzando non è compatibile con il modello del tuo dispositivo.&lt;br>L'app si chiuderà fra &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Disinstalla gli aggiornamenti della Fotocamera e riprova.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fb1">
+        <item quantity="other">Messo a fuoco. %d volti rilevati</item>
+        <item quantity="one">Messo a fuoco. %d volto rilevato</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d foto in uno scatto a raffica</item>
+        <item quantity="one">%d foto in uno scatto a raffica</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Intervallo: %d secondi</item>
+        <item quantity="one">Intervallo: %d secondo</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Durata: %d minuti</item>
+        <item quantity="one">Durata: %d minuto</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Velocità: %dX</item>
+        <item quantity="one">Velocità: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Durata: %d secondi</item>
+        <item quantity="one">Durata: %d secondo</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Inserisci %d caratteri.</item>
+        <item quantity="one">Inserisci %d carattere.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Inserisci fino a %d caratteri.</item>
+        <item quantity="one">Inserisci fino a %d carattere.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Puoi connettere fino a %d fotocamere alla stessa rete</item>
+        <item quantity="one">Puoi connettere fino a %d fotocamera alla stessa rete</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Puoi connettere fino a %d monitor alla stessa rete</item>
+        <item quantity="one">Puoi connettere fino a %d monitor alla stessa rete</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Puoi creare fino a %d cloni alla volta.</item>
+        <item quantity="one">Puoi creare fino a %d clone alla volta.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Impossibile connettersi alla fotocamera.&lt;br>Questa app verrà chiusa tra &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Dopodiché, aspetta un minuto o due e riprova.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Impossibile connettersi alla fotocamera.&lt;br>Questa app verrà chiusa tra &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Dopodiché, aspetta un minuto o due e riprova.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">"&lt;Data>Questo dispositivo è troppo caldo.&lt;br>L'app verrà chiusa tra &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. I progressi sono stati salvati automaticamente.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Questo dispositivo è troppo caldo.&lt;br>L'app verrà chiusa tra &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. I progressi sono stati salvati automaticamente.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">"&lt;Data>La versione della Fotocamera che stai utilizzando non è compatibile con il modello del tuo dispositivo.&lt;br>L'app si chiuderà fra &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Disinstalla gli aggiornamenti della Fotocamera e riprova.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>La versione della Fotocamera che stai utilizzando non è compatibile con il modello del tuo dispositivo.&lt;br>L'app si chiuderà fra &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Disinstalla gli aggiornamenti della Fotocamera e riprova.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d sec</item>
+        <item quantity="one">%1$d sec</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Attivazione del timer (%1$d sec). Le foto saranno trasferite su questo dispositivo.</item>
+        <item quantity="one">Attivazione del timer (%1$d sec). Le foto saranno trasferite su questo dispositivo.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Eliminare %1$d bozze?</item>
+        <item quantity="one">Eliminare %1$d bozza?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Aggiungi fino a %d preimpostazioni</item>
+        <item quantity="one">Aggiungi fino a %d preimpostazione</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Eliminare %d predefiniti?</item>
+        <item quantity="one">Eliminare %d predefinito?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d predefiniti eliminati</item>
+        <item quantity="one">%d predefinito eliminato</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d predefiniti importati</item>
+        <item quantity="one">%d predefinito importato</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Acquisizione del momento live, fino a %d secondi</item>
+        <item quantity="one">Acquisizione del momento live, fino a %d secondo</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Registra %d secondi</item>
+        <item quantity="one">Registra %d secondo</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Puoi riprendere video time freeze con fino a%d soggetti.</item>
+        <item quantity="one">Puoi riprendere video time freeze con solo %d soggetto.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s foto</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
+</resources>

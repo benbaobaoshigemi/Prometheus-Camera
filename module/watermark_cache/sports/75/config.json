@@ -1,0 +1,292 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_sports_2_name",
+    "id": "75",
+    "description": "sports_2",
+    "reminder_not_support_mode": ["multi", "raw", "200m", "doc", "pano", "mimoji", "instant"],
+    "limitation": {
+    },
+    "priority": 2,
+    "exclude_cases": ["multi", "cosmetic", "doc", "pano", "mimoji", "200m"]
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "vertical",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "center",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=white",
+          "background_optional": true,
+          "childViews": [
+            {
+              "type": "Layout",
+              "id": "top_container",
+              "orientation": "horizontal",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center_vertical",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "horizontal_padding_48",
+                  "orientation": "horizontal",
+                  "layout_width": "48dp",
+                  "layout_height": "match_parent",
+                  "background": "@foreground=0",
+                  "gravity": "center_vertical",
+                  "childViews": []
+                },
+                {
+                  "type": "Layout",
+                  "id": "src_wrapper",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center_vertical",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "vertical_padding_48",
+                      "orientation": "horizontal",
+                      "layout_width": "match_parent",
+                      "layout_height": "48dp",
+                      "background": "@foreground=0",
+                      "gravity": "center_vertical",
+                      "childViews": []
+                    },
+                    {
+                      "type": "ImageView",
+                      "id": "src_image_view",
+                      "layout_gravity": "left",
+                      "display_height": "0dp",
+                      "path": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "Layout",
+                  "id": "horizontal_padding_48",
+                  "orientation": "horizontal",
+                  "layout_width": "48dp",
+                  "layout_height": "match_parent",
+                  "background": "@foreground=0",
+                  "gravity": "center_vertical",
+                  "childViews": []
+                }
+              ]
+            },
+            {
+              "type": "Layout",
+              "id": "vertical_padding_20",
+              "orientation": "horizontal",
+              "layout_width": "match_parent",
+              "layout_height": "20dp",
+              "background": "@foreground=0",
+              "gravity": "center_vertical",
+              "childViews": []
+            },
+            {
+              "type": "Layout",
+              "id": "pong_container",
+              "orientation": "overlap",
+              "layout_width": "match_parent",
+              "layout_height": "180dp",
+              "gravity": "center",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "_placeholder",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "match_parent",
+                  "gravity": "center_horizontal",
+                  "_comment": "有这个view，下面的图片就能水平居中，没有就不能居中。不知道为啥",
+                  "childViews": []
+                },
+                {
+                  "type": "Layout",
+                  "id": "placeholder",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "8dp",
+                  "margin_top": "98dp",
+                  "background": "@foreground=1",
+                  "gravity": "center_horizontal",
+                  "childViews": []
+                },
+                {
+                  "type": "ImageView",
+                  "id": "pong",
+                  "display_height": "180dp",
+                  "display_width": "300dp",
+                  "layout_gravity": "center_horizontal",
+                  "path": "pathType=select;path=pong;foreground=4"
+                }
+              ]
+            },
+            {
+              "type": "Layout",
+              "id": "model_container",
+              "orientation": "overlap",
+              "layout_width": "match_parent",
+              "layout_height": "76dp",
+              "margin_top": "20dp",
+              "background": "@foreground=0",
+              "gravity": "center_horizontal",
+              "layout_gravity": "center_horizontal",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "_placeholder",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "match_parent",
+                  "gravity": "center_horizontal",
+                  "_comment": "有这个view，下面的图片就能水平居中，没有就不能居中。不知道为啥",
+                  "childViews": []
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_container",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "36dp",
+                  "gravity": "center_horizontal",
+                  "layout_gravity": "center_horizontal",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "radius_bg_left",
+                      "display_width": "36dp",
+                      "display_height": "36dp",
+                      "gravity": "left",
+                      "layout_gravity": "left",
+                      "path": "pathType=select;path=radius_left;foreground=4"
+                    },
+                    {
+                      "type": "Layout",
+                      "id": "brand_wrapper",
+                      "orientation": "overlap",
+                      "layout_width": "wrap_content",
+                      "layout_height": "36dp",
+                      "gravity": "center_horizontal",
+                      "layout_gravity": "center_horizontal",
+                      "childViews": [
+                        {
+                          "type": "ImageView",
+                          "id": "radius_bg",
+                          "display_width": "match_parent",
+                          "display_height": "36dp",
+                          "gravity": "left",
+                          "layout_gravity": "left",
+                          "path": "pathType=select;path=radius_center;foreground=4"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "brand_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "wrap_content",
+                          "layout_height": "36dp",
+                          "gravity": "center_horizontal",
+                          "layout_gravity": "center_horizontal",
+                          "margin_left": "0dp",
+                          "margin_top": "4.5dp",
+                          "childViews": [
+                            {
+                              "type": "ImageView",
+                              "id": "logo",
+                              "layout_gravity": "center_vertical",
+                              "margin_left": "0dp",
+                              "margin_top": "0dp",
+                              "display_height": "24dp",
+                              "display_width": "0dp",
+                              "path": "pathType=fill;path=${logo};foreground=3"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@model= @{series}@{versionNumber}",
+                              "text_upper": false,
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model_versionName",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@model=@{versionName}",
+                              "text_upper": false,
+                              "font_ref": "f2",
+                              "rect_params": {
+                                "rect_text_width_gap": 5.4,
+                                "rect_text_height_gap": 0,
+                                "rect_line_width": 1.2,
+                                "rect_radius": [4, 4, 4, 4, 4, 4, 4, 4],
+                                "rect_line_color": "@foreground=5",
+                                "rect_width": "wrap_content",
+                                "rect_height": "18.4dp"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ImageView",
+                      "id": "radius_bg_right",
+                      "display_width": "36dp",
+                      "display_height": "36dp",
+                      "gravity": "left",
+                      "layout_gravity": "left",
+                      "path": "pathType=select;path=radius_right;foreground=4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "white",
+        "icon": "@img=icon_background_white.webp",
+        "value": "@color=#FFFFFFFF",
+        "foreground": ["#FFFFFFFF", "#FFE0C228", "#FFFFFFFF", "white", "white", "#BFFFFFFF"]
+      },
+      {
+        "name": "black",
+        "icon": "@img=icon_background_black.webp",
+        "value": "@color=#FF141414",
+        "foreground": ["#FF141414", "#FF006AC3", "#FFFFFFFF", "white", "black", "#BFFFFFFF"]
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 21.6,
+        "color": "@foreground=2",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f2": {
+        "size": 13.2,
+        "color": "@foreground=2",
+        "typeface": "default",
+        "variation": "'wght' 450",
+        "letterSpacing": 0.028
+      }
+    }
+  }
+}

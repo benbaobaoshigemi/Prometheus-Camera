@@ -1,0 +1,21 @@
+{
+  "version": 1.58,
+  "metadata": {
+    "name": "@wm_classic_99_name",
+    "id": "99",
+    "description": "classic_6",
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "exclude_cases": [
+      "200m"
+    ],
+    "priority": 6
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": {
+    "default": "2025春节水印_118",
+    "zh-rCN": "2025春节水印_118"
+  },
+  "wm_default_greeting_text": {
+    "default": "瑞马临门 岁稔年丰",
+    "zh-rCN": "瑞马临门 岁稔年丰"
+  },
+  "wm_pre_greeting_text_1": {
+    "default": "瑞马临门 岁稔年丰",
+    "zh-rCN": "瑞马临门 岁稔年丰"
+  },
+  "wm_pre_greeting_text_2": {
+    "default": "元宵喜乐 团团圆圆",
+    "zh-rCN": "元宵喜乐 团团圆圆"
+  },
+  "wm_pre_greeting_text_3": {
+    "default": "骐骥驰骋 势不可挡",
+    "zh-rCN": "骐骥驰骋 势不可挡"
+  },
+  "wm_pre_greeting_text_4": {
+    "default": "平安喜乐 万事顺意",
+    "zh-rCN": "平安喜乐 万事顺意"
+  },
+  "wm_pre_greeting_text_5": {
+    "default": "福随马至 平安顺遂",
+    "zh-rCN": "福随马至 平安顺遂"
+  },
+  "wm_pre_greeting_text_6": {
+    "default": "招财进宝 富贵吉祥",
+    "zh-rCN": "招财进宝 富贵吉祥"
+  }
+}

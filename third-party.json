@@ -1,0 +1,42 @@
+{
+  "projectLicense": {
+    "status": "declared",
+    "license": "GPL-3.0-only",
+    "file": "LICENSE",
+    "scope": "Phoenix original code and modifications to the extent the project contributors hold the rights to license them. Third-party code and assets retain their respective licenses and rights."
+  },
+  "components": [
+    {
+      "path": "camera/patch",
+      "origin": "Phoenix modifications and decoded Xiaomi OS4 Camera files",
+      "license": "mixed; redistribution scope not yet established",
+      "status": "review-before-publication"
+    },
+    {
+      "path": "lsp",
+      "origin": "Phoenix LSP smali/resources and embedded third-party dependencies",
+      "license": "mixed; component attribution incomplete",
+      "status": "review-before-publication"
+    },
+    {
+      "path": "module",
+      "origin": "Phoenix root module scripts and assets, including components derived from NRV",
+      "license": "mixed; asset redistribution scope not yet established",
+      "status": "review-before-publication"
+    },
+    {
+      "path": "tools/vendor/apktool_2.12.1.jar",
+      "origin": "https://github.com/iBotPeaches/Apktool/releases/tag/v2.12.1",
+      "license": "Apache-2.0; see upstream component notices",
+      "distributed": false
+    },
+    {
+      "path": "external Android SDK Build-Tools 35.0.0",
+      "origin": "https://developer.android.com/tools/releases/build-tools",
+      "license": "Android SDK terms and component notices",
+      "distributed": false
+    }
+  ],
+  "officialCameraApkDistributed": false,
+  "privateSigningKeysDistributed": false
+}

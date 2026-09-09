@@ -1,0 +1,36 @@
+{
+  "version": 1.0,
+  "miviVersion": 3.001,
+  "metadata": {
+    "name": "@wm_leica_135",
+    "id": "135",
+    "description": "leica_live_moment_135",
+    "reminder": "@wm_common_reminder_v2",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "limitation": {
+      "device_type": [
+        "leica"
+      ]
+    },
+    "show_in_menu": true,
+    "priority": 0.61,
+    "position": "in",
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "livephoto"
+    ]
+  }
+}

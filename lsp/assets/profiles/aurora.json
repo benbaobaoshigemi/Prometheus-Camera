@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "aurora-v51",
+  "devices": ["aurora"],
+  "cameraBridge": "prometheus-camera-v51",
+  "lensCount": 4,
+  "lenses": [
+    {"role": "ULTRA_WIDE", "uiZoom": 0.5, "equivalentMm": 12, "fixedAperture": 1.8},
+    {"role": "MAIN", "uiZoom": 1.0, "equivalentMm": 23, "variableAperture": true},
+    {"role": "TELE_1", "uiZoom": 3.2, "equivalentMm": 75, "fixedAperture": 1.8},
+    {"role": "TELE_2", "uiZoom": 5.0, "equivalentMm": 120, "fixedAperture": 2.5}
+  ],
+  "zoomStops": {
+    "163": [0.5, 1.0, 2.0, 3.2, 5.0],
+    "175": [0.5, 1.0, 2.0, 3.2, 5.0],
+    "173": [0.5, 1.0, 2.0, 3.2, 5.0],
+    "172": [0.5, 1.0, 2.0, 3.2, 5.0],
+    "171": [1.0, 2.2, 3.2, 5.0]
+  },
+  "manualZoomRanges": {
+    "163": {
+      "0": ["0.5", "0.8"],
+      "1": ["1.0", "1.2", "1.5"],
+      "4": ["5", "10", "30", "60"]
+    },
+    "171": {
+      "0": ["1.0", "1.5"]
+    }
+  },
+  "sliderStops": {
+    "163": {
+      "0": [0.5, 1.0, 2.0, 3.2, 5.0, 10.0, 30.0, 60.0, 120.0]
+    },
+    "162": {
+      "0": [0.5, 1.0, 2.0, 3.2, 5.0, 10.0, 15.0]
+    }
+  },
+  "aperture": {
+    "variableRole": "MAIN",
+    "enabled": true,
+    "minimum": 1.63,
+    "maximum": 4.0,
+    "precision": 0.01
+  },
+  "capabilities": {
+    "macro": true,
+    "videoLivePhoto": true,
+    "dolbyVision": true,
+    "superEisPro": true
+  },
+  "minimumZoom": 0.5,
+  "highResolution": "4:8192x6144"
+}

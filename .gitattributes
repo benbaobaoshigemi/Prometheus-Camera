@@ -1,0 +1,10 @@
+* -text
+*.py text eol=lf
+*.md text eol=lf
+module/*.sh text eol=lf
+/.gitignore text eol=lf
+/.gitattributes text eol=lf
+/version.json text eol=lf
+/supported-camera.json text eol=lf
+/third-party.json text eol=lf
+/verification.json text eol=lf

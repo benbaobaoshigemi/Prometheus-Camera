@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="prometheus_device_delete_icon">@drawable/miuix_action_icon_delete_dark</item>
+    <item type="drawable" name="menu_preference_home_description">@drawable/miuix_appcompat_action_icon_info_dark</item>
+    <item type="drawable" name="miuix_appcompat_action_mode_title_button_cancel">@drawable/miuix_action_icon_cancel_dark</item>
+    <item type="drawable" name="miuix_appcompat_action_mode_title_button_confirm">@drawable/miuix_action_icon_immersion_confirm_dark</item>
+    <item type="drawable" name="miuix_appcompat_action_mode_title_button_delete">@drawable/miuix_action_icon_immersion_delete_dark</item>
+    <item type="drawable" name="miuix_appcompat_action_mode_title_button_deselect_all">@drawable/miuix_action_icon_deselect_all_dark</item>
+    <item type="drawable" name="miuix_appcompat_action_mode_title_button_select_all">@drawable/miuix_action_icon_select_all_dark</item>
+</resources>

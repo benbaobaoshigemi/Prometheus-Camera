@@ -1,0 +1,10 @@
+{
+  "wm_leica_69_name": {
+    "default": "LEICA EIGHT",
+    "zh-rCN": "徕卡8"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

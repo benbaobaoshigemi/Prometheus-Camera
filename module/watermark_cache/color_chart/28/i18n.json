@@ -1,0 +1,10 @@
+{
+  "wm_color_chart_28_name": {
+    "default": "COLOR CHART TWO",
+    "zh-rCN": "色卡2"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

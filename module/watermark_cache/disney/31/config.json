@@ -1,0 +1,535 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_disney_31_name",
+    "id": "31",
+    "description": "disney_1",
+    "reminder": "@wm_common_reminder_v2",
+    "reminder_not_support_mode": ["multi", "doc", "pano", "mimoji", "instant"],
+    "limitation": {
+      "system_properties": {
+        "ro.boot.product.theme_customize": "WestCoast3"
+      }
+    },
+    "priority": 1,
+    "show_in_menu": true,
+    "include_cases": ["raw", "thirdparty"],
+    "position": "in"
+  },
+  "layout_group": [
+    {
+      "bottom": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "bottom|center_horizontal",
+              "margin_left": "0dp",
+              "margin_top": "-32dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "snow_white",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "80dp",
+                  "display_width": "80dp",
+                  "path": "pathType=direct;path=snow_white.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_custom_layout",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "12dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "setting_optional_type": "type_model",
+                      "childViews": [
+                        {
+                          "type": "Layout",
+                          "id": "logo_model_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "center_horizontal",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "ImageView",
+                              "id": "logo",
+                              "support_scale": true,
+                              "layout_gravity": "center_vertical",
+                              "margin_left": "0dp",
+                              "margin_top": "0dp",
+                              "display_height": "22dp",
+                              "display_width": "0dp",
+                              "path": "pathType=fill;path=${logo};foreground=3"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@model= @{series}@{versionNumber}",
+                              "support_scale": true,
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model_versionName",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@model=@{versionName}",
+                              "support_scale": true,
+                              "font_ref": "f2",
+                              "rect_params": {
+                                "rect_text_width_gap": 5,
+                                "rect_text_height_gap": 0,
+                                "rect_line_width": 1,
+                                "rect_radius": [4, 4, 4, 4, 4, 4, 4, 4],
+                                "rect_line_color": "@foreground=2",
+                                "rect_width": "wrap_content",
+                                "rect_height": "17dp"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "2dp",
+                          "layout_height": "16dp",
+                          "background": "#80FFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "13dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "ImageView",
+                          "id": "disney_icon",
+                          "layout_gravity": "center_vertical",
+                          "margin_left": "13dp",
+                          "margin_top": "0dp",
+                          "display_height": "28dp",
+                          "support_scale": true,
+                          "display_width": "0dp",
+                          "path": "pathType=direct;path=disney_icon.webp"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "special_edition",
+                      "support_scale": true,
+                      "layout_gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "8dp",
+                      "text": "SPECIAL  EDITION",
+                      "font_ref": "f3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "center": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "snow_white",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "80dp",
+                  "display_width": "80dp",
+                  "path": "pathType=direct;path=snow_white.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_custom_layout",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "12dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "setting_optional_type": "type_model",
+                      "childViews": [
+                        {
+                          "type": "Layout",
+                          "id": "logo_model_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "center_horizontal",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "ImageView",
+                              "id": "logo",
+                              "support_scale": true,
+                              "layout_gravity": "center_vertical",
+                              "margin_left": "0dp",
+                              "margin_top": "0dp",
+                              "display_height": "22dp",
+                              "display_width": "0dp",
+                              "path": "pathType=fill;path=${logo};foreground=3"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@model= @{series}@{versionNumber}",
+                              "support_scale": true,
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model_versionName",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@model=@{versionName}",
+                              "support_scale": true,
+                              "font_ref": "f2",
+                              "rect_params": {
+                                "rect_text_width_gap": 5,
+                                "rect_text_height_gap": 0,
+                                "rect_line_width": 1,
+                                "rect_radius": [4, 4, 4, 4, 4, 4, 4, 4],
+                                "rect_line_color": "@foreground=2",
+                                "rect_width": "wrap_content",
+                                "rect_height": "17dp"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "2dp",
+                          "layout_height": "16dp",
+                          "background": "#80FFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "13dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "ImageView",
+                          "id": "disney_icon",
+                          "layout_gravity": "center_vertical",
+                          "margin_left": "13dp",
+                          "margin_top": "0dp",
+                          "display_height": "28dp",
+                          "support_scale": true,
+                          "display_width": "0dp",
+                          "path": "pathType=direct;path=disney_icon.webp"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "special_edition",
+                      "support_scale": true,
+                      "layout_gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "8dp",
+                      "text": "SPECIAL  EDITION",
+                      "font_ref": "f3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "top": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "top|center_horizontal",
+              "margin_left": "0dp",
+              "margin_top": "32dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "snow_white",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "80dp",
+                  "display_width": "80dp",
+                  "path": "pathType=direct;path=snow_white.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_custom_layout",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "12dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "setting_optional_type": "type_model",
+                      "childViews": [
+                        {
+                          "type": "Layout",
+                          "id": "logo_model_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "center_horizontal",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "ImageView",
+                              "id": "logo",
+                              "support_scale": true,
+                              "layout_gravity": "center_vertical",
+                              "margin_left": "0dp",
+                              "margin_top": "0dp",
+                              "display_height": "22dp",
+                              "display_width": "0dp",
+                              "path": "pathType=fill;path=${logo};foreground=3"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@model= @{series}@{versionNumber}",
+                              "support_scale": true,
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model_versionName",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@model=@{versionName}",
+                              "support_scale": true,
+                              "font_ref": "f2",
+                              "rect_params": {
+                                "rect_text_width_gap": 5,
+                                "rect_text_height_gap": 0,
+                                "rect_line_width": 1,
+                                "rect_radius": [4, 4, 4, 4, 4, 4, 4, 4],
+                                "rect_line_color": "@foreground=2",
+                                "rect_width": "wrap_content",
+                                "rect_height": "17dp"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "line_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "2dp",
+                          "layout_height": "16dp",
+                          "background": "#80FFFFFF",
+                          "gravity": "center_vertical",
+                          "margin_left": "13dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        },
+                        {
+                          "type": "ImageView",
+                          "id": "disney_icon",
+                          "layout_gravity": "center_vertical",
+                          "margin_left": "13dp",
+                          "margin_top": "0dp",
+                          "display_height": "28dp",
+                          "support_scale": true,
+                          "display_width": "0dp",
+                          "path": "pathType=direct;path=disney_icon.webp"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "special_edition",
+                      "support_scale": true,
+                      "layout_gravity": "center_horizontal",
+                      "margin_left": "0dp",
+                      "margin_top": "8dp",
+                      "text": "SPECIAL  EDITION",
+                      "font_ref": "f3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "transparent_white",
+        "icon": "@img=icon_background_white.webp",
+        "value": "@color=#00FFFFFF",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      }
+    ],
+    "orientation": {
+      "orientation_vertical": {
+        "tab": ["top", "center", "bottom"]
+      }
+    },
+    "fonts": {
+      "f1": {
+        "size": 19,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 501",
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      },
+      "f2": {
+        "size": 12,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "shadow": ["1f", "0f", "0f", "#80000000"],
+        "letterSpacing": 0.032
+      },
+      "f3": {
+        "size": 14,
+        "color": "#FFF5F5F5",
+        "typeface": "default",
+        "variation": "'wght' 451",
+        "letterSpacing": 0.785,
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      }
+    }
+  }
+}

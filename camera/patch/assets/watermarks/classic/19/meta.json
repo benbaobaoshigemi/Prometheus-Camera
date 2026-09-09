@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "@wm_classic_19_name",
+    "description": "classic_3",
+    "reminder": "@wm_common_reminder_v2",
+    "id": "19",
+    "priority": 3,
+    "exclude_cases": [
+      "livephoto"
+    ],
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "position": "in"
+  },
+  "version": 1.0
+}

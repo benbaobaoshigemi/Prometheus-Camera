@@ -1,0 +1,10 @@
+{
+  "wm_christmas_3_name": {
+    "zh-rCN": "圣诞水印3",
+    "default": "圣诞水印3"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

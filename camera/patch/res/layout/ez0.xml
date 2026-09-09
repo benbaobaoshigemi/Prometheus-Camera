@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/extra_tootle_layout" android:layout_width="fill_parent" android:layout_height="@dimen/e84"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="@dimen/e8m" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <com.xiaomi.camera.ui.blur.BlurBackgroundView android:gravity="center|top" android:id="@id/extra_tootle_item_layout" android:focusable="false" android:layout_width="wrap_content" android:layout_height="@dimen/e89" android:minWidth="@dimen/e8a">
+            <com.android.camera2.compat.theme.custom.mm.top.StrikethroughImageView android:layout_gravity="center_horizontal" android:id="@id/extra_tootle_item_image" android:layout_width="wrap_content" android:layout_height="@dimen/e89" android:scaleType="centerInside" android:minWidth="@dimen/e8a" />
+        </com.xiaomi.camera.ui.blur.BlurBackgroundView>
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/rl_item_top_config_description" android:paddingTop="@dimen/e8f" android:focusable="false" android:layout_width="@dimen/e8m" android:layout_height="wrap_content">
+            <com.android.camera.ui.AdaptiveTextView android:textSize="@dimen/e8h" android:textColor="@color/white_alpha_48" android:gravity="center_horizontal" android:id="@id/extra_tootle_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

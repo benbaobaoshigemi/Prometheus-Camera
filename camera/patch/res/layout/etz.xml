@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/panel_entrance_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dj3">
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/custom_panel_entrance_root" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/dynamic_panel_entrance_root" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.android.camera.ui.ColorImageView android:layout_gravity="end|bottom" android:id="@id/popup_right_tip_high_image" android:padding="@dimen/dj0" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dja" android:layout_height="@dimen/dja" android:scaleType="center" android:contentDescription="@null" />
+        <com.android.camera.ui.ColorImageView android:layout_gravity="start|bottom" android:id="@id/popup_left_tip_extra_image" android:padding="@dimen/dj0" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dja" android:layout_height="@dimen/dja" android:layout_marginBottom="@dimen/bo3" android:scaleType="center" android:contentDescription="@null" />
+        <com.android.camera.ui.ColorImageView android:layout_gravity="start|bottom" android:id="@id/popup_left_tip_image" android:padding="@dimen/dj0" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dja" android:layout_height="@dimen/dja" android:scaleType="center" android:contentDescription="@null" />
+        <com.android.camera.ui.ColorImageView android:layout_gravity="end|bottom" android:id="@id/popup_right_tip_extra_image" android:padding="@dimen/dj0" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dja" android:layout_height="@dimen/dja" android:layout_marginBottom="@dimen/bo3" android:scaleType="center" android:contentDescription="@null" />
+        <com.android.camera.ui.ColorImageView android:layout_gravity="end|bottom" android:id="@id/popup_right_tip_image" android:padding="@dimen/dj0" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dja" android:layout_height="@dimen/dja" android:scaleType="center" android:contentDescription="@null" />
+        <com.android.camera.ui.ColorImageView android:layout_gravity="center|bottom" android:id="@id/popup_center_tip_image" android:background="@null" android:padding="@dimen/dj0" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dja" android:layout_height="@dimen/dja" android:scaleType="center" android:contentDescription="@null" />
+    </FrameLayout>
+    <ViewStub android:layout_gravity="center|bottom" android:id="@id/lying_stub" android:visibility="gone" android:layout="@layout/f_a" android:inflatedId="@id/bottom_lying_direct_hint_text" android:text="@string/gn4" style="@style/i68" />
+</FrameLayout>

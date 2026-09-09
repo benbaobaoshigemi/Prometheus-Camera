@@ -1,0 +1,10 @@
+{
+  "package": "com.android.camera",
+  "versionName": "6.6.000510.0",
+  "versionCode": 660005100,
+  "size": 193895068,
+  "sha256": "6bf98a86a8e6090b86cf41cb178ef44512171503d3edb685e2564954af47b662",
+  "apktoolVersion": "2.12.1",
+  "targetDevice": "aurora",
+  "description": "OS4 official camera; the only supported input APK. Not distributed."
+}

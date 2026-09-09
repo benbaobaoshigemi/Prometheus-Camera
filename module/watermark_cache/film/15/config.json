@@ -1,0 +1,227 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_film_15_name",
+    "id": "15",
+    "description": "film_4",
+    "priority": 4,
+    "reminder_not_support_mode": ["multi", "raw", "200m", "doc", "pano", "mimoji", "instant"],
+    "exclude_cases": ["200m"],
+    "limitation": {
+    }
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "horizontal",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "center",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_black",
+          "childViews": [
+            {
+              "type": "Layout",
+              "id": "left_padding",
+              "orientation": "horizontal",
+              "layout_width": "80dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "background": "@background=noise_blur",
+              "childViews": []
+            },
+            {
+              "type": "Layout",
+              "id": "content_layout",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "top_layout",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "80dp",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "background": "@background=noise_blur",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "triangle",
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_width": "80dp",
+                      "display_height": "0dp",
+                      "path": "pathType=direct;path=icon_triangle.webp"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "optional": true,
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "layout_gravity": "right|center_vertical",
+                      "text": "@location=location_latlng;@locationLimit=0.8",
+                      "font_ref": "f3"
+                    }
+                  ]
+                },
+                {
+                  "type": "ImageView",
+                  "id": "src_image_view",
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "0dp",
+                  "path": ""
+                },
+                {
+                  "type": "Layout",
+                  "id": "bottom_layout",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "80dp",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "background": "@background=noise_blur",
+                  "childViews": [
+                    {
+                      "type": "TextView",
+                      "id": "time_mm",
+                      "optional": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                      "font_ref": "f3"
+                    },
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "childViews": [
+                        {
+                          "type": "ImageView",
+                          "id": "logo",
+                          "layout_gravity": "center_vertical",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "display_height": "26dp",
+                          "display_width": "0dp",
+                          "path": "pathType=fill;path=${logo};foreground=3"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model= @{series}@{versionNumber}",
+                          "text_upper": false,
+                          "font_ref": "f1"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model_versionName",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model=@{versionName}",
+                          "text_upper": false,
+                          "font_ref": "f2",
+                          "rect_params": {
+                            "rect_text_width_gap": 6,
+                            "rect_text_height_gap": 0,
+                            "rect_line_width": 1.8,
+                            "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                            "rect_line_color": "@foreground=2",
+                            "rect_width": "wrap_content",
+                            "rect_height": "22dp"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "exif",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "layout_gravity": "right|center_vertical",
+                      "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                      "font_ref": "f3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Layout",
+              "id": "right_padding",
+              "orientation": "horizontal",
+              "layout_width": "80dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "background": "@background=noise_blur",
+              "childViews": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "transparent_black",
+        "icon": "@img=icon_background_white.webp",
+        "value": "@color=#FF141414",
+        "foreground": ["#FF000000", "#4D000000", "#BFCE9238", "CE9238"]
+      },
+      {
+        "name": "noise_blur",
+        "icon": "@img=icon_background_noise_blur.webp",
+        "value": "@algo=noise_blur;@img=icon_background_noise_blur.webp"
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 24,
+        "color": "#FFCE9238",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f2": {
+        "size": 15,
+        "color": "#FFCE9238",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "letterSpacing": 0.028
+      },
+      "f3": {
+        "size": 17.0,
+        "color": "#FFCE9238",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      }
+    }
+  }
+}

@@ -1,0 +1,6494 @@
+{
+  "schemaVersion": 5,
+  "cameraBridge": "prometheus-camera-v51",
+  "entries": [
+    {
+      "index": 0,
+      "id": "102",
+      "key": "GALLERY_102",
+      "label": "鲜明",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 1,
+      "id": "25",
+      "key": "GALLERY_25",
+      "label": "生动",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 2,
+      "id": "103",
+      "key": "GALLERY_103",
+      "label": "暖青",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 3,
+      "id": "104",
+      "key": "GALLERY_104",
+      "label": "森绿",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 4,
+      "id": "105",
+      "key": "GALLERY_105",
+      "label": "原野",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 5,
+      "id": "5",
+      "key": "GALLERY_5",
+      "label": "清新蓝",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 6,
+      "id": "6",
+      "key": "GALLERY_6",
+      "label": "克莱因蓝",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 7,
+      "id": "13",
+      "key": "GALLERY_13",
+      "label": "清夏",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 8,
+      "id": "14",
+      "key": "GALLERY_14",
+      "label": "晴野",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 11,
+      "id": "101",
+      "key": "GALLERY_101",
+      "label": "海滨",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 12,
+      "id": "100",
+      "key": "GALLERY_100",
+      "label": "勒芒",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 13,
+      "id": "99",
+      "key": "GALLERY_99",
+      "label": "旧风",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 14,
+      "id": "97",
+      "key": "GALLERY_97",
+      "label": "知闲",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 15,
+      "id": "98",
+      "key": "GALLERY_98",
+      "label": "反转",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 16,
+      "id": "18",
+      "key": "GALLERY_18",
+      "label": "韩胶",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 17,
+      "id": "19",
+      "key": "GALLERY_19",
+      "label": "贝松",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 18,
+      "id": "20",
+      "key": "GALLERY_20",
+      "label": "写意",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 19,
+      "id": "21",
+      "key": "GALLERY_21",
+      "label": "季风",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 20,
+      "id": "22",
+      "key": "GALLERY_22",
+      "label": "京都",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 21,
+      "id": "23",
+      "key": "GALLERY_23",
+      "label": "旧巷",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 22,
+      "id": "24",
+      "key": "GALLERY_24",
+      "label": "松弛",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 23,
+      "id": "29",
+      "key": "GALLERY_29",
+      "label": "胶片",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 24,
+      "id": "9",
+      "key": "GALLERY_9",
+      "label": "暗雅",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 25,
+      "id": "96",
+      "key": "GALLERY_96",
+      "label": "青黄",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 26,
+      "id": "26",
+      "key": "GALLERY_26",
+      "label": "黑红",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 27,
+      "id": "27",
+      "key": "GALLERY_27",
+      "label": "黑金",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 28,
+      "id": "28",
+      "key": "GALLERY_28",
+      "label": "青橙",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 29,
+      "id": "32",
+      "key": "GALLERY_32",
+      "label": "冷白",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 30,
+      "id": "33",
+      "key": "GALLERY_33",
+      "label": "青葱",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 31,
+      "id": "34",
+      "key": "GALLERY_34",
+      "label": "明青",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 32,
+      "id": "35",
+      "key": "GALLERY_35",
+      "label": "春野",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 33,
+      "id": "36",
+      "key": "GALLERY_36",
+      "label": "原生",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 34,
+      "id": "11",
+      "key": "GALLERY_11",
+      "label": "微蓝",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 35,
+      "id": "12",
+      "key": "GALLERY_12",
+      "label": "奶绿",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 36,
+      "id": "90",
+      "key": "GALLERY_90",
+      "label": "青春",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 37,
+      "id": "91",
+      "key": "GALLERY_91",
+      "label": "拍立得",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 38,
+      "id": "86",
+      "key": "GALLERY_86",
+      "label": "初见",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 39,
+      "id": "38",
+      "key": "GALLERY_38",
+      "label": "轻氧",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 40,
+      "id": "39",
+      "key": "GALLERY_39",
+      "label": "薄荷",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 41,
+      "id": "40",
+      "key": "GALLERY_40",
+      "label": "天然",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 42,
+      "id": "41",
+      "key": "GALLERY_41",
+      "label": "粉嫩",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 43,
+      "id": "87",
+      "key": "GALLERY_87",
+      "label": "半夏",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 44,
+      "id": "88",
+      "key": "GALLERY_88",
+      "label": "青灰",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 45,
+      "id": "62",
+      "key": "GALLERY_62",
+      "label": "食新",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 46,
+      "id": "63",
+      "key": "GALLERY_63",
+      "label": "美味",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 47,
+      "id": "64",
+      "key": "GALLERY_64",
+      "label": "汽水",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 48,
+      "id": "65",
+      "key": "GALLERY_65",
+      "label": "芒果",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 49,
+      "id": "106",
+      "key": "GALLERY_106",
+      "label": "赤霞红",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 50,
+      "id": "107",
+      "key": "GALLERY_107",
+      "label": "中国红",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 51,
+      "id": "108",
+      "key": "GALLERY_108",
+      "label": "远山青",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 52,
+      "id": "109",
+      "key": "GALLERY_109",
+      "label": "太极墨",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 53,
+      "id": "122",
+      "key": "GALLERY_122",
+      "label": "繁花如梦",
+      "category": "nativeGallery",
+      "managed": false,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 54,
+      "id": "110",
+      "key": "GALLERY_110",
+      "label": "浅茶绿",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 55,
+      "id": "111",
+      "key": "GALLERY_111",
+      "label": "大漠棕",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 56,
+      "id": "112",
+      "key": "GALLERY_112",
+      "label": "文艺",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 57,
+      "id": "113",
+      "key": "GALLERY_113",
+      "label": "青夜",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 58,
+      "id": "115",
+      "key": "GALLERY_115",
+      "label": "浪漫",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 59,
+      "id": "42",
+      "key": "GALLERY_42",
+      "label": "花田",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 60,
+      "id": "43",
+      "key": "GALLERY_43",
+      "label": "海街",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 61,
+      "id": "44",
+      "key": "GALLERY_44",
+      "label": "南法",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 62,
+      "id": "45",
+      "key": "GALLERY_45",
+      "label": "西部",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 63,
+      "id": "46",
+      "key": "GALLERY_46",
+      "label": "森山",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 64,
+      "id": "48",
+      "key": "GALLERY_48",
+      "label": "BBP",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 65,
+      "id": "50",
+      "key": "GALLERY_50",
+      "label": "T&O",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 66,
+      "id": "51",
+      "key": "GALLERY_51",
+      "label": "拉丁",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 67,
+      "id": "55",
+      "key": "GALLERY_55",
+      "label": "夏日",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 68,
+      "id": "56",
+      "key": "GALLERY_56",
+      "label": "邂逅",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 69,
+      "id": "7",
+      "key": "GALLERY_7",
+      "label": "秋田",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 70,
+      "id": "16",
+      "key": "GALLERY_16",
+      "label": "莫兰迪",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 71,
+      "id": "66",
+      "key": "GALLERY_66",
+      "label": "落日",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 72,
+      "id": "17",
+      "key": "GALLERY_17",
+      "label": "龙舌兰",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 73,
+      "id": "68",
+      "key": "GALLERY_68",
+      "label": "复古粉",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 74,
+      "id": "69",
+      "key": "GALLERY_69",
+      "label": "山丘",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 75,
+      "id": "71",
+      "key": "GALLERY_71",
+      "label": "姜茶",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 76,
+      "id": "72",
+      "key": "GALLERY_72",
+      "label": "蓝梦",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 77,
+      "id": "73",
+      "key": "GALLERY_73",
+      "label": "灰金",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 78,
+      "id": "74",
+      "key": "GALLERY_74",
+      "label": "赛博朋克",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 79,
+      "id": "75",
+      "key": "GALLERY_75",
+      "label": "日落金",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 80,
+      "id": "76",
+      "key": "GALLERY_76",
+      "label": "蓝调",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 81,
+      "id": "83",
+      "key": "GALLERY_83",
+      "label": "黑白",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 82,
+      "id": "80",
+      "key": "GALLERY_80",
+      "label": "质感",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 83,
+      "id": "82",
+      "key": "GALLERY_82",
+      "label": "去雾",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 84,
+      "id": "78",
+      "key": "GALLERY_78",
+      "label": "暗调",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 85,
+      "id": "85",
+      "key": "GALLERY_85",
+      "label": "人文",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 86,
+      "id": "84",
+      "key": "GALLERY_84",
+      "label": "经典",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 87,
+      "id": "79",
+      "key": "GALLERY_79",
+      "label": "珠光",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 88,
+      "id": "8",
+      "key": "GALLERY_8",
+      "label": "暖橙",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 89,
+      "id": "81",
+      "key": "GALLERY_81",
+      "label": "藏青",
+      "category": "nativeGallery",
+      "managed": true,
+      "routes": {
+        "preview": "camera-native",
+        "capture": "camera-native",
+        "gallery": "gallery-native"
+      }
+    },
+    {
+      "index": 123,
+      "id": "9143",
+      "key": "GALLERY_9143",
+      "stableId": "user-lut:1",
+      "label": "自定义 1",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_1.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9143.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_1.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9143.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 124,
+      "id": "9144",
+      "key": "GALLERY_9144",
+      "stableId": "user-lut:2",
+      "label": "自定义 2",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_2.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9144.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_2.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9144.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 125,
+      "id": "9145",
+      "key": "GALLERY_9145",
+      "stableId": "user-lut:3",
+      "label": "自定义 3",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_3.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9145.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_3.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9145.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 126,
+      "id": "9146",
+      "key": "GALLERY_9146",
+      "stableId": "user-lut:4",
+      "label": "自定义 4",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_4.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9146.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_4.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9146.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 127,
+      "id": "9147",
+      "key": "GALLERY_9147",
+      "stableId": "user-lut:5",
+      "label": "自定义 5",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_5.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9147.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_5.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9147.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 128,
+      "id": "9148",
+      "key": "GALLERY_9148",
+      "stableId": "user-lut:6",
+      "label": "自定义 6",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_6.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9148.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_6.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9148.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 129,
+      "id": "9149",
+      "key": "GALLERY_9149",
+      "stableId": "user-lut:7",
+      "label": "自定义 7",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_7.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9149.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_7.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9149.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 130,
+      "id": "9150",
+      "key": "GALLERY_9150",
+      "stableId": "user-lut:8",
+      "label": "自定义 8",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_8.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9150.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_8.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9150.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 131,
+      "id": "9151",
+      "key": "GALLERY_9151",
+      "stableId": "user-lut:9",
+      "label": "自定义 9",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_9.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9151.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_9.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9151.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 132,
+      "id": "9152",
+      "key": "GALLERY_9152",
+      "stableId": "user-lut:10",
+      "label": "自定义 10",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_10.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9152.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_10.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9152.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 133,
+      "id": "9153",
+      "key": "GALLERY_9153",
+      "stableId": "user-lut:11",
+      "label": "自定义 11",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_11.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9153.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_11.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9153.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 134,
+      "id": "9154",
+      "key": "GALLERY_9154",
+      "stableId": "user-lut:12",
+      "label": "自定义 12",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_12.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9154.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_12.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9154.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 135,
+      "id": "9155",
+      "key": "GALLERY_9155",
+      "stableId": "user-lut:13",
+      "label": "自定义 13",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_13.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9155.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_13.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9155.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 136,
+      "id": "9156",
+      "key": "GALLERY_9156",
+      "stableId": "user-lut:14",
+      "label": "自定义 14",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_14.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9156.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_14.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9156.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 137,
+      "id": "9157",
+      "key": "GALLERY_9157",
+      "stableId": "user-lut:15",
+      "label": "自定义 15",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_15.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9157.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_15.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9157.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 138,
+      "id": "9158",
+      "key": "GALLERY_9158",
+      "stableId": "user-lut:16",
+      "label": "自定义 16",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_16.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9158.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_16.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9158.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 139,
+      "id": "9159",
+      "key": "GALLERY_9159",
+      "stableId": "user-lut:17",
+      "label": "自定义 17",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_17.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9159.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_17.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9159.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 140,
+      "id": "9160",
+      "key": "GALLERY_9160",
+      "stableId": "user-lut:18",
+      "label": "自定义 18",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_18.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9160.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_18.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9160.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 141,
+      "id": "9161",
+      "key": "GALLERY_9161",
+      "stableId": "user-lut:19",
+      "label": "自定义 19",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_19.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9161.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_19.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9161.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 142,
+      "id": "9162",
+      "key": "GALLERY_9162",
+      "stableId": "user-lut:20",
+      "label": "自定义 20",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_20.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9162.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_20.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9162.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 143,
+      "id": "9163",
+      "key": "GALLERY_9163",
+      "stableId": "user-lut:21",
+      "label": "自定义 21",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_21.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9163.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_21.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9163.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 144,
+      "id": "9164",
+      "key": "GALLERY_9164",
+      "stableId": "user-lut:22",
+      "label": "自定义 22",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_22.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9164.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_22.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9164.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 145,
+      "id": "9165",
+      "key": "GALLERY_9165",
+      "stableId": "user-lut:23",
+      "label": "自定义 23",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_23.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9165.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_23.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9165.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 146,
+      "id": "9166",
+      "key": "GALLERY_9166",
+      "stableId": "user-lut:24",
+      "label": "自定义 24",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_24.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9166.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_24.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9166.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 147,
+      "id": "9167",
+      "key": "GALLERY_9167",
+      "stableId": "user-lut:25",
+      "label": "自定义 25",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_25.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9167.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_25.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9167.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 148,
+      "id": "9168",
+      "key": "GALLERY_9168",
+      "stableId": "user-lut:26",
+      "label": "自定义 26",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_26.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9168.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_26.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9168.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 149,
+      "id": "9169",
+      "key": "GALLERY_9169",
+      "stableId": "user-lut:27",
+      "label": "自定义 27",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_27.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9169.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_27.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9169.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 150,
+      "id": "9170",
+      "key": "GALLERY_9170",
+      "stableId": "user-lut:28",
+      "label": "自定义 28",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_28.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9170.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_28.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9170.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 151,
+      "id": "9171",
+      "key": "GALLERY_9171",
+      "stableId": "user-lut:29",
+      "label": "自定义 29",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_29.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9171.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_29.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9171.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 152,
+      "id": "9172",
+      "key": "GALLERY_9172",
+      "stableId": "user-lut:30",
+      "label": "自定义 30",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_30.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9172.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_30.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9172.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 153,
+      "id": "9173",
+      "key": "GALLERY_9173",
+      "stableId": "user-lut:31",
+      "label": "自定义 31",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_31.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9173.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_31.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9173.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 154,
+      "id": "9174",
+      "key": "GALLERY_9174",
+      "stableId": "user-lut:32",
+      "label": "自定义 32",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_32.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9174.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_32.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9174.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 155,
+      "id": "9175",
+      "key": "GALLERY_9175",
+      "stableId": "user-lut:33",
+      "label": "自定义 33",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_33.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9175.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_33.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9175.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 156,
+      "id": "9176",
+      "key": "GALLERY_9176",
+      "stableId": "user-lut:34",
+      "label": "自定义 34",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_34.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9176.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_34.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9176.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 157,
+      "id": "9177",
+      "key": "GALLERY_9177",
+      "stableId": "user-lut:35",
+      "label": "自定义 35",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_35.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9177.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_35.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9177.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 158,
+      "id": "9178",
+      "key": "GALLERY_9178",
+      "stableId": "user-lut:36",
+      "label": "自定义 36",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_36.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9178.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_36.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9178.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 159,
+      "id": "9179",
+      "key": "GALLERY_9179",
+      "stableId": "user-lut:37",
+      "label": "自定义 37",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_37.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9179.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_37.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9179.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 160,
+      "id": "9180",
+      "key": "GALLERY_9180",
+      "stableId": "user-lut:38",
+      "label": "自定义 38",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_38.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9180.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_38.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9180.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 161,
+      "id": "9181",
+      "key": "GALLERY_9181",
+      "stableId": "user-lut:39",
+      "label": "自定义 39",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_39.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9181.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_39.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9181.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 162,
+      "id": "9182",
+      "key": "GALLERY_9182",
+      "stableId": "user-lut:40",
+      "label": "自定义 40",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_40.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9182.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_40.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9182.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 163,
+      "id": "9183",
+      "key": "GALLERY_9183",
+      "stableId": "user-lut:41",
+      "label": "自定义 41",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_41.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9183.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_41.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9183.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 164,
+      "id": "9184",
+      "key": "GALLERY_9184",
+      "stableId": "user-lut:42",
+      "label": "自定义 42",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_42.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9184.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_42.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9184.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 165,
+      "id": "9185",
+      "key": "GALLERY_9185",
+      "stableId": "user-lut:43",
+      "label": "自定义 43",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_43.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9185.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_43.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9185.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 166,
+      "id": "9186",
+      "key": "GALLERY_9186",
+      "stableId": "user-lut:44",
+      "label": "自定义 44",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_44.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9186.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_44.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9186.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 167,
+      "id": "9187",
+      "key": "GALLERY_9187",
+      "stableId": "user-lut:45",
+      "label": "自定义 45",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_45.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9187.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_45.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9187.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 168,
+      "id": "9188",
+      "key": "GALLERY_9188",
+      "stableId": "user-lut:46",
+      "label": "自定义 46",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_46.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9188.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_46.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9188.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 169,
+      "id": "9189",
+      "key": "GALLERY_9189",
+      "stableId": "user-lut:47",
+      "label": "自定义 47",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_47.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9189.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_47.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9189.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 170,
+      "id": "9190",
+      "key": "GALLERY_9190",
+      "stableId": "user-lut:48",
+      "label": "自定义 48",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_48.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9190.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_48.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9190.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 171,
+      "id": "9191",
+      "key": "GALLERY_9191",
+      "stableId": "user-lut:49",
+      "label": "自定义 49",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_49.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9191.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_49.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9191.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 172,
+      "id": "9192",
+      "key": "GALLERY_9192",
+      "stableId": "user-lut:50",
+      "label": "自定义 50",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_50.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9192.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_50.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9192.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 173,
+      "id": "9193",
+      "key": "GALLERY_9193",
+      "stableId": "user-lut:51",
+      "label": "自定义 51",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_51.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9193.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_51.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9193.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 174,
+      "id": "9194",
+      "key": "GALLERY_9194",
+      "stableId": "user-lut:52",
+      "label": "自定义 52",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_52.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9194.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_52.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9194.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 175,
+      "id": "9195",
+      "key": "GALLERY_9195",
+      "stableId": "user-lut:53",
+      "label": "自定义 53",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_53.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9195.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_53.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9195.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 176,
+      "id": "9196",
+      "key": "GALLERY_9196",
+      "stableId": "user-lut:54",
+      "label": "自定义 54",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_54.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9196.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_54.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9196.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 177,
+      "id": "9197",
+      "key": "GALLERY_9197",
+      "stableId": "user-lut:55",
+      "label": "自定义 55",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_55.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9197.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_55.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9197.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 178,
+      "id": "9198",
+      "key": "GALLERY_9198",
+      "stableId": "user-lut:56",
+      "label": "自定义 56",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_56.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9198.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_56.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9198.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 179,
+      "id": "9199",
+      "key": "GALLERY_9199",
+      "stableId": "user-lut:57",
+      "label": "自定义 57",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_57.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9199.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_57.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9199.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 180,
+      "id": "9200",
+      "key": "GALLERY_9200",
+      "stableId": "user-lut:58",
+      "label": "自定义 58",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_58.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9200.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_58.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9200.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 181,
+      "id": "9201",
+      "key": "GALLERY_9201",
+      "stableId": "user-lut:59",
+      "label": "自定义 59",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_59.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9201.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_59.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9201.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 182,
+      "id": "9202",
+      "key": "GALLERY_9202",
+      "stableId": "user-lut:60",
+      "label": "自定义 60",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_60.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9202.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_60.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9202.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 183,
+      "id": "9203",
+      "key": "GALLERY_9203",
+      "stableId": "user-lut:61",
+      "label": "自定义 61",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_61.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9203.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_61.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9203.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 184,
+      "id": "9204",
+      "key": "GALLERY_9204",
+      "stableId": "user-lut:62",
+      "label": "自定义 62",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_62.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9204.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_62.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9204.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 185,
+      "id": "9205",
+      "key": "GALLERY_9205",
+      "stableId": "user-lut:63",
+      "label": "自定义 63",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_63.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9205.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_63.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9205.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 186,
+      "id": "9206",
+      "key": "GALLERY_9206",
+      "stableId": "user-lut:64",
+      "label": "自定义 64",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_64.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9206.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_64.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9206.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 187,
+      "id": "9207",
+      "key": "GALLERY_9207",
+      "stableId": "user-lut:65",
+      "label": "自定义 65",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_65.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9207.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_65.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9207.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 188,
+      "id": "9208",
+      "key": "GALLERY_9208",
+      "stableId": "user-lut:66",
+      "label": "自定义 66",
+      "category": "userLut",
+      "managed": true,
+      "routes": {
+        "preview": "/data/user/0/com.android.camera/files/prometheus/custom_luts/slot_66.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9208.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts/slot_66.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9208.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 91,
+      "id": "9101",
+      "key": "GALLERY_9101",
+      "stableId": "GALLERY_9001",
+      "label": "徕卡 M9",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_1.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9101.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_1.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9101.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 92,
+      "id": "9102",
+      "key": "GALLERY_9102",
+      "stableId": "GALLERY_9002",
+      "label": "富士 ACROS",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_2.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9102.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_2.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9102.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 93,
+      "id": "9103",
+      "key": "GALLERY_9103",
+      "stableId": "GALLERY_9003",
+      "label": "富士 ASTIA",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_3.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9103.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_3.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9103.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 94,
+      "id": "9104",
+      "key": "GALLERY_9104",
+      "stableId": "GALLERY_9004",
+      "label": "富士 CC",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_4.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9104.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_4.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9104.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 95,
+      "id": "9105",
+      "key": "GALLERY_9105",
+      "stableId": "GALLERY_9005",
+      "label": "富士 NC",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_5.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9105.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_5.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9105.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 96,
+      "id": "9106",
+      "key": "GALLERY_9106",
+      "stableId": "GALLERY_9006",
+      "label": "富士 ETERNA-BB",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_6.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9106.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_6.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9106.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 97,
+      "id": "9107",
+      "key": "GALLERY_9107",
+      "stableId": "GALLERY_9007",
+      "label": "富士 ETERNA",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_7.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9107.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_7.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9107.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 98,
+      "id": "9108",
+      "key": "GALLERY_9108",
+      "stableId": "GALLERY_9008",
+      "label": "富士 PRO-Neg-Std",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_8.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9108.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_8.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9108.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 99,
+      "id": "9109",
+      "key": "GALLERY_9109",
+      "stableId": "GALLERY_9009",
+      "label": "富士 PROVIA",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_9.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9109.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_9.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9109.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 100,
+      "id": "9110",
+      "key": "GALLERY_9110",
+      "stableId": "GALLERY_9010",
+      "label": "富士 REALA-ACE",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_10.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9110.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_10.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9110.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 101,
+      "id": "9111",
+      "key": "GALLERY_9111",
+      "stableId": "GALLERY_9011",
+      "label": "富士 Velvia",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_11.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9111.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_11.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9111.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 102,
+      "id": "9112",
+      "key": "GALLERY_9112",
+      "stableId": "preset:rev11-012",
+      "label": "富士 NN",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_12.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9112.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_12.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9112.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 103,
+      "id": "9113",
+      "key": "GALLERY_9113",
+      "stableId": "GALLERY_9012",
+      "label": "理光 Positive",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_13.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9113.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_13.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9113.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 104,
+      "id": "9114",
+      "key": "GALLERY_9114",
+      "stableId": "preset:rev11-013",
+      "label": "理光 Negative",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_14.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9114.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_14.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9114.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 105,
+      "id": "9115",
+      "key": "GALLERY_9115",
+      "stableId": "GALLERY_9013",
+      "label": "理光 Vivid",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_15.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9115.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_15.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9115.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 106,
+      "id": "9116",
+      "key": "GALLERY_9116",
+      "stableId": "preset:rev11-035",
+      "label": "理光 High Contrast B&W",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_16.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9116.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_16.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9116.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 107,
+      "id": "9117",
+      "key": "GALLERY_9117",
+      "stableId": "preset:rev11-036",
+      "label": "理光 Cinema Green",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_17.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9117.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_17.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9117.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 108,
+      "id": "9118",
+      "key": "GALLERY_9118",
+      "stableId": "preset:rev11-037",
+      "label": "理光 Cinema Yellow",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_18.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9118.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_18.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9118.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 109,
+      "id": "9119",
+      "key": "GALLERY_9119",
+      "stableId": "preset:rev11-004",
+      "label": "柯达 5203",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_19.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9119.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_19.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9119.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 110,
+      "id": "9120",
+      "key": "GALLERY_9120",
+      "stableId": "preset:rev11-005",
+      "label": "柯达 5207",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_20.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9120.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_20.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9120.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 111,
+      "id": "9121",
+      "key": "GALLERY_9121",
+      "stableId": "preset:rev11-006",
+      "label": "柯达 5219",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_21.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9121.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_21.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9121.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 112,
+      "id": "9122",
+      "key": "GALLERY_9122",
+      "stableId": "preset:rev11-007",
+      "label": "柯达 E200",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_22.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9122.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_22.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9122.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 113,
+      "id": "9123",
+      "key": "GALLERY_9123",
+      "stableId": "preset:rev11-008",
+      "label": "柯达 Gold 200",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_23.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9123.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_23.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9123.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 114,
+      "id": "9124",
+      "key": "GALLERY_9124",
+      "stableId": "preset:rev11-010",
+      "label": "柯达 Portra 400",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_24.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9124.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_24.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9124.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 115,
+      "id": "9125",
+      "key": "GALLERY_9125",
+      "stableId": "preset:rev11-011",
+      "label": "柯达 Ultramax 400",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_25.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9125.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_25.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9125.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 116,
+      "id": "9126",
+      "key": "GALLERY_9126",
+      "stableId": "preset:rev11-001",
+      "label": "CineStill 50D",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_26.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9126.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_26.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9126.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 117,
+      "id": "9127",
+      "key": "GALLERY_9127",
+      "stableId": "preset:rev11-002",
+      "label": "CineStill 800T",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_27.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9127.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_27.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9127.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 118,
+      "id": "9128",
+      "key": "GALLERY_9128",
+      "stableId": "preset:rev11-003",
+      "label": "Hasselblad Blue",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_28.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9128.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_28.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9128.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 119,
+      "id": "9129",
+      "key": "GALLERY_9129",
+      "stableId": "preset:rev11-015",
+      "label": "Hasselblad Classic",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_29.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9129.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_29.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9129.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 120,
+      "id": "9130",
+      "key": "GALLERY_9130",
+      "stableId": "preset:rev11-016",
+      "label": "Leica Classic",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_30.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9130.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_30.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9130.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 121,
+      "id": "9131",
+      "key": "GALLERY_9131",
+      "stableId": "preset:071-01",
+      "label": "柯达 Standard",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_31.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9131.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_31.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9131.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 122,
+      "id": "9132",
+      "key": "GALLERY_9132",
+      "stableId": "preset:071-02",
+      "label": "柯达 Vivid",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_32.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9132.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_32.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9132.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 123,
+      "id": "9133",
+      "key": "GALLERY_9133",
+      "stableId": "preset:071-03",
+      "label": "柯达 Film",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_33.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9133.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_33.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9133.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 124,
+      "id": "9134",
+      "key": "GALLERY_9134",
+      "stableId": "preset:071-04",
+      "label": "适马 Calm",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_34.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9134.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_34.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9134.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 125,
+      "id": "9135",
+      "key": "GALLERY_9135",
+      "stableId": "preset:071-05",
+      "label": "适马 Classic Yellow",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_35.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9135.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_35.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9135.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 126,
+      "id": "9136",
+      "key": "GALLERY_9136",
+      "stableId": "preset:071-06",
+      "label": "适马 Cine2",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_36.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9136.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_36.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9136.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 127,
+      "id": "9137",
+      "key": "GALLERY_9137",
+      "stableId": "preset:071-07",
+      "label": "适马 Forest Green",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_37.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9137.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_37.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9137.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 128,
+      "id": "9138",
+      "key": "GALLERY_9138",
+      "stableId": "preset:071-08",
+      "label": "适马 Sunset Red",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_38.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9138.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_38.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9138.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 129,
+      "id": "9139",
+      "key": "GALLERY_9139",
+      "stableId": "preset:071-09",
+      "label": "适马 Rich",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_39.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9139.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_39.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9139.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 130,
+      "id": "9140",
+      "key": "GALLERY_9140",
+      "stableId": "preset:071-10",
+      "label": "适马 Powder Blue",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_40.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9140.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_40.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9140.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 131,
+      "id": "9141",
+      "key": "GALLERY_9141",
+      "stableId": "preset:071-11",
+      "label": "适马 Teal and Orange",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_41.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9141.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_41.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9141.png",
+      "nativeEffect": "unified-table"
+    },
+    {
+      "index": 132,
+      "id": "9142",
+      "key": "GALLERY_9142",
+      "stableId": "preset:071-12",
+      "label": "适马 Warm Gold",
+      "category": "singleLutPreset",
+      "managed": true,
+      "routes": {
+        "preview": "/odm/etc/camera/prometheus/luts/presets/slot_42.png",
+        "capture": "mivi-native-publisher:/data/vendor/camera/prometheus_gallery_filter_9142.png",
+        "gallery": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts/slot_42.png"
+      },
+      "resource": "res/raw/prometheus_gallery_filter_9142.png",
+      "nativeEffect": "unified-table"
+    }
+  ],
+  "managedKeys": [
+    "GALLERY_119",
+    "GALLERY_118",
+    "GALLERY_26",
+    "GALLERY_28",
+    "GALLERY_32",
+    "GALLERY_33",
+    "GALLERY_34",
+    "GALLERY_35",
+    "GALLERY_36",
+    "GALLERY_11",
+    "GALLERY_12",
+    "GALLERY_90",
+    "GALLERY_91",
+    "GALLERY_86",
+    "GALLERY_38",
+    "GALLERY_39",
+    "GALLERY_40",
+    "GALLERY_41",
+    "GALLERY_87",
+    "GALLERY_88",
+    "GALLERY_62",
+    "GALLERY_63",
+    "GALLERY_64",
+    "GALLERY_65",
+    "GALLERY_106",
+    "GALLERY_107",
+    "GALLERY_108",
+    "GALLERY_109",
+    "GALLERY_110",
+    "GALLERY_111",
+    "GALLERY_112",
+    "GALLERY_113",
+    "GALLERY_115",
+    "GALLERY_42",
+    "GALLERY_43",
+    "GALLERY_44",
+    "GALLERY_45",
+    "GALLERY_46",
+    "GALLERY_48",
+    "GALLERY_50",
+    "GALLERY_51",
+    "GALLERY_55",
+    "GALLERY_56",
+    "GALLERY_7",
+    "GALLERY_16",
+    "GALLERY_66",
+    "GALLERY_17",
+    "GALLERY_68",
+    "GALLERY_69",
+    "GALLERY_71",
+    "GALLERY_72",
+    "GALLERY_73",
+    "GALLERY_74",
+    "GALLERY_75",
+    "GALLERY_76",
+    "GALLERY_83",
+    "GALLERY_80",
+    "GALLERY_82",
+    "GALLERY_78",
+    "GALLERY_85",
+    "GALLERY_84",
+    "GALLERY_79",
+    "GALLERY_8",
+    "GALLERY_81",
+    "GALLERY_9101",
+    "GALLERY_9102",
+    "GALLERY_9103",
+    "GALLERY_9104",
+    "GALLERY_9105",
+    "GALLERY_9106",
+    "GALLERY_9107",
+    "GALLERY_9108",
+    "GALLERY_9109",
+    "GALLERY_9110",
+    "GALLERY_9111",
+    "GALLERY_9112",
+    "GALLERY_9113",
+    "GALLERY_9114",
+    "GALLERY_9115",
+    "GALLERY_9116",
+    "GALLERY_9117",
+    "GALLERY_9118",
+    "GALLERY_9119",
+    "GALLERY_9120",
+    "GALLERY_9121",
+    "GALLERY_9122",
+    "GALLERY_9123",
+    "GALLERY_9124",
+    "GALLERY_9125",
+    "GALLERY_9126",
+    "GALLERY_9127",
+    "GALLERY_9128",
+    "GALLERY_9129",
+    "GALLERY_9130",
+    "GALLERY_9131",
+    "GALLERY_9132",
+    "GALLERY_9133",
+    "GALLERY_9134",
+    "GALLERY_9135",
+    "GALLERY_9136",
+    "GALLERY_9137",
+    "GALLERY_9138",
+    "GALLERY_9139",
+    "GALLERY_9140",
+    "GALLERY_9141",
+    "GALLERY_9142",
+    "GALLERY_9143",
+    "GALLERY_9144",
+    "GALLERY_9145",
+    "GALLERY_9146",
+    "GALLERY_9147",
+    "GALLERY_9148",
+    "GALLERY_9149",
+    "GALLERY_9150",
+    "GALLERY_9151",
+    "GALLERY_9152",
+    "GALLERY_9153",
+    "GALLERY_9154",
+    "GALLERY_9155",
+    "GALLERY_9156",
+    "GALLERY_9157",
+    "GALLERY_9158",
+    "GALLERY_9159",
+    "GALLERY_9160",
+    "GALLERY_9161",
+    "GALLERY_9162",
+    "GALLERY_9163",
+    "GALLERY_9164",
+    "GALLERY_9165",
+    "GALLERY_9166",
+    "GALLERY_9167",
+    "GALLERY_9168",
+    "GALLERY_9169",
+    "GALLERY_9170",
+    "GALLERY_9171",
+    "GALLERY_9172",
+    "GALLERY_9173",
+    "GALLERY_9174",
+    "GALLERY_9175",
+    "GALLERY_9176",
+    "GALLERY_9177",
+    "GALLERY_9178",
+    "GALLERY_9179",
+    "GALLERY_9180",
+    "GALLERY_9181",
+    "GALLERY_9182",
+    "GALLERY_9183",
+    "GALLERY_9184",
+    "GALLERY_9185",
+    "GALLERY_9186",
+    "GALLERY_9187",
+    "GALLERY_9188",
+    "GALLERY_9189",
+    "GALLERY_9190",
+    "GALLERY_9191",
+    "GALLERY_9192",
+    "GALLERY_9193",
+    "GALLERY_9194",
+    "GALLERY_9195",
+    "GALLERY_9196",
+    "GALLERY_9197",
+    "GALLERY_9198",
+    "GALLERY_9199"
+  ],
+  "mediaEditorCatalog": {
+    "categoryType": 9100,
+    "label": "更多",
+    "stringResource": "more",
+    "presetRoot": "/data/user/0/com.miui.mediaeditor/files/prometheus/preset_luts",
+    "presets": [
+      {
+        "id": 9101,
+        "stableId": "GALLERY_9001",
+        "label": "徕卡 M9",
+        "group": "m9",
+        "file": "slot_1.png",
+        "bytes": 73736,
+        "sha256": "489406B6A5BD294D853CA9AC1C3A6FE3B9417C10AC71E4C45F1B4ABB118F2828"
+      },
+      {
+        "id": 9102,
+        "stableId": "GALLERY_9002",
+        "label": "富士 ACROS",
+        "group": "fuji",
+        "file": "slot_2.png",
+        "bytes": 36564,
+        "sha256": "AEE065F08A5CDB74B05CEB22AC259B92A1C200E55304036ADAD447374F9F6C3A"
+      },
+      {
+        "id": 9103,
+        "stableId": "GALLERY_9003",
+        "label": "富士 ASTIA",
+        "group": "fuji",
+        "file": "slot_3.png",
+        "bytes": 130773,
+        "sha256": "9843847D257B4ECB7BB0428378730A073037FBD0B15A824FE92014FC508AAB68"
+      },
+      {
+        "id": 9104,
+        "stableId": "GALLERY_9004",
+        "label": "富士 CC",
+        "group": "fuji",
+        "file": "slot_4.png",
+        "bytes": 123136,
+        "sha256": "BB37EC785A390D8272FBD8819D7407980EF414D70E03F426A600248C656D1308"
+      },
+      {
+        "id": 9105,
+        "stableId": "GALLERY_9005",
+        "label": "富士 NC",
+        "group": "fuji",
+        "file": "slot_5.png",
+        "bytes": 126011,
+        "sha256": "37C25768AD209DB5FD8477C320162F2B96663EC5DDA0B827132EC74AB658475A"
+      },
+      {
+        "id": 9106,
+        "stableId": "GALLERY_9006",
+        "label": "富士 ETERNA-BB",
+        "group": "fuji",
+        "file": "slot_6.png",
+        "bytes": 115784,
+        "sha256": "88C07729F12BE3693C03494682EE9F81CF66BD83BB0B2D022BAA6399862CB63E"
+      },
+      {
+        "id": 9107,
+        "stableId": "GALLERY_9007",
+        "label": "富士 ETERNA",
+        "group": "fuji",
+        "file": "slot_7.png",
+        "bytes": 117226,
+        "sha256": "6A73CCAE9441DA3EA63B5F57A8F94D95E8D4C610D7427B0AB04ACD8BDCE0EAF6"
+      },
+      {
+        "id": 9108,
+        "stableId": "GALLERY_9008",
+        "label": "富士 PRO-Neg-Std",
+        "group": "fuji",
+        "file": "slot_8.png",
+        "bytes": 116207,
+        "sha256": "D72D230E86A4B8B4EBC7525DFC9CF534C1041F3D79CAB2659277F313573DD982"
+      },
+      {
+        "id": 9109,
+        "stableId": "GALLERY_9009",
+        "label": "富士 PROVIA",
+        "group": "fuji",
+        "file": "slot_9.png",
+        "bytes": 130342,
+        "sha256": "699A4DCEE66D8B8057FB59D77D45B668907788E002894253A55B8C7D0F636FEA"
+      },
+      {
+        "id": 9110,
+        "stableId": "GALLERY_9010",
+        "label": "富士 REALA-ACE",
+        "group": "fuji",
+        "file": "slot_10.png",
+        "bytes": 135770,
+        "sha256": "28DFFF2412B9C98D92D987C09D6BA8408E9C4D55CD061B61AD4C664F1CA53338"
+      },
+      {
+        "id": 9111,
+        "stableId": "GALLERY_9011",
+        "label": "富士 Velvia",
+        "group": "fuji",
+        "file": "slot_11.png",
+        "bytes": 133706,
+        "sha256": "2C7FA7AD69FFFAF98EA3A80AE11A0E98977522CDB924E1825935C83480E06662"
+      },
+      {
+        "id": 9112,
+        "stableId": "preset:rev11-012",
+        "label": "富士 NN",
+        "group": "fuji",
+        "file": "slot_12.png",
+        "bytes": 157124,
+        "sha256": "37436FA500995FABB1B3FFA23C55CA4EAAABE209786BFF0387D1C64F7079CF3C"
+      },
+      {
+        "id": 9113,
+        "stableId": "GALLERY_9012",
+        "label": "理光 Positive",
+        "group": "ricoh",
+        "file": "slot_13.png",
+        "bytes": 184222,
+        "sha256": "803963274BA5071AE337AA874E9083F0FBB8683F56EDDE0C4F8B0353DA13A907"
+      },
+      {
+        "id": 9114,
+        "stableId": "preset:rev11-013",
+        "label": "理光 Negative",
+        "group": "ricoh",
+        "file": "slot_14.png",
+        "bytes": 157918,
+        "sha256": "12EE1CD0FFC3CCED48A5C498A2285EA6AAF02B9F6E0242BF1DACC0E27DD705DC"
+      },
+      {
+        "id": 9115,
+        "stableId": "GALLERY_9013",
+        "label": "理光 Vivid",
+        "group": "ricoh",
+        "file": "slot_15.png",
+        "bytes": 144624,
+        "sha256": "90E39213BB2847E102CD232DFBDFF53AE77BF060883FB7BAC3FEB11DFD066F52"
+      },
+      {
+        "id": 9116,
+        "stableId": "preset:rev11-035",
+        "label": "理光 High Contrast B&W",
+        "group": "ricoh",
+        "file": "slot_16.png",
+        "bytes": 53340,
+        "sha256": "A838F864F4A0E5ABDF0C6235FAE014F6E54F6B5F88F7031A218C0405D98210C9"
+      },
+      {
+        "id": 9117,
+        "stableId": "preset:rev11-036",
+        "label": "理光 Cinema Green",
+        "group": "ricoh",
+        "file": "slot_17.png",
+        "bytes": 197682,
+        "sha256": "A9AE0DFED6B1B09E328FF5FD2EEDBE05DFF2030724976D60D01B78D074C573BD"
+      },
+      {
+        "id": 9118,
+        "stableId": "preset:rev11-037",
+        "label": "理光 Cinema Yellow",
+        "group": "ricoh",
+        "file": "slot_18.png",
+        "bytes": 208405,
+        "sha256": "F72190C161DF08F7F305E82FEEC90FA2C50A0A308D75A1EC8F2743E64071BB8F"
+      },
+      {
+        "id": 9119,
+        "stableId": "preset:rev11-004",
+        "label": "柯达 5203",
+        "group": "kodak",
+        "file": "slot_19.png",
+        "bytes": 174789,
+        "sha256": "54C4F1D3AE01E8364E2203776BFFED25841C7EB7262F962D7D5B0827F528C78B"
+      },
+      {
+        "id": 9120,
+        "stableId": "preset:rev11-005",
+        "label": "柯达 5207",
+        "group": "kodak",
+        "file": "slot_20.png",
+        "bytes": 145824,
+        "sha256": "4A4E00D43A61F15A8E4DEF9D581EC36D225098918BEF036AF021E96215C5D3B4"
+      },
+      {
+        "id": 9121,
+        "stableId": "preset:rev11-006",
+        "label": "柯达 5219",
+        "group": "kodak",
+        "file": "slot_21.png",
+        "bytes": 155547,
+        "sha256": "E81AD9F1E47F97C93A091BE2D69C9AA1C622074F0DCC5DB57111CE5E8DBA2471"
+      },
+      {
+        "id": 9122,
+        "stableId": "preset:rev11-007",
+        "label": "柯达 E200",
+        "group": "kodak",
+        "file": "slot_22.png",
+        "bytes": 147497,
+        "sha256": "7FE57EE43BD9B3F7B4FACABBCA9547F74A63F7CB03037D6C3C65DC584883A038"
+      },
+      {
+        "id": 9123,
+        "stableId": "preset:rev11-008",
+        "label": "柯达 Gold 200",
+        "group": "kodak",
+        "file": "slot_23.png",
+        "bytes": 148374,
+        "sha256": "774CB90C50B9B9A59699905ACED2B59BB86FDE7A698F5F92C4E36B603B0E780E"
+      },
+      {
+        "id": 9124,
+        "stableId": "preset:rev11-010",
+        "label": "柯达 Portra 400",
+        "group": "kodak",
+        "file": "slot_24.png",
+        "bytes": 182845,
+        "sha256": "9449D2FACF684DE0D1A45E9CCA4574E52E2E1EEC686589537E57298968BC2471"
+      },
+      {
+        "id": 9125,
+        "stableId": "preset:rev11-011",
+        "label": "柯达 Ultramax 400",
+        "group": "kodak",
+        "file": "slot_25.png",
+        "bytes": 152670,
+        "sha256": "C9E95CD765E5BA6FD6597B53859B2C27AF22FF0B7C2C25BF3C585C40939AA364"
+      },
+      {
+        "id": 9126,
+        "stableId": "preset:rev11-001",
+        "label": "CineStill 50D",
+        "group": "other",
+        "file": "slot_26.png",
+        "bytes": 167482,
+        "sha256": "87555F47DC4A11194C4CE024EADDDA2665315A237545C9CBA0C5BDEC53034ABC"
+      },
+      {
+        "id": 9127,
+        "stableId": "preset:rev11-002",
+        "label": "CineStill 800T",
+        "group": "other",
+        "file": "slot_27.png",
+        "bytes": 193168,
+        "sha256": "B935778734C388D312D5B5BCAFA492A087C9908B77B977C8E9856233174805E1"
+      },
+      {
+        "id": 9128,
+        "stableId": "preset:rev11-003",
+        "label": "Hasselblad Blue",
+        "group": "other",
+        "file": "slot_28.png",
+        "bytes": 176958,
+        "sha256": "38F7FC9663148F4F74F1335BB70193A3305CB9121281A9BF95387137802BEA96"
+      },
+      {
+        "id": 9129,
+        "stableId": "preset:rev11-015",
+        "label": "Hasselblad Classic",
+        "group": "other",
+        "file": "slot_29.png",
+        "bytes": 80751,
+        "sha256": "13FC6918FF2D7108B57580A86D793A0A1FE50EFC7BF7F942896856AEFB7225D2"
+      },
+      {
+        "id": 9130,
+        "stableId": "preset:rev11-016",
+        "label": "Leica Classic",
+        "group": "other",
+        "file": "slot_30.png",
+        "bytes": 96940,
+        "sha256": "58768B1BFB1E2DD1DEBD06F806C4FC9ACF6C19AD6B9A645C78644340C5ADF6A3"
+      },
+      {
+        "id": 9131,
+        "stableId": "preset:071-01",
+        "label": "柯达 Standard",
+        "group": "kodak",
+        "file": "slot_31.png",
+        "bytes": 92232,
+        "sha256": "E0B7DD2C9BCC0E9A300A3779F00A2DB049883A24713D1853252E69800C982544"
+      },
+      {
+        "id": 9132,
+        "stableId": "preset:071-02",
+        "label": "柯达 Vivid",
+        "group": "kodak",
+        "file": "slot_32.png",
+        "bytes": 147422,
+        "sha256": "DC0078FC677846412D86D9B1B5F305F31A9CD307DF2753B809F1D0A6042DD0E1"
+      },
+      {
+        "id": 9133,
+        "stableId": "preset:071-03",
+        "label": "柯达 Film",
+        "group": "kodak",
+        "file": "slot_33.png",
+        "bytes": 130931,
+        "sha256": "AE04335E2731024E2CE87057DB4F4B7C38C35111740F9C9C1D9F1A8FB40B9018"
+      },
+      {
+        "id": 9134,
+        "stableId": "preset:071-04",
+        "label": "适马 Calm",
+        "group": "sigma",
+        "file": "slot_34.png",
+        "bytes": 159456,
+        "sha256": "25A8B72AA98D9B7DD9D8B4F7FC38F5F6FD0519729C3A981F12334918CFA262C2"
+      },
+      {
+        "id": 9135,
+        "stableId": "preset:071-05",
+        "label": "适马 Classic Yellow",
+        "group": "sigma",
+        "file": "slot_35.png",
+        "bytes": 187673,
+        "sha256": "C49CC0759A00749D96F316A4A3E13225767627027D9C3CF51655C168280199A8"
+      },
+      {
+        "id": 9136,
+        "stableId": "preset:071-06",
+        "label": "适马 Cine2",
+        "group": "sigma",
+        "file": "slot_36.png",
+        "bytes": 175570,
+        "sha256": "A0C6C40752BCDE25D2F82D3DD79D95D521050061256F9AEF8C31A16ABBBAABAF"
+      },
+      {
+        "id": 9137,
+        "stableId": "preset:071-07",
+        "label": "适马 Forest Green",
+        "group": "sigma",
+        "file": "slot_37.png",
+        "bytes": 180859,
+        "sha256": "D0D9677532E8C2463F4C06489990205EEB0AB9EE255B287927A91982ED518FE9"
+      },
+      {
+        "id": 9138,
+        "stableId": "preset:071-08",
+        "label": "适马 Sunset Red",
+        "group": "sigma",
+        "file": "slot_38.png",
+        "bytes": 178415,
+        "sha256": "B34A4FE1FCCC6A1A090810921601EE9E472BED4B89ADB0F97B0FE67AA68B6140"
+      },
+      {
+        "id": 9139,
+        "stableId": "preset:071-09",
+        "label": "适马 Rich",
+        "group": "sigma",
+        "file": "slot_39.png",
+        "bytes": 196961,
+        "sha256": "065DFF5A6B97D09BA7687BDAF6F2E8286E0040DFC4CA405525E907F9D0E21ECD"
+      },
+      {
+        "id": 9140,
+        "stableId": "preset:071-10",
+        "label": "适马 Powder Blue",
+        "group": "sigma",
+        "file": "slot_40.png",
+        "bytes": 198755,
+        "sha256": "2BB691EF0092299F449A2645B8C0AA180B6BB8F7270D07665751B45A2F83B180"
+      },
+      {
+        "id": 9141,
+        "stableId": "preset:071-11",
+        "label": "适马 Teal and Orange",
+        "group": "sigma",
+        "file": "slot_41.png",
+        "bytes": 177222,
+        "sha256": "4E94A30A6F63B97ABCC506DD9AAFE481C594972FA6E91FC12EBA62DFE8736D9C"
+      },
+      {
+        "id": 9142,
+        "stableId": "preset:071-12",
+        "label": "适马 Warm Gold",
+        "group": "sigma",
+        "file": "slot_42.png",
+        "bytes": 175466,
+        "sha256": "CACBAFD6ACB2A93FDE47D106DF292571C01692D5D32892EC3B4BE30BAA569017"
+      }
+    ],
+    "userImportRoot": "/data/user/0/com.miui.mediaeditor/files/prometheus/custom_luts",
+    "userImportIdRange": [
+      9143,
+      9208
+    ],
+    "userImportLabelPattern": "自定义 {slot}",
+    "userImportFilePattern": "slot_{slot}.png"
+  },
+  "customLut": {
+    "metadataSchema": 2,
+    "identityRule": "metadata-required",
+    "slotCount": 66,
+    "galleryIdRange": [
+      9143,
+      9208
+    ],
+    "acceptedCubeSizes": [
+      17,
+      33,
+      65
+    ],
+    "maximumInputBytes": 16777216,
+    "renderedPng": {
+      "width": 512,
+      "height": 512
+    }
+  },
+  "revPresetLut": {
+    "schemaVersion": 1,
+    "items": [
+      {
+        "id": "GALLERY_9001",
+        "name": "徕卡 M9",
+        "file": "slot_1.png",
+        "asset": "filter_9001.png",
+        "group": "m9",
+        "order": 1001,
+        "runtimeId": 9101,
+        "sha256": "489406B6A5BD294D853CA9AC1C3A6FE3B9417C10AC71E4C45F1B4ABB118F2828"
+      },
+      {
+        "id": "GALLERY_9002",
+        "name": "富士 ACROS",
+        "file": "slot_2.png",
+        "asset": "filter_9002.png",
+        "group": "fuji",
+        "order": 1002,
+        "runtimeId": 9102,
+        "sha256": "AEE065F08A5CDB74B05CEB22AC259B92A1C200E55304036ADAD447374F9F6C3A"
+      },
+      {
+        "id": "GALLERY_9003",
+        "name": "富士 ASTIA",
+        "file": "slot_3.png",
+        "asset": "filter_9003.png",
+        "group": "fuji",
+        "order": 1003,
+        "runtimeId": 9103,
+        "sha256": "9843847D257B4ECB7BB0428378730A073037FBD0B15A824FE92014FC508AAB68"
+      },
+      {
+        "id": "GALLERY_9004",
+        "name": "富士 CC",
+        "file": "slot_4.png",
+        "asset": "filter_9004.png",
+        "group": "fuji",
+        "order": 1004,
+        "runtimeId": 9104,
+        "sha256": "BB37EC785A390D8272FBD8819D7407980EF414D70E03F426A600248C656D1308"
+      },
+      {
+        "id": "GALLERY_9005",
+        "name": "富士 NC",
+        "file": "slot_5.png",
+        "asset": "filter_9005.png",
+        "group": "fuji",
+        "order": 1005,
+        "runtimeId": 9105,
+        "sha256": "37C25768AD209DB5FD8477C320162F2B96663EC5DDA0B827132EC74AB658475A"
+      },
+      {
+        "id": "GALLERY_9006",
+        "name": "富士 ETERNA-BB",
+        "file": "slot_6.png",
+        "asset": "filter_9006.png",
+        "group": "fuji",
+        "order": 1006,
+        "runtimeId": 9106,
+        "sha256": "88C07729F12BE3693C03494682EE9F81CF66BD83BB0B2D022BAA6399862CB63E"
+      },
+      {
+        "id": "GALLERY_9007",
+        "name": "富士 ETERNA",
+        "file": "slot_7.png",
+        "asset": "filter_9007.png",
+        "group": "fuji",
+        "order": 1007,
+        "runtimeId": 9107,
+        "sha256": "6A73CCAE9441DA3EA63B5F57A8F94D95E8D4C610D7427B0AB04ACD8BDCE0EAF6"
+      },
+      {
+        "id": "GALLERY_9008",
+        "name": "富士 PRO-Neg-Std",
+        "file": "slot_8.png",
+        "asset": "filter_9008.png",
+        "group": "fuji",
+        "order": 1008,
+        "runtimeId": 9108,
+        "sha256": "D72D230E86A4B8B4EBC7525DFC9CF534C1041F3D79CAB2659277F313573DD982"
+      },
+      {
+        "id": "GALLERY_9009",
+        "name": "富士 PROVIA",
+        "file": "slot_9.png",
+        "asset": "filter_9009.png",
+        "group": "fuji",
+        "order": 1009,
+        "runtimeId": 9109,
+        "sha256": "699A4DCEE66D8B8057FB59D77D45B668907788E002894253A55B8C7D0F636FEA"
+      },
+      {
+        "id": "GALLERY_9010",
+        "name": "富士 REALA-ACE",
+        "file": "slot_10.png",
+        "asset": "filter_9010.png",
+        "group": "fuji",
+        "order": 1010,
+        "runtimeId": 9110,
+        "sha256": "28DFFF2412B9C98D92D987C09D6BA8408E9C4D55CD061B61AD4C664F1CA53338"
+      },
+      {
+        "id": "GALLERY_9011",
+        "name": "富士 Velvia",
+        "file": "slot_11.png",
+        "asset": "filter_9011.png",
+        "group": "fuji",
+        "order": 1011,
+        "runtimeId": 9111,
+        "sha256": "2C7FA7AD69FFFAF98EA3A80AE11A0E98977522CDB924E1825935C83480E06662"
+      },
+      {
+        "id": "preset:rev11-012",
+        "name": "富士 NN",
+        "file": "slot_12.png",
+        "asset": "preset_rev11-012.png",
+        "group": "fuji",
+        "order": 1012,
+        "runtimeId": 9112,
+        "sha256": "37436FA500995FABB1B3FFA23C55CA4EAAABE209786BFF0387D1C64F7079CF3C"
+      },
+      {
+        "id": "GALLERY_9012",
+        "name": "理光 Positive",
+        "file": "slot_13.png",
+        "asset": "filter_9012.png",
+        "group": "ricoh",
+        "order": 1013,
+        "runtimeId": 9113,
+        "sha256": "803963274BA5071AE337AA874E9083F0FBB8683F56EDDE0C4F8B0353DA13A907"
+      },
+      {
+        "id": "preset:rev11-013",
+        "name": "理光 Negative",
+        "file": "slot_14.png",
+        "asset": "preset_rev11-013.png",
+        "group": "ricoh",
+        "order": 1014,
+        "runtimeId": 9114,
+        "sha256": "12EE1CD0FFC3CCED48A5C498A2285EA6AAF02B9F6E0242BF1DACC0E27DD705DC"
+      },
+      {
+        "id": "GALLERY_9013",
+        "name": "理光 Vivid",
+        "file": "slot_15.png",
+        "asset": "filter_9013.png",
+        "group": "ricoh",
+        "order": 1015,
+        "runtimeId": 9115,
+        "sha256": "90E39213BB2847E102CD232DFBDFF53AE77BF060883FB7BAC3FEB11DFD066F52"
+      },
+      {
+        "id": "preset:rev11-035",
+        "name": "理光 High Contrast B&W",
+        "file": "slot_16.png",
+        "asset": "preset_rev11-035.png",
+        "group": "ricoh",
+        "order": 1016,
+        "runtimeId": 9116,
+        "sha256": "A838F864F4A0E5ABDF0C6235FAE014F6E54F6B5F88F7031A218C0405D98210C9"
+      },
+      {
+        "id": "preset:rev11-036",
+        "name": "理光 Cinema Green",
+        "file": "slot_17.png",
+        "asset": "preset_rev11-036.png",
+        "group": "ricoh",
+        "order": 1017,
+        "runtimeId": 9117,
+        "sha256": "A9AE0DFED6B1B09E328FF5FD2EEDBE05DFF2030724976D60D01B78D074C573BD"
+      },
+      {
+        "id": "preset:rev11-037",
+        "name": "理光 Cinema Yellow",
+        "file": "slot_18.png",
+        "asset": "preset_rev11-037.png",
+        "group": "ricoh",
+        "order": 1018,
+        "runtimeId": 9118,
+        "sha256": "F72190C161DF08F7F305E82FEEC90FA2C50A0A308D75A1EC8F2743E64071BB8F"
+      },
+      {
+        "id": "preset:rev11-004",
+        "name": "柯达 5203",
+        "file": "slot_19.png",
+        "asset": "preset_rev11-004.png",
+        "group": "kodak",
+        "order": 1019,
+        "runtimeId": 9119,
+        "sha256": "54C4F1D3AE01E8364E2203776BFFED25841C7EB7262F962D7D5B0827F528C78B"
+      },
+      {
+        "id": "preset:rev11-005",
+        "name": "柯达 5207",
+        "file": "slot_20.png",
+        "asset": "preset_rev11-005.png",
+        "group": "kodak",
+        "order": 1020,
+        "runtimeId": 9120,
+        "sha256": "4A4E00D43A61F15A8E4DEF9D581EC36D225098918BEF036AF021E96215C5D3B4"
+      },
+      {
+        "id": "preset:rev11-006",
+        "name": "柯达 5219",
+        "file": "slot_21.png",
+        "asset": "preset_rev11-006.png",
+        "group": "kodak",
+        "order": 1021,
+        "runtimeId": 9121,
+        "sha256": "E81AD9F1E47F97C93A091BE2D69C9AA1C622074F0DCC5DB57111CE5E8DBA2471"
+      },
+      {
+        "id": "preset:rev11-007",
+        "name": "柯达 E200",
+        "file": "slot_22.png",
+        "asset": "preset_rev11-007.png",
+        "group": "kodak",
+        "order": 1022,
+        "runtimeId": 9122,
+        "sha256": "7FE57EE43BD9B3F7B4FACABBCA9547F74A63F7CB03037D6C3C65DC584883A038"
+      },
+      {
+        "id": "preset:rev11-008",
+        "name": "柯达 Gold 200",
+        "file": "slot_23.png",
+        "asset": "preset_rev11-008.png",
+        "group": "kodak",
+        "order": 1023,
+        "runtimeId": 9123,
+        "sha256": "774CB90C50B9B9A59699905ACED2B59BB86FDE7A698F5F92C4E36B603B0E780E"
+      },
+      {
+        "id": "preset:rev11-010",
+        "name": "柯达 Portra 400",
+        "file": "slot_24.png",
+        "asset": "preset_rev11-010.png",
+        "group": "kodak",
+        "order": 1024,
+        "runtimeId": 9124,
+        "sha256": "9449D2FACF684DE0D1A45E9CCA4574E52E2E1EEC686589537E57298968BC2471"
+      },
+      {
+        "id": "preset:rev11-011",
+        "name": "柯达 Ultramax 400",
+        "file": "slot_25.png",
+        "asset": "preset_rev11-011.png",
+        "group": "kodak",
+        "order": 1025,
+        "runtimeId": 9125,
+        "sha256": "C9E95CD765E5BA6FD6597B53859B2C27AF22FF0B7C2C25BF3C585C40939AA364"
+      },
+      {
+        "id": "preset:rev11-001",
+        "name": "CineStill 50D",
+        "file": "slot_26.png",
+        "asset": "preset_rev11-001.png",
+        "group": "other",
+        "order": 1026,
+        "runtimeId": 9126,
+        "sha256": "87555F47DC4A11194C4CE024EADDDA2665315A237545C9CBA0C5BDEC53034ABC"
+      },
+      {
+        "id": "preset:rev11-002",
+        "name": "CineStill 800T",
+        "file": "slot_27.png",
+        "asset": "preset_rev11-002.png",
+        "group": "other",
+        "order": 1027,
+        "runtimeId": 9127,
+        "sha256": "B935778734C388D312D5B5BCAFA492A087C9908B77B977C8E9856233174805E1"
+      },
+      {
+        "id": "preset:rev11-003",
+        "name": "Hasselblad Blue",
+        "file": "slot_28.png",
+        "asset": "preset_rev11-003.png",
+        "group": "other",
+        "order": 1028,
+        "runtimeId": 9128,
+        "sha256": "38F7FC9663148F4F74F1335BB70193A3305CB9121281A9BF95387137802BEA96"
+      },
+      {
+        "id": "preset:rev11-015",
+        "name": "Hasselblad Classic",
+        "file": "slot_29.png",
+        "asset": "preset_rev11-015.png",
+        "group": "other",
+        "order": 1029,
+        "runtimeId": 9129,
+        "sha256": "13FC6918FF2D7108B57580A86D793A0A1FE50EFC7BF7F942896856AEFB7225D2"
+      },
+      {
+        "id": "preset:rev11-016",
+        "name": "Leica Classic",
+        "file": "slot_30.png",
+        "asset": "preset_rev11-016.png",
+        "group": "other",
+        "order": 1030,
+        "runtimeId": 9130,
+        "sha256": "58768B1BFB1E2DD1DEBD06F806C4FC9ACF6C19AD6B9A645C78644340C5ADF6A3"
+      },
+      {
+        "id": "preset:071-01",
+        "name": "柯达 Standard",
+        "file": "slot_31.png",
+        "asset": "preset_071_01.png",
+        "group": "kodak",
+        "order": 1031,
+        "runtimeId": 9131,
+        "sha256": "E0B7DD2C9BCC0E9A300A3779F00A2DB049883A24713D1853252E69800C982544"
+      },
+      {
+        "id": "preset:071-02",
+        "name": "柯达 Vivid",
+        "file": "slot_32.png",
+        "asset": "preset_071_02.png",
+        "group": "kodak",
+        "order": 1032,
+        "runtimeId": 9132,
+        "sha256": "DC0078FC677846412D86D9B1B5F305F31A9CD307DF2753B809F1D0A6042DD0E1"
+      },
+      {
+        "id": "preset:071-03",
+        "name": "柯达 Film",
+        "file": "slot_33.png",
+        "asset": "preset_071_03.png",
+        "group": "kodak",
+        "order": 1033,
+        "runtimeId": 9133,
+        "sha256": "AE04335E2731024E2CE87057DB4F4B7C38C35111740F9C9C1D9F1A8FB40B9018"
+      },
+      {
+        "id": "preset:071-04",
+        "name": "适马 Calm",
+        "file": "slot_34.png",
+        "asset": "preset_071_04.png",
+        "group": "sigma",
+        "order": 1034,
+        "runtimeId": 9134,
+        "sha256": "25A8B72AA98D9B7DD9D8B4F7FC38F5F6FD0519729C3A981F12334918CFA262C2"
+      },
+      {
+        "id": "preset:071-05",
+        "name": "适马 Classic Yellow",
+        "file": "slot_35.png",
+        "asset": "preset_071_05.png",
+        "group": "sigma",
+        "order": 1035,
+        "runtimeId": 9135,
+        "sha256": "C49CC0759A00749D96F316A4A3E13225767627027D9C3CF51655C168280199A8"
+      },
+      {
+        "id": "preset:071-06",
+        "name": "适马 Cine2",
+        "file": "slot_36.png",
+        "asset": "preset_071_06.png",
+        "group": "sigma",
+        "order": 1036,
+        "runtimeId": 9136,
+        "sha256": "A0C6C40752BCDE25D2F82D3DD79D95D521050061256F9AEF8C31A16ABBBAABAF"
+      },
+      {
+        "id": "preset:071-07",
+        "name": "适马 Forest Green",
+        "file": "slot_37.png",
+        "asset": "preset_071_07.png",
+        "group": "sigma",
+        "order": 1037,
+        "runtimeId": 9137,
+        "sha256": "D0D9677532E8C2463F4C06489990205EEB0AB9EE255B287927A91982ED518FE9"
+      },
+      {
+        "id": "preset:071-08",
+        "name": "适马 Sunset Red",
+        "file": "slot_38.png",
+        "asset": "preset_071_08.png",
+        "group": "sigma",
+        "order": 1038,
+        "runtimeId": 9138,
+        "sha256": "B34A4FE1FCCC6A1A090810921601EE9E472BED4B89ADB0F97B0FE67AA68B6140"
+      },
+      {
+        "id": "preset:071-09",
+        "name": "适马 Rich",
+        "file": "slot_39.png",
+        "asset": "preset_071_09.png",
+        "group": "sigma",
+        "order": 1039,
+        "runtimeId": 9139,
+        "sha256": "065DFF5A6B97D09BA7687BDAF6F2E8286E0040DFC4CA405525E907F9D0E21ECD"
+      },
+      {
+        "id": "preset:071-10",
+        "name": "适马 Powder Blue",
+        "file": "slot_40.png",
+        "asset": "preset_071_10.png",
+        "group": "sigma",
+        "order": 1040,
+        "runtimeId": 9140,
+        "sha256": "2BB691EF0092299F449A2645B8C0AA180B6BB8F7270D07665751B45A2F83B180"
+      },
+      {
+        "id": "preset:071-11",
+        "name": "适马 Teal and Orange",
+        "file": "slot_41.png",
+        "asset": "preset_071_11.png",
+        "group": "sigma",
+        "order": 1041,
+        "runtimeId": 9141,
+        "sha256": "4E94A30A6F63B97ABCC506DD9AAFE481C594972FA6E91FC12EBA62DFE8736D9C"
+      },
+      {
+        "id": "preset:071-12",
+        "name": "适马 Warm Gold",
+        "file": "slot_42.png",
+        "asset": "preset_071_12.png",
+        "group": "sigma",
+        "order": 1042,
+        "runtimeId": 9142,
+        "sha256": "CACBAFD6ACB2A93FDE47D106DF292571C01692D5D32892EC3B4BE30BAA569017"
+      }
+    ]
+  },
+  "backup": {
+    "format": "prometheus-filter-backup",
+    "version": 1,
+    "maximumBytes": 134217728,
+    "requiredEntries": [
+      "manifest.json",
+      "config/filter-catalog.json",
+      "custom_luts/metadata.json"
+    ],
+    "slotEntryPattern": "custom_luts/slot_N.png",
+    "validation": [
+      "known-entries-only",
+      "no-duplicate-entries",
+      "no-path-traversal",
+      "catalog-schema-and-model",
+      "metadata-schema",
+      "png-dimensions",
+      "sha256"
+    ],
+    "restore": "transactional-with-file-and-preference-rollback"
+  },
+  "loaderContract": {
+    "canonicalResolver": "CustomLutStore.pathForToken",
+    "minimumJavaLoaderCallSites": 3,
+    "preview": "canonical-camera-private",
+    "capture": "camera-v51-native-mivi-publisher-with-canonical-source",
+    "gallery": "event-derived-mediaeditor-copy"
+  },
+  "catalog": {
+    "schemaVersion": 4,
+    "catalogId": "still-v1",
+    "category": {
+      "type": 9100,
+      "label": "更多",
+      "mediaEditorStringResource": "more"
+    },
+    "groupOrder": [
+      "leica",
+      "m9",
+      "fuji",
+      "ricoh",
+      "kodak",
+      "film",
+      "other",
+      "user"
+    ],
+    "entities": [
+      {
+        "stableId": "L_BRIGHT",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Vivid"
+      },
+      {
+        "stableId": "L_NATURAL",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Natural"
+      },
+      {
+        "stableId": "LC_CHR",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Chrome"
+      },
+      {
+        "stableId": "LC_CLS",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Classic"
+      },
+      {
+        "stableId": "LC_CNT",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Contemporary"
+      },
+      {
+        "stableId": "LC_ETN",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Eternal"
+      },
+      {
+        "stableId": "LC_BRS",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Brass"
+      },
+      {
+        "stableId": "LC_TEL",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Teal"
+      },
+      {
+        "stableId": "L_DARK",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Monochrome Natural"
+      },
+      {
+        "stableId": "L_DARK_HIGH",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Monochrome High Contrast"
+      },
+      {
+        "stableId": "LC_IA",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "I Model A"
+      },
+      {
+        "stableId": "L_BLUE",
+        "group": "leica",
+        "origin": "xiaomi-leica",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": false,
+          "grain": 0,
+          "diffusion": "none"
+        },
+        "label": "Blue"
+      },
+      {
+        "stableId": "LUT_CC",
+        "label": "正片",
+        "group": "film",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "LUT_NC",
+        "label": "负片",
+        "group": "film",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9001",
+        "runtimeId": 9101,
+        "label": "徕卡 M9",
+        "group": "m9",
+        "asset": "filter_9001.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9002",
+        "runtimeId": 9102,
+        "label": "富士 ACROS",
+        "group": "fuji",
+        "asset": "filter_9002.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9003",
+        "runtimeId": 9103,
+        "label": "富士 ASTIA",
+        "group": "fuji",
+        "asset": "filter_9003.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9004",
+        "runtimeId": 9104,
+        "label": "富士 CC",
+        "group": "fuji",
+        "asset": "filter_9004.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9005",
+        "runtimeId": 9105,
+        "label": "富士 NC",
+        "group": "fuji",
+        "asset": "filter_9005.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9006",
+        "runtimeId": 9106,
+        "label": "富士 ETERNA-BB",
+        "group": "fuji",
+        "asset": "filter_9006.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9007",
+        "runtimeId": 9107,
+        "label": "富士 ETERNA",
+        "group": "fuji",
+        "asset": "filter_9007.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9008",
+        "runtimeId": 9108,
+        "label": "富士 PRO-Neg-Std",
+        "group": "fuji",
+        "asset": "filter_9008.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9009",
+        "runtimeId": 9109,
+        "label": "富士 PROVIA",
+        "group": "fuji",
+        "asset": "filter_9009.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9010",
+        "runtimeId": 9110,
+        "label": "富士 REALA-ACE",
+        "group": "fuji",
+        "asset": "filter_9010.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9011",
+        "runtimeId": 9111,
+        "label": "富士 Velvia",
+        "group": "fuji",
+        "asset": "filter_9011.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-012",
+        "runtimeId": 9112,
+        "label": "富士 NN",
+        "group": "fuji",
+        "asset": "preset_rev11-012.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-camera",
+        "sourceName": "Fuji_NN.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9012",
+        "runtimeId": 9113,
+        "label": "理光 Positive",
+        "group": "ricoh",
+        "asset": "filter_9012.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-013",
+        "runtimeId": 9114,
+        "label": "理光 Negative",
+        "group": "ricoh",
+        "asset": "preset_rev11-013.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-camera",
+        "sourceName": "理光负片GR Neg.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9013",
+        "runtimeId": 9115,
+        "label": "理光 Vivid",
+        "group": "ricoh",
+        "asset": "filter_9013.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-035",
+        "runtimeId": 9116,
+        "label": "理光 High Contrast B&W",
+        "group": "ricoh",
+        "asset": "preset_rev11-035.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-camera",
+        "sourceName": "理光高对比度黑白GR-HI.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-036",
+        "runtimeId": 9117,
+        "label": "理光 Cinema Green",
+        "group": "ricoh",
+        "asset": "preset_rev11-036.png",
+        "projection": "module-runtime",
+        "sourceKind": "photon",
+        "sourceName": "Green.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-037",
+        "runtimeId": 9118,
+        "label": "理光 Cinema Yellow",
+        "group": "ricoh",
+        "asset": "preset_rev11-037.png",
+        "projection": "module-runtime",
+        "sourceKind": "photon",
+        "sourceName": "Yellow.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-004",
+        "runtimeId": 9119,
+        "label": "柯达 5203",
+        "group": "kodak",
+        "asset": "preset_rev11-004.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "Kodak 5203.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-005",
+        "runtimeId": 9120,
+        "label": "柯达 5207",
+        "group": "kodak",
+        "asset": "preset_rev11-005.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "Kodak 5207.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-006",
+        "runtimeId": 9121,
+        "label": "柯达 5219",
+        "group": "kodak",
+        "asset": "preset_rev11-006.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "Kodak 5219.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-007",
+        "runtimeId": 9122,
+        "label": "柯达 E200",
+        "group": "kodak",
+        "asset": "preset_rev11-007.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "Kodak E200.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-008",
+        "runtimeId": 9123,
+        "label": "柯达 Gold 200",
+        "group": "kodak",
+        "asset": "preset_rev11-008.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "Kodak Gold200.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-010",
+        "runtimeId": 9124,
+        "label": "柯达 Portra 400",
+        "group": "kodak",
+        "asset": "preset_rev11-010.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "Portra400.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-011",
+        "runtimeId": 9125,
+        "label": "柯达 Ultramax 400",
+        "group": "kodak",
+        "asset": "preset_rev11-011.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "Ultramax 400.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-001",
+        "runtimeId": 9126,
+        "label": "CineStill 50D",
+        "group": "other",
+        "asset": "preset_rev11-001.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "CineStill-50D.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-002",
+        "runtimeId": 9127,
+        "label": "CineStill 800T",
+        "group": "other",
+        "asset": "preset_rev11-002.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "CineStill-800T.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-003",
+        "runtimeId": 9128,
+        "label": "Hasselblad Blue",
+        "group": "other",
+        "asset": "preset_rev11-003.png",
+        "projection": "module-runtime",
+        "sourceKind": "huzi-film",
+        "sourceName": "HASSELBLAD Blue.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-015",
+        "runtimeId": 9129,
+        "label": "Hasselblad Classic",
+        "group": "other",
+        "asset": "preset_rev11-015.png",
+        "projection": "module-runtime",
+        "sourceKind": "photon",
+        "sourceName": "Hasselblad.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:rev11-016",
+        "runtimeId": 9130,
+        "label": "Leica Classic",
+        "group": "other",
+        "asset": "preset_rev11-016.png",
+        "projection": "module-runtime",
+        "sourceKind": "photon",
+        "sourceName": "Leica.cube",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-01",
+        "runtimeId": 9131,
+        "label": "柯达 Standard",
+        "group": "kodak",
+        "asset": "preset_071_01.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-02",
+        "runtimeId": 9132,
+        "label": "柯达 Vivid",
+        "group": "kodak",
+        "asset": "preset_071_02.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-03",
+        "runtimeId": 9133,
+        "label": "柯达 Film",
+        "group": "kodak",
+        "asset": "preset_071_03.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-04",
+        "runtimeId": 9134,
+        "label": "适马 Calm",
+        "group": "sigma",
+        "asset": "preset_071_04.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-05",
+        "runtimeId": 9135,
+        "label": "适马 Classic Yellow",
+        "group": "sigma",
+        "asset": "preset_071_05.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-06",
+        "runtimeId": 9136,
+        "label": "适马 Cine2",
+        "group": "sigma",
+        "asset": "preset_071_06.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-07",
+        "runtimeId": 9137,
+        "label": "适马 Forest Green",
+        "group": "sigma",
+        "asset": "preset_071_07.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-08",
+        "runtimeId": 9138,
+        "label": "适马 Sunset Red",
+        "group": "sigma",
+        "asset": "preset_071_08.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-09",
+        "runtimeId": 9139,
+        "label": "适马 Rich",
+        "group": "sigma",
+        "asset": "preset_071_09.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-10",
+        "runtimeId": 9140,
+        "label": "适马 Powder Blue",
+        "group": "sigma",
+        "asset": "preset_071_10.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-11",
+        "runtimeId": 9141,
+        "label": "适马 Teal and Orange",
+        "group": "sigma",
+        "asset": "preset_071_11.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "preset:071-12",
+        "runtimeId": 9142,
+        "label": "适马 Warm Gold",
+        "group": "sigma",
+        "asset": "preset_071_12.png",
+        "projection": "module-runtime",
+        "origin": "rev-preloaded",
+        "defaultVisible": true,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_H_400",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_KG_200",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_NATURE",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_KC_64",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_BLACKGOLD",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_KP_160",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_LIVELY",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_C_50D",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_F_50",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_FLOWER_DREAM",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_FC_400",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "N_V_250",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "camera-builtin",
+        "labelSource": "camera-resource",
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_102",
+        "label": "鲜明",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 102,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_25",
+        "label": "生动",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 25,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_103",
+        "label": "暖青",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 103,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_104",
+        "label": "森绿",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 104,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_105",
+        "label": "原野",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 105,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_5",
+        "label": "清新蓝",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 5,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_6",
+        "label": "克莱因蓝",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 6,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_13",
+        "label": "清夏",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 13,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_14",
+        "label": "晴野",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 14,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_101",
+        "label": "海滨",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 101,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 1,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_100",
+        "label": "勒芒",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 100,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 3,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_99",
+        "label": "旧风",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 99,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 1,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_97",
+        "label": "知闲",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 97,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 1,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_98",
+        "label": "反转",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 98,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 1,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_18",
+        "label": "韩胶",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 18,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_19",
+        "label": "贝松",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 19,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_20",
+        "label": "写意",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 20,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_21",
+        "label": "季风",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 21,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_22",
+        "label": "京都",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 22,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_23",
+        "label": "旧巷",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 23,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_24",
+        "label": "松弛",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 24,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_29",
+        "label": "胶片",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 29,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_9",
+        "label": "暗雅",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 9,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_96",
+        "label": "青黄",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 96,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_26",
+        "label": "黑红",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 26,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_27",
+        "label": "黑金",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 27,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_28",
+        "label": "青橙",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 28,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_32",
+        "label": "冷白",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 32,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_33",
+        "label": "青葱",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 33,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_34",
+        "label": "明青",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 34,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_35",
+        "label": "春野",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 35,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_36",
+        "label": "原生",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 36,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_11",
+        "label": "微蓝",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 11,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_12",
+        "label": "奶绿",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 12,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_90",
+        "label": "青春",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 90,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_91",
+        "label": "拍立得",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 91,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_86",
+        "label": "初见",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 86,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_38",
+        "label": "轻氧",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 38,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_39",
+        "label": "薄荷",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 39,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_40",
+        "label": "天然",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 40,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_41",
+        "label": "粉嫩",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 41,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_87",
+        "label": "半夏",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 87,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_88",
+        "label": "青灰",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 88,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_62",
+        "label": "食新",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 62,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_63",
+        "label": "美味",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 63,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_64",
+        "label": "汽水",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 64,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_65",
+        "label": "芒果",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 65,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_106",
+        "label": "赤霞红",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 106,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 2,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_107",
+        "label": "中国红",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 107,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 2,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_108",
+        "label": "远山青",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 108,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 2,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_109",
+        "label": "太极墨",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 109,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 2,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_110",
+        "label": "浅茶绿",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 110,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 2,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_111",
+        "label": "大漠棕",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 111,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 2,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_112",
+        "label": "文艺",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 112,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_113",
+        "label": "青夜",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 113,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_115",
+        "label": "浪漫",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 115,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_42",
+        "label": "花田",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 42,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_43",
+        "label": "海街",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 43,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_44",
+        "label": "南法",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 44,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_45",
+        "label": "西部",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 45,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_46",
+        "label": "森山",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 46,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_48",
+        "label": "BBP",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 48,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_50",
+        "label": "T&O",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 50,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_51",
+        "label": "拉丁",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 51,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_55",
+        "label": "夏日",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 55,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_56",
+        "label": "邂逅",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 56,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_7",
+        "label": "秋田",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 7,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_16",
+        "label": "莫兰迪",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 16,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_66",
+        "label": "落日",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 66,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_17",
+        "label": "龙舌兰",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 17,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_68",
+        "label": "复古粉",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 68,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_69",
+        "label": "山丘",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 69,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_71",
+        "label": "姜茶",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 71,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_72",
+        "label": "蓝梦",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 72,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_73",
+        "label": "灰金",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 73,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_74",
+        "label": "赛博朋克",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 74,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_75",
+        "label": "日落金",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 75,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_76",
+        "label": "蓝调",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 76,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_83",
+        "label": "黑白",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 83,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_80",
+        "label": "质感",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 80,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_82",
+        "label": "去雾",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 82,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_78",
+        "label": "暗调",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 78,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_85",
+        "label": "人文",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 85,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_84",
+        "label": "经典",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 84,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_79",
+        "label": "珠光",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 79,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_8",
+        "label": "暖橙",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 8,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      },
+      {
+        "stableId": "GALLERY_81",
+        "label": "藏青",
+        "group": "other",
+        "origin": "xiaomi-official",
+        "projection": "native-gallery",
+        "runtimeId": 81,
+        "defaultVisible": false,
+        "manageable": true,
+        "deletable": false,
+        "effects": {
+          "configurable": true,
+          "grain": 0,
+          "diffusion": "none"
+        }
+      }
+    ],
+    "userEntityTemplate": {
+      "stableIdPattern": "user-lut:{slot}",
+      "group": "user",
+      "origin": "user-import",
+      "projection": "module-runtime",
+      "defaultVisible": true,
+      "manageable": true,
+      "deletable": true,
+      "effects": {
+        "configurable": true,
+        "grain": 0,
+        "diffusion": "none"
+      },
+      "runtimeIdRange": [
+        9143,
+        9208
+      ],
+      "slotCount": 66,
+      "identityRule": "metadata-required",
+      "labelPattern": "自定义 {slot}",
+      "cameraPattern": "slot_{slot}.png",
+      "mediaEditorPattern": "slot_{slot}.png"
+    }
+  }
+}

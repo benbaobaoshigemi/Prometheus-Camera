@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "identityRule": "local-group-plus-template-id",
+  "sourceZipSha256": "3085AA08F0851763841A5D34FF0CE3E50F5262E0617FB7F2954EE6A2A0A4ACC0",
+  "leicaFilterNames": [
+    "blue",
+    "brass",
+    "chrome",
+    "classic",
+    "contemporary",
+    "eternal",
+    "i model a",
+    "monochrome high contrast",
+    "monochrome natural",
+    "natural",
+    "standard",
+    "teal",
+    "vivid"
+  ],
+  "categories": [
+    {
+      "group": "color_chart",
+      "nameId": "wm_group_color_chart_name",
+      "translations": {
+        "zh-rCN": "色卡水印",
+        "default": "Color chart",
+        "ar": "لوحة الألوان",
+        "as-rIN": "ৰং তালিকা",
+        "az-rAZ": "Rəng cədvəli",
+        "be": "Табліца колераў",
+        "bg": "Цветна диаграма",
+        "bn-rBD": "রঙের চার্ট",
+        "bn-rIN": "রঙের চার্ট",
+        "bo-rCN": "སེར་ཁ་ཆུ་རིས།",
+        "bs": "Shema boja",
+        "ca": "Taula de colors",
+        "cs": "Tabulka barev",
+        "da": "Farvekort",
+        "de": "Farbpalette",
+        "el": "Χρωματολόγιο",
+        "en-rAU": "Color chart",
+        "en-rGB": "Color chart",
+        "en-rIN": "Color chart",
+        "es-rUS": "Tabla de colores",
+        "es": "Tabla de colores",
+        "et-rEE": "Värvikaart",
+        "eu-rES": "Kolore taula",
+        "fa-rIR": "نمودار رنگ",
+        "fi": "Värikartta",
+        "fr": "Charte de couleur",
+        "gl-rES": "Táboa de cores",
+        "gu-rIN": "રંગનો ચાર્ટ",
+        "ha-rNG": "Taswirar launi",
+        "hi": "रंग चार्ट",
+        "hr": "Karta boja",
+        "hu": "Színpaletta",
+        "hy-rAM": "Գույների աղյուսակ",
+        "in": "Bagan warna",
+        "it": "Tabella colori",
+        "iw-rIL": "טבלת צבעים",
+        "ja": "カラーチャート",
+        "ka-rGE": "ფერთა გამა",
+        "kk-rKZ": "Түс кестесі",
+        "km-rKH": "ពណ៌គំនូសតាង",
+        "kn-rIN": "ಬಣ್ಣದ ಚಾರ್ಟ್‌",
+        "ko": "색상 차트",
+        "lo-rLA": "ຕາຕະລາງສີ",
+        "lt": "Spalvų diagrama",
+        "lv": "Krāsu tabula",
+        "mk-rMK": "Табела со бои",
+        "ml-rIN": "വർണ്ണ ചാർട്ട്",
+        "mr-rIN": "कलर चार्ट",
+        "ms-rMY": "Carta warna",
+        "mt-rMT": "Lista tal-ilwien",
+        "my-rMM": "အရောင်ဇယား",
+        "nb": "Fargekart",
+        "ne-rIN": "रङ चार्ट",
+        "ne-rNP": "रङ चार्ट",
+        "nl": "Kleurenkaart",
+        "or-rIN": "ରଙ୍ଗ ଚାର୍ଟ",
+        "pa-rIN": "ਰੰਗ ਚਾਰਟ",
+        "pl": "Wzornik kolorów",
+        "pt-rBR": "Lista de cores",
+        "pt-rPT": "Lista de cores",
+        "ro": "Diagramă de culori",
+        "ru": "Таблица цветов",
+        "sk": "Tabuľka farieb",
+        "sl": "Barvna karta",
+        "sq-rAL": "Grafik me ngjyra",
+        "sr": "Табела боја",
+        "sv": "Färgschema",
+        "sw": "Chati ya rangi",
+        "ta-rIN": "கலர் சார்ட்",
+        "te-rIN": "రంగు చార్ట్",
+        "th": "แผนภูมิสี",
+        "tr": "Renk şeması",
+        "ug-rCN": "رەڭلىك سۇ باسما",
+        "uk": "Кольорова діаграма",
+        "ur-rIN": "رنگ چارٹ",
+        "ur-rPK": "رنگ چارٹ",
+        "uz-rUZ": "Ranglar jadvali",
+        "vi": "Biểu đồ màu",
+        "zh-rHK": "色卡浮水印",
+        "zh-rTW": "色卡浮水印"
+      },
+      "priority": 25,
+      "entries": [
+        {
+          "id": "27",
+          "nameId": "wm_color_chart_27_name",
+          "translations": {
+            "default": "COLOR CHART TWO",
+            "zh-rCN": "色卡1"
+          },
+          "priority": 1,
+          "watermarkType": "Outside",
+          "renderEngine": "CloudJson",
+          "necessaryShotParam": [
+            "ISO",
+            "APERTURE",
+            "FOCAL",
+            "EXPOSURE_TIME"
+          ],
+          "contentNameIds": [
+            "wm_time_yyyy_MM_dd_HH_mm"
+          ],
+          "supportMarketNameLengthRange": [],
+          "configSha256": "EE82A3A24745A382050AF53E5966B3F1451F828875321D55489B8756E0578C66"
+        },
+        {
+          "id": "28",
+          "nameId": "wm_color_chart_28_name",
+          "translations": {
+            "default": "COLOR CHART TWO",
+            "zh-rCN": "色卡2"
+          },
+          "priority": 2,
+          "watermarkType": "Outside",
+          "renderEngine": "CloudJson",
+          "necessaryShotParam": [
+            "ISO",
+            "APERTURE",
+            "FOCAL",
+            "EXPOSURE_TIME"
+          ],
+          "contentNameIds": [
+            "wm_time_yyyy_MM_dd_HH_mm"
+          ],
+          "supportMarketNameLengthRange": [],
+          "configSha256": "6A9A4E25C68DA1B41D16AA6E35D5C6152ADAF257F52FD0D5B9F5756AAC45A515"
+        },
+        {
+          "id": "29",
+          "nameId": "wm_color_chart_29_name",
+          "translations": {
+            "default": "COLOR CHART THREE",
+            "zh-rCN": "色卡3"
+          },
+          "priority": 3,
+          "watermarkType": "Outside",
+          "renderEngine": "CloudJson",
+          "necessaryShotParam": [
+            "ISO",
+            "APERTURE",
+            "FOCAL",
+            "EXPOSURE_TIME"
+          ],
+          "contentNameIds": [
+            "wm_orientation_outer_border_bottom",
+            "wm_orientation_outer_border_left",
+            "wm_orientation_outer_border_right",
+            "wm_orientation_outer_border_top",
+            "wm_time_yyyy_MM_dd_HH_mm"
+          ],
+          "supportMarketNameLengthRange": [],
+          "configSha256": "C59F398C69E01026878C6FF21822CC6D42A6915A3E89E30519768AF0DA5A0253"
+        },
+        {
+          "id": "30",
+          "nameId": "wm_color_chart_30_name",
+          "translations": {
+            "default": "COLOR CHART FOUR",
+            "zh-rCN": "色卡4"
+          },
+          "priority": 4,
+          "watermarkType": "Outside",
+          "renderEngine": "CloudJson",
+          "necessaryShotParam": [
+            "ISO",
+            "APERTURE",
+            "FOCAL",
+            "EXPOSURE_TIME"
+          ],
+          "contentNameIds": [
+            "wm_time_yyyy_MM_dd_HH_mm"
+          ],
+          "supportMarketNameLengthRange": [],
+          "configSha256": "52E504996716377F19AF2DEB35B1F79E26AB236E0874D030F59D520BE9D51905"
+        }
+      ]
+    },
+    {
+      "group": "signature",
+      "nameId": "wm_group_signature_name",
+      "translations": {
+        "zh-rCN": "签名水印",
+        "default": "Signature",
+        "ar": "توقيع",
+        "as-rIN": "স্বাক্ষৰ",
+        "az-rAZ": "İmza",
+        "be": "Подпіс",
+        "bg": "Подпис",
+        "bn-rBD": "স্বাক্ষর",
+        "bn-rIN": "স্বাক্ষর",
+        "bo-rCN": "མིང་འགོད་ཆུ་རིས།",
+        "bs": "Potpis",
+        "ca": "Firma",
+        "cs": "Podpis",
+        "da": "Signatur",
+        "de": "Signatur",
+        "el": "Υπογραφή",
+        "en-rAU": "Signature",
+        "en-rGB": "Signature",
+        "en-rIN": "Signature",
+        "es-rUS": "Firma",
+        "es": "Firma",
+        "et-rEE": "Allkiri",
+        "eu-rES": "Sinadura",
+        "fa-rIR": "امضا",
+        "fi": "Allekirjoitus",
+        "fr": "Signature",
+        "gl-rES": "Sinatura",
+        "gu-rIN": "સહી",
+        "ha-rNG": "Sa hannu",
+        "hi": "हस्ताक्षर",
+        "hr": "Potpis",
+        "hu": "Aláírás",
+        "hy-rAM": "Ստորագրություն",
+        "in": "Tanda tangan",
+        "it": "Firma",
+        "iw-rIL": "חתימה",
+        "ja": "署名",
+        "ka-rGE": "ხელმოწერა",
+        "kk-rKZ": "Қол",
+        "km-rKH": "ហត្ថលេខា",
+        "kn-rIN": "ಸಹಿ",
+        "ko": "서명",
+        "lo-rLA": "ລາຍເຊັນ",
+        "lt": "Parašas",
+        "lv": "Paraksts",
+        "mk-rMK": "Потпис",
+        "ml-rIN": "ഒപ്പ്",
+        "mr-rIN": "स्वाक्षरी",
+        "ms-rMY": "Tandatangan",
+        "mt-rMT": "Firma",
+        "my-rMM": "လက်မှတ်",
+        "nb": "Signatur",
+        "ne-rIN": "हस्ताक्षर",
+        "ne-rNP": "हस्ताक्षर",
+        "nl": "Handtekening",
+        "or-rIN": "ସିଗନେଚର",
+        "pa-rIN": "ਹਸਤਾਖ਼ਰ",
+        "pl": "Podpis",
+        "pt-rBR": "Assinatura",
+        "pt-rPT": "Assinatura",
+        "ro": "Semnătură",
+        "ru": "Подпись",
+        "sk": "Podpis",
+        "sl": "Podpis",
+        "sq-rAL": "Nënshkrimi",
+        "sr": "Потпис",
+        "sv": "Namnteckning",
+        "sw": "Saini",
+        "ta-rIN": "கையொப்பம்",
+        "te-rIN": "సంతకం",
+        "th": "ลายเซ็นต์",
+        "tr": "İmza",
+        "ug-rCN": "ئىمزا سۇ باسمىسى",
+        "uk": "Підпис",
+        "ur-rIN": "دستخط",
+        "ur-rPK": "دستخط",
+        "uz-rUZ": "Imzo",
+        "vi": "Chữ ký",
+        "zh-rHK": "簽名浮水印",
+        "zh-rTW": "簽名浮水印"
+      },
+      "priority": 26,
+      "entries": [
+        {
+          "id": "24",
+          "nameId": "wm_signature_24_name",
+          "translations": {
+            "default": "SIGNATURE ONE",
+            "zh-rCN": "签名1"
+          },
+          "priority": 1,
+          "watermarkType": "Outside",
+          "renderEngine": "CloudJson",
+          "necessaryShotParam": [
+            "ISO",
+            "APERTURE",
+            "FOCAL",
+            "EXPOSURE_TIME"
+          ],
+          "contentNameIds": [
+            "wm_time_yyyy_MM_dd_HH_mm"
+          ],
+          "supportMarketNameLengthRange": [],
+          "configSha256": "4314BB249B4AB4209CCA179189189134DC0DA87C21C6849C443496184D5F9CCF"
+        },
+        {
+          "id": "25",
+          "nameId": "wm_signature_25_name",
+          "translations": {
+            "default": "SIGNATURE TWO",
+            "zh-rCN": "签名2"
+          },
+          "priority": 2,
+          "watermarkType": "Inside",
+          "renderEngine": "CloudJson",
+          "necessaryShotParam": [
+            "ISO",
+            "APERTURE",
+            "FOCAL",
+            "EXPOSURE_TIME"
+          ],
+          "contentNameIds": [
+            "wm_common_reminder_v2",
+            "wm_time_yyyy_MM_dd_HH_mm"
+          ],
+          "supportMarketNameLengthRange": [],
+          "configSha256": "6A904ED38CEDDDF762A6EE8ABB4ECC6CD1EB0909432B78FA20754BB64DA0A4CD"
+        },
+        {
+          "id": "26",
+          "nameId": "wm_signature_26_name",
+          "translations": {
+            "default": "SIGNATURE THREE",
+            "zh-rCN": "签名3"
+          },
+          "priority": 3,
+          "watermarkType": "Outside",
+          "renderEngine": "CloudJson",
+          "necessaryShotParam": [
+            "ISO",
+            "APERTURE",
+            "FOCAL",
+            "EXPOSURE_TIME"
+          ],
+          "contentNameIds": [
+            "wm_time_yyyy_MM_dd_HH_mm"
+          ],
+          "supportMarketNameLengthRange": [],
+          "configSha256": "2C27D2EBC2D974F9038D441BB96F35A6C60F72936278F690384F1F4D9F0CDAD3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/extra_tootle_layout" android:layout_width="@dimen/e8l" android:layout_height="@dimen/e82"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.blur.BlurBackgroundView android:id="@id/extra_tootle_item_layout" android:background="@drawable/bg_round_item" android:padding="@dimen/e8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/e8_" app:aba="parent" app:abe="parent" app:abk="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.camera2.compat.theme.custom.mm.top.StrikethroughImageView android:id="@id/extra_tootle_item_image" android:layout_width="@dimen/e8_" android:layout_height="@dimen/e8_" android:scaleType="centerInside" android:minWidth="@dimen/e8_" app:abg="parent" app:abk="parent" />
+            <ImageView android:id="@id/menu_red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coa" android:src="@drawable/menu_red_dot" android:layout_marginEnd="@dimen/coa" app:aax="@id/extra_tootle_item_image" app:abk="@id/extra_tootle_item_image" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.xiaomi.camera.ui.blur.BlurBackgroundView>
+    <RelativeLayout android:id="@id/rl_item_top_config_description" android:focusable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/e8d" app:aar="parent" app:aba="parent" app:abe="parent" app:abj="@id/extra_tootle_item_layout">
+        <com.android.camera.ui.AdaptiveMarqueeTextView android:textSize="@dimen/e8g" android:textColor="#bfffffff" android:gravity="center|top" android:id="@id/extra_tootle_item_text" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:layout_centerHorizontal="true" android:importantForAccessibility="no" android:elegantTextHeight="true" android:breakStrategy="balanced" android:fallbackLineSpacing="true" android:lineBreakWordStyle="phrase" app:ag8="1.1" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/mode_download_icon" android:visibility="gone" android:layout_width="@dimen/d8x" android:layout_height="@dimen/d8x" android:layout_marginTop="2.0dip" android:scaleType="centerInside" android:layout_alignTop="@id/extra_tootle_item_text" android:layout_toEndOf="@id/extra_tootle_item_text" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

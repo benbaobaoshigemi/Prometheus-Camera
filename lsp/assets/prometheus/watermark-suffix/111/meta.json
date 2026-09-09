@@ -1,0 +1,30 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_leica_111",
+    "id": "111",
+    "description": "leica_111",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "show_in_menu": true,
+    "position": "out",
+    "priority": 0.5,
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "200m"
+    ]
+  }
+}

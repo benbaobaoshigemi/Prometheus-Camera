@@ -1,0 +1,25 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_standard_8_name",
+    "id": "8",
+    "description": "standard_3",
+    "reminder": "@wm_common_reminder_v2",
+    "reminder_not_support_mode": [
+      "multi",
+      "doc",
+      "pano",
+      "instant"
+    ],
+    "priority": 3,
+    "position": "in",
+    "exclude_cases": [
+      "livephoto"
+    ],
+    "include_cases": [
+      "raw",
+      "thirdparty",
+      "mimoji"
+    ]
+  }
+}

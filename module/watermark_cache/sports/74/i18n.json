@@ -1,0 +1,10 @@
+{
+  "wm_sports_1_name": {
+    "default": "运动水印1",
+    "zh-rCN": "运动水印1"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

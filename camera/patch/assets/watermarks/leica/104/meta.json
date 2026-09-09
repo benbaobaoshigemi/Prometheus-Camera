@@ -1,0 +1,34 @@
+{
+  "version": 1.58,
+  "metadata": {
+    "name": "@wm_leica_104_name",
+    "id": "104",
+    "description": "leica_1",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji"
+    ],
+    "show_in_menu": true,
+    "provider": "",
+    "priority": 1,
+    "position": "out",
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "200m"
+    ],
+    "include_cases": [
+      "polaroid",
+      "showexternal"
+    ]
+  }
+}

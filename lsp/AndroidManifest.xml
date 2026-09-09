@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" package="com.prometheus.camera.rev" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <application android:allowBackup="false" android:extractNativeLibs="false" android:forceQueryable="true" android:hasCode="true" android:label="Prometheus Camera Bridge">
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="Prometheus Camera NRV unified business and compatibility bridge"/>
+        <meta-data android:name="xposedminversion" android:value="82"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name=".ProviderBootstrapActivity" android:noHistory="true" android:theme="@android:style/Theme.NoDisplay"/>
+        <provider android:authorities="com.prometheus.camera.rev.filterstate" android:exported="true" android:multiprocess="false" android:name=".FilterStateProvider" android:process=":filterstate"/>
+    </application>
+</manifest>

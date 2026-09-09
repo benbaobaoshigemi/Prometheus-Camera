@@ -1,0 +1,1053 @@
+{
+  "categoryConfig": {
+    "categoryList": [
+      {
+        "id": 1,
+        "name": "大师LUTs",
+        "nameId": "cinematic_lut_filter_title"
+      },
+      {
+        "id": 2,
+        "name": "肖像风格",
+        "nameId": "street_camera_portrait_style_title"
+      },
+      {
+        "id": 3,
+        "name": "滤镜",
+        "nameId": "beauty_tab_name_live_filter"
+      }
+    ],
+    "translation": "https://cdn.cnbj1.fds.api.mi-img.com/cloud/filter/translation/775b186b1482024d0237bfbdf0769842.json"
+  },
+  "data": [
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "拍照模式",
+      "moduleType": 1
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [],
+      "moduleName": "专业拍照",
+      "moduleType": 2
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "超清",
+      "moduleType": 3
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "AI水印",
+      "moduleType": 4
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "人像模式",
+      "moduleType": 6
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 1,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "录像(大师LUTs)",
+      "moduleType": 8
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "录像",
+      "moduleType": 8
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 1,
+      "frontFilterList": [],
+      "moduleName": "专业视频(大师LUTs)",
+      "moduleType": 9
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [],
+      "moduleName": "专业视频",
+      "moduleType": 9
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 1,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "延时摄影(大师LUTs)",
+      "moduleType": 10
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "延时摄影",
+      "moduleType": 10
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 1,
+      "frontFilterList": [],
+      "moduleName": "导演模式(大师LUTs)",
+      "moduleType": 11
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [],
+      "moduleName": "导演模式",
+      "moduleType": 11
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 1,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "电影模式(大师LUTs)",
+      "moduleType": 12
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "电影模式",
+      "moduleType": 12
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 1,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "短视频(大师LUTs)",
+      "moduleType": 13
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [
+        1,
+        33,
+        36,
+        25,
+        34,
+        20,
+        38,
+        35,
+        17,
+        37,
+        18,
+        40,
+        39
+      ],
+      "moduleName": "短视频",
+      "moduleType": 13
+    },
+    {
+      "backFilterList": [
+        1,
+        73,
+        72,
+        25,
+        47,
+        14,
+        8,
+        40,
+        58,
+        39,
+        38,
+        69,
+        59,
+        70,
+        46
+      ],
+      "categoryType": 3,
+      "frontFilterList": [],
+      "moduleName": "实况运镜",
+      "moduleType": 14
+    }
+  ],
+  "filterConfig": {
+    "filterList": [
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 1,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "原图",
+        "nameId": "coloreffect_cloud_entry_none",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 8,
+        "imgUrl": "",
+        "initValue": "70",
+        "isLeicaFilter": "",
+        "name": "繁花如梦",
+        "nameId": "cinematic_lut_color_effect_fbld",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 14,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "黑金",
+        "nameId": "color_effect_entry_blackgold",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 17,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "冷白",
+        "nameId": "portait_effect_entry_cold_white",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 18,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "原生",
+        "nameId": "portait_effect_entry_original",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 20,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "经典",
+        "nameId": "color_effect_entry_classic",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 25,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "自然",
+        "nameId": "portait_effect_entry_nature",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 33,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "奶油",
+        "nameId": "color_effect_entry_butter",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 34,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "净白",
+        "nameId": "color_effect_entry_whitening",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 35,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "鲜亮",
+        "nameId": "color_effect_entry_bright_shining",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 36,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "清新",
+        "nameId": "color_effect_entry_freshness",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 37,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "清晰",
+        "nameId": "color_effect_entry_clearness",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 38,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "韩胶",
+        "nameId": "color_effect_entry_hanjiao",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 39,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "贝松",
+        "nameId": "color_effect_entry_besson",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 40,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "写意",
+        "nameId": "color_effect_entry_freehand_brushwork",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=true;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 46,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "反转",
+        "nameId": "color_effect_entry_reversal",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=false;NeedNoise=false;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 47,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "生动",
+        "nameId": "color_effect_entry_vivid",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 58,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "季风",
+        "nameId": "color_effect_entry_monsoon",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 59,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "京都",
+        "nameId": "color_effect_entry_jingdu",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 69,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "松弛",
+        "nameId": "color_effect_entry_slack",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.4,0.4;",
+        "filterId": 70,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "旧巷",
+        "nameId": "color_effect_entry_old_roadway",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.25,0.4;",
+        "filterId": 72,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "负片",
+        "nameId": "color_effect_entry_nc",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      },
+      {
+        "extra": "LutSize=512;NeedDark=true;NeedNoise=true;NeedSharpen=false;BlackSoft=false;WhiteSoft=false;SoftFocus=false;ExtraParam=1.4,1.0,0.2,1.0,0.25,0.4;",
+        "filterId": 73,
+        "imgUrl": "",
+        "initValue": "100",
+        "isLeicaFilter": "",
+        "name": "正片",
+        "nameId": "color_effect_entry_cc",
+        "newImgUrl": "",
+        "renderType": "LUT",
+        "resUrl": "",
+        "supportDeviceList": [
+          "*"
+        ],
+        "unSupportDeviceList": []
+      }
+    ],
+    "translation": "https://cdn.cnbj1.fds.api.mi-img.com/cloud/filter/translation/fc81fb907951b7876a1401d6586f8c18.json"
+  },
+  "moduleConfig": {
+    "moduleList": [
+      {
+        "id": 1,
+        "key": "capture",
+        "name": "拍照模式"
+      },
+      {
+        "id": 2,
+        "key": "pro_photo",
+        "name": "专业拍照"
+      },
+      {
+        "id": 3,
+        "key": "pixel",
+        "name": "超清"
+      },
+      {
+        "id": 4,
+        "key": "ai_watermark",
+        "name": "AI水印"
+      },
+      {
+        "id": 5,
+        "key": "quick_snap",
+        "name": "街拍模式"
+      },
+      {
+        "id": 6,
+        "key": "portrait",
+        "name": "人像模式"
+      },
+      {
+        "id": 7,
+        "key": "polaroid",
+        "name": "拍立得"
+      },
+      {
+        "id": 8,
+        "key": "record_video",
+        "name": "录像"
+      },
+      {
+        "id": 9,
+        "key": "pro_video",
+        "name": "专业视频"
+      },
+      {
+        "id": 10,
+        "key": "fast_motion",
+        "name": "延时摄影"
+      },
+      {
+        "id": 11,
+        "key": "cinemaster",
+        "name": "导演模式"
+      },
+      {
+        "id": 12,
+        "key": "cinematic",
+        "name": "电影模式"
+      },
+      {
+        "id": 13,
+        "key": "mi_live_master",
+        "name": "短视频"
+      },
+      {
+        "id": 14,
+        "key": "master_live",
+        "name": "实况运镜"
+      }
+    ]
+  }
+}

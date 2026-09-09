@@ -1,0 +1,229 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_classic_71_name",
+    "id": "71",
+    "description": "classic_8",
+    "reminder": "@wm_common_reminder_v2",
+    "reminder_not_support_mode": ["multi", "raw", "doc", "pano", "mimoji", "instant"],
+    "priority": 3,
+    "limitation": {
+      "device_type": ["poco"]
+    },
+    "position": "in"
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "none",
+              "layout_width": "90%w",
+              "layout_height": "108dp",
+              "gravity": "bottom|center_horizontal",
+              "margin_left": "0dp",
+              "margin_top": "-50dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "right_bottom_group",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "match_parent",
+                  "gravity": "right|center_vertical",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "background": "#FF141414",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "exif_time_location_group",
+                      "orientation": "vertical",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "right|center_vertical",
+                      "margin_left": "-28dp",
+                      "margin_top": "0dp",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "exif",
+                          "layout_gravity": "right|center_vertical",
+                          "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                          "font_ref": "f2"
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "time_location_group",
+                          "orientation": "horizontal",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "right|center_vertical",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "TextView",
+                              "id": "time",
+                              "optional": true,
+                              "layout_gravity": "center_vertical",
+                              "margin_left": "0dp",
+                              "margin_top": "9dp",
+                              "text": "@time=@wm_time_yyyy_MM_dd",
+                              "font_ref": "f3"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "location",
+                              "optional": true,
+                              "margin_left": "24dp",
+                              "margin_top": "9dp",
+                              "layout_gravity": "center_vertical",
+                              "text": "@location=location_latlng;@locationLimit=0.8",
+                              "font_ref": "f3"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Layout",
+                  "id": "left_bottom_group",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "match_parent",
+                  "gravity": "left|center_vertical",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "background": "#FFFFC300",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center_vertical",
+                      "margin_left": "32dp",
+                      "margin_top": "0dp",
+                      "childViews": [
+                        {
+                          "type": "ImageView",
+                          "id": "logo",
+                          "layout_gravity": "center_vertical",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "display_height": "34dp",
+                          "display_width": "0dp",
+                          "path": "pathType=fill;path=${logo};foreground=2"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model= @{series}@{versionNumber}",
+                          "text_upper": false,
+                          "font_ref": "f1"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model_versionName",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model=@{versionName}",
+                          "text_upper": false,
+                          "font_ref": "f4",
+                          "rect_params": {
+                            "rect_text_width_gap": 8,
+                            "rect_text_height_gap": 0,
+                            "rect_line_width": 2,
+                            "rect_radius": [6.6, 6.6, 6.6, 6.6,6.6, 6.6,6.6, 6.6],
+                            "rect_line_color": "@foreground=1",
+                            "rect_width": "wrap_content",
+                            "rect_height": "28dp"
+                          }
+                        },
+                        {
+                          "type": "Layout",
+                          "id": "space_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "wrap_content",
+                          "layout_height": "match_parent",
+                          "gravity": "center_vertical",
+                          "margin_left": "32dp",
+                          "margin_top": "0dp",
+                          "childViews": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "transparent_white",
+        "icon": "@img=icon_background_white.webp",
+        "value": "@color=#00FFFFFF",
+        "foreground": ["#FF000000", "#CC000000", "black"]
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 30.6,
+        "color": "#FF000000",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f2": {
+        "size": 22.0,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f3": {
+        "size": 20.0,
+        "color": "#80FFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 400"
+      },
+      "f4": {
+        "size": 20.0,
+        "color": "#FF000000",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "letterSpacing": 0.028
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="f5p">
+        <item quantity="other">"&lt;Data>Sigar kyamarar da kuke amfani da ita ba ta dace da samfurin na'urar ku ba.&lt;br> Manhajar za ta rufe cikin sak &lt;font color=#FFCE16>&lt;b>%1$d &lt;/b>&lt;/font>. Cire sabuntawar kamara kuma a sake gwadawa.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Sigar kyamarar da kuke amfani da ita ba ta dace da samfurin na'urar ku ba.&lt;br> Manhajar za ta rufe cikin sak &lt;font color=#FFCE16>&lt;b>%1$d &lt;/b>&lt;/font>. Cire sabuntawar kamara kuma a sake gwadawa.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fb1">
+        <item quantity="other">Ya ƙura ido. Ya gano fuskoki %d</item>
+        <item quantity="one">Ya ƙura ido. Ya gano fuska %d</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">Hotuna %d a cikin batsewa</item>
+        <item quantity="one">Hoto %d a cikin batsewa</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Tsakanin: sakan %d</item>
+        <item quantity="one">Tsakanin: sakan %d</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Tsawon lokaci: mintuna %d</item>
+        <item quantity="one">Tsawon lokaci: minti %d</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Sauri: %dX</item>
+        <item quantity="one">Sauri: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Tsawon lokacin: sakan %d</item>
+        <item quantity="one">Tsawon lokacin: sakan %d</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">An sa haruffa %d.</item>
+        <item quantity="one">An sa harafi %d.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Sa har zuwa haruffa %d</item>
+        <item quantity="one">Sa har zuwa harafi %d</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Kana iya hada kyamarori har zuwa %d akan hanyar sadarwa dayan</item>
+        <item quantity="one">Kana iya hada kyamara har zuwa %d akan hanyar sadarwa dayan</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Kana iya hada monita har zuwa %d akan hanyar sadarwa dayan</item>
+        <item quantity="one">Kana iya hada monita har zuwa %d akan hanyar sadarwa dayan</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Kana iya kirkirar yaduwa har zuwa %d a lokaci guda.</item>
+        <item quantity="one">Kana iya kirkirar yaduwa har zuwa %d a lokaci daya.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">&lt;Data>Bai iya hadawa da kyamara.&lt;br>wannan manhaja zai rufe cikin &lt;font color=#FFCE16>&lt;b> sakan %1$d&lt;/b>&lt;/font>. Bayan wanan, dakata minti daya ko biyu sai ka sake gwadawa.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Bai iya hadawa da kyamara.&lt;br>wannan manhaja zai rufe cikin &lt;font color=#FFCE16>&lt;b> sakan %1$d&lt;/b>&lt;/font>. Bayan wanan, dakata minti daya ko biyu sai ka sake gwadawa.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">"&lt;Data>Na'urar ta yi zafi sosai a yanzu.&lt;br>Wannan manhaja zai kulle da kansa cikin &lt;font color=#FFCE16>&lt;b> sakan %1$d&lt;/b>&lt;/font>. Aikin zai adana da kansa.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Na'urar ta yi zafi sosai a yanzu.&lt;br>Wannan manhaja zai kulle da kansa cikin &lt;font color=#FFCE16>&lt;b> sakan %1$d&lt;/b>&lt;/font>. Aikin zai adana da kansa.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">"&lt;Data>Sigar kyamarar da kuke amfani da ita ba ta dace da samfurin na'urar ku ba.&lt;br> Manhajar za ta rufe cikin sak &lt;font color=#FFCE16>&lt;b>%1$d &lt;/b>&lt;/font>. Cire sabuntawar kamara kuma a sake gwadawa.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Sigar kyamarar da kuke amfani da ita ba ta dace da samfurin na'urar ku ba.&lt;br> Manhajar za ta rufe cikin sak &lt;font color=#FFCE16>&lt;b>%1$d &lt;/b>&lt;/font>. Cire sabuntawar kamara kuma a sake gwadawa.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">mintuna %1$d</item>
+        <item quantity="one">mintuna %1$d</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">sak %1$d</item>
+        <item quantity="one">sak %1$d</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">"An kunna Ƙirga lokaci (%1$d sec). Za a aika hotuna zuwa wannan na'urar."</item>
+        <item quantity="one">"An kunna Ƙirga lokaci (%1$d sec). Za a aika hotuna zuwa wannan na'urar."</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">A share daftari %1$d?</item>
+        <item quantity="one">A share daftari %1$d?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Kara setin farko har zuwa %d</item>
+        <item quantity="one">Kara setin farko har zuwa %d</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">A share saitin farko %d a yanzu?</item>
+        <item quantity="one">A share saitin farko %d a yanzu?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">An share saitin farko %d</item>
+        <item quantity="one">An share saitin farko %d</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">An shigo da saitin farko %d</item>
+        <item quantity="one">An shigo da saitin farko %d</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">mintuna %1$s</item>
+        <item quantity="one">minti %1$s</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Dauki lokaci kai tsaye, har zuwa sak %d</item>
+        <item quantity="one">Dauki lokaci kai tsaye, har zuwa sak %d</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Yi rikodin sakan %d</item>
+        <item quantity="one">Yi rikodin sakan %d</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Kana iya daukar Bidiyon loacin daskarewa kadai da abubuwa %d.</item>
+        <item quantity="one">Kana iya daukar Bidiyon loacin daskarewa kadai da abu %d.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">Hotuna %1$s</item>
+        <item quantity="one">Hoto %1$s</item>
+    </plurals>
+</resources>

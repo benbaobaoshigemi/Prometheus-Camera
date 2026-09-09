@@ -1,0 +1,232 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_film_73_name",
+    "id": "73",
+    "description": "film_6",
+    "priority": 3,
+    "reminder_not_support_mode": ["multi", "raw", "200m", "doc", "pano", "mimoji", "instant"],
+    "exclude_cases": ["200m"],
+    "limitation": {
+      "device_type": ["poco"]
+    }
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "horizontal",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "center",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=gradient_color_yellow",
+          "background_optional": true,
+          "childViews": [
+            {
+              "type": "Layout",
+              "id": "left_padding",
+              "orientation": "horizontal",
+              "layout_width": "30dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            },
+            {
+              "type": "Layout",
+              "id": "content_layout",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "top_layout",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "109dp",
+                  "gravity": "center",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "TextView",
+                      "id": "time_mm",
+                      "optional": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                      "font_ref": "f3"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "location",
+                      "optional": true,
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "layout_gravity": "right|center_vertical",
+                      "text": "@location=location_latlng;@locationLimit=0.8",
+                      "font_ref": "f3"
+                    }
+                  ]
+                },
+                {
+                  "type": "ImageView",
+                  "id": "src_image_view",
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "0dp",
+                  "path": ""
+                },
+                {
+                  "type": "Layout",
+                  "id": "bottom_layout",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "120dp",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "childViews": [
+                        {
+                          "type": "ImageView",
+                          "id": "logo",
+                          "layout_gravity": "center_vertical",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "display_height": "34dp",
+                          "display_width": "0dp",
+                          "path": "pathType=fill;path=${logo};foreground=3"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model= @{series}@{versionNumber}",
+                          "text_upper": false,
+                          "font_ref": "f1"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model_versionName",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model=@{versionName}",
+                          "text_upper": false,
+                          "font_ref": "f2",
+                          "rect_params": {
+                            "rect_text_width_gap": 8,
+                            "rect_text_height_gap": 0,
+                            "rect_line_width": 2,
+                            "rect_radius": [6.6, 6.6, 6.6, 6.6,6.6, 6.6,6.6, 6.6],
+                            "rect_line_color": "@foreground=2",
+                            "rect_width": "wrap_content",
+                            "rect_height": "28dp"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "exif",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "layout_gravity": "right|center_vertical",
+                      "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                      "font_ref": "f4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Layout",
+              "id": "right_padding",
+              "orientation": "horizontal",
+              "layout_width": "30dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "gradient_color_yellow",
+        "description": "@wm_background_gradient_color_yellow",
+        "icon": "@img=icon_gradient_color_yellow.webp",
+        "value": "@algo=gradient_color(0.0, 0.278, 1.0, 0.51, 5 , #FFFFC300, #FFFFD333, #FFFFD759, #FFFFD84D, #FFFFC300, 0.0, 0.1, 0.3, 0.5, 1.0)",
+        "foreground": ["#FF000000", "#B2000000", "#BF000000", "black"]
+      },
+      {
+        "name": "gradient_color_blue_dark",
+        "description": "@wm_background_gradient_color_blue_dark",
+        "icon": "@img=icon_gradient_color_blue_dark.webp",
+        "value": "@algo=gradient_color(0.0, 0.278, 1.0, 0.51, 5 , #FF000407, #FF063542, #FF215260, #FF073741, #FF000000, 0.0, 0.12, 0.24, 0.5, 1.0)",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      },
+      {
+        "name": "gradient_color_blue_light",
+        "description": "@wm_background_gradient_color_blue_light",
+        "icon": "@img=icon_gradient_color_blue_light.webp",
+        "value": "@algo=gradient_color(0.0, 0.278, 1.0, 0.51, 6 , #FF1F3239, #FF0E6176, #FF028F9B, #FF088493, #FF0E7889, #FF22333B, 0.0, 0.12, 0.24, 0.36, 0.5, 1.0)",
+        "foreground": ["#FFFFFFFF", "#B2FFFFFF", "#BFFFFFFF", "white"]
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 30.6,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f2": {
+        "size": 20,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "letterSpacing": 0.028
+      },
+      "f3": {
+        "size": 22.0,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 451",
+        "letterSpacing": 0.09
+      },
+      "f4": {
+        "size": 22.0,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 451"
+      }
+    }
+  }
+}

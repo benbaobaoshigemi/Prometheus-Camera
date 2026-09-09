@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "inputColorSpace": "Rec.709/sRGB transfer, normalized [0,1]",
+  "runtimeFormat": "Xiaomi 512x512 RGB PNG, tiled 64^3 LUT",
+  "slots": [
+    {
+      "slot": 1,
+      "id": "GALLERY_9001",
+      "label": "M9",
+      "enabled": true,
+      "source": "Leica_M9_STD_33_Rec709.cube"
+    },
+    {
+      "slot": 2,
+      "id": "GALLERY_9002",
+      "label": "Fuji-ACROS",
+      "enabled": true,
+      "source": "Fuji-ACROS_33_Rec709.cube"
+    },
+    {
+      "slot": 3,
+      "id": "GALLERY_9003",
+      "label": "Fuji-ASTIA",
+      "enabled": true,
+      "source": "Fuji-ASTIA_33_Rec709.cube"
+    },
+    {
+      "slot": 4,
+      "id": "GALLERY_9004",
+      "label": "Fuji-CC",
+      "enabled": true,
+      "source": "Fuji-CC_33_Rec709.cube"
+    },
+    {
+      "slot": 5,
+      "id": "GALLERY_9005",
+      "label": "Fuji-NC",
+      "enabled": true,
+      "source": "Fuji-NC_33_Rec709.cube"
+    },
+    {
+      "slot": 6,
+      "id": "GALLERY_9006",
+      "label": "Fuji-ETERNA-BB",
+      "enabled": true,
+      "source": "Fuji-ETERNA-BB_33_Rec709.cube"
+    },
+    {
+      "slot": 7,
+      "id": "GALLERY_9007",
+      "label": "Fuji-ETERNA",
+      "enabled": true,
+      "source": "Fuji-ETERNA_33_Rec709.cube"
+    },
+    {
+      "slot": 8,
+      "id": "GALLERY_9008",
+      "label": "Fuji-PRO-Neg-Std",
+      "enabled": true,
+      "source": "Fuji-PRO-Neg-Std_33_Rec709.cube"
+    },
+    {
+      "slot": 9,
+      "id": "GALLERY_9009",
+      "label": "Fuji-PROVIA",
+      "enabled": true,
+      "source": "Fuji-PROVIA_33_Rec709.cube"
+    },
+    {
+      "slot": 10,
+      "id": "GALLERY_9010",
+      "label": "Fuji-REALA-ACE",
+      "enabled": true,
+      "source": "Fuji-REALA-ACE_33_Rec709.cube"
+    },
+    {
+      "slot": 11,
+      "id": "GALLERY_9011",
+      "label": "Fuji-Velvia",
+      "enabled": true,
+      "source": "Fuji-Velvia_33_Rec709.cube"
+    },
+    {
+      "slot": 12,
+      "id": "GALLERY_9012",
+      "label": "GR-Posi",
+      "enabled": true,
+      "source": "GR-Posi_33_Rec709.cube"
+    },
+    {
+      "slot": 13,
+      "id": "GALLERY_9013",
+      "label": "GR-Viv",
+      "enabled": true,
+      "source": "GR-Viv_33_Rec709.cube"
+    },
+    {
+      "slot": 14,
+      "id": "GALLERY_9014",
+      "label": "CC胶片",
+      "enabled": true,
+      "source": "Fuji-CC_33_Rec709.cube",
+      "nativeEffect": "noise"
+    },
+    {
+      "slot": 15,
+      "id": "GALLERY_9015",
+      "label": "NC胶片",
+      "enabled": true,
+      "source": "Fuji-NC_33_Rec709.cube",
+      "nativeEffect": "noise"
+    },
+    {
+      "slot": 16,
+      "id": "GALLERY_9016",
+      "label": "GR HDF",
+      "enabled": true,
+      "source": "GR-Posi_33_Rec709.cube",
+      "nativeEffect": "blackSoft"
+    }
+  ]
+}

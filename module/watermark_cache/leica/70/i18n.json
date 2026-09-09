@@ -1,0 +1,10 @@
+{
+  "wm_leica_70_name": {
+    "default": "LEICA NINE",
+    "zh-rCN": "徕卡9"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

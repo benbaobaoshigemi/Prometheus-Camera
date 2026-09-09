@@ -1,0 +1,4 @@
+com.prometheus.camera.rev.CombinedEntryPoint
+com.prometheus.camera.colordev.EntryPoint
+
+com.prometheus.camera.rev.FeatureEntryPoint

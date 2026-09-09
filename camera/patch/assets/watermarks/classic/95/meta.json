@@ -1,0 +1,22 @@
+{
+  "version": 1.58,
+  "metadata": {
+    "name": "@wm_classic_95_name",
+    "id": "95",
+    "description": "classic_1",
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "priority": 1,
+    "show_in_menu": true,
+    "exclude_cases": [
+      "200m"
+    ]
+  }
+}

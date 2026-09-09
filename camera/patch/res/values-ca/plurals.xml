@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="f5n">
+        <item quantity="other">"&lt;Data>No es pot connectar a la càmera.&lt;br>Aquesta aplicació es tancarà d'aquí a &lt;font color=#FFCE16>&lt;b>%1$d segons&lt;/b>&lt;/font>. Després d'això, espereu un minut o dos i proveu-ho de nou.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>No es pot connectar a la càmera.&lt;br>Aquesta aplicació es tancarà d'aquí a &lt;font color=#FFCE16>&lt;b>%1$d segon&lt;/b>&lt;/font>. Després d'això, espereu un minut o dos i proveu-ho de nou.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="f5p">
+        <item quantity="other">"&lt;Data>La versió de la Càmera que estàs utilitzant no és compatible amb el model del teu dispositiu.&lt;br>L'aplicació es tancarà a &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Desinstal·leu les actualitzacions de la Càmera i torneu-ho a provar.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>La versió de la Càmera que estàs utilitzant no és compatible amb el model del teu dispositiu.&lt;br>L'aplicació es tancarà a &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Desinstal·leu les actualitzacions de la Càmera i torneu-ho a provar.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fb1">
+        <item quantity="other">Enfocat. %d cares detectada</item>
+        <item quantity="one">Enfocat. %d de cara detectada</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d fotos mitjançant ràfega</item>
+        <item quantity="one">%d foto mitjançant ràfega</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Interval: %d segons</item>
+        <item quantity="one">Interval: %d segon</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Durada: %d minuts</item>
+        <item quantity="one">Durada: %d minut</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Velocitat: %dX</item>
+        <item quantity="one">Velocitat: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Duració: %d segons</item>
+        <item quantity="one">Duració: %d segon</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Heu introduit %d caràcters.</item>
+        <item quantity="one">Heu introduit %d caràcter.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Introduïu fins a %d caràcters.</item>
+        <item quantity="one">Introduïu fins a %d caràcter.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">Podeu connectar fins a %d càmeres a la mateixa xarxa</item>
+        <item quantity="one">Podeu connectar fins a %d càmera a la mateixa xarxa</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">Podeu connectar fins a %d monitors a la mateixa xarxa</item>
+        <item quantity="one">Podeu connectar fins a %d monitor a la mateixa xarxa</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">Pots crear fins %d clons a la vegada.</item>
+        <item quantity="one">Pots crear fins %d clon a la vegada.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">"&lt;Data>No es pot connectar a la càmera.&lt;br>Aquesta aplicació es tancarà d'aquí a &lt;font color=#FFCE16>&lt;b>%1$d segons&lt;/b>&lt;/font>. Després d'això, espereu un minut o dos i proveu-ho de nou.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>No es pot connectar a la càmera.&lt;br>Aquesta aplicació es tancarà d'aquí a &lt;font color=#FFCE16>&lt;b>%1$d segon&lt;/b>&lt;/font>. Després d'això, espereu un minut o dos i proveu-ho de nou.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">"&lt;Data>Aquest dispositiu està massa calent ara.&lt;br>L'aplicació es tancarà d'aquí a &lt;font color=#FFCE16>&lt;b>%1$d segons&lt;/b>&lt;/font>. El progrés actual es va desar automàticament.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Aquest dispositiu està massa calent ara.&lt;br>L'aplicació es tancarà d'aquí a &lt;font color=#FFCE16>&lt;b>%1$d segon&lt;/b>&lt;/font>. El progrés actual es va desar automàticament.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">"&lt;Data>La versió de la Càmera que estàs utilitzant no és compatible amb el model del teu dispositiu.&lt;br>L'aplicació es tancarà a &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Desinstal·leu les actualitzacions de la Càmera i torneu-ho a provar.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>La versió de la Càmera que estàs utilitzant no és compatible amb el model del teu dispositiu.&lt;br>L'aplicació es tancarà a &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Desinstal·leu les actualitzacions de la Càmera i torneu-ho a provar.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d mins</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Temporitzador activat (%1$d s). Les fotos es transferiran a aquest dispositiu.</item>
+        <item quantity="one">Temporitzador activat (%1$d s). Les fotos es transferiran a aquest dispositiu.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Voleu eliminar %1$d esborranys?</item>
+        <item quantity="one">Voleu eliminar %1$d esborrany?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Afegeix fins a %d valors predefinits</item>
+        <item quantity="one">Afegeix fins a %d valor predefinit</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Voleu suprimir %d predefinicions ara?</item>
+        <item quantity="one">Voleu suprimir %d predefinició ara?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">%d predefinicions eliminades</item>
+        <item quantity="one">%d predefinició eliminada</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">%d predefinicions importades</item>
+        <item quantity="one">%d predefinició importada</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d notificacions noves</item>
+        <item quantity="one">%d notificació nova</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s min.</item>
+        <item quantity="one">%1$s min.</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Capturant moments en directe, fins a %d s</item>
+        <item quantity="one">Capturant moments en directe, fins a %d s</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Registra %d segons</item>
+        <item quantity="one">Registra %d segon</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">Podeu enregistrar vídeos congelats només amb %d persones.</item>
+        <item quantity="one">Podeu enregistrar vídeos congelats només amb %d persona.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s fotos</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
+</resources>

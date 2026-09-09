@@ -1,0 +1,10 @@
+{
+  "wm_film_103_name": {
+    "default": "小字版胶片1",
+    "zh-rCN": "小字版胶片1"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

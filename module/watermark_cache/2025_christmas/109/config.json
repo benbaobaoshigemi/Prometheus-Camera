@@ -1,0 +1,215 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_new_year_2_name",
+    "id": "109",
+    "description": "new_year_2",
+    "reminder_not_support_mode": ["multi", "raw", "200m", "doc", "pano", "mimoji", "instant"],
+    "priority": 2,
+    "exclude_cases": ["200m"],
+    "limitation": {
+      "system_properties": {
+        "ro.product.device": []
+      },
+      "device_type": []
+    }
+
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "horizontal",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "center",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=new_year_2",
+          "childViews": [
+            {
+              "type": "Layout",
+              "id": "left_padding",
+              "orientation": "horizontal",
+              "layout_width": "30dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            },
+            {
+              "type": "Layout",
+              "id": "content_layout",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "top_padding",
+                  "layout_width": "match_parent",
+                  "layout_height": "160dp",
+                  "gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "top_view",
+                      "layout_gravity": "center",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "160dp",
+                      "display_width": "0dp",
+                      "path":"pathType=direct;path=new_year_top.webp"
+                    }
+                  ]
+                },
+                {
+                  "type": "ImageView",
+                  "id": "src_image_view",
+                  "layout_gravity": "center",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "0dp",
+                  "path": ""
+                },
+                {
+                  "type": "Layout",
+                  "id": "bottom_content",
+                  "orientation": "none",
+                  "layout_width": "match_parent",
+                  "layout_height": "178dp",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "center_bottom_group",
+                      "orientation": "vertical",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "gravity": "center",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "childViews": [
+                        {
+                          "type": "Layout",
+                          "id": "brand_layout",
+                          "orientation": "horizontal",
+                          "layout_width": "wrap_content",
+                          "layout_height": "wrap_content",
+                          "gravity": "center",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "childViews": [
+                            {
+                              "type": "ImageView",
+                              "id": "logo",
+                              "layout_gravity": "center",
+                              "margin_left": "0dp",
+                              "margin_top": "0dp",
+                              "display_height": "32dp",
+                              "display_width": "0dp",
+                              "path": "pathType=fill;path=${logo};foreground=2"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center",
+                              "text": "@model= @{series}@{versionNumber}",
+                              "text_upper": false,
+                              "font_ref": "f1"
+                            },
+                            {
+                              "type": "TextView",
+                              "id": "model_versionName",
+                              "margin_left": "0dp",
+                              "layout_gravity": "center",
+                              "text": "@model=@{versionName}",
+                              "text_upper": false,
+                              "font_ref": "f2",
+                              "rect_params": {
+                                "rect_text_width_gap": 7,
+                                "rect_text_height_gap": 0,
+                                "rect_line_width": 1.8,
+                                "rect_radius": [6.4, 6.4, 6.4, 6.4, 6.4, 6.4, 6.4, 6.4],
+                                "rect_line_color": "@foreground=0",
+                                "rect_width": "wrap_content",
+                                "rect_height": "25dp"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "time",
+                          "optional": true,
+                          "layout_gravity": "center_horizontal",
+                          "margin_top": "12dp",
+                          "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                          "font_ref": "f3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Layout",
+              "id": "right_padding",
+              "orientation": "horizontal",
+              "layout_width": "30dp",
+              "layout_height": "match_parent",
+              "gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "new_year_2",
+        "value": "@color=#FFD11012",
+        "value_mivi": "@color=#FFC02D23",
+        "foreground": ["#FFFFFFFF", "#BFFFFFFF", "white"]
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 28,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f2": {
+        "size": 17.6,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "letterSpacing": 0.032
+      },
+      "f3": {
+        "size": 24,
+        "color": "@foreground=1",
+        "typeface": "default",
+        "variation": "'wght' 330",
+        "letterSpacing": 0.083
+      }
+    }
+  }
+}

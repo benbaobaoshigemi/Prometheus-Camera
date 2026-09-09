@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "GALLERY_9001",
+      "name": "徕卡 M9",
+      "file": "slot_1.png",
+      "asset": "filter_9001.png",
+      "group": "m9",
+      "order": 1001,
+      "runtimeId": 9101,
+      "sha256": "489406B6A5BD294D853CA9AC1C3A6FE3B9417C10AC71E4C45F1B4ABB118F2828"
+    },
+    {
+      "id": "GALLERY_9002",
+      "name": "富士 ACROS",
+      "file": "slot_2.png",
+      "asset": "filter_9002.png",
+      "group": "fuji",
+      "order": 1002,
+      "runtimeId": 9102,
+      "sha256": "AEE065F08A5CDB74B05CEB22AC259B92A1C200E55304036ADAD447374F9F6C3A"
+    },
+    {
+      "id": "GALLERY_9003",
+      "name": "富士 ASTIA",
+      "file": "slot_3.png",
+      "asset": "filter_9003.png",
+      "group": "fuji",
+      "order": 1003,
+      "runtimeId": 9103,
+      "sha256": "9843847D257B4ECB7BB0428378730A073037FBD0B15A824FE92014FC508AAB68"
+    },
+    {
+      "id": "GALLERY_9004",
+      "name": "富士 CC",
+      "file": "slot_4.png",
+      "asset": "filter_9004.png",
+      "group": "fuji",
+      "order": 1004,
+      "runtimeId": 9104,
+      "sha256": "BB37EC785A390D8272FBD8819D7407980EF414D70E03F426A600248C656D1308"
+    },
+    {
+      "id": "GALLERY_9005",
+      "name": "富士 NC",
+      "file": "slot_5.png",
+      "asset": "filter_9005.png",
+      "group": "fuji",
+      "order": 1005,
+      "runtimeId": 9105,
+      "sha256": "37C25768AD209DB5FD8477C320162F2B96663EC5DDA0B827132EC74AB658475A"
+    },
+    {
+      "id": "GALLERY_9006",
+      "name": "富士 ETERNA-BB",
+      "file": "slot_6.png",
+      "asset": "filter_9006.png",
+      "group": "fuji",
+      "order": 1006,
+      "runtimeId": 9106,
+      "sha256": "88C07729F12BE3693C03494682EE9F81CF66BD83BB0B2D022BAA6399862CB63E"
+    },
+    {
+      "id": "GALLERY_9007",
+      "name": "富士 ETERNA",
+      "file": "slot_7.png",
+      "asset": "filter_9007.png",
+      "group": "fuji",
+      "order": 1007,
+      "runtimeId": 9107,
+      "sha256": "6A73CCAE9441DA3EA63B5F57A8F94D95E8D4C610D7427B0AB04ACD8BDCE0EAF6"
+    },
+    {
+      "id": "GALLERY_9008",
+      "name": "富士 PRO-Neg-Std",
+      "file": "slot_8.png",
+      "asset": "filter_9008.png",
+      "group": "fuji",
+      "order": 1008,
+      "runtimeId": 9108,
+      "sha256": "D72D230E86A4B8B4EBC7525DFC9CF534C1041F3D79CAB2659277F313573DD982"
+    },
+    {
+      "id": "GALLERY_9009",
+      "name": "富士 PROVIA",
+      "file": "slot_9.png",
+      "asset": "filter_9009.png",
+      "group": "fuji",
+      "order": 1009,
+      "runtimeId": 9109,
+      "sha256": "699A4DCEE66D8B8057FB59D77D45B668907788E002894253A55B8C7D0F636FEA"
+    },
+    {
+      "id": "GALLERY_9010",
+      "name": "富士 REALA-ACE",
+      "file": "slot_10.png",
+      "asset": "filter_9010.png",
+      "group": "fuji",
+      "order": 1010,
+      "runtimeId": 9110,
+      "sha256": "28DFFF2412B9C98D92D987C09D6BA8408E9C4D55CD061B61AD4C664F1CA53338"
+    },
+    {
+      "id": "GALLERY_9011",
+      "name": "富士 Velvia",
+      "file": "slot_11.png",
+      "asset": "filter_9011.png",
+      "group": "fuji",
+      "order": 1011,
+      "runtimeId": 9111,
+      "sha256": "2C7FA7AD69FFFAF98EA3A80AE11A0E98977522CDB924E1825935C83480E06662"
+    },
+    {
+      "id": "preset:rev11-012",
+      "name": "富士 NN",
+      "file": "slot_12.png",
+      "asset": "preset_rev11-012.png",
+      "group": "fuji",
+      "order": 1012,
+      "runtimeId": 9112,
+      "sha256": "37436FA500995FABB1B3FFA23C55CA4EAAABE209786BFF0387D1C64F7079CF3C"
+    },
+    {
+      "id": "GALLERY_9012",
+      "name": "理光 Positive",
+      "file": "slot_13.png",
+      "asset": "filter_9012.png",
+      "group": "ricoh",
+      "order": 1013,
+      "runtimeId": 9113,
+      "sha256": "803963274BA5071AE337AA874E9083F0FBB8683F56EDDE0C4F8B0353DA13A907"
+    },
+    {
+      "id": "preset:rev11-013",
+      "name": "理光 Negative",
+      "file": "slot_14.png",
+      "asset": "preset_rev11-013.png",
+      "group": "ricoh",
+      "order": 1014,
+      "runtimeId": 9114,
+      "sha256": "12EE1CD0FFC3CCED48A5C498A2285EA6AAF02B9F6E0242BF1DACC0E27DD705DC"
+    },
+    {
+      "id": "GALLERY_9013",
+      "name": "理光 Vivid",
+      "file": "slot_15.png",
+      "asset": "filter_9013.png",
+      "group": "ricoh",
+      "order": 1015,
+      "runtimeId": 9115,
+      "sha256": "90E39213BB2847E102CD232DFBDFF53AE77BF060883FB7BAC3FEB11DFD066F52"
+    },
+    {
+      "id": "preset:rev11-035",
+      "name": "理光 High Contrast B&W",
+      "file": "slot_16.png",
+      "asset": "preset_rev11-035.png",
+      "group": "ricoh",
+      "order": 1016,
+      "runtimeId": 9116,
+      "sha256": "A838F864F4A0E5ABDF0C6235FAE014F6E54F6B5F88F7031A218C0405D98210C9"
+    },
+    {
+      "id": "preset:rev11-036",
+      "name": "理光 Cinema Green",
+      "file": "slot_17.png",
+      "asset": "preset_rev11-036.png",
+      "group": "ricoh",
+      "order": 1017,
+      "runtimeId": 9117,
+      "sha256": "A9AE0DFED6B1B09E328FF5FD2EEDBE05DFF2030724976D60D01B78D074C573BD"
+    },
+    {
+      "id": "preset:rev11-037",
+      "name": "理光 Cinema Yellow",
+      "file": "slot_18.png",
+      "asset": "preset_rev11-037.png",
+      "group": "ricoh",
+      "order": 1018,
+      "runtimeId": 9118,
+      "sha256": "F72190C161DF08F7F305E82FEEC90FA2C50A0A308D75A1EC8F2743E64071BB8F"
+    },
+    {
+      "id": "preset:rev11-004",
+      "name": "柯达 5203",
+      "file": "slot_19.png",
+      "asset": "preset_rev11-004.png",
+      "group": "kodak",
+      "order": 1019,
+      "runtimeId": 9119,
+      "sha256": "54C4F1D3AE01E8364E2203776BFFED25841C7EB7262F962D7D5B0827F528C78B"
+    },
+    {
+      "id": "preset:rev11-005",
+      "name": "柯达 5207",
+      "file": "slot_20.png",
+      "asset": "preset_rev11-005.png",
+      "group": "kodak",
+      "order": 1020,
+      "runtimeId": 9120,
+      "sha256": "4A4E00D43A61F15A8E4DEF9D581EC36D225098918BEF036AF021E96215C5D3B4"
+    },
+    {
+      "id": "preset:rev11-006",
+      "name": "柯达 5219",
+      "file": "slot_21.png",
+      "asset": "preset_rev11-006.png",
+      "group": "kodak",
+      "order": 1021,
+      "runtimeId": 9121,
+      "sha256": "E81AD9F1E47F97C93A091BE2D69C9AA1C622074F0DCC5DB57111CE5E8DBA2471"
+    },
+    {
+      "id": "preset:rev11-007",
+      "name": "柯达 E200",
+      "file": "slot_22.png",
+      "asset": "preset_rev11-007.png",
+      "group": "kodak",
+      "order": 1022,
+      "runtimeId": 9122,
+      "sha256": "7FE57EE43BD9B3F7B4FACABBCA9547F74A63F7CB03037D6C3C65DC584883A038"
+    },
+    {
+      "id": "preset:rev11-008",
+      "name": "柯达 Gold 200",
+      "file": "slot_23.png",
+      "asset": "preset_rev11-008.png",
+      "group": "kodak",
+      "order": 1023,
+      "runtimeId": 9123,
+      "sha256": "774CB90C50B9B9A59699905ACED2B59BB86FDE7A698F5F92C4E36B603B0E780E"
+    },
+    {
+      "id": "preset:rev11-010",
+      "name": "柯达 Portra 400",
+      "file": "slot_24.png",
+      "asset": "preset_rev11-010.png",
+      "group": "kodak",
+      "order": 1024,
+      "runtimeId": 9124,
+      "sha256": "9449D2FACF684DE0D1A45E9CCA4574E52E2E1EEC686589537E57298968BC2471"
+    },
+    {
+      "id": "preset:rev11-011",
+      "name": "柯达 Ultramax 400",
+      "file": "slot_25.png",
+      "asset": "preset_rev11-011.png",
+      "group": "kodak",
+      "order": 1025,
+      "runtimeId": 9125,
+      "sha256": "C9E95CD765E5BA6FD6597B53859B2C27AF22FF0B7C2C25BF3C585C40939AA364"
+    },
+    {
+      "id": "preset:rev11-001",
+      "name": "CineStill 50D",
+      "file": "slot_26.png",
+      "asset": "preset_rev11-001.png",
+      "group": "other",
+      "order": 1026,
+      "runtimeId": 9126,
+      "sha256": "87555F47DC4A11194C4CE024EADDDA2665315A237545C9CBA0C5BDEC53034ABC"
+    },
+    {
+      "id": "preset:rev11-002",
+      "name": "CineStill 800T",
+      "file": "slot_27.png",
+      "asset": "preset_rev11-002.png",
+      "group": "other",
+      "order": 1027,
+      "runtimeId": 9127,
+      "sha256": "B935778734C388D312D5B5BCAFA492A087C9908B77B977C8E9856233174805E1"
+    },
+    {
+      "id": "preset:rev11-003",
+      "name": "Hasselblad Blue",
+      "file": "slot_28.png",
+      "asset": "preset_rev11-003.png",
+      "group": "other",
+      "order": 1028,
+      "runtimeId": 9128,
+      "sha256": "38F7FC9663148F4F74F1335BB70193A3305CB9121281A9BF95387137802BEA96"
+    },
+    {
+      "id": "preset:rev11-015",
+      "name": "Hasselblad Classic",
+      "file": "slot_29.png",
+      "asset": "preset_rev11-015.png",
+      "group": "other",
+      "order": 1029,
+      "runtimeId": 9129,
+      "sha256": "13FC6918FF2D7108B57580A86D793A0A1FE50EFC7BF7F942896856AEFB7225D2"
+    },
+    {
+      "id": "preset:rev11-016",
+      "name": "Leica Classic",
+      "file": "slot_30.png",
+      "asset": "preset_rev11-016.png",
+      "group": "other",
+      "order": 1030,
+      "runtimeId": 9130,
+      "sha256": "58768B1BFB1E2DD1DEBD06F806C4FC9ACF6C19AD6B9A645C78644340C5ADF6A3"
+    },
+    {
+      "id": "preset:071-01",
+      "name": "柯达 Standard",
+      "file": "slot_31.png",
+      "asset": "preset_071_01.png",
+      "group": "kodak",
+      "order": 1031,
+      "runtimeId": 9131,
+      "sha256": "E0B7DD2C9BCC0E9A300A3779F00A2DB049883A24713D1853252E69800C982544"
+    },
+    {
+      "id": "preset:071-02",
+      "name": "柯达 Vivid",
+      "file": "slot_32.png",
+      "asset": "preset_071_02.png",
+      "group": "kodak",
+      "order": 1032,
+      "runtimeId": 9132,
+      "sha256": "DC0078FC677846412D86D9B1B5F305F31A9CD307DF2753B809F1D0A6042DD0E1"
+    },
+    {
+      "id": "preset:071-03",
+      "name": "柯达 Film",
+      "file": "slot_33.png",
+      "asset": "preset_071_03.png",
+      "group": "kodak",
+      "order": 1033,
+      "runtimeId": 9133,
+      "sha256": "AE04335E2731024E2CE87057DB4F4B7C38C35111740F9C9C1D9F1A8FB40B9018"
+    },
+    {
+      "id": "preset:071-04",
+      "name": "适马 Calm",
+      "file": "slot_34.png",
+      "asset": "preset_071_04.png",
+      "group": "sigma",
+      "order": 1034,
+      "runtimeId": 9134,
+      "sha256": "25A8B72AA98D9B7DD9D8B4F7FC38F5F6FD0519729C3A981F12334918CFA262C2"
+    },
+    {
+      "id": "preset:071-05",
+      "name": "适马 Classic Yellow",
+      "file": "slot_35.png",
+      "asset": "preset_071_05.png",
+      "group": "sigma",
+      "order": 1035,
+      "runtimeId": 9135,
+      "sha256": "C49CC0759A00749D96F316A4A3E13225767627027D9C3CF51655C168280199A8"
+    },
+    {
+      "id": "preset:071-06",
+      "name": "适马 Cine2",
+      "file": "slot_36.png",
+      "asset": "preset_071_06.png",
+      "group": "sigma",
+      "order": 1036,
+      "runtimeId": 9136,
+      "sha256": "A0C6C40752BCDE25D2F82D3DD79D95D521050061256F9AEF8C31A16ABBBAABAF"
+    },
+    {
+      "id": "preset:071-07",
+      "name": "适马 Forest Green",
+      "file": "slot_37.png",
+      "asset": "preset_071_07.png",
+      "group": "sigma",
+      "order": 1037,
+      "runtimeId": 9137,
+      "sha256": "D0D9677532E8C2463F4C06489990205EEB0AB9EE255B287927A91982ED518FE9"
+    },
+    {
+      "id": "preset:071-08",
+      "name": "适马 Sunset Red",
+      "file": "slot_38.png",
+      "asset": "preset_071_08.png",
+      "group": "sigma",
+      "order": 1038,
+      "runtimeId": 9138,
+      "sha256": "B34A4FE1FCCC6A1A090810921601EE9E472BED4B89ADB0F97B0FE67AA68B6140"
+    },
+    {
+      "id": "preset:071-09",
+      "name": "适马 Rich",
+      "file": "slot_39.png",
+      "asset": "preset_071_09.png",
+      "group": "sigma",
+      "order": 1039,
+      "runtimeId": 9139,
+      "sha256": "065DFF5A6B97D09BA7687BDAF6F2E8286E0040DFC4CA405525E907F9D0E21ECD"
+    },
+    {
+      "id": "preset:071-10",
+      "name": "适马 Powder Blue",
+      "file": "slot_40.png",
+      "asset": "preset_071_10.png",
+      "group": "sigma",
+      "order": 1040,
+      "runtimeId": 9140,
+      "sha256": "2BB691EF0092299F449A2645B8C0AA180B6BB8F7270D07665751B45A2F83B180"
+    },
+    {
+      "id": "preset:071-11",
+      "name": "适马 Teal and Orange",
+      "file": "slot_41.png",
+      "asset": "preset_071_11.png",
+      "group": "sigma",
+      "order": 1041,
+      "runtimeId": 9141,
+      "sha256": "4E94A30A6F63B97ABCC506DD9AAFE481C594972FA6E91FC12EBA62DFE8736D9C"
+    },
+    {
+      "id": "preset:071-12",
+      "name": "适马 Warm Gold",
+      "file": "slot_42.png",
+      "asset": "preset_071_12.png",
+      "group": "sigma",
+      "order": 1042,
+      "runtimeId": 9142,
+      "sha256": "CACBAFD6ACB2A93FDE47D106DF292571C01692D5D32892EC3B4BE30BAA569017"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="f5n">
+        <item quantity="other">"&lt;Data>Can't connect to the camera.&lt;br>This app will be closed in &lt;font color=#FFCE16>&lt;b>%1$d secs&lt;/b>&lt;/font>. After this, wait a minute or two and try again.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Can't connect to the camera.&lt;br>This app will be closed in &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. After this, wait a minute or two and try again.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="f5p">
+        <item quantity="other">"&lt;Data>The Camera version you're using isn't compatible with your device model.&lt;br>The app will close in &lt;font color=#FFCE16>&lt;b>%1$d secs&lt;/b>&lt;/font>. Uninstall Camera updates and try again.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>The Camera version you're using isn't compatible with your device model.&lt;br>The app will close in &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Uninstall Camera updates and try again.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fb1">
+        <item quantity="other">Focused. %d faces detected</item>
+        <item quantity="one">Focused. %d face detected</item>
+    </plurals>
+    <plurals name="fb2">
+        <item quantity="other">%d photos in a burst shot</item>
+        <item quantity="one">%d photo in a burst shot</item>
+    </plurals>
+    <plurals name="fb3">
+        <item quantity="other">Interval: %d seconds</item>
+        <item quantity="one">Interval: %d second</item>
+    </plurals>
+    <plurals name="fb4">
+        <item quantity="other">Duration: %d minutes</item>
+        <item quantity="one">Duration: %d minute</item>
+    </plurals>
+    <plurals name="fb5">
+        <item quantity="other">Speed: %dX</item>
+        <item quantity="one">Speed: %dX</item>
+    </plurals>
+    <plurals name="fb6">
+        <item quantity="other">Duration: %d seconds</item>
+        <item quantity="one">Duration: %d second</item>
+    </plurals>
+    <plurals name="fb7">
+        <item quantity="other">Entered %d characters.</item>
+        <item quantity="one">Entered %d character.</item>
+    </plurals>
+    <plurals name="fb8">
+        <item quantity="other">Enter up to %d characters.</item>
+        <item quantity="one">Enter up to %d character.</item>
+    </plurals>
+    <plurals name="fb9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fb_">
+        <item quantity="other">You can connect up to %d cameras to the same network</item>
+        <item quantity="one">You can connect up to %d camera to the same network</item>
+    </plurals>
+    <plurals name="fba">
+        <item quantity="other">You can connect up to %d monitors to the same network</item>
+        <item quantity="one">You can connect up to %d monitor to the same network</item>
+    </plurals>
+    <plurals name="fbb">
+        <item quantity="other">You can create up to %d clones at a time.</item>
+        <item quantity="one">You can create up to %d clone at a time.</item>
+    </plurals>
+    <plurals name="fbc">
+        <item quantity="other">"&lt;Data>Can't connect to the camera.&lt;br>This app will be closed in &lt;font color=#FFCE16>&lt;b>%1$d secs&lt;/b>&lt;/font>. After this, wait a minute or two and try again.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Can't connect to the camera.&lt;br>This app will be closed in &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. After this, wait a minute or two and try again.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbd">
+        <item quantity="other">&lt;Data>This device is too hot now.&lt;br>The app will be closed in &lt;font color=#FFCE16>&lt;b>%1$d secs&lt;/b>&lt;/font>. Current progress was saved automatically.&lt;/Data></item>
+        <item quantity="one">&lt;Data>This device is too hot now.&lt;br>The app will be closed in &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Current progress was saved automatically.&lt;/Data></item>
+    </plurals>
+    <plurals name="fbe">
+        <item quantity="other">"&lt;Data>The Camera version you're using isn't compatible with your device model.&lt;br>The app will close in &lt;font color=#FFCE16>&lt;b>%1$d secs&lt;/b>&lt;/font>. Uninstall Camera updates and try again.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>The Camera version you're using isn't compatible with your device model.&lt;br>The app will close in &lt;font color=#FFCE16>&lt;b>%1$d sec&lt;/b>&lt;/font>. Uninstall Camera updates and try again.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fbf">
+        <item quantity="other">%1$d mins</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="fbg">
+        <item quantity="other">%1$d secs</item>
+        <item quantity="one">%1$d sec</item>
+    </plurals>
+    <plurals name="fbh">
+        <item quantity="other">Turned on timer (%1$d secs). Photos will be transferred to this device.</item>
+        <item quantity="one">Turned on timer (%1$d sec). Photos will be transferred to this device.</item>
+    </plurals>
+    <plurals name="fbi">
+        <item quantity="other">Delete %1$d drafts?</item>
+        <item quantity="one">Delete %1$d draft?</item>
+    </plurals>
+    <plurals name="fbj">
+        <item quantity="other">Add up to %d presets</item>
+        <item quantity="one">Add up to %d preset</item>
+    </plurals>
+    <plurals name="fbk">
+        <item quantity="other">Delete %d presets now?</item>
+        <item quantity="one">Delete %d preset now?</item>
+    </plurals>
+    <plurals name="fbl">
+        <item quantity="other">Deleted %d presets</item>
+        <item quantity="one">Deleted %d preset</item>
+    </plurals>
+    <plurals name="fbm">
+        <item quantity="other">Imported %d presets</item>
+        <item quantity="one">Imported %d preset</item>
+    </plurals>
+    <plurals name="fbn">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="fbo">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="fbp">
+        <item quantity="other">%1$s mins</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="fbq">
+        <item quantity="other">Capturing live moment, up to %d secs</item>
+        <item quantity="one">Capturing live moment, up to %d sec</item>
+    </plurals>
+    <plurals name="fbr">
+        <item quantity="other">Record %d seconds</item>
+        <item quantity="one">Record %d second</item>
+    </plurals>
+    <plurals name="fbs">
+        <item quantity="other">You can shoot time freeze videos with up to %d subjects.</item>
+        <item quantity="one">You can shoot time freeze videos only with %d subject.</item>
+    </plurals>
+    <plurals name="fbt">
+        <item quantity="other">%1$s photos</item>
+        <item quantity="one">%1$s photo</item>
+    </plurals>
+</resources>

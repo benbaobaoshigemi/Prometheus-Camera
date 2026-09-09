@@ -1,0 +1,10 @@
+{
+  "wm_color_chart_30_name": {
+    "default": "COLOR CHART FOUR",
+    "zh-rCN": "色卡4"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

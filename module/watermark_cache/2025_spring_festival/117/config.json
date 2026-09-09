@@ -1,0 +1,181 @@
+{
+  "version": 1.78,
+  "metadata": {
+    "name": "@name",
+    "id": "117",
+    "description": "2025_spring_festival_117",
+    "reminder_not_support_mode": ["multi", "raw", "doc", "pano", "mimoji", "instant"],
+    "reminder": "@wm_common_reminder_v2",
+    "show_in_menu": false,
+    "limitation": {
+      "custom_not_support": {
+        "ro.miui.build.region": ["global"],
+        "ro.boot.product.theme_customize": ["lcc"],
+        "ro.product.device": [],
+        "device_type": []
+      }
+    },
+    "priority": 5,
+    "position": "in"
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_bg1",
+          "background_optional": true,
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "bottom|center_horizontal",
+              "margin_left": "0dp",
+              "margin_top": "-40dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "fortune",
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "144dp",
+                  "display_width": "0dp",
+                  "path": "pathType=select;path=img_background;foreground=1"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "14dp",
+                  "setting_optional_type": "type_model",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "layout_gravity": "center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "36dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=2"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 8,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 2,
+                        "rect_radius": [7.2, 7.2, 7.2, 7.2, 7.2, 7.2, 7.2, 7.2],
+                        "rect_line_color": "@foreground=3",
+                        "rect_width": "wrap_content",
+                        "rect_height": "28dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "mix_text_1",
+                  "optional": true,
+                  "margin_left": "0dp",
+                  "margin_top": "14dp",
+                  "layout_gravity": "center_horizontal",
+                  "text": "@mix=time;@locationLimit=0.8;@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "transparent_bg1",
+        "icon": "@img=icon_background_fortune_1.webp",
+        "icon_dark": "@img=icon_background_fortune_1_dark.webp",
+        "value": "@color=#00FFFFFF",
+        "foreground": ["#FF000000", "fortune_1", "white", "#BFFFFFFF"]
+      },
+      {
+        "name": "transparent_bg2",
+        "icon": "@img=icon_background_fortune_2.webp",
+        "icon_dark": "@img=icon_background_fortune_2_dark.webp",
+        "value": "@color=#00FFFFFF",
+        "foreground": ["#FF000000", "fortune_2", "white", "#BFFFFFFF"]
+      },
+      {
+        "name": "transparent_bg3",
+        "icon": "@img=icon_background_fortune_3.webp",
+        "icon_dark": "@img=icon_background_fortune_3_dark.webp",
+        "value": "@color=#00FFFFFF",
+        "foreground": ["#FF000000", "fortune_3", "white", "#BFFFFFFF"]
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 30,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 501",
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      },
+      "f2": {
+        "size": 20,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "shadow": ["1f", "0f", "0f", "#80000000"],
+        "letterSpacing": 0.1
+      },
+      "f3": {
+        "size": 22.0,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 451",
+        "letterSpacing": 0.045,
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      }
+    }
+  }
+}

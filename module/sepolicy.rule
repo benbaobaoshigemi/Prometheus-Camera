@@ -1,0 +1,3 @@
+allow priv_app hal_misys_vendor_service service_manager find
+allow priv_app hal_misys_vendor_default binder { call transfer }
+allow hal_misys_vendor_default priv_app binder { call transfer }

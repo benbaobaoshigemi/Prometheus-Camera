@@ -1,0 +1,10 @@
+{
+  "name": {
+    "default": "2025春节水印_119",
+    "zh-rCN": "2025春节水印_119"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

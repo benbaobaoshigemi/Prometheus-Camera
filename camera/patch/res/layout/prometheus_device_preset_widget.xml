@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="48.0dip" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatRadioButton android:layout_gravity="center" android:id="@android:id/checkbox" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    <ImageButton android:layout_gravity="center" android:id="@id/prometheus_device_delete" android:background="?android:selectableItemBackgroundBorderless" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/prometheus_device_delete_icon" android:contentDescription="删除" />
+</FrameLayout>

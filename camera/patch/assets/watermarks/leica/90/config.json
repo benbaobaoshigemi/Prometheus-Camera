@@ -1,0 +1,294 @@
+{
+  "metadata": {
+    "name": "@wm_leica_90",
+    "id": "90",
+    "description": "leica_90",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "show_in_menu": true,
+    "priority": 0.53,
+    "position": "out",
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "200m"
+    ]
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "vertical",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "center",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=white",
+          "background_optional": true,
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "bottom_container",
+              "orientation": "none",
+              "layout_width": "match_parent",
+              "layout_height": "480dp",
+              "gravity": "center",
+              "childViews": [
+                {
+                  "type": "Layout",
+                  "id": "bottom_wrapper",
+                  "orientation": "vertical",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "layout_gravity": "center_vertical",
+                  "margin_left": "80dp",
+                  "gravity": "center_vertical",
+                  "childViews": [
+                    {
+                      "type": "Layout",
+                      "id": "brand_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_gravity": "left",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "childViews": [
+                        {
+                          "type": "ImageView",
+                          "id": "logo",
+                          "layout_gravity": "center_vertical",
+                          "margin_left": "0dp",
+                          "margin_top": "0dp",
+                          "display_height": "24dp",
+                          "display_width": "0dp",
+                          "path": "pathType=fill;path=${logo};foreground=3"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model= @{series}@{versionNumber}",
+                          "text_upper": false,
+                          "font_ref": "f1"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "model_versionName",
+                          "margin_left": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@model=@{versionName}",
+                          "text_upper": false,
+                          "font_ref": "f2",
+                          "rect_params": {
+                            "rect_text_width_gap": 5,
+                            "rect_text_height_gap": 0,
+                            "rect_line_width": 1,
+                            "rect_radius": [
+                              4,
+                              4,
+                              4,
+                              4,
+                              4,
+                              4,
+                              4,
+                              4
+                            ],
+                            "rect_line_color": "@foreground=4",
+                            "rect_width": "wrap_content",
+                            "rect_height": "20dp"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ImageView",
+                      "id": "leica",
+                      "layout_gravity": "left",
+                      "margin_left": "0dp",
+                      "margin_top": "80dp",
+                      "display_height": "72dp",
+                      "display_width": "0dp",
+                      "path": "pathType=direct;path=leica.webp",
+                      "path_mivi": "pathType=direct;path=leica_p3.webp"
+                    },
+                    {
+                      "type": "Layout",
+                      "id": "exif_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_gravity": "left",
+                      "margin_left": "0dp",
+                      "margin_top": "92dp",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "exif_mm",
+                          "margin_top": "0dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@exif=@{focal}mm",
+                          "font_ref": "f4"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "F",
+                          "margin_left": "20dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@exif=f/@{aperture}",
+                          "text_upper": true,
+                          "font_ref": "f4"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "S",
+                          "margin_left": "20dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@exif=@{speed}s",
+                          "text_upper": true,
+                          "font_ref": "f4"
+                        },
+                        {
+                          "type": "TextView",
+                          "id": "ISO",
+                          "margin_left": "20dp",
+                          "layout_gravity": "center_vertical",
+                          "text": "@exif=ISO@{iso}",
+                          "text_upper": true,
+                          "font_ref": "f4"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Layout",
+                      "id": "location_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_gravity": "left",
+                      "margin_left": "0dp",
+                      "margin_top": "7dp",
+                      "optional": true,
+                      "setting_optional_type": "type_location",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "location",
+                          "layout_gravity": "left|center_vertical",
+                          "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                          "font_ref": "f3"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Layout",
+                      "id": "time_layout",
+                      "orientation": "horizontal",
+                      "layout_width": "wrap_content",
+                      "layout_height": "wrap_content",
+                      "layout_gravity": "left",
+                      "margin_left": "0dp",
+                      "margin_top": "7dp",
+                      "optional": true,
+                      "setting_optional_type": "type_time",
+                      "childViews": [
+                        {
+                          "type": "TextView",
+                          "id": "time",
+                          "layout_gravity": "left|center_vertical",
+                          "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                          "font_ref": "f3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1.0,
+  "wmRes": {
+    "background": [
+      {
+        "name": "white",
+        "icon": "@img=icon_background_white.webp",
+        "value": "@color=#FFFFFFFF",
+        "foreground": [
+          "#FF000000",
+          "#80000000",
+          "#FFE20612",
+          "black",
+          "#BF000000"
+        ]
+      },
+      {
+        "name": "black",
+        "icon": "@img=icon_background_black.webp",
+        "value": "@color=#FF141414",
+        "foreground": [
+          "#FFFFFFFF",
+          "#80FFFFFF",
+          "#BFFFFFFF",
+          "white",
+          "#BFFFFFFF"
+        ]
+      }
+    ],
+    "fonts": {
+      "f1": {
+        "size": 21.6,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      },
+      "f2": {
+        "size": 13.2,
+        "color": "@foreground=0",
+        "typeface": "default",
+        "variation": "'wght' 401",
+        "letterSpacing": 0.028
+      },
+      "f3": {
+        "size": 20.0,
+        "color": "@foreground=1",
+        "variation": "'wght' 401",
+        "letterSpacing": 0.15,
+        "typeface": "@file=lg1056_regular.otf"
+      },
+      "f4": {
+        "size": 20.0,
+        "color": "#FFE20612",
+        "variation": "'wght' 401",
+        "letterSpacing": 0.15,
+        "typeface": "@file=lg1056_regular.otf"
+      }
+    }
+  }
+}

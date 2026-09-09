@@ -1,0 +1,79 @@
+version: 2.12.1
+apkFileName: Phoenix_Camera_Phoenix-1.0.0.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 29
+  targetSdkVersion: 36
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 760010000
+  versionName: Phoenix-1.0.0
+doNotCompress:
+- arsc
+- dex
+- jpg
+- mp3
+- mp4
+- ogg
+- png
+- so
+- wav
+- webp
+- META-INF/services/Ew.q
+- META-INF/services/gb.d
+- META-INF/services/gb.m
+- META-INF/services/sv.a
+- META-INF/services/yw.B
+- META-INF/version-control-info.textproto
+- assets/authpack/authpack.bin
+- assets/cg/cg1.zip
+- assets/cg/cg10.zip
+- assets/cg/cg11.zip
+- assets/cg/cg12.zip
+- assets/cg/cg13.zip
+- assets/cg/cg14.zip
+- assets/cg/cg15.zip
+- assets/cg/cg16.zip
+- assets/cg/cg17.zip
+- assets/cg/cg18.zip
+- assets/cg/cg2.zip
+- assets/cg/cg3.zip
+- assets/cg/cg4.zip
+- assets/cg/cg5.zip
+- assets/cg/cg6.zip
+- assets/cg/cg7.zip
+- assets/cg/cg8.zip
+- assets/cg/cg9.zip
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- assets/hand_gesture_model/gesture_detect.mnn
+- assets/live/mi_music_cn.zip
+- assets/live/mi_music_global.zip
+- assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite
+- assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite
+- assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite
+- assets/obfu_res/res/2Pc.xml
+- assets/obfu_res/res/3mG.xml
+- assets/obfu_res/res/4cg.xml
+- assets/obfu_res/res/4et.xml
+- assets/obfu_res/res/4fk.xml
+- assets/obfu_res/res/Dmq1.xml
+- assets/obfu_res/res/E-c.xml
+- assets/obfu_res/res/QbO.xml
+- assets/obfu_res/res/RAu.xml
+- assets/obfu_res/res/U7A.xml
+- assets/obfu_res/res/UL8.xml
+- assets/obfu_res/res/ZoM.xml
+- assets/obfu_res/res/eWs.xml
+- assets/obfu_res/res/jd0.xml
+- assets/obfu_res/res/kcg.xml
+- assets/obfu_res/res/r4s.xml
+- assets/obfu_res/res/u2T.xml
+- assets/theme_lc
+- assets/video_watermarks/version
+- assets/vp/huaijiu.zip
+- assets/watermarks/version
+- okhttp3/internal/publicsuffix/publicsuffixes.gz

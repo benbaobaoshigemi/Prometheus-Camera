@@ -1,0 +1,11 @@
+/work/
+/dist/
+/tools/vendor/
+/input/
+/lsp/original/
+__pycache__/
+*.pyc
+*.apk
+*.keystore
+*.jks
+*.idsig

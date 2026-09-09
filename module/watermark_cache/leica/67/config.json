@@ -1,0 +1,1240 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_leica_67_name",
+    "id": "67",
+    "description": "leica_6",
+    "reminder": "@wm_common_reminder_v2",
+    "reminder_not_support_mode": ["front", "multi", "raw" ,"doc", "pano", "mimoji", "instant"],
+    "limitation": {
+      "device_type": ["leica"]
+    },
+    "priority": 0.6,
+    "position": "in",
+    "exclude_cases": ["front", "multi", "cosmetic", "doc", "pano", "mimoji"]
+  },
+  "layout_group": [
+    {
+      "bottom_middle": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "bottom|center_horizontal",
+              "margin_left": "0dp",
+              "margin_top": "-40dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "60dp",
+                  "display_width": "0dp",
+                  "support_scale": true,
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "setting_optional_type": "type_model",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "20dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "support_scale": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "26dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=0"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "support_scale": true,
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "support_scale": true,
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 6,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 1.8,
+                        "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                        "rect_line_color": "@foreground=1",
+                        "rect_width": "wrap_content",
+                        "rect_height": "22dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "support_scale": true,
+                  "margin_top": "10dp",
+                  "layout_gravity": "center_horizontal",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "location",
+                  "optional": true,
+                  "support_scale": true,
+                  "margin_top": "6dp",
+                  "layout_gravity": "center_horizontal",
+                  "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "time",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "6dp",
+                  "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bottom_left": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "bottom|left",
+              "margin_left": "40dp",
+              "margin_top": "-40dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "60dp",
+                  "display_width": "0dp",
+                  "support_scale": true,
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "setting_optional_type": "type_model",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "20dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "support_scale": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "26dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=0"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "support_scale": true,
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "support_scale": true,
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 6,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 1.8,
+                        "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                        "rect_line_color": "@foreground=1",
+                        "rect_width": "wrap_content",
+                        "rect_height": "22dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "support_scale": true,
+                  "margin_top": "10dp",
+                  "layout_gravity": "left",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "location",
+                  "optional": true,
+                  "support_scale": true,
+                  "margin_top": "6dp",
+                  "layout_gravity": "left",
+                  "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "time",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "6dp",
+                  "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bottom_right": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "bottom|right",
+              "margin_left": "-40dp",
+              "margin_top": "-40dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "60dp",
+                  "display_width": "0dp",
+                  "support_scale": true,
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "setting_optional_type": "type_model",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "20dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "support_scale": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "26dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=0"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "support_scale": true,
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "support_scale": true,
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 6,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 1.8,
+                        "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                        "rect_line_color": "@foreground=1",
+                        "rect_width": "wrap_content",
+                        "rect_height": "22dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "support_scale": true,
+                  "margin_top": "10dp",
+                  "layout_gravity": "right",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "location",
+                  "optional": true,
+                  "support_scale": true,
+                  "margin_top": "6dp",
+                  "layout_gravity": "right",
+                  "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "time",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "6dp",
+                  "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "center_left": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center_vertical|left",
+              "margin_left": "40dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "60dp",
+                  "display_width": "0dp",
+                  "support_scale": true,
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "setting_optional_type": "type_model",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "20dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "support_scale": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "26dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=0"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "support_scale": true,
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "support_scale": true,
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 6,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 1.8,
+                        "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                        "rect_line_color": "@foreground=1",
+                        "rect_width": "wrap_content",
+                        "rect_height": "22dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "support_scale": true,
+                  "margin_top": "10dp",
+                  "layout_gravity": "left",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "location",
+                  "optional": true,
+                  "support_scale": true,
+                  "margin_top": "6dp",
+                  "layout_gravity": "left",
+                  "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "time",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "6dp",
+                  "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "center_middle": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "60dp",
+                  "display_width": "0dp",
+                  "support_scale": true,
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "setting_optional_type": "type_model",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center",
+                  "margin_left": "0dp",
+                  "margin_top": "20dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "support_scale": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "26dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=0"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "support_scale": true,
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "support_scale": true,
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 6,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 1.8,
+                        "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                        "rect_line_color": "@foreground=1",
+                        "rect_width": "wrap_content",
+                        "rect_height": "22dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "support_scale": true,
+                  "margin_top": "10dp",
+                  "layout_gravity": "center_horizontal",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "location",
+                  "optional": true,
+                  "support_scale": true,
+                  "margin_top": "6dp",
+                  "layout_gravity": "center_horizontal",
+                  "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "time",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "6dp",
+                  "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "center_right": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "center_vertical|right",
+              "margin_left": "-40dp",
+              "margin_top": "0dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "60dp",
+                  "display_width": "0dp",
+                  "support_scale": true,
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "setting_optional_type": "type_model",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "20dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "support_scale": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "26dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=0"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "support_scale": true,
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "support_scale": true,
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 6,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 1.8,
+                        "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                        "rect_line_color": "@foreground=1",
+                        "rect_width": "wrap_content",
+                        "rect_height": "22dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "support_scale": true,
+                  "margin_top": "10dp",
+                  "layout_gravity": "right",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "location",
+                  "optional": true,
+                  "support_scale": true,
+                  "margin_top": "6dp",
+                  "layout_gravity": "right",
+                  "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "time",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "6dp",
+                  "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "top_left": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "top|left",
+              "margin_left": "40dp",
+              "margin_top": "40dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "60dp",
+                  "display_width": "0dp",
+                  "support_scale": true,
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "setting_optional_type": "type_model",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "20dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "support_scale": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "26dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=0"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "support_scale": true,
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "support_scale": true,
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 6,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 1.8,
+                        "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                        "rect_line_color": "@foreground=1",
+                        "rect_width": "wrap_content",
+                        "rect_height": "22dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "support_scale": true,
+                  "margin_top": "10dp",
+                  "layout_gravity": "left",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "location",
+                  "optional": true,
+                  "support_scale": true,
+                  "margin_top": "6dp",
+                  "layout_gravity": "left",
+                  "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "time",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "left",
+                  "margin_left": "0dp",
+                  "margin_top": "6dp",
+                  "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "top_middle": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "top|center_horizontal",
+              "margin_left": "0dp",
+              "margin_top": "40dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "60dp",
+                  "display_width": "0dp",
+                  "support_scale": true,
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "setting_optional_type": "type_model",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "20dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "support_scale": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "26dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=0"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "support_scale": true,
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "support_scale": true,
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 6,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 1.8,
+                        "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                        "rect_line_color": "@foreground=1",
+                        "rect_width": "wrap_content",
+                        "rect_height": "22dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "support_scale": true,
+                  "margin_top": "10dp",
+                  "layout_gravity": "center_horizontal",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "location",
+                  "optional": true,
+                  "support_scale": true,
+                  "margin_top": "6dp",
+                  "layout_gravity": "center_horizontal",
+                  "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "time",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "6dp",
+                  "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "top_right": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "left",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "background": "@background=transparent_white",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "watermark_container",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "top|right",
+              "margin_left": "-40dp",
+              "margin_top": "40dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "60dp",
+                  "display_width": "0dp",
+                  "support_scale": true,
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "brand_layout",
+                  "setting_optional_type": "type_model",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
+                  "gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "20dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "logo",
+                      "support_scale": true,
+                      "layout_gravity": "left|center_vertical",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "26dp",
+                      "display_width": "0dp",
+                      "path": "pathType=fill;path=${logo};foreground=0"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model",
+                      "support_scale": true,
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model= @{series}@{versionNumber}",
+                      "font_ref": "f1"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "model_versionName",
+                      "margin_left": "0dp",
+                      "layout_gravity": "center_vertical",
+                      "text": "@model=@{versionName}",
+                      "support_scale": true,
+                      "text_upper": false,
+                      "font_ref": "f2",
+                      "rect_params": {
+                        "rect_text_width_gap": 6,
+                        "rect_text_height_gap": 0,
+                        "rect_line_width": 1.8,
+                        "rect_radius": [5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6, 5.6],
+                        "rect_line_color": "@foreground=1",
+                        "rect_width": "wrap_content",
+                        "rect_height": "22dp"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "support_scale": true,
+                  "margin_top": "10dp",
+                  "layout_gravity": "right",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "location",
+                  "optional": true,
+                  "support_scale": true,
+                  "margin_top": "6dp",
+                  "layout_gravity": "right",
+                  "text": "@location=location_latlng_switch;@locationLimit=0.8",
+                  "font_ref": "f3"
+                },
+                {
+                  "type": "TextView",
+                  "id": "time",
+                  "optional": true,
+                  "support_scale": true,
+                  "layout_gravity": "right",
+                  "margin_left": "0dp",
+                  "margin_top": "6dp",
+                  "text": "@time=@wm_time_yyyy_MM_dd_HH_mm",
+                  "font_ref": "f3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "transparent_white",
+        "icon": "@img=icon_background_white.webp",
+        "value": "@color=#00FFFFFF",
+        "foreground": ["white", "#BFFFFFFF"]
+      }
+    ],
+    "orientation": {
+      "orientation_vertical": {
+        "tab": ["top", "center", "bottom"]
+      },
+      "orientation_horizontal": {
+        "tab": ["left", "middle", "right"]
+      }
+    },
+    "fonts": {
+      "f1": {
+        "size": 24,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 501",
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      },
+      "f2": {
+        "size": 15,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 400",
+        "letterSpacing": 0.032,
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      },
+      "f3": {
+        "size": 19,
+        "color": "#CCFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 400",
+        "letterSpacing": 0.1,
+        "shadow": ["1f", "0f", "0f", "#80000000"]
+      }
+    }
+  }
+}

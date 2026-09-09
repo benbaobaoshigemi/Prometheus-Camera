@@ -1,0 +1,18 @@
+version: 2.12.1
+apkFileName: Phoenix_LSP_Phoenix-1.0.0.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 31
+  targetSdkVersion: 35
+packageInfo:
+  forcedPackageId: 0
+versionInfo:
+  versionCode: 2010000
+  versionName: Phoenix-1.0.0
+doNotCompress:
+- arsc
+- dex
+- png
+- webp

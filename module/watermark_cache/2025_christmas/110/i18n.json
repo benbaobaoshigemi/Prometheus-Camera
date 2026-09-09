@@ -1,0 +1,10 @@
+{
+  "wm_new_year_3_name": {
+    "default": "元旦水印3",
+    "zh-rCN": "元旦水印3"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd  HH:mm",
+    "zh-rCN": "yyyy.MM.dd  HH:mm"
+  }
+}
