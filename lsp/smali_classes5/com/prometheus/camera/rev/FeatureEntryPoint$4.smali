@@ -1,14 +1,11 @@
 .class Lcom/prometheus/camera/rev/FeatureEntryPoint$4;
-.super Ljava/lang/Object;
+.super Lde/robv/android/xposed/XC_MethodHook;
 .source "FeatureEntryPoint.java"
-
-# interfaces
-.implements Ljava/lang/reflect/InvocationHandler;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/prometheus/camera/rev/FeatureEntryPoint;->listener(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Object;
+    value = Lcom/prometheus/camera/rev/FeatureEntryPoint;->installPreferenceChange(Ljava/lang/ClassLoader;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,130 +14,122 @@
 .end annotation
 
 
-# instance fields
-.field final synthetic val$key:Ljava/lang/String;
-
-
 # direct methods
-.method constructor <init>(Ljava/lang/String;)V
+.method constructor <init>()V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
-    .line 126
-    iput-object p1, p0, Lcom/prometheus/camera/rev/FeatureEntryPoint$4;->val$key:Ljava/lang/String;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 151
+    invoke-direct {p0}, Lde/robv/android/xposed/XC_MethodHook;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 1
+.method protected beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
+    .locals 3
 
-    .line 128
-    const-string p1, "onPreferenceChange"
+    .line 153
+    iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
-    invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+    const-string v0, "m"
 
-    move-result-object p2
+    invoke-static {p0, v0}, Lde/robv/android/xposed/XposedHelpers;->getObjectField(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result-object p0
 
-    move-result p1
+    .line 154
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
-    if-nez p1, :cond_0
+    move-result-object p0
 
-    const/4 p0, 0x0
+    .line 155
+    const-string v0, "prometheus_hdr_always_on"
 
-    return-object p0
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    move-result v0
+
+    const-string v1, "prometheus_log_enabled"
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    .line 156
     :cond_0
-    const/4 p1, 0x1
+    sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    .line 129
-    aget-object p1, p3, p1
+    iget-object p1, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
-    .line 130
-    sget-object p2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+    const/4 v2, 0x0
 
-    invoke-virtual {p2, p1}, Ljava/lang/Boolean;->equals(Ljava/lang/Object;)Z
+    aget-object p1, p1, v2
+
+    invoke-virtual {v0, p1}, Ljava/lang/Boolean;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
-    .line 131
+    .line 157
     invoke-static {}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$100()Landroid/content/SharedPreferences;
 
-    move-result-object p2
+    move-result-object v0
 
-    invoke-interface {p2}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
-    move-result-object p2
+    move-result-object v0
 
-    iget-object p3, p0, Lcom/prometheus/camera/rev/FeatureEntryPoint$4;->val$key:Ljava/lang/String;
+    invoke-interface {v0, p0, p1}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
-    invoke-interface {p2, p3, p1}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    move-result-object v0
 
-    move-result-object p2
+    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    invoke-interface {p2}, Landroid/content/SharedPreferences$Editor;->commit()Z
+    move-result v0
 
-    move-result p2
+    .line 158
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 132
-    const-string p3, "prometheus_log_enabled"
+    move-result v1
 
-    iget-object v0, p0, Lcom/prometheus/camera/rev/FeatureEntryPoint$4;->val$key:Ljava/lang/String;
+    if-eqz v1, :cond_1
 
-    invoke-virtual {p3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p3
-
-    if-eqz p3, :cond_1
-
-    if-eqz p2, :cond_1
+    if-eqz v0, :cond_1
 
     invoke-static {p1}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$200(Z)V
 
-    .line 133
+    .line 159
     :cond_1
-    new-instance p3, Ljava/lang/StringBuilder;
+    new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v0, "Phoenix: direct preference key="
+    const-string v2, "Phoenix: preference i key="
 
-    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object p0, p0, Lcom/prometheus/camera/rev/FeatureEntryPoint$4;->val$key:Ljava/lang/String;
-
-    invoke-virtual {p3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p0, " value="
 
-    invoke-virtual {p3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
     const-string p0, " written="
 
-    invoke-virtual {p3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->logExternal(Ljava/lang/String;)V
 
-    .line 134
-    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object p0
-
-    return-object p0
+    :cond_2
+    return-void
 .end method

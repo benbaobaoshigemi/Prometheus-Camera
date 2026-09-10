@@ -1,20 +1,13 @@
 #!/system/bin/sh
 
-# Merge the module into the target ROM's standalone ODM partition on all
-# supported managers. Magisk does not map system/odm to this partition.
+# KernelSU/APatch merge ODM assets manually. Magisk keeps its system tree.
+# The photo shader library is mounted independently for every manager.
 
 MODDIR="${0%/*}"
 LOG="$MODDIR/mount.log"
-BB=/data/adb/ksu/bin/busybox
-[ -x "$BB" ] || BB=/data/adb/magisk/busybox
-[ -x "$BB" ] || BB=/data/adb/ap/bin/busybox
 exec >"$LOG" 2>&1
 set -u
 
-[ -x "$BB" ] || exit 1
-
-# Keep the payload outside system/ so manager mounts cannot compete with
-# the two controlled ODM subtree mounts below.
 fail() {
   echo "ERROR: $*"
   touch "$MODDIR/mount_failed"
@@ -26,19 +19,38 @@ if [ -r "$ROOT_FAMILY_FILE" ]; then
   IFS= read -r ROOT_FAMILY < "$ROOT_FAMILY_FILE" || true
 fi
 case "$ROOT_FAMILY" in
-  ksu|apatch|magisk)
-    echo "${ROOT_FAMILY}：执行受控 ODM 子树合并"
-    ;;
+  ksu) BB=/data/adb/ksu/bin/busybox ;;
+  magisk) BB=/data/adb/magisk/busybox ;;
+  apatch) BB=/data/adb/ap/bin/busybox ;;
   *)
     fail "缺少或无效的 Root 管理器记录：${ROOT_FAMILY:-未知}"
     ;;
 esac
 
-fail() {
-  echo "ERROR: $*"
-  touch "$MODDIR/mount_failed"
-  exit 1
-}
+[ -x "$BB" ] || fail "${ROOT_FAMILY} BusyBox 不可用：$BB"
+echo "Root 管理器：${ROOT_FAMILY}，BusyBox=$BB"
+
+rm -f "$MODDIR/mount_failed"
+
+SHADER_LIBRARY="$MODDIR/payload/libMiPhotoFilter.so"
+PHOTO_LIBRARY=/odm/lib64/libMiPhotoFilter.so
+[ -s "$SHADER_LIBRARY" ] || fail "missing photo shader library"
+[ -f "$PHOTO_LIBRARY" ] || fail "missing target photo library"
+PHOTO_CONTEXT="$(/system/bin/stat -c %C "$PHOTO_LIBRARY")" || fail "read photo library context"
+chcon "$PHOTO_CONTEXT" "$SHADER_LIBRARY" || fail "label photo shader library"
+"$BB" mount -o bind "$SHADER_LIBRARY" "$PHOTO_LIBRARY" || fail "mount photo shader library"
+"$BB" cmp "$SHADER_LIBRARY" "$PHOTO_LIBRARY" || fail "verify photo shader library"
+echo "Phoenix photo shader library mounted successfully"
+
+case "$ROOT_FAMILY" in
+  magisk)
+    echo "Magisk：保持 system/odm 布局，跳过 ODM 目录手动合并"
+    exit 0
+    ;;
+  ksu|apatch)
+    echo "${ROOT_FAMILY}：执行受控 ODM 子树合并"
+    ;;
+esac
 
 bind_entry() {
   local source_path="$1"
@@ -89,7 +101,6 @@ build_merge_tree() {
   done
 }
 
-rm -f "$MODDIR/mount_failed"
 rm -rf "$MODDIR/.merge"
 mkdir -p "$MODDIR/.merge/camera" || fail "create camera merge root"
 
@@ -111,7 +122,5 @@ chcon -R u:object_r:vendor_configs_file:s0 "$MODULE_ODM/etc/camera/xiaomi/waterm
 build_merge_tree "$MODULE_ODM/etc/camera/xiaomi/watermark" /odm/etc/camera/xiaomi/watermark "$MODDIR/.merge/camera/xiaomi/watermark"
 "$BB" mount -o rbind "$MODDIR/.merge/camera/xiaomi/watermark" /odm/etc/camera/xiaomi/watermark || fail "activate watermark directory"
 
-
-
-echo "Legend17U ODM merge mounted successfully"
+echo "Phoenix ODM assets mounted successfully"
 exit 0

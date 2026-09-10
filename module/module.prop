@@ -1,6 +1,6 @@
 id=legend17u_14u_local
 name=Phoenix Camera - Xiaomi 14 Ultra
-version=Phoenix-1.0.0
-versionCode=2010000
+version=Phoenix-1.1.0
+versionCode=2010100
 author=Prometheus Port
 description=Prometheus Cam 根模块：相机与 LSP 协同，内置滤镜与水印开机即用。

@@ -15,11 +15,11 @@
 
 
 # direct methods
-.method constructor <init>()V
+.method constructor <init>(I)V
     .locals 0
 
-    .line 69
-    invoke-direct {p0}, Lde/robv/android/xposed/XC_MethodHook;-><init>()V
+    .line 66
+    invoke-direct {p0, p1}, Lde/robv/android/xposed/XC_MethodHook;-><init>(I)V
 
     return-void
 .end method
@@ -27,32 +27,12 @@
 
 # virtual methods
 .method protected afterHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
-    .locals 2
+    .locals 0
 
-    .line 71
-    const-string v0, "advance settings hook entered"
+    .line 68
+    iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$600(Ljava/lang/String;)V
-
-    .line 72
-    iget-object p1, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
-
-    .line 73
-    new-instance v0, Landroid/os/Handler;
-
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
-
-    move-result-object v1
-
-    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    new-instance v1, Lcom/prometheus/camera/rev/FeatureEntryPoint$2$1;
-
-    invoke-direct {v1, p0, p1}, Lcom/prometheus/camera/rev/FeatureEntryPoint$2$1;-><init>(Lcom/prometheus/camera/rev/FeatureEntryPoint$2;Ljava/lang/Object;)V
-
-    const-wide/16 p0, 0x1f4
-
-    invoke-virtual {v0, v1, p0, p1}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$700(Ljava/lang/Object;)V
 
     return-void
 .end method

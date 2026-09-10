@@ -5,8 +5,8 @@
     {
       "path": "AndroidManifest.xml",
       "targetPath": "AndroidManifest.xml",
-      "size": 64061,
-      "sha256": "50d107e278f3f6d282ea00105d99fe8b2bfa1d746c99d7d96cf259122773e07c"
+      "size": 63748,
+      "sha256": "aecf72aa32251b42e96097f8fca06e404b23fb35eb5dcfab4ec6e42ade28d040"
     },
     {
       "path": "assets/cloudfilter/cloud_filter_custom.json",
@@ -6300,7 +6300,7 @@
       "path": "smali_classes3/X9/h.1.smali",
       "targetPath": "smali_classes3/X9/h.1.smali",
       "size": 12031,
-      "sha256": "1130f5e579358cf87cb10f2a0535122e805ce109b456869ef4a9e63a4884e061"
+      "sha256": "943ee3899de5710a430e67be2143cd5baf600f8e5d27ecc62f7076f991588d84"
     },
     {
       "path": "smali_classes3/X9/j.smali",
@@ -6463,6 +6463,42 @@
       "targetPath": "smali_classes6/miuix/animation/utils/LogUtils.smali",
       "size": 12356,
       "sha256": "eaf1d74e14b39c230600126d11c3e8da993701726faab34702a9e29277425733"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/settings/VignetteExperimentalActivity.smali",
+      "targetPath": "smali/com/android/camera/fragment/settings/VignetteExperimentalActivity.smali",
+      "size": 373,
+      "sha256": "c318216bdd9515fc6b65a5fa8d158fa53987e978fff9e187e1e01b5203dbbd20"
+    },
+    {
+      "path": "res/layout/phoenix_vignette_strength.xml",
+      "targetPath": "res/layout/phoenix_vignette_strength.xml",
+      "size": 1166,
+      "sha256": "b898571d4786bdbfc38e429dffa335586b3f65aa82e47208f7532308fb81370a"
+    },
+    {
+      "path": "res/layout/phoenix_vignette_switch.xml",
+      "targetPath": "res/layout/phoenix_vignette_switch.xml",
+      "size": 283,
+      "sha256": "03a17e91a3208b9f5d63707c2a653f02b1b4684eea5c86eb911c3277549c3f59"
+    },
+    {
+      "path": "res/values/phoenix_vignette.xml",
+      "targetPath": "res/values/phoenix_vignette.xml",
+      "size": 217,
+      "sha256": "7591e1f2971a440814515794a8c41cc3668ff80ae1e3043768324e37177c80a9"
+    },
+    {
+      "path": "assets/phoenix/vignette-template.glsl",
+      "targetPath": "assets/phoenix/vignette-template.glsl",
+      "size": 1844,
+      "sha256": "046a3a14bb765467d26848e3436dc955cf08ff21aaa1c319d4c9f910229f33e4"
+    },
+    {
+      "path": "lib/arm64-v8a/libMiFilterSDK.so",
+      "targetPath": "lib/arm64-v8a/libMiFilterSDK.so",
+      "size": 704512,
+      "sha256": "56a025adaf6e8a8ae3043e890398f7d2817e0360ec11c500c637709b9c6f1c27"
     }
   ],
   "deletions": [

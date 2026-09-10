@@ -88,42 +88,22 @@
 
     if-ne p0, v3, :cond_2
 
-    .line 696
     invoke-static {v2}, Lcom/prometheus/camera/colordev/EntryPoint;->access$1700(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object p0
 
-    const-string v3, "pref_prometheus_disable_xiaomi_ai_asd"
+    iget-object p1, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
-    invoke-interface {p0, v3, v1}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    aget-object v0, p1, v4
 
-    move-result p0
+    check-cast v0, Ljava/lang/Boolean;
 
-    if-eqz p0, :cond_2
+    invoke-static {p0, v0}, Lcom/prometheus/camera/colordev/XiaomiAsd;->resolve(Landroid/content/SharedPreferences;Ljava/lang/Boolean;)Ljava/lang/Boolean;
 
-    .line 697
-    iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
+    move-result-object v0
 
-    sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+    aput-object v0, p1, v4
 
-    aput-object p1, p0, v4
-
-    .line 698
-    invoke-static {}, Lcom/prometheus/camera/colordev/EntryPoint;->access$3400()Z
-
-    move-result p0
-
-    if-nez p0, :cond_1
-
-    .line 699
-    invoke-static {v4}, Lcom/prometheus/camera/colordev/EntryPoint;->access$3402(Z)Z
-
-    .line 700
-    const-string p0, "PrometheusColorDev: xiaomi.ai.asd.enabled=false"
-
-    invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->logExternal(Ljava/lang/String;)V
-
-    :cond_1
     return-void
 
     .line 706

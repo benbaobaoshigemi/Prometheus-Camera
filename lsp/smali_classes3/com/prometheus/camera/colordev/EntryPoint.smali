@@ -54,7 +54,7 @@
 
 .field private static final KEY_CLASSIC_STYLE:Ljava/lang/String; = "pref_prometheus_classic_style"
 
-.field private static final KEY_DISABLE_ASD:Ljava/lang/String; = "pref_prometheus_disable_xiaomi_ai_asd"
+.field private static final KEY_XIAOMI_ASD:Ljava/lang/String; = "pref_prometheus_xiaomi_ai_asd"
 
 .field private static final KEY_VIGNETTE:Ljava/lang/String; = "pref_prometheus_classic_vignette"
 
@@ -2508,7 +2508,7 @@
 
     const-string v3, "pref_prometheus_classic_style"
 
-    const-string v4, "pref_prometheus_disable_xiaomi_ai_asd"
+    const-string v4, "pref_prometheus_xiaomi_ai_asd"
 
     filled-new-array {v1, v2, v3, v4}, [Ljava/lang/String;
 

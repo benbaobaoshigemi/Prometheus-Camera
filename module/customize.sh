@@ -1,10 +1,10 @@
 #!/system/bin/sh
 
-VERSION="Phoenix-1.0.0"
+VERSION="Phoenix-1.1.0"
 LSP_PACKAGE="com.prometheus.camera.rev"
 CAMERA_PACKAGE="com.android.camera"
-LSP_APK="$MODPATH/Phoenix_LSP_Phoenix-1.0.0.apk"
-CAMERA_APK="$MODPATH/Phoenix_Camera_Phoenix-1.0.0.apk"
+LSP_APK="$MODPATH/Phoenix_LSP_Phoenix-1.1.0.apk"
+CAMERA_APK="$MODPATH/Phoenix_Camera_Phoenix-1.1.0.apk"
 AUDIT="$MODPATH/install-audit.log"
 
 : >"$AUDIT" || abort "! 无法创建安装日志"
@@ -122,8 +122,7 @@ CAMERA_PATH="$(pm path "$CAMERA_PACKAGE" 2>/dev/null | sed -n 's/^package://p' |
 [ -n "$CAMERA_PATH" ] || fail "相机 APK 安装后不可见"
 ui_print "  · 相机已注册到系统"
 
-# /odm is a standalone partition on the target ROM. All three managers use
-# post-fs-data.sh for these ODM subtrees; Magisk's system tree does not map it.
+# Keep system/odm for Magisk; KernelSU/APatch use manual ODM subtree mounts.
 # Record the manager selected for this install. The post-fs-data
 # environment is not consistent across Magisk, KernelSU and APatch.
 if [ "${APATCH:-}" = true ]; then
@@ -139,11 +138,16 @@ printf '%s\n' "$ROOT_FAMILY" > "$MODPATH/.phoenix-root-family" || fail "无法�
 
 stage "整理 ODM 挂载目录"
 [ -d "$MODPATH/system/odm/etc/camera" ] || fail "模块内缺少 system/odm/etc/camera"
-[ ! -e "$MODPATH/odm" ] || fail "模块 ODM 挂载目录已存在，拒绝覆盖"
-mv "$MODPATH/system/odm" "$MODPATH/odm" || fail "无法整理 ODM 挂载目录"
-ODM_DIR="$MODPATH/odm"
-ui_print "  · ODM 目录已转入 post-fs-data 合并入口（$ROOT_FAMILY）"
-rmdir "$MODPATH/system" 2>/dev/null || true
+if [ "$ROOT_FAMILY" = magisk ]; then
+  ODM_DIR="$MODPATH/system/odm"
+  ui_print "  · Magisk：保持 system/odm 布局，跳过 ODM 目录手动合并"
+else
+  [ ! -e "$MODPATH/odm" ] || fail "模块 ODM 挂载目录已存在，拒绝覆盖"
+  mv "$MODPATH/system/odm" "$MODPATH/odm" || fail "无法整理 ODM 挂载目录"
+  ODM_DIR="$MODPATH/odm"
+  ui_print "  · ODM 目录已转入 post-fs-data 合并入口（$ROOT_FAMILY）"
+  rmdir "$MODPATH/system" 2>/dev/null || true
+fi
 
 stage "应用模块权限"
 set_perm_recursive "$ODM_DIR/etc" 0 0 0755 0644
@@ -159,6 +163,11 @@ set_perm "$MODPATH/post-fs-data.sh" 0 0 0755
 set_perm "$MODPATH/sync-local-watermarks.sh" 0 0 0755
 set_perm "$MODPATH/install-self-check.sh" 0 0 0755
 set_perm "$MODPATH/sync-by-leica-assets.sh" 0 0 0755
+for script in init-formula.sh sync-formula.sh formula-service.sh formula-event.sh; do
+  set_perm "$MODPATH/$script" 0 0 0755
+done
+set_perm_recursive "$MODPATH/formulas" 0 0 0755 0644
+set_perm_recursive "$MODPATH/payload" 0 0 0755 0644
 
 stage "停止相机与相册编辑器，准备写入文件"
 # Package replacement and module commit are intentionally separate.
@@ -211,6 +220,9 @@ printf "%s\n" "$seed_output" | while IFS= read -r line; do [ -z "$line" ] || ui_
 if [ "$seed_status" -ne 0 ]; then
   fail "本地水印写入失败"
 fi
+
+stage "初始化暗角着色器"
+sh "$MODPATH/init-formula.sh" || fail "暗角着色器初始化失败"
 
 stage "校验安装结果"
 check_output="$(sh "$MODPATH/install-self-check.sh" "$MODPATH" "$VERSION" \

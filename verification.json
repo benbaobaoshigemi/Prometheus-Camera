@@ -1,126 +1,54 @@
 {
-  "format": 2,
   "version": {
-    "versionName": "Phoenix-1.0.0",
-    "cameraVersionCode": 760010000,
-    "lspVersionCode": 2010000,
-    "moduleVersionCode": 2010000,
+    "versionName": "Phoenix-1.1.0",
+    "cameraVersionCode": 760010100,
+    "lspVersionCode": 2010100,
+    "moduleVersionCode": 2010100,
     "package": "com.android.camera",
     "targetDevice": "aurora"
   },
-  "updated": "2026-09-09",
-  "scope": "Current Phoenix 1.0.0 iterations; static artifact checks and completed device observations are distinguished.",
-  "artifacts": {
-    "Camera": {
-      "file": "Phoenix_Camera_Phoenix-1.0.0.apk",
-      "size": 222406189,
-      "zipEntries": 6789
-    },
-    "LSP": {
-      "file": "Phoenix_LSP_Phoenix-1.0.0.apk",
-      "size": 11992186,
-      "zipEntries": 198
-    },
-    "AllInOne": {
-      "file": "Phoenix_Phoenix-1.0.0_AllInOne.zip",
-      "size": 211144066,
-      "zipEntries": 1356
-    }
+  "releaseStatus": "built-and-installed; GitHub release V1.1.0",
+  "baseline": "Phoenix-1.0.10, cumulative maintenance of the V1.0.0 release line",
+  "artifactComparison": {
+    "Camera": "Compared with the formal 1.0.10 APK: only AndroidManifest.xml payload bytes changed.",
+    "LSP": "Compared with the formal 1.0.10 APK: only AndroidManifest.xml and classes3.dex payload bytes changed.",
+    "module": "Version metadata updated; existing payload retained, including the current optional GLSL example."
   },
-  "changes": [
-    "Restore native Leica Looks selector routing in video mode.",
-    "Prepare watermark permissions, assets and SELinux labels before publishing app-private files.",
-    "Use installer manager flags and a common ODM mount path for KernelSU, Magisk and APatch.",
-    "Publish watermark model transforms across camera watermark categories.",
-    "Complete native by-Leica suffix colors and Leitz shadow assets, including all 37 suffix assets in Camera."
+  "verified": [
+    "Unified Camera/LSP/All-in-One build completed.",
+    "Official KernelSU module install completed with installer self-checks.",
+    "Installed Camera versionCode 760010100 and LSP versionCode 2010100.",
+    "New target-process logs confirm the ASD hook is active.",
+    "Native default observed before any ASD preference was saved.",
+    "User toggles produced native=true/effective=false and native=false/effective=true.",
+    "Final enabled preference persisted across a new camera process; native=false/effective=true observed again.",
+    "Eight Java helper policy cases passed, including native pass-through, both force directions, legacy migration, new-key precedence and failure handling."
   ],
-  "verification": {
-    "moduleApkPayloadsMatchStandalone": {
-      "Camera": true,
-      "LSP": true
-    },
-    "moduleScriptsMatchCurrentSource": true,
-    "watermarkSuffixAssetsMatchCameraLspModule": 37,
-    "videoSelector": {
-      "targetCasesPassed": 7,
-      "nonTargetCasesUnchanged": 4,
-      "method": "Offline execution of actual smali control flow; no claim of equivalent Android runtime execution."
-    },
-    "watermarkAssetProbe": {
-      "realMiviTemplates": 6,
-      "cases": 32,
-      "errors": 0,
-      "method": "Actual Android execution of candidate DEX with candidate Camera assets."
-    },
-    "managerMounts": {
-      "KernelSU": "passed isolated device mount test and physical install/boot",
-      "Magisk": "passed isolated device mount test; physical install/boot not tested",
-      "APatch": "passed isolated device mount test; physical install/boot not tested"
-    },
-    "device": {
-      "officialKernelSUInstall": "passed",
-      "bootWatermarkInitialization": "passed",
-      "threeAssetSyncProcessesStarted": true,
-      "cameraWatermarkPublisherHook": "confirmed in target process",
-      "watermarkBehavior": "user confirmed resolved"
-    },
-    "currentIncrementalBuild": "passed",
-    "currentArchiveCleanBuild": "not repeated after the latest functional iterations"
+  "installation": {
+    "manager": "KernelSU 4.1.3",
+    "device": "Xiaomi 14 Ultra / aurora",
+    "rebootPerformed": false,
+    "moduleUpdatePendingReboot": true,
+    "asdFeatureActiveInNewProcess": true
   },
-  "knownIssues": [
-    {
-      "feature": "Portrait virtual aperture re-editing",
-      "trigger": "Image metadata override enabled",
-      "status": "User confirmed trigger by toggling the feature. Behavior retained by request.",
-      "workaround": "Disable image metadata override before capturing portraits that need aperture re-editing.",
-      "preserved": [
-        "Image metadata override",
-        "Watermark metadata override and watermark model identity"
-      ],
-      "causalBoundary": "The exact responsible metadata field has not been isolated."
+  "sourceArchiveRebuild": {
+    "status": "verified",
+    "method": "Extracted source ZIP and ran the unified build with the OS4 official camera input; clean caches and a fresh development signing key.",
+    "payloadComparison": {
+      "Camera": {
+        "payloadEntries": 6781,
+        "changed": []
+      },
+      "LSP": {
+        "payloadEntries": 193,
+        "changed": []
+      }
     },
-    {
-      "feature": "Leica Classic style switching",
-      "affectedDevices": "Models preceding Xiaomi 14 Ultra",
-      "status": "Reported nonfunctional by maintainer",
-      "compatibilityObservation": "No other major incompatibilities reported; minor model-specific issues remain possible."
-    }
-  ],
-  "historicalInitial100Verification": {
-    "scope": "Initial 1.0.0 conversion before the functional iterations listed above; not current artifact equality.",
-    "cleanBuildPassed": {
-      "sourceArchiveExtractedIntoEmptyDirectory": true,
-      "apktoolDownloadedByBootstrap": true,
-      "frameworkCacheCreatedLocally": true,
-      "historicalApkOrModuleZipUsedAsBuildInput": false,
-      "officialCameraProvidedExternally": true,
-      "allInOneBuilt": true
-    },
-    "initialComparisonPassed": true
+    "signatureScope": "APK non-META-INF ZIP payloads are byte-identical. Fresh signing keys differ; whole signed APK identity is not claimed."
   },
-  "compatibility": {
-    "basis": "Maintainer-provided compatibility scope; not exhaustive device testing.",
-    "systems": {
-      "HyperOS3": "Fully supported",
-      "HyperOS4": "Theoretical support"
-    },
-    "devices": "Theoretically all LEICA co-branded slab phones running HyperOS3; minor model-specific adaptation issues may occur.",
-    "managers": {
-      "KernelSU": "Theoretical support; physical validation recorded below",
-      "Magisk": "Theoretical support",
-      "APatch": "Theoretical support"
-    },
-    "requirements": [
-      "ROOT",
-      "LSPosed (LSP)",
-      "Core signature verification bypass"
-    ],
-    "galleryEditorVersion": "2.4.0.4.3",
-    "galleryEditorVersionScope": "Required for all gallery injection features",
-    "hyperOS4GalleryCompatibility": "May try downgrading Xiaomi Gallery Editor to 2.4.0.4.3; overall HyperOS4 support remains theoretical.",
-    "applicationData": {
-      "beforeInstallation": "Must clear Camera and Xiaomi Gallery Editor application data",
-      "afterInstallation": "Must not clear Camera or Xiaomi Gallery Editor application data"
-    }
-  }
+  "notVerified": [
+    "This release module activation after a device reboot.",
+    "Other device/ROM/root-manager combinations.",
+    "AI scene classification accuracy or changes to final photograph appearance."
+  ]
 }

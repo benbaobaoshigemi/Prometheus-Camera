@@ -9,8 +9,8 @@ sdkInfo:
 packageInfo:
   forcedPackageId: 127
 versionInfo:
-  versionCode: 760010000
-  versionName: Phoenix-1.0.0
+  versionCode: 760010100
+  versionName: Phoenix-1.1.0
 doNotCompress:
 - arsc
 - dex

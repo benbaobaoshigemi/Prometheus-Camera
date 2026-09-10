@@ -6,7 +6,7 @@
 
 ## 项目模型
 
-Phoenix 1.0.0 基于小米 17 Ultra 的 OS4 官方相机，面向搭载澎湃 OS3 的 LEICA 联名直板机型；设备验证基于小米 14 Ultra（`aurora`）。底包的 OS4 来源与目标系统的兼容范围是两个独立信息。功能由三个部分协作提供：
+Phoenix 1.1.0 基于小米 17 Ultra 的 OS4 官方相机，面向搭载澎湃 OS3 的 LEICA 联名直板机型；设备验证基于小米 14 Ultra（`aurora`）。底包的 OS4 来源与目标系统的兼容范围是两个独立信息。功能由三个部分协作提供：
 
 | 部分 | 权威输入 | 运行职责 |
 | --- | --- | --- |
@@ -52,8 +52,8 @@ Phoenix 1.0.0 基于小米 17 Ultra 的 OS4 官方相机，面向搭载澎湃 OS
 
 | 字段 | Camera | LSP | 根模块 |
 | --- | --- | --- | --- |
-| versionName / version | `Phoenix-1.0.0` | `Phoenix-1.0.0` | `Phoenix-1.0.0` |
-| versionCode | `760010000` | `2010000` | `2010000` |
+| versionName / version | `Phoenix-1.1.0` | `Phoenix-1.1.0` | `Phoenix-1.1.0` |
+| versionCode | `760010100` | `2010100` | `2010100` |
 | 包名 / 模块 ID | `com.android.camera` | `com.prometheus.camera.rev` | `legend17u_14u_local` |
 | SDK 元数据 | min 29 / target 36 | min 31 / target 35 | 不适用 |
 
@@ -181,7 +181,7 @@ python tools/build_phoenix.py --camera-apk "D:/camera/new.apk"
 | `work/*.unsigned.apk` | 中间产物 | Apktool 编译结果 |
 | `work/*.aligned.apk` | 中间产物 | ZIP 对齐结果 |
 | `work/keys/` | 本地私有输入 | 默认签名密钥 |
-| `dist/Phoenix-1.0.0/` | 发布输出 | APK、All-in-One 与来源说明 |
+| `dist/Phoenix-1.1.0/` | 发布输出 | APK、All-in-One 与来源说明 |
 
 `source_files()` 排除输入根目录下的 `build`、`dist`、`original`、`__pycache__`，并忽略 `.complete`。`sync_files()` 删除上次同步过但此次已不存在的文件，只改写内容发生变化的文件，以保留未变化文件的时间戳并复用 Apktool 编译缓存。
 
@@ -446,13 +446,13 @@ python tools/build_phoenix.py --mode lsp --keystore "D:/keys/phoenix.keystore" -
 `set_version()` 改写 Camera、LSP 编译树的 `apktool.yml`。`build_module()` 在 `module.prop`、`customize.sh`、`install-self-check.sh` 中替换 Phoenix 版本字符串，并替换 `versionCode=` 行。APK 文件名由构建器统一生成：
 
 ```text
-dist/Phoenix-1.0.0/
-  Phoenix_Camera_Phoenix-1.0.0.apk
-  Phoenix_Camera_Phoenix-1.0.0.apk.build.json
-  Phoenix_LSP_Phoenix-1.0.0.apk
-  Phoenix_LSP_Phoenix-1.0.0.apk.build.json
-  Phoenix_Phoenix-1.0.0_AllInOne.zip
-  Phoenix_Phoenix-1.0.0_AllInOne.zip.build.json
+dist/Phoenix-1.1.0/
+  Phoenix_Camera_Phoenix-1.1.0.apk
+  Phoenix_Camera_Phoenix-1.1.0.apk.build.json
+  Phoenix_LSP_Phoenix-1.1.0.apk
+  Phoenix_LSP_Phoenix-1.1.0.apk.build.json
+  Phoenix_Phoenix-1.1.0_AllInOne.zip
+  Phoenix_Phoenix-1.1.0_AllInOne.zip.build.json
 ```
 
 模块中 `.sh` 文件的 ZIP Unix mode 为 `0755`，其他模块文件为 `0644`。静态模块条目由 `ZipInfo(name)` 创建，默认 ZIP 日期可能显示为 1980 年；它不是源文件修改时间，也不能用来判断代码是否最新。内容应以实际条目字节与目标源码核对。
@@ -464,7 +464,7 @@ dist/Phoenix-1.0.0/
 `tools/compare_releases.py` 是两套指定产物的比较工具：
 
 ```powershell
-python tools/compare_releases.py --reference-dir "D:/comparison/reference" --candidate-dir "dist/Phoenix-1.0.0" --android-sdk "D:/Android/Sdk" --output "work/comparison.json"
+python tools/compare_releases.py --reference-dir "D:/comparison/reference" --candidate-dir "dist/Phoenix-1.1.0" --android-sdk "D:/Android/Sdk" --output "work/comparison.json"
 ```
 
 比较内容包括 ZIP 条目、Manifest 版本、变化 DEX 的 smali 类、Camera OEM Signing Block、LSP 标准签名和模块内嵌 APK。发生 DEX 变化时，工具实际解包两边的 APK 后比较，不依赖先验解包目录。
@@ -483,13 +483,13 @@ python tools/compare_releases.py --reference-dir "D:/comparison/reference" --can
 
 ## 源码打包与发布文件边界
 
-`tools/package_source.py` 从明确根文件清单和 `camera`、`lsp`、`module`、`tools` 四个目录收集输入。默认输出为 `dist/Phoenix-1.0.0-source.zip`，可用 `--output` 指定位置。
+`tools/package_source.py` 从明确根文件清单和 `camera`、`lsp`、`module`、`tools` 四个目录收集输入。默认输出为 `dist/Phoenix-1.1.0-source.zip`，可用 `--output` 指定位置。
 
 排除项包括 LSP 的 `original`、`build`、`dist`，下载工具目录 `tools/vendor`、Python 缓存，以及 `.apk`、`.keystore`、`.jks`、`.pyc`、`.idsig`。`work/` 和发布 APK 不属于源码归档输入。归档另附 `source-revision.json`，记录 Git revision、对应目录状态与版本。
 
 ```powershell
 python tools/package_source.py
-python tools/package_source.py --output "D:/releases/Phoenix-1.0.0-source.zip"
+python tools/package_source.py --output "D:/releases/Phoenix-1.1.0-source.zip"
 ```
 
 新增根目录文档时需要同步 `package_source.py` 的 `FILES`；新增功能输入目录则需要明确其构建与打包入口。Git 跟踪、构建器收录和源码 ZIP 收录是不同集合，应分别确认。
@@ -510,3 +510,16 @@ python tools/package_source.py --output "D:/releases/Phoenix-1.0.0-source.zip"
 | 更新公开说明 | README → 本文 → 配置 / 验证说明 → `package_source.py` | 文档一致、链接有效、归档同步 |
 
 以上入口用于定位实现；功能存在与否、兼容结论和资产用途最终由实际源码、打包内容和运行结果确定。
+
+
+## 小米 ASD 控制
+
+`lsp/smali_classes3/com/prometheus/camera/colordev/XiaomiAsd.smali` 和对应 `lsp/java/` 文件实现普通拍照的 ASD 偏好。界面沿用 `EntryPoint$15` 的设置插入，`EntryPoint$21` 保存用户值，`EntryPoint$26` 在普通拍照（163）的 `CaptureRequest.Builder.set` 中处理 `xiaomi.ai.asd.enabled`。其它元数据和其它模式不受这个开关覆盖。
+
+- 偏好文件：`prometheus_color_development`；新键：`pref_prometheus_xiaomi_ai_asd`。
+- 没有新键时逐次保留原生请求值，不把默认值写入持久化存储。
+- 设置页默认值读取当前 OS4 CaptureModule 的原生分支：设备 E3 与经典风格条件，否则使用原生普通拍照 AI 组件状态。
+- 用户保存 true/false 后强制对应请求值。旧 `pref_prometheus_disable_xiaomi_ai_asd=true` 迁移为新键 false；旧 false 继续采用原生状态。新键已经存在时优先保留用户的新选择。
+- `PhoenixASD` 日志记录 native/effective/source，可结合系统 camera watch 检查实际请求和结果。
+
+性能验收使用未被 Frida Java 注入的相机进程。只读 Java 探针也可能改变后续执行性能；仅 detach 不代表恢复，观察结束后必须销毁受注入进程并重新启动相机。LSP 更新本身对新进程立即生效，无需等待设备重启。

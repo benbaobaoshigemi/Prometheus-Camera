@@ -282,9 +282,9 @@
 
     iget v0, v3, La5/i;->c:I
 
-    const/16 v1, 0xd7
+    const/16 v2, 0xd7
 
-    if-ne v0, v1, :cond_b
+    if-ne v0, v2, :cond_b
 
     check-cast p0, Lcom/android/camera2/compat/theme/custom/mm/top/StrikethroughImageView;
 

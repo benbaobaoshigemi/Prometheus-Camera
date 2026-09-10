@@ -24,7 +24,7 @@
 .method constructor <init>(Lcom/prometheus/camera/rev/FeatureEntryPoint;Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;)V
     .locals 0
 
-    .line 34
+    .line 31
     iput-object p1, p0, Lcom/prometheus/camera/rev/FeatureEntryPoint$1;->this$0:Lcom/prometheus/camera/rev/FeatureEntryPoint;
 
     iput-object p2, p0, Lcom/prometheus/camera/rev/FeatureEntryPoint$1;->val$p:Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;
@@ -44,28 +44,28 @@
         }
     .end annotation
 
-    .line 40
+    .line 37
     iget-object p1, p0, Lcom/prometheus/camera/rev/FeatureEntryPoint$1;->val$p:Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;
 
     iget-object p1, p1, Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;->classLoader:Ljava/lang/ClassLoader;
 
     invoke-static {p1}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$300(Ljava/lang/ClassLoader;)V
 
-    .line 41
+    .line 38
     iget-object p1, p0, Lcom/prometheus/camera/rev/FeatureEntryPoint$1;->val$p:Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;
 
     iget-object p1, p1, Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;->classLoader:Ljava/lang/ClassLoader;
 
     invoke-static {p1}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$400(Ljava/lang/ClassLoader;)V
 
-    .line 42
+    .line 39
     iget-object p0, p0, Lcom/prometheus/camera/rev/FeatureEntryPoint$1;->val$p:Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;
 
     iget-object p0, p0, Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;->classLoader:Ljava/lang/ClassLoader;
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$500(Ljava/lang/ClassLoader;)V
 
-    .line 43
+    .line 40
     const-string p0, "Feature hooks installed"
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$600(Ljava/lang/String;)V
@@ -76,7 +76,7 @@
 .method protected beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
     .locals 1
 
-    .line 36
+    .line 33
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
     const/4 p1, 0x0
@@ -87,7 +87,7 @@
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$002(Landroid/content/Context;)Landroid/content/Context;
 
-    .line 37
+    .line 34
     invoke-static {}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$100()Landroid/content/SharedPreferences;
 
     move-result-object p0

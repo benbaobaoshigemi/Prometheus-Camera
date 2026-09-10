@@ -3,7 +3,7 @@
 set -u
 
 MODROOT="${1:?缺少模块目录}"
-VERSION="Phoenix-1.0.0"
+VERSION="Phoenix-1.1.0"
 CAMERA_APK="${3:?缺少相机 APK 名称}"
 LSP_APK="${4:?缺少 LSP APK 名称}"
 BB=/data/adb/ksu/bin/busybox
@@ -21,6 +21,9 @@ for file in "$MODROOT/$CAMERA_APK" "$MODROOT/$LSP_APK" \
   "$MODROOT/seed-watermark.sh" "$MODROOT/sync-custom-luts.sh" \
   "$MODROOT/sync-by-leica-assets.sh" "$MODROOT/sync-watermark-suffix.sh" \
   "$MODROOT/sync-local-watermarks.sh" \
+  "$MODROOT/init-formula.sh" "$MODROOT/sync-formula.sh" \
+  "$MODROOT/formula-service.sh" "$MODROOT/formula-event.sh" \
+  "$MODROOT/payload/libMiPhotoFilter.so" "$MODROOT/formulas/original.glsl" \
   "$MANIFEST" "$COMMIT"; do
   [ -s "$file" ] || fail "缺少或为空：${file##*/}"
   say "通过｜安装文件=${file##*/}｜存在且非空"
@@ -38,20 +41,24 @@ done
 
 for script in customize.sh service.sh post-fs-data.sh seed-watermark.sh \
   sync-custom-luts.sh sync-by-leica-assets.sh sync-watermark-suffix.sh \
-  sync-local-watermarks.sh install-self-check.sh; do
+  sync-local-watermarks.sh install-self-check.sh \
+  init-formula.sh sync-formula.sh formula-service.sh formula-event.sh; do
   [ -x "$MODROOT/$script" ] || fail "脚本不可执行：$script"
   say "通过｜执行脚本=$script｜权限可用"
 done
 
+# The release builder uses the same semantic-version offset for all components:
+# module/LSP = 2000000 + offset, Camera = 760000000 + offset.
+MODULE_CODE="$(sed -n 's/^versionCode=//p' "$MODROOT/module.prop")"
+CAMERA_CODE=$((MODULE_CODE + 758000000))
 for package in com.android.camera com.prometheus.camera.rev; do
   path="$(pm path "$package" 2>/dev/null | sed -n 's/^package://p' | head -n 1)"
   [ -n "$path" ] || fail "应用安装后不可见：$package"
-  installed="$(dumpsys package "$package" 2>/dev/null \
-    | sed -n 's/^[[:space:]]*versionName=//p' | head -n 1)"
+  installed="$(cmd package list packages --show-versioncode "$package" \
+    | "$BB" awk -v package="package:$package" '$1 == package { print $2 }')"
   case "$package" in
-    com.android.camera) expected_version="Phoenix-1.0.0" ;;
-    com.prometheus.camera.rev) expected_version="Phoenix-1.0.0" ;;
-    *) expected_version="$VERSION" ;;
+    com.android.camera) expected_version="versionCode:$CAMERA_CODE" ;;
+    com.prometheus.camera.rev) expected_version="versionCode:$MODULE_CODE" ;;
   esac
   [ "$installed" = "$expected_version" ] \
     || fail "$package 版本不一致：${installed:-未知}，期望 $expected_version"
@@ -61,6 +68,12 @@ for package in com.android.camera com.prometheus.camera.rev; do
   esac
   say "通过｜$package_label｜版本=$installed"
 done
+
+APP_FORMULA=/data/user/0/com.android.camera/files/phoenix-vignette/colorDark.glsl
+PHOTO_FORMULA=/data/vendor/camera/phoenix-vignette/colorDark.glsl
+[ -s "$APP_FORMULA" ] && [ -s "$PHOTO_FORMULA" ] || fail "暗角着色器未初始化"
+"$BB" cmp "$APP_FORMULA" "$PHOTO_FORMULA" || fail "预览与成片暗角着色器不一致"
+say "通过｜暗角着色器｜预览与成片公式一致"
 
 expected="$(tr -d '\r\n' <"$COMMIT")"
 [ "${#expected}" -eq 64 ] || fail "本地水印摘要格式错误"

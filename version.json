@@ -1,8 +1,8 @@
 {
-  "versionName": "Phoenix-1.0.0",
-  "cameraVersionCode": 760010000,
-  "lspVersionCode": 2010000,
-  "moduleVersionCode": 2010000,
+  "versionName": "Phoenix-1.1.0",
+  "cameraVersionCode": 760010100,
+  "lspVersionCode": 2010100,
+  "moduleVersionCode": 2010100,
   "package": "com.android.camera",
   "targetDevice": "aurora"
 }

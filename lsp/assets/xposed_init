@@ -2,3 +2,5 @@ com.prometheus.camera.rev.CombinedEntryPoint
 com.prometheus.camera.colordev.EntryPoint
 
 com.prometheus.camera.rev.FeatureEntryPoint
+com.prometheus.camera.rev.SoftFocusPanel
+com.prometheus.camera.rev.VignetteSettings

@@ -82,6 +82,8 @@ fi
 # Camera preview can read the app-private LUT directly, while MIVI still
 # resolves the same token under /data/vendor/camera. Keep both copies in sync
 # after the camera resource extractor has populated its built-in placeholders.
+sh "$MODDIR/formula-service.sh" >"$MODDIR/formula-service.log" 2>&1 &
+log_startup "已启动暗角着色器同步，进程=$!"
 sh "$MODDIR/sync-custom-luts.sh" "$MODDIR" &
 log_startup "已启动滤镜同步，进程=$!"
 sh "$MODDIR/sync-by-leica-assets.sh" "$MODDIR" &

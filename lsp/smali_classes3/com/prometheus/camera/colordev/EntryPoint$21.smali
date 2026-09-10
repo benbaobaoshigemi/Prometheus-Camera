@@ -60,7 +60,7 @@
 
     if-nez v3, :cond_0
 
-    const-string v3, "pref_prometheus_disable_xiaomi_ai_asd"
+    const-string v3, "pref_prometheus_xiaomi_ai_asd"
 
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
