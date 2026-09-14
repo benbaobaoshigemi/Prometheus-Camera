@@ -16,6 +16,14 @@ Phoenix 1.1.0 是基于小米 17 Ultra OS4 官方相机的移植项目，面向�
 
 暗角着色器的使用与安装说明见 [`vignette-shader.md`](vignette-shader.md)。该功能调整经典后处理中的一个着色器节点，0% 不代表消除传感器及其它处理阶段形成的全部暗角。
 
+## Addons
+
+Addon 独立于 Phoenix 主线发布并使用自己的版本号。每个 Addon 目录提供正式产物、README、源码和所需参考材料。
+
+| Addon | 当前版本 | 用途 |
+| --- | --- | --- |
+| [`PhoenixAddon-LegendM3`](addons/LegendM3/) | V1.0.0 | 徕卡经典 M3 成像链路及相册后处理兼容 |
+
 ## 兼容范围与前置环境
 
 | 项目 | 支持情况与要求 |

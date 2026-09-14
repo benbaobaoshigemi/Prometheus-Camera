@@ -1,0 +1,40 @@
+{
+  "product": "PhoenixAddon-LegendM3",
+  "release": "V1.0.0",
+  "version": {
+    "packageName": "com.phoenix.camera.m3",
+    "productName": "PhoenixAddon-LegendM3",
+    "releaseVersion": "V1.0.0",
+    "versionName": "PhoenixAddon-LegendM3-V1.0.0",
+    "versionCode": 2011000,
+    "moduleVersionCode": 2011000
+  },
+  "artifacts": {
+    "lsp": {
+      "file": "PhoenixAddon-LegendM3-V1.0.0-LSP.apk",
+      "bytes": 61984,
+      "sha256": "164e3e5bf86ea7b6fcfbb1a394a1772315a216701f4c5903ee424d83314ec105"
+    },
+    "module": {
+      "file": "PhoenixAddon-LegendM3-V1.0.0-Module.zip",
+      "bytes": 15548670,
+      "sha256": "b3d242740a796ce6a5f087036335f89d3450e1fffab8aad8b69e1fc8594f95be",
+      "files": 20
+    }
+  },
+  "exif": {
+    "failure_oracle": "ExifIFD tag 0xA005 target is before the current ExifIFD",
+    "original_failure_reproduced": true,
+    "backward_source_removed": true,
+    "relocation_created_backward_removed": true,
+    "remaining_forward_pointer_preserved": true,
+    "essential_tag_0x88b0": 2
+  },
+  "media_editor_gate_candidates": [
+    "mb.a$i",
+    "lb.a$i"
+  ],
+  "jpeg_regression_cases": 3,
+  "jpeg_pixels_preserved": true,
+  "jpeg_payload_preserved": true
+}

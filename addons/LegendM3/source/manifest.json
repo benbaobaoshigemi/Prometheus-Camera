@@ -1,0 +1,442 @@
+[
+  {
+    "path": "_verification_scripts/ExifTagProbe.java",
+    "bytes": 544,
+    "sha256": "a07f7907ed0d2ea14af3b3782fa9310fb5e48941878d8a79eb42c80c69aee00b"
+  },
+  {
+    "path": "_verification_scripts/verify_exif_interop.py",
+    "bytes": 1898,
+    "sha256": "ecdca58b4675d7d801e2216a615466a426e3d6104eef025bd6dec6eea08aad84"
+  },
+  {
+    "path": "build_aec_hook.py",
+    "bytes": 5043,
+    "sha256": "8120cf70805db1dfa39dc64f27525d595090358da7323cceec9153ee57349f44"
+  },
+  {
+    "path": "build_lsp.py",
+    "bytes": 5178,
+    "sha256": "64766e3705a05c08fdc6816360739d54fa1368dad99dee4e31600ead148218dd"
+  },
+  {
+    "path": "build_module.py",
+    "bytes": 5709,
+    "sha256": "7ca9a9bcfceca73d0554aca20928a30f0c999664110502adfb69d9b4b5ad6c0f"
+  },
+  {
+    "path": "build_native.py",
+    "bytes": 6306,
+    "sha256": "b3e685e58eeeb566300e01da6fe00c7474626bf4fc1905474f43a8507261d772"
+  },
+  {
+    "path": "decode_m3_aec_tables.py",
+    "bytes": 1756,
+    "sha256": "fef45484b2ce9e24bd1f871deb19b5e3d467079fc472374ad13111fc723896a3"
+  },
+  {
+    "path": "decode_m3_parameters.py",
+    "bytes": 3496,
+    "sha256": "8f4488bd3764dfd20dfa758dcd2e147a7e6c15259d634c750738cf31c83760b6"
+  },
+  {
+    "path": "decode_m3_tuning_regions.py",
+    "bytes": 4113,
+    "sha256": "155ef13cebb91a484a2fd552d2a00406b312bcb4864275f1c97191211be9e786"
+  },
+  {
+    "path": "decode_stock15_aec_aggregation.py",
+    "bytes": 1800,
+    "sha256": "5444fb571cf43439fe2cb82fba41607de09c40c0ba3bceae9e6d21130409aacf"
+  },
+  {
+    "path": "decode_stock17_aec_assets.py",
+    "bytes": 7351,
+    "sha256": "a1d6f02ab257ad0055711adbaf046a3efc3fbf67d45ea803a2be5adf7397b86a"
+  },
+  {
+    "path": "decode_stock17_aec_sensor_assets.py",
+    "bytes": 2336,
+    "sha256": "abada8f7ab15086b697b591463f93e29661ed199e2ba0760ec7536d4ebf2bf3a"
+  },
+  {
+    "path": "docs/EXIF_Interop兼容修复.md",
+    "bytes": 1266,
+    "sha256": "0c797690e6324f0fc2cd3b80feda63fef437c2b3a5ae435903abdaefb9f3bc7c"
+  },
+  {
+    "path": "evidence/m3_jpeg_verification.json",
+    "bytes": 1117,
+    "sha256": "2a79ddc47064addc71601ceca2510d09f8dd6ec4db0adea6fe9b75d02c1f4716"
+  },
+  {
+    "path": "evidence/native_shading_samples.json",
+    "bytes": 15401,
+    "sha256": "4b96122a6e18fb67e51f55f8d921a7a1845cb2bf6dccf68b2eccae9307dff5b3"
+  },
+  {
+    "path": "evidence/release_acceptance_v1.0.0.json",
+    "bytes": 1192,
+    "sha256": "7c4f78fec33348e96ed9912256d1990cc9a6cffc266a3ba3f15eee9af18411ba"
+  },
+  {
+    "path": "export_stock17_aec_tuning.py",
+    "bytes": 5266,
+    "sha256": "718c336d68881b4532db2a353f9344f7c045407365637c9fb6a7f38da768a565"
+  },
+  {
+    "path": "lsp/AndroidManifest.xml",
+    "bytes": 684,
+    "sha256": "fc2c444b3d39029245f5d80201a6c40ff01f87de75eca762442ff2771db5a655"
+  },
+  {
+    "path": "lsp/assets/xposed_init",
+    "bytes": 73,
+    "sha256": "81be9f4eb6d1301c357acc0576ed630a7cdc7cedbb72a054318d56c1392b36c5"
+  },
+  {
+    "path": "lsp/java/com/prometheus/camera/m3/M3AuxCapture.java",
+    "bytes": 4328,
+    "sha256": "788124fb8b18bac8b81a8370d121b1ef7f3ef5389055b48e06fdc8eca723ccc0"
+  },
+  {
+    "path": "lsp/java/com/prometheus/camera/m3/M3EntryPoint.java",
+    "bytes": 6187,
+    "sha256": "d83976668420e2df0758ee20536298e8f9e30822d0e1516e49e04645c0490ed7"
+  },
+  {
+    "path": "lsp/java/com/prometheus/camera/m3/M3Jpeg.java",
+    "bytes": 22458,
+    "sha256": "02cb2dfc12b4dd7bc2022e2140f00b96f3025e8af48bc86fd6cec2715680d8a6"
+  },
+  {
+    "path": "lsp/java/com/prometheus/camera/m3/M3Parameters.java",
+    "bytes": 4064,
+    "sha256": "f56bbaf4c955c57078196edcb7ee4a69c03e61b4bbe53a6b4ceffb53aa3068d1"
+  },
+  {
+    "path": "lsp/java/com/prometheus/camera/m3/M3PreviewShader.java",
+    "bytes": 4228,
+    "sha256": "a50b894466a8e81d4b128ebdd5e71a59c37f429ef791006de43366299da01731"
+  },
+  {
+    "path": "lsp/java/com/prometheus/camera/m3/M3Runtime.java",
+    "bytes": 8725,
+    "sha256": "88b098c633fa9ef97bf9cabcd044796039f3dafeaac7c19a5124c22386fdcc51"
+  },
+  {
+    "path": "lsp/java/com/prometheus/camera/m3/M3SaveBridge.java",
+    "bytes": 3024,
+    "sha256": "9a6dd66a90cca50402bef47d96209b3bd964caa23a0cace63a3fd34bdf04ba75"
+  },
+  {
+    "path": "lsp/java/com/prometheus/camera/m3/M3Thumbnail.java",
+    "bytes": 2968,
+    "sha256": "d76622405f2d76aeba792c421d0edfd80eedf9375e4ca2932875719dd4661359"
+  },
+  {
+    "path": "lsp/res/values/arrays.xml",
+    "bytes": 205,
+    "sha256": "a802c3872ac846f358ef777d93a7f1bcf25ef9b1d271d900b11f373f039755dc"
+  },
+  {
+    "path": "lsp/version.json",
+    "bytes": 224,
+    "sha256": "71fa73c2794a58669b927ea1b8648b6aa5793233120dedde0c838634b1cc66de"
+  },
+  {
+    "path": "module/licenses/ShadowHook-MIT.txt",
+    "bytes": 1076,
+    "sha256": "63204388d1ac7b371e03223fb4910a04fdb41cd67d4f0e0a030d5249d811d7eb"
+  },
+  {
+    "path": "module/post-fs-data.sh",
+    "bytes": 3409,
+    "sha256": "a476d90a96e063c854122ccf353bd7acca23b7e3ef185ff1e430d76b97d11e7f"
+  },
+  {
+    "path": "module/refresh-gallery-cache.sh",
+    "bytes": 595,
+    "sha256": "9c18d9799eaee5d0c48329363b680857f862bd3509cf200211cf1a8b6998d721"
+  },
+  {
+    "path": "module/service.sh",
+    "bytes": 567,
+    "sha256": "7e5b4387ab9554df2c2fd6b9277dc84ca8569ff876bbb0283eb78fef8c845e01"
+  },
+  {
+    "path": "native/m3_aec_adaptive.cpp",
+    "bytes": 2982,
+    "sha256": "3d4948040094c7e11dce1ac294f0bd708e530d3833e743676d1c9da94ec33a86"
+  },
+  {
+    "path": "native/m3_aec_core.cpp",
+    "bytes": 2282,
+    "sha256": "161f3bcae89ae7cf6af72ba9a9d54648bfd8c904b6786f2eaac99e203e3417fa"
+  },
+  {
+    "path": "native/m3_aec_nodes.cpp",
+    "bytes": 2762,
+    "sha256": "1e9103ead84b1aa742e7bd2fbef7bebc393f556558ecc07ce53d9b016545ed52"
+  },
+  {
+    "path": "native/m3_aec_parameters.cpp",
+    "bytes": 10010,
+    "sha256": "32929b4e6ebade1cfe1fb442a17527c631e6a19a8ff8bad995d1228125399d3f"
+  },
+  {
+    "path": "native/m3_aec_parameters.h",
+    "bytes": 4416,
+    "sha256": "316a757ee35cd7f9aebd1d724371beed8c9fd0f15bf22ce3f68362df398bea0e"
+  },
+  {
+    "path": "native/m3_aec_runtime.cpp",
+    "bytes": 33046,
+    "sha256": "cc399831d9a7401e37b0586a043ae1b1778de031ef77a18d3e743039beec1fbf"
+  },
+  {
+    "path": "native/m3_aec_stock_tuning.h",
+    "bytes": 782687,
+    "sha256": "24f33c488a94c7fad3a32466ef23cf214dfaa956ecad1caa7eff65812d52efc3"
+  },
+  {
+    "path": "native/m3_aec_tables.h",
+    "bytes": 40295,
+    "sha256": "63dbff52257061a266dc711f6a6cc3a2d58ac36a16c15292c04e1d6a88cb2818"
+  },
+  {
+    "path": "native/m3_aec_tuning.cpp",
+    "bytes": 2992,
+    "sha256": "ec1dc14587390e490960bd6e92f614894bb31beba6b4b610ef3a6de0c86a20b0"
+  },
+  {
+    "path": "native/m3_asf.cpp",
+    "bytes": 6602,
+    "sha256": "2c7a35b0c1f4c95fa3f62fa4e076d97bd6e2f3a46c70c1a86f0e091eae926fe3"
+  },
+  {
+    "path": "native/m3_asf.h",
+    "bytes": 1177,
+    "sha256": "a96eaf63655ae2629b32d2c051ad4fb23ed9d87e4d37aea4351c8f6cb0d6fa32"
+  },
+  {
+    "path": "native/m3_asf_data.inc",
+    "bytes": 1284818,
+    "sha256": "68e17beca2471fa6a743ca854bee6600f15cdc07adae80d6de45933b1ef8fe33"
+  },
+  {
+    "path": "native/m3_aux.cpp",
+    "bytes": 4773,
+    "sha256": "40ed305e9c9d5ba14a5c17959dbe3ecc623d382cf3668a677c52c24e0226f947"
+  },
+  {
+    "path": "native/m3_aux.h",
+    "bytes": 91,
+    "sha256": "26e1c8478c98e53a7840c8565ed5911eee2de68324ec9a82e7b0f89d7ef2f9d0"
+  },
+  {
+    "path": "native/m3_aux_relay.cpp",
+    "bytes": 3500,
+    "sha256": "b4c345f53bd4b6365b4aa58928289c2fb19bfd099fa27e2cd6cb5defe1f70b35"
+  },
+  {
+    "path": "native/m3_grain.cpp",
+    "bytes": 1022,
+    "sha256": "00e49a5f36fc4a8059bebbe7d4f10bd48bcef9cd807578fd71392da17c1f7b9a"
+  },
+  {
+    "path": "native/m3_grain.h",
+    "bytes": 217,
+    "sha256": "6edddad7df43eab0e4dd520669dc0d2dde252ee6b479d2408a7d390fb7f47fdb"
+  },
+  {
+    "path": "native/m3_grain_plugin.cpp",
+    "bytes": 4185,
+    "sha256": "118c738f96f114efc687a8b4c4af80e37c1da61e1d678a84cd23be970a184e07"
+  },
+  {
+    "path": "native/m3_ltm.cpp",
+    "bytes": 332,
+    "sha256": "12f9e0cdc9a4e76f0252caa73a88894b574a15f9f4bb46df90a1d297bab15c31"
+  },
+  {
+    "path": "native/m3_ltm.h",
+    "bytes": 375,
+    "sha256": "e51d152a4b3b48983b317d5958f725abcf8f2bad197f2b28b66e5ed1feb7982f"
+  },
+  {
+    "path": "native/m3_ltm_runtime.cpp",
+    "bytes": 17420,
+    "sha256": "1d669875c66864097f9658eacf082e692185ab84e93c85c4ad1342d45f5fd4fd"
+  },
+  {
+    "path": "native/m3_metadata.h",
+    "bytes": 726,
+    "sha256": "6875026c38e7789744abdf02df3e06e920bcb87ebd7cc24e41081e1c0b34531a"
+  },
+  {
+    "path": "native/m3_monopan.cpp",
+    "bytes": 1998,
+    "sha256": "31492aebb243d8b137e7990406906c8e1708321ff6552cda28b3fff12ae790d3"
+  },
+  {
+    "path": "native/m3_monopan.h",
+    "bytes": 1259,
+    "sha256": "039fda5766a6e4ca2357526a965bb11bd302ecfa5f06f1ff9b1ee161e6b6be53"
+  },
+  {
+    "path": "native/m3_parameters.cpp",
+    "bytes": 4277,
+    "sha256": "89f9b9b293a7d92dab4deeea6971659beb4204bf342c72c89167aef0161e7539"
+  },
+  {
+    "path": "native/m3_parameters.h",
+    "bytes": 534,
+    "sha256": "8b4d2f123b5ba0be52e35a5ab1fbdd4d4a0ca4e3c1f1969fdc216aaa749325d0"
+  },
+  {
+    "path": "native/m3_stream_geometry.cpp",
+    "bytes": 2998,
+    "sha256": "d6787d6ac55848901ba36e4d713a439697ddde21378706409c83ccd5518df99e"
+  },
+  {
+    "path": "native/m3_style_plugin.cpp",
+    "bytes": 9312,
+    "sha256": "2bb1cdf607397332987bb799906175c6a7548216cc7d079d2f7772f7e8cc0bae"
+  },
+  {
+    "path": "native/m3_style_renderer.cpp",
+    "bytes": 1005,
+    "sha256": "aab5c502b538d607a4c45368fb1e9e023f2a257d7cc4b491ee4cef9cf2da9ae1"
+  },
+  {
+    "path": "native/m3_style_renderer.h",
+    "bytes": 309,
+    "sha256": "d55842bf6871453d58aef4579b59cd4f6369bcae964cf9fe3fe960af149052b0"
+  },
+  {
+    "path": "native/mivi14.h",
+    "bytes": 6495,
+    "sha256": "add1631754b5c62c863845066be2960294570b5640f47a7cc26ba4c662f41962"
+  },
+  {
+    "path": "native/platform_libcpp.h",
+    "bytes": 364,
+    "sha256": "57e6929da1d0aa41845469000081aeace39e677b0c57ee84d2b5fa15491a7abd"
+  },
+  {
+    "path": "package_addon.py",
+    "bytes": 5944,
+    "sha256": "795ddb2e558706f227f4798341fb1caac82d6607f7892cc1d647f96210609096"
+  },
+  {
+    "path": "prepare_aec_hook.py",
+    "bytes": 149,
+    "sha256": "3573d0bd520a4c0f0e1cf81844cc6455ffe1253a851188e43c7893aba4733be4"
+  },
+  {
+    "path": "stock15_aec_harness.py",
+    "bytes": 1025,
+    "sha256": "d90eca87c7ec677f1d0382c881857c3593a482116a06a55cfdd2a095f4671df2"
+  },
+  {
+    "path": "stock17_aec_harness.py",
+    "bytes": 4585,
+    "sha256": "38d12731490dcdc18f317af1544ff180c02711d7db9dd1aded5a065f95d9bad8"
+  },
+  {
+    "path": "tools/AuxJpegProbe.java",
+    "bytes": 7277,
+    "sha256": "9a6c71dab2192859356050f0701ccdabe84aad01df420f65cdc2f261bce5cabf"
+  },
+  {
+    "path": "tools/JpegProbe.java",
+    "bytes": 413,
+    "sha256": "9a29d2d9b28b30b06d29e18e8642e9b3be8679f5100af4574174905bcd57fff7"
+  },
+  {
+    "path": "tools/ParameterProbe.java",
+    "bytes": 623,
+    "sha256": "ca08eddf9ae0793e6c9baf2dc209d1c0e7fc58fcbfd73f139e57143ed32616cc"
+  },
+  {
+    "path": "tools/decode_asf353_regions.py",
+    "bytes": 14116,
+    "sha256": "12229515adfaf46421a18044409640ca0cd64446234f40600f80f8a1a18c817f"
+  },
+  {
+    "path": "tools/generate_m3_asf_data.py",
+    "bytes": 8592,
+    "sha256": "c69609378ccabc24e78ef7cc556e4bb2413b93bec01e16c58c3e501387dc879f"
+  },
+  {
+    "path": "tools/validate_release_v1.py",
+    "bytes": 2959,
+    "sha256": "411e0e7dd8f0c4546ffb0796360f9fbb5ccbe9121275241ae13487ed6d49fbeb"
+  },
+  {
+    "path": "tools/verify_m3_asf_data.py",
+    "bytes": 1773,
+    "sha256": "b5e8fe88fa254a58c26b3060d9aac484ca44717e3671ebfe6e3e0b997f527a49"
+  },
+  {
+    "path": "tools/verify_m3_native_routes.py",
+    "bytes": 3507,
+    "sha256": "c4d13d99a244d5d4ccba020a51e99f5481042569c0120219e7e9a27d3be7b503"
+  },
+  {
+    "path": "verify_grain_plugin.py",
+    "bytes": 6285,
+    "sha256": "d5adb0b2b2629b20661be4116eaa80309ad3c18e3bcd99d52db91a9900287558"
+  },
+  {
+    "path": "verify_m3_aec_adaptive.py",
+    "bytes": 4297,
+    "sha256": "de748a895a18a1c0d815846a0b9f557bb813d78de24390a9b1eca0aaf15239f7"
+  },
+  {
+    "path": "verify_m3_aec_core.py",
+    "bytes": 3732,
+    "sha256": "efd5cd7947d87afff84bdd0326a46ef45b3c4977f0b0f0d6d7325d966bea5fa1"
+  },
+  {
+    "path": "verify_m3_aec_histogram.py",
+    "bytes": 3164,
+    "sha256": "998be87ce82954ff2f26a078ade880bc35a01a4863af3d839e6eea9e58a8599d"
+  },
+  {
+    "path": "verify_m3_aec_nodes.py",
+    "bytes": 5730,
+    "sha256": "c06379d2e201669fc9f77f8bebcfee37da048eb5d1805ec2cd93cc40e2fc0e08"
+  },
+  {
+    "path": "verify_m3_aec_parameters.py",
+    "bytes": 3708,
+    "sha256": "2fbf06863d81b084ede9a7ae98dd704bd54ab216315dbcc2fe73e868b446c292"
+  },
+  {
+    "path": "verify_m3_aec_tables.py",
+    "bytes": 2380,
+    "sha256": "2ece272b4c761d847028ee657a86b5b6d26ec405523f6323ba00844b0d8b9c90"
+  },
+  {
+    "path": "verify_m3_aec_tuning.py",
+    "bytes": 2542,
+    "sha256": "7479e6eb8e2261a30e41464f5cdd4eeb67f2d1b790e98bb4ad122963249e392d"
+  },
+  {
+    "path": "verify_m3_jpeg.py",
+    "bytes": 5276,
+    "sha256": "e7799c18a4326f21638d390880867d480ab096519a119937c08938db7a2a065c"
+  },
+  {
+    "path": "verify_mivi14_abi.py",
+    "bytes": 5801,
+    "sha256": "6c33edfcd07290f44c400c9f466963e9758dff39c6ed261608aabcb8da76efa5"
+  },
+  {
+    "path": "verify_native_shading.py",
+    "bytes": 5919,
+    "sha256": "2c26b757a5643fedd9a606b5d8b67b8adbd615f81be1c3ec81445860e7f2c667"
+  }
+]
