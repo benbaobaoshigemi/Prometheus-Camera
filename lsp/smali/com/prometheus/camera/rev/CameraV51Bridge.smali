@@ -5057,40 +5057,8 @@
     return p0
 .end method
 
-.method private static publishMiviWatermarkModels(Ljava/lang/ClassLoader;Ljava/lang/Class;Ljava/lang/String;)V
-    .locals 6
-    new-instance v0, Ljava/io/File;
-    const-string v1, "/data/user/0/com.android.camera/files/watermarks"
-    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-    invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
-    move-result-object v0
-    if-eqz v0, :done
-    new-instance v4, Ljava/io/File;
-    const-string v1, "/data/vendor/camera/watermarks"
-    invoke-direct {v4, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-    const/4 v1, 0x0
-    array-length v2, v0
-    :loop
-    if-ge v1, v2, :done
-    aget-object v3, v0, v1
-    invoke-virtual {v3}, Ljava/io/File;->isDirectory()Z
-    move-result v5
-    if-eqz v5, :next
-    invoke-virtual {v3}, Ljava/io/File;->getName()Ljava/lang/String;
-    move-result-object p0
-    new-instance v5, Ljava/io/File;
-    invoke-direct {v5, v4, p0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
-    invoke-static {v3, p1, p2, v5}, Lcom/prometheus/camera/rev/CameraV51Bridge;->publishMiviWatermarkCategory(Ljava/io/File;Ljava/lang/Class;Ljava/lang/String;Ljava/io/File;)V
-    :next
-    add-int/lit8 v1, v1, 0x1
-    goto :loop
-    :done
-    return-void
-.end method
-
 .method private static publishMiviWatermarkCategory(Ljava/io/File;Ljava/lang/Class;Ljava/lang/String;Ljava/io/File;)V
     .locals 13
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Exception;
@@ -5238,6 +5206,61 @@
 
     invoke-static {p1, p0}, Lcom/prometheus/camera/rev/PhoenixFileLogger;->info(Ljava/lang/String;Ljava/lang/String;)I
 
+    return-void
+.end method
+
+.method private static publishMiviWatermarkModels(Ljava/lang/ClassLoader;Ljava/lang/Class;Ljava/lang/String;)V
+    .locals 6
+
+    new-instance v0, Ljava/io/File;
+
+    const-string v1, "/data/user/0/com.android.camera/files/watermarks"
+
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    new-instance v4, Ljava/io/File;
+
+    const-string v1, "/data/vendor/camera/watermarks"
+
+    invoke-direct {v4, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    const/4 v1, 0x0
+
+    array-length v2, v0
+
+    :goto_0
+    if-ge v1, v2, :cond_1
+
+    aget-object v3, v0, v1
+
+    invoke-virtual {v3}, Ljava/io/File;->isDirectory()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_0
+
+    invoke-virtual {v3}, Ljava/io/File;->getName()Ljava/lang/String;
+
+    move-result-object p0
+
+    new-instance v5, Ljava/io/File;
+
+    invoke-direct {v5, v4, p0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    invoke-static {v3, p1, p2, v5}, Lcom/prometheus/camera/rev/CameraV51Bridge;->publishMiviWatermarkCategory(Ljava/io/File;Ljava/lang/Class;Ljava/lang/String;Ljava/io/File;)V
+
+    :cond_0
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_1
     return-void
 .end method
 
@@ -6145,37 +6168,6 @@
     return v2
 .end method
 
-.method private static rewriteMiviWatermarkModels(Ljava/lang/String;)V
-    .locals 7
-    new-instance v0, Ljava/io/File;
-    const-string v1, "/data/user/0/com.android.camera/files/watermarks"
-    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-    invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
-    move-result-object v0
-    if-eqz v0, :done
-    new-instance v4, Ljava/io/File;
-    const-string v1, "/data/vendor/camera/watermarks"
-    invoke-direct {v4, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-    const/4 v1, 0x0
-    array-length v2, v0
-    :loop
-    if-ge v1, v2, :done
-    aget-object v3, v0, v1
-    invoke-virtual {v3}, Ljava/io/File;->isDirectory()Z
-    move-result v5
-    if-eqz v5, :next
-    invoke-virtual {v3}, Ljava/io/File;->getName()Ljava/lang/String;
-    move-result-object v6
-    new-instance v5, Ljava/io/File;
-    invoke-direct {v5, v4, v6}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
-    invoke-static {v3, v5, p0}, Lcom/prometheus/camera/rev/CameraV51Bridge;->rewriteMiviWatermarkCategory(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
-    :next
-    add-int/lit8 v1, v1, 0x1
-    goto :loop
-    :done
-    return-void
-.end method
-
 .method private static rewriteMiviWatermarkCategory(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
     .locals 11
     .annotation system Ldalvik/annotation/Throws;
@@ -6185,7 +6177,9 @@
     .end annotation
 
     move-object v0, p0
+
     move-object v1, p1
+
     move-object p0, p2
 
     .line 953
@@ -6307,6 +6301,61 @@
     invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->logExternal(Ljava/lang/String;)V
 
     :cond_7
+    return-void
+.end method
+
+.method private static rewriteMiviWatermarkModels(Ljava/lang/String;)V
+    .locals 7
+
+    new-instance v0, Ljava/io/File;
+
+    const-string v1, "/data/user/0/com.android.camera/files/watermarks"
+
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    new-instance v4, Ljava/io/File;
+
+    const-string v1, "/data/vendor/camera/watermarks"
+
+    invoke-direct {v4, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    const/4 v1, 0x0
+
+    array-length v2, v0
+
+    :goto_0
+    if-ge v1, v2, :cond_1
+
+    aget-object v3, v0, v1
+
+    invoke-virtual {v3}, Ljava/io/File;->isDirectory()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_0
+
+    invoke-virtual {v3}, Ljava/io/File;->getName()Ljava/lang/String;
+
+    move-result-object v6
+
+    new-instance v5, Ljava/io/File;
+
+    invoke-direct {v5, v4, v6}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    invoke-static {v3, v5, p0}, Lcom/prometheus/camera/rev/CameraV51Bridge;->rewriteMiviWatermarkCategory(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
+
+    :cond_0
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    :cond_1
     return-void
 .end method
 

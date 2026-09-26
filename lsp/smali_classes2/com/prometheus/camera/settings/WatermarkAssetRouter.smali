@@ -689,12 +689,15 @@
     invoke-static {p0, p1, v0}, Lcom/prometheus/camera/settings/WatermarkAssetRouter;->copyLeitzAsset(Landroid/content/Context;Ljava/nio/file/Path;Ljava/lang/String;)V
 
     const-string v0, "black_shadow"
+
     invoke-static {p0, p1, v0}, Lcom/prometheus/camera/settings/WatermarkAssetRouter;->copyLeitzAsset(Landroid/content/Context;Ljava/nio/file/Path;Ljava/lang/String;)V
 
     const-string v0, "CCFFFFFF_shadow"
+
     invoke-static {p0, p1, v0}, Lcom/prometheus/camera/settings/WatermarkAssetRouter;->copyLeitzAsset(Landroid/content/Context;Ljava/nio/file/Path;Ljava/lang/String;)V
 
     const-string v0, "white_shadow"
+
     invoke-static {p0, p1, v0}, Lcom/prometheus/camera/settings/WatermarkAssetRouter;->copyLeitzAsset(Landroid/content/Context;Ljava/nio/file/Path;Ljava/lang/String;)V
 
     return-void
@@ -1554,7 +1557,7 @@
 
     move-result-object p1
 
-    goto :goto_0
+    goto :goto_1
 
     :cond_0
     invoke-static {p1, p2, p3}, Lcom/prometheus/camera/settings/WatermarkAssetRouter;->resolveForegroundToken(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -1611,20 +1614,31 @@
     move-result-object p1
 
     :cond_2
-    # Native templates may encode these colors as RGB instead of asset names.
     const-string p2, "000000"
+
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     move-result p2
-    if-eqz p2, :check_white
+
+    if-eqz p2, :cond_3
+
     const-string p1, "black"
-    goto :color_name_ready
-    :check_white
+
+    goto :goto_0
+
+    :cond_3
     const-string p2, "FFFFFF"
+
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     move-result p2
-    if-eqz p2, :color_name_ready
+
+    if-eqz p2, :cond_4
+
     const-string p1, "white"
-    :color_name_ready
+
+    :cond_4
+    :goto_0
     new-instance p2, Ljava/lang/StringBuilder;
 
     const-string p3, "prometheus_leitz_full_"
@@ -1641,7 +1655,7 @@
 
     move-result-object p1
 
-    :goto_0
+    :goto_1
     invoke-interface {p0, p1}, Ljava/nio/file/Path;->resolve(Ljava/lang/String;)Ljava/nio/file/Path;
 
     move-result-object p0
@@ -1654,15 +1668,17 @@
 
     move-result p0
 
-    if-eqz p0, :cond_3
+    if-eqz p0, :cond_5
 
     return-object p1
 
-    :cond_3
+    :cond_5
     new-instance p0, Ljava/io/IOException;
 
     const-string p2, "Missing copied LEITZ full asset: "
+
     invoke-virtual {p2, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
     move-result-object p1
 
     invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
@@ -2060,9 +2076,8 @@
 
     if-eqz v0, :cond_7
 
-    # The LEITZ bitmap already contains the complete model identity. Clear a
-    # previous by-Leica text value when republishing an existing MIVI document.
     const-string v0, "text"
+
     invoke-virtual {v10, v0, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v0, "path"

@@ -48,8 +48,8 @@
     const/4 v0, 0x0
 
     .line 89
-    :goto_6
-    :try_start_6
+    :goto_0
+    :try_start_0
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$500()Landroid/util/SparseArray;
 
     move-result-object v1
@@ -58,7 +58,7 @@
 
     move-result v1
 
-    if-ge v0, v1, :cond_20
+    if-ge v0, v1, :cond_0
 
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$500()Landroid/util/SparseArray;
 
@@ -76,13 +76,13 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    goto :goto_6
+    goto :goto_0
 
     .line 90
-    :cond_20
+    :cond_0
     monitor-exit p0
-    :try_end_21
-    .catchall {:try_start_6 .. :try_end_21} :catchall_55
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 91
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$600()I
@@ -93,7 +93,7 @@
 
     move-result p0
 
-    if-eqz p0, :cond_32
+    if-eqz p0, :cond_1
 
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$800()Ljava/lang/Object;
 
@@ -102,7 +102,7 @@
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$900(Ljava/lang/Object;)V
 
     .line 92
-    :cond_32
+    :cond_1
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1000()Ljava/lang/ref/WeakReference;
 
     move-result-object p0
@@ -111,13 +111,13 @@
 
     move-result-object p0
 
-    if-eqz p0, :cond_3f
+    if-eqz p0, :cond_2
 
     .line 93
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1100(Ljava/lang/Object;)V
 
     .line 94
-    :cond_3f
+    :cond_2
     new-instance p0, Ljava/lang/StringBuilder;
 
     const-string v0, "component enabled="
@@ -138,14 +138,14 @@
 
     return-void
 
-    :catchall_55
+    :catchall_0
     move-exception v0
 
     .line 90
-    :try_start_56
+    :try_start_1
     monitor-exit p0
-    :try_end_57
-    .catchall {:try_start_56 .. :try_end_57} :catchall_55
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     throw v0
 .end method

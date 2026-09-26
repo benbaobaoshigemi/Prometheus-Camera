@@ -34,7 +34,7 @@
 
 .field public static final SINGLE_LUT:[Z
 
-.field public static final USER_SLOT_COUNT:I = 0x42
+.field public static final USER_SLOT_COUNT:I
 
 
 # direct methods
@@ -11860,6 +11860,14 @@
     aput v1, v0, v2
 
     sput-object v0, Lcom/prometheus/camera/filters/FilterContentContract;->DEFAULT_DIFFUSION:[I
+
+    sget-object v0, Lcom/prometheus/camera/filters/FilterContentContract;->PRESET_IDS:[Ljava/lang/String;
+
+    array-length v0, v0
+
+    rsub-int/lit8 v0, v0, 0x63
+
+    sput v0, Lcom/prometheus/camera/filters/FilterContentContract;->USER_SLOT_COUNT:I
 
     return-void
 .end method

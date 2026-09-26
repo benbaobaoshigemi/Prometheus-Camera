@@ -40,7 +40,7 @@
 
     iget-object p1, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
-    if-ne p0, p1, :cond_1e
+    if-ne p0, p1, :cond_0
 
     .line 260
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$2100()V
@@ -62,6 +62,6 @@
 
     invoke-virtual {p0}, Ljava/lang/ref/WeakReference;->clear()V
 
-    :cond_1e
+    :cond_0
     return-void
 .end method

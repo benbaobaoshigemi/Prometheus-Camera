@@ -182,7 +182,7 @@
 
     monitor-enter v0
 
-    :try_start_3
+    :try_start_0
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->selection(I)Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;
 
     move-result-object v1
@@ -192,10 +192,10 @@
     move-result v1
 
     monitor-exit v0
-    :try_end_c
-    .catchall {:try_start_3 .. :try_end_c} :catchall_33
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    if-eqz v1, :cond_32
+    if-eqz v1, :cond_0
 
     .line 136
     new-instance v0, Ljava/lang/StringBuilder;
@@ -227,17 +227,17 @@
     .line 137
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->postSelection()V
 
-    :cond_32
+    :cond_0
     return-void
 
-    :catchall_33
+    :catchall_0
     move-exception p0
 
     .line 134
-    :try_start_34
+    :try_start_1
     monitor-exit v0
-    :try_end_35
-    .catchall {:try_start_34 .. :try_end_35} :catchall_33
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     throw p0
 .end method
@@ -574,12 +574,12 @@
 .method private static applyStyle(Landroid/widget/LinearLayout;)I
     .locals 7
 
-    .line 361
+    .line 366
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 362
+    .line 367
     const-string v1, "o9.a"
 
     sget-object v2, Lcom/prometheus/camera/rev/SoftFocusPanel;->cameraLoader:Ljava/lang/ClassLoader;
@@ -596,7 +596,7 @@
 
     const/4 v3, 0x0
 
-    .line 363
+    .line 368
     new-array v4, v3, [Ljava/lang/Object;
 
     const-string v5, "f"
@@ -607,7 +607,7 @@
 
     const/16 v4, 0xba
 
-    .line 364
+    .line 369
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -622,7 +622,7 @@
 
     move-result-object v1
 
-    .line 365
+    .line 370
     invoke-static {v1, v5}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
 
     move-result v4
@@ -639,7 +639,7 @@
 
     invoke-static {p0, v5, v4}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 366
+    .line 371
     const-string v4, "g"
 
     invoke-static {v1, v4}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
@@ -658,7 +658,7 @@
 
     invoke-static {p0, v5, v4}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 367
+    .line 372
     const-string v4, "h"
 
     invoke-static {v1, v4}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
@@ -677,7 +677,7 @@
 
     invoke-static {p0, v5, v4}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 368
+    .line 373
     invoke-static {v1, v2}, Lde/robv/android/xposed/XposedHelpers;->getBooleanField(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v4
@@ -694,7 +694,7 @@
 
     invoke-static {p0, v5, v4}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 369
+    .line 374
     invoke-static {v1, v6}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
 
     move-result v4
@@ -711,7 +711,7 @@
 
     invoke-static {p0, v5, v4}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 370
+    .line 375
     const-string v4, "i"
 
     invoke-static {v1, v4}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
@@ -730,7 +730,7 @@
 
     invoke-static {p0, v5, v4}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 371
+    .line 376
     const-string v4, "c"
 
     invoke-static {v1, v4}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
@@ -749,7 +749,7 @@
 
     invoke-static {p0, v6, v5}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 372
+    .line 377
     const-string v5, "getBackgroundPaint"
 
     new-array v3, v3, [Ljava/lang/Object;
@@ -760,7 +760,7 @@
 
     check-cast v3, Landroid/graphics/Paint;
 
-    .line 373
+    .line 378
     const-string v5, "b"
 
     invoke-static {v1, v5}, Lde/robv/android/xposed/XposedHelpers;->getObjectField(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -771,7 +771,7 @@
 
     invoke-virtual {v3, v5}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 374
+    .line 379
     const-string v5, "j"
 
     invoke-static {v1, v5}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
@@ -782,7 +782,7 @@
 
     invoke-virtual {v3, v5}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 375
+    .line 380
     const-string v3, "f2.e"
 
     sget-object v5, Lcom/prometheus/camera/rev/SoftFocusPanel;->cameraLoader:Ljava/lang/ClassLoader;
@@ -795,7 +795,7 @@
 
     move-result-object v3
 
-    .line 376
+    .line 381
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -810,7 +810,7 @@
 
     move-result v0
 
-    .line 377
+    .line 382
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -833,7 +833,7 @@
 
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
-    .line 378
+    .line 383
     const-string v2, "setNormalColor"
 
     filled-new-array {v0}, [Ljava/lang/Object;
@@ -842,7 +842,7 @@
 
     invoke-static {p0, v2, v0}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 379
+    .line 384
     const-string p0, "d"
 
     invoke-static {v1, p0}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
@@ -874,7 +874,7 @@
 .method private static createPanel(Landroid/content/Context;)Landroid/widget/LinearLayout;
     .locals 8
 
-    .line 314
+    .line 319
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -889,7 +889,7 @@
 
     move-result v0
 
-    .line 315
+    .line 320
     invoke-static {p0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object p0
@@ -902,12 +902,12 @@
 
     check-cast p0, Landroid/widget/LinearLayout;
 
-    .line 316
+    .line 321
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 317
+    .line 322
     const-string v1, "com.android.camera.ui.TopAlertSlideSwitchButton$b"
 
     sget-object v2, Lcom/prometheus/camera/rev/SoftFocusPanel;->cameraLoader:Ljava/lang/ClassLoader;
@@ -920,38 +920,38 @@
 
     move v3, v2
 
-    .line 318
-    :goto_28
+    .line 323
+    :goto_0
     sget-object v4, Lcom/prometheus/camera/rev/SoftFocusPanel;->LABELS:[Ljava/lang/String;
 
     array-length v5, v4
 
     const-string v6, "b"
 
-    if-ge v3, v5, :cond_5e
+    if-ge v3, v5, :cond_0
 
-    .line 319
+    .line 324
     new-array v5, v2, [Ljava/lang/Object;
 
     invoke-static {v1, v5}, Lde/robv/android/xposed/XposedHelpers;->newInstance(Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
-    .line 320
+    .line 325
     invoke-static {v3}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v7
 
     invoke-static {v5, v6, v7}, Lde/robv/android/xposed/XposedHelpers;->setObjectField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 322
+    .line 327
     const-string v6, "c"
 
     const/high16 v7, 0x1040000
 
     invoke-static {v5, v6, v7}, Lde/robv/android/xposed/XposedHelpers;->setIntField(Ljava/lang/Object;Ljava/lang/String;I)V
 
-    .line 323
+    .line 328
     new-instance v6, Ljava/lang/StringBuilder;
 
     const-string v7, "\u67d4\u5149\u6548\u679c\uff0c"
@@ -970,25 +970,25 @@
 
     invoke-static {v5, v6, v4}, Lde/robv/android/xposed/XposedHelpers;->setObjectField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 324
+    .line 329
     invoke-virtual {v0, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v3, v3, 0x1
 
-    goto :goto_28
+    goto :goto_0
 
-    .line 326
-    :cond_5e
+    .line 331
+    :cond_0
     const-string v1, "m"
 
     invoke-static {p0, v1, v0}, Lde/robv/android/xposed/XposedHelpers;->setObjectField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 327
+    .line 332
     const-string v1, "M"
 
     invoke-static {p0, v1, v0}, Lde/robv/android/xposed/XposedHelpers;->setObjectField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 328
+    .line 333
     const-string v1, "q"
 
     const/4 v3, 0x1
@@ -997,14 +997,14 @@
 
     const v1, 0x50485346
 
-    .line 329
+    .line 334
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->setTag(Ljava/lang/Object;)V
 
-    .line 330
+    .line 335
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1017,18 +1017,18 @@
 
     invoke-static {p0, v3, v1}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 332
+    .line 337
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->applyStyle(Landroid/widget/LinearLayout;)I
 
-    .line 333
-    :goto_88
+    .line 338
+    :goto_1
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v1
 
-    if-ge v2, v1, :cond_af
+    if-ge v2, v1, :cond_1
 
-    .line 334
+    .line 339
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1045,7 +1045,7 @@
 
     invoke-static {p0, v6, v1}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 335
+    .line 340
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v1
@@ -1060,10 +1060,10 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    goto :goto_88
+    goto :goto_1
 
-    .line 337
-    :cond_af
+    .line 342
+    :cond_1
     const-string v0, "Z4.c"
 
     sget-object v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->cameraLoader:Ljava/lang/ClassLoader;
@@ -1072,7 +1072,7 @@
 
     move-result-object v0
 
-    .line 338
+    .line 343
     sget-object v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->cameraLoader:Ljava/lang/ClassLoader;
 
     filled-new-array {v0}, [Ljava/lang/Class;
@@ -1087,7 +1087,7 @@
 
     move-result-object v0
 
-    .line 356
+    .line 361
     const-string v1, "setSlideSwitchListener"
 
     filled-new-array {v0}, [Ljava/lang/Object;
@@ -1117,16 +1117,16 @@
 .method private static detach()V
     .locals 2
 
-    .line 270
+    .line 275
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
-    if-eqz v0, :cond_17
+    if-eqz v0, :cond_0
 
     invoke-virtual {v0}, Landroid/widget/LinearLayout;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
 
-    if-eqz v0, :cond_17
+    if-eqz v0, :cond_0
 
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
@@ -1140,7 +1140,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    :cond_17
+    :cond_0
     return-void
 .end method
 
@@ -1153,7 +1153,7 @@
     monitor-enter v0
 
     .line 155
-    :try_start_3
+    :try_start_0
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->selection(I)Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;
 
     move-result-object p0
@@ -1161,29 +1161,29 @@
     .line 156
     sget-boolean v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->componentEnabled:Z
 
-    if-eqz v1, :cond_10
+    if-eqz v1, :cond_0
 
     invoke-virtual {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->effective()I
 
     move-result p0
 
-    goto :goto_12
+    goto :goto_0
 
-    :cond_10
+    :cond_0
     iget p0, p0, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->filterSoft:I
 
-    :goto_12
+    :goto_0
     monitor-exit v0
 
     return p0
 
-    :catchall_14
+    :catchall_0
     move-exception p0
 
     .line 157
     monitor-exit v0
-    :try_end_16
-    .catchall {:try_start_3 .. :try_end_16} :catchall_14
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     throw p0
 .end method
@@ -1473,7 +1473,7 @@
 .method private static installStandaloneSoftFocus()V
     .locals 4
 
-    .line 442
+    .line 447
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->effectClass:Ljava/lang/Class;
 
     new-instance v1, Lcom/prometheus/camera/rev/SoftFocusPanel$12;
@@ -1490,7 +1490,7 @@
 
     invoke-static {v0, v2, v1}, Lde/robv/android/xposed/XposedHelpers;->findAndHookMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)Lde/robv/android/xposed/XC_MethodHook$Unhook;
 
-    .line 462
+    .line 467
     const-string v0, "com.xiaomi.camera.mivi.filter.MIVIRenderTag"
 
     sget-object v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->cameraLoader:Ljava/lang/ClassLoader;
@@ -1499,7 +1499,7 @@
 
     move-result-object v0
 
-    .line 463
+    .line 468
     new-instance v1, Lcom/prometheus/camera/rev/SoftFocusPanel$13;
 
     invoke-direct {v1}, Lcom/prometheus/camera/rev/SoftFocusPanel$13;-><init>()V
@@ -1512,7 +1512,7 @@
 
     invoke-static {v0, v2, v1}, Lde/robv/android/xposed/XposedHelpers;->findAndHookMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)Lde/robv/android/xposed/XC_MethodHook$Unhook;
 
-    .line 472
+    .line 477
     new-instance v1, Lcom/prometheus/camera/rev/SoftFocusPanel$14;
 
     invoke-direct {v1}, Lcom/prometheus/camera/rev/SoftFocusPanel$14;-><init>()V
@@ -1525,7 +1525,7 @@
 
     invoke-static {v0, v2, v1}, Lde/robv/android/xposed/XposedHelpers;->findAndHookMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)Lde/robv/android/xposed/XC_MethodHook$Unhook;
 
-    .line 484
+    .line 489
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->cameraLoader:Ljava/lang/ClassLoader;
 
     sget-object v1, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
@@ -1546,7 +1546,7 @@
 
     invoke-static {v2, v0, v3, v1}, Lde/robv/android/xposed/XposedHelpers;->findAndHookMethod(Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;[Ljava/lang/Object;)Lde/robv/android/xposed/XC_MethodHook$Unhook;
 
-    .line 492
+    .line 497
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->cameraLoader:Ljava/lang/ClassLoader;
 
     sget-object v1, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
@@ -1571,25 +1571,25 @@
 .method private static isNoFilter(I)Z
     .locals 1
 
-    .line 427
+    .line 432
     sget v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->noFilterId:I
 
-    if-eq p0, v0, :cond_9
+    if-eq p0, v0, :cond_1
 
-    if-nez p0, :cond_7
+    if-nez p0, :cond_0
 
-    goto :goto_9
+    goto :goto_0
 
-    :cond_7
+    :cond_0
     const/4 p0, 0x0
 
-    goto :goto_a
+    goto :goto_1
 
-    :cond_9
-    :goto_9
+    :cond_1
+    :goto_0
     const/4 p0, 0x1
 
-    :goto_a
+    :goto_1
     return p0
 .end method
 
@@ -1617,33 +1617,33 @@
 .method private static postSelection()V
     .locals 2
 
-    .line 383
+    .line 388
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->selections:Landroid/util/SparseArray;
 
     monitor-enter v0
 
-    .line 384
-    :try_start_3
+    .line 389
+    :try_start_0
     sget-boolean v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->uiPosted:Z
 
-    if-eqz v1, :cond_9
+    if-eqz v1, :cond_0
 
     monitor-exit v0
 
     return-void
 
-    :cond_9
+    :cond_0
     const/4 v1, 0x1
 
-    .line 385
+    .line 390
     sput-boolean v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->uiPosted:Z
 
-    .line 386
+    .line 391
     monitor-exit v0
-    :try_end_d
-    .catchall {:try_start_3 .. :try_end_d} :catchall_18
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 387
+    .line 392
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->main:Landroid/os/Handler;
 
     new-instance v1, Lcom/prometheus/camera/rev/SoftFocusPanel$11;
@@ -1654,22 +1654,41 @@
 
     return-void
 
-    :catchall_18
+    :catchall_0
     move-exception v1
 
-    .line 386
-    :try_start_19
+    .line 391
+    :try_start_1
     monitor-exit v0
-    :try_end_1a
-    .catchall {:try_start_19 .. :try_end_1a} :catchall_18
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     throw v1
+.end method
+
+.method static refreshAfterStreetTransition()V
+    .locals 1
+
+    .line 270
+    sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->fragment:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 271
+    invoke-static {v0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->updatePanel(Ljava/lang/Object;)V
+
+    :cond_0
+    return-void
 .end method
 
 .method private static refreshPreview(Ljava/lang/Object;)V
     .locals 2
 
-    .line 430
+    .line 435
     const-string v0, "M"
 
     invoke-static {p0, v0}, Lde/robv/android/xposed/XposedHelpers;->getObjectField(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -1678,22 +1697,22 @@
 
     check-cast v0, Ljava/lang/ref/WeakReference;
 
-    if-nez v0, :cond_c
+    if-nez v0, :cond_0
 
     const/4 v0, 0x0
 
-    goto :goto_10
+    goto :goto_0
 
-    .line 431
-    :cond_c
+    .line 436
+    :cond_0
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    :goto_10
-    if-eqz v0, :cond_1b
+    :goto_0
+    if-eqz v0, :cond_1
 
-    .line 432
+    .line 437
     const-string v1, "b"
 
     filled-new-array {v0}, [Ljava/lang/Object;
@@ -1702,17 +1721,23 @@
 
     invoke-static {p0, v1, v0}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    :cond_1b
+    :cond_1
     return-void
 .end method
 
 .method private static renderSelection()V
     .locals 3
 
-    .line 396
+    .line 401
+    invoke-static {}, Lcom/prometheus/camera/rev/StreetUiEntryPoint;->isExiting()Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
-    if-eqz v0, :cond_5a
+    if-eqz v0, :cond_3
 
     sget v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->panelMode:I
 
@@ -1720,7 +1745,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_5a
+    if-eqz v0, :cond_3
 
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
@@ -1728,12 +1753,12 @@
 
     move-result-object v0
 
-    if-nez v0, :cond_15
+    if-nez v0, :cond_0
 
-    goto :goto_5a
+    goto :goto_0
 
-    .line 397
-    :cond_15
+    .line 402
+    :cond_0
     sget v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->panelMode:I
 
     invoke-static {v0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->effective(I)I
@@ -1742,9 +1767,9 @@
 
     const/4 v1, 0x3
 
-    if-ne v0, v1, :cond_26
+    if-ne v0, v1, :cond_1
 
-    .line 400
+    .line 405
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
     const/16 v1, 0x8
@@ -1753,15 +1778,15 @@
 
     return-void
 
-    .line 403
-    :cond_26
+    .line 408
+    :cond_1
     sget-object v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 404
+    .line 409
     sget-object v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
     const-string v2, "j"
@@ -1770,9 +1795,9 @@
 
     move-result v1
 
-    if-eq v1, v0, :cond_5a
+    if-eq v1, v0, :cond_3
 
-    .line 405
+    .line 410
     sget-object v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
     const-string v2, "l"
@@ -1783,20 +1808,20 @@
 
     check-cast v1, Landroid/animation/ValueAnimator;
 
-    if-eqz v1, :cond_45
+    if-eqz v1, :cond_2
 
-    .line 406
+    .line 411
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 407
-    :cond_45
+    .line 412
+    :cond_2
     sget-object v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setEnabled(Z)V
 
-    .line 408
+    .line 413
     sget-object v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1811,75 +1836,75 @@
 
     invoke-static {v1, v2, v0}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    :cond_5a
-    :goto_5a
+    :cond_3
+    :goto_0
     return-void
 .end method
 
 .method private static selectManually(I)V
     .locals 4
 
-    .line 413
+    .line 418
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->currentMode()I
 
     move-result v0
 
-    .line 414
+    .line 419
     sget-boolean v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->componentEnabled:Z
 
-    if-eqz v1, :cond_56
+    if-eqz v1, :cond_1
 
     invoke-static {v0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->supported(I)Z
 
     move-result v1
 
-    if-eqz v1, :cond_56
+    if-eqz v1, :cond_1
 
-    if-ltz p0, :cond_56
+    if-ltz p0, :cond_1
 
     sget-object v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->LABELS:[Ljava/lang/String;
 
     array-length v1, v1
 
-    if-lt p0, v1, :cond_16
+    if-lt p0, v1, :cond_0
 
-    goto :goto_56
+    goto :goto_0
 
-    .line 415
-    :cond_16
+    .line 420
+    :cond_0
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->controller()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 416
+    .line 421
     invoke-static {v1, v0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->syncFilter(Ljava/lang/Object;I)V
 
-    .line 418
+    .line 423
     sget-object v2, Lcom/prometheus/camera/rev/SoftFocusPanel;->selections:Landroid/util/SparseArray;
 
     monitor-enter v2
 
-    .line 419
-    :try_start_20
+    .line 424
+    :try_start_0
     invoke-static {v0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->selection(I)Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;
 
     move-result-object v3
 
-    .line 420
+    .line 425
     iput p0, v3, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->override:I
 
-    .line 421
+    .line 426
     iget v3, v3, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->filterId:I
 
-    .line 422
+    .line 427
     monitor-exit v2
-    :try_end_29
-    .catchall {:try_start_20 .. :try_end_29} :catchall_53
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 423
+    .line 428
     invoke-static {v1}, Lcom/prometheus/camera/rev/SoftFocusPanel;->refreshPreview(Ljava/lang/Object;)V
 
-    .line 424
+    .line 429
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "source=panel mode="
@@ -1912,19 +1937,19 @@
 
     return-void
 
-    :catchall_53
+    :catchall_0
     move-exception p0
 
-    .line 422
-    :try_start_54
+    .line 427
+    :try_start_1
     monitor-exit v2
-    :try_end_55
-    .catchall {:try_start_54 .. :try_end_55} :catchall_53
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     throw p0
 
-    :cond_56
-    :goto_56
+    :cond_1
+    :goto_0
     return-void
 .end method
 
@@ -1940,7 +1965,7 @@
 
     check-cast v1, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;
 
-    if-nez v1, :cond_12
+    if-nez v1, :cond_0
 
     .line 122
     new-instance v1, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;
@@ -1950,14 +1975,14 @@
     .line 123
     invoke-virtual {v0, p0, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    :cond_12
+    :cond_0
     return-object v1
 .end method
 
 .method private static standaloneTag(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 436
+    .line 441
     const-string v0, "mSoftFocusType"
 
     invoke-static {p0, v0}, Lde/robv/android/xposed/XposedHelpers;->getObjectField(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -1970,10 +1995,10 @@
 
     move-result v0
 
-    .line 437
+    .line 442
     sget-boolean v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->componentEnabled:Z
 
-    if-eqz v1, :cond_2d
+    if-eqz v1, :cond_0
 
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->currentMode()I
 
@@ -1983,7 +2008,7 @@
 
     move-result v1
 
-    if-eqz v1, :cond_2d
+    if-eqz v1, :cond_0
 
     const-string v1, "mFilterId"
 
@@ -1995,23 +2020,23 @@
 
     move-result p0
 
-    if-eqz p0, :cond_2d
+    if-eqz p0, :cond_0
 
     const/4 p0, 0x1
 
-    if-eq v0, p0, :cond_2e
+    if-eq v0, p0, :cond_1
 
     const/4 v1, 0x2
 
-    if-ne v0, v1, :cond_2d
+    if-ne v0, v1, :cond_0
 
-    goto :goto_2e
+    goto :goto_0
 
-    :cond_2d
+    :cond_0
     const/4 p0, 0x0
 
-    :cond_2e
-    :goto_2e
+    :cond_1
+    :goto_0
     return p0
 .end method
 
@@ -2020,32 +2045,32 @@
 
     const/16 v0, 0xa3
 
-    if-eq p0, v0, :cond_13
+    if-eq p0, v0, :cond_1
 
     const/16 v0, 0xab
 
-    if-eq p0, v0, :cond_13
+    if-eq p0, v0, :cond_1
 
     const/16 v0, 0xe1
 
-    if-eq p0, v0, :cond_13
+    if-eq p0, v0, :cond_1
 
     const/16 v0, 0xa7
 
-    if-ne p0, v0, :cond_11
+    if-ne p0, v0, :cond_0
 
-    goto :goto_13
+    goto :goto_0
 
-    :cond_11
+    :cond_0
     const/4 p0, 0x0
 
-    goto :goto_14
+    goto :goto_1
 
-    :cond_13
-    :goto_13
+    :cond_1
+    :goto_0
     const/4 p0, 0x1
 
-    :goto_14
+    :goto_1
     return p0
 .end method
 
@@ -2067,7 +2092,7 @@
     invoke-virtual {v1, v2}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
 
     .line 146
-    :try_start_d
+    :try_start_0
     const-string v2, "w"
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2087,8 +2112,8 @@
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
 
     move-result p0
-    :try_end_21
-    .catchall {:try_start_d .. :try_end_21} :catchall_28
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 148
     invoke-virtual {v1}, Ljava/lang/ThreadLocal;->remove()V
@@ -2098,7 +2123,7 @@
 
     return-void
 
-    :catchall_28
+    :catchall_0
     move-exception p0
 
     .line 148
@@ -2115,7 +2140,7 @@
 
     const-string v0, "attached mode="
 
-    .line 274
+    .line 279
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v1
@@ -2124,9 +2149,9 @@
 
     move-result-object v2
 
-    if-eq v1, v2, :cond_17
+    if-eq v1, v2, :cond_0
 
-    .line 275
+    .line 280
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->main:Landroid/os/Handler;
 
     new-instance v1, Lcom/prometheus/camera/rev/SoftFocusPanel$9;
@@ -2137,39 +2162,45 @@
 
     return-void
 
-    .line 278
-    :cond_17
+    .line 283
+    :cond_0
     sget-boolean v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->binding:Z
 
-    if-eqz v1, :cond_1c
+    if-eqz v1, :cond_1
 
     return-void
 
-    .line 279
-    :cond_1c
+    .line 284
+    :cond_1
     const-string v1, "mCurrentMode"
 
     invoke-static {p0, v1}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
 
     move-result v1
 
-    .line 280
-    sget-boolean v2, Lcom/prometheus/camera/rev/SoftFocusPanel;->componentEnabled:Z
+    .line 285
+    invoke-static {}, Lcom/prometheus/camera/rev/StreetUiEntryPoint;->isExiting()Z
+
+    move-result v2
 
     const/4 v3, -0x1
 
-    if-eqz v2, :cond_d3
+    if-nez v2, :cond_9
+
+    sget-boolean v2, Lcom/prometheus/camera/rev/SoftFocusPanel;->componentEnabled:Z
+
+    if-eqz v2, :cond_9
 
     invoke-static {v1}, Lcom/prometheus/camera/rev/SoftFocusPanel;->supported(I)Z
 
     move-result v2
 
-    if-nez v2, :cond_2f
+    if-nez v2, :cond_2
 
-    goto/16 :goto_d3
+    goto/16 :goto_2
 
-    .line 285
-    :cond_2f
+    .line 290
+    :cond_2
     const-string v2, "Z"
 
     invoke-static {p0, v2}, Lde/robv/android/xposed/XposedHelpers;->getObjectField(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -2178,55 +2209,55 @@
 
     check-cast v2, Landroid/widget/LinearLayout;
 
-    if-nez v2, :cond_3a
+    if-nez v2, :cond_3
 
     return-void
 
-    :cond_3a
+    :cond_3
     const/4 v4, 0x1
 
-    .line 287
+    .line 292
     sput-boolean v4, Lcom/prometheus/camera/rev/SoftFocusPanel;->binding:Z
 
     const/4 v5, 0x0
 
-    .line 289
-    :try_start_3e
+    .line 294
+    :try_start_0
     sget-object v6, Lcom/prometheus/camera/rev/SoftFocusPanel;->fragment:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v6}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v6
 
-    if-eq v6, p0, :cond_53
+    if-eq v6, p0, :cond_4
 
-    .line 290
+    .line 295
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->detach()V
 
     const/4 v6, 0x0
 
-    .line 291
+    .line 296
     sput-object v6, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
-    .line 292
+    .line 297
     new-instance v6, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v6, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     sput-object v6, Lcom/prometheus/camera/rev/SoftFocusPanel;->fragment:Ljava/lang/ref/WeakReference;
 
-    .line 294
-    :cond_53
+    .line 299
+    :cond_4
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->controller()Ljava/lang/Object;
 
     move-result-object v6
 
     invoke-static {v6, v1}, Lcom/prometheus/camera/rev/SoftFocusPanel;->syncFilter(Ljava/lang/Object;I)V
 
-    .line 295
+    .line 300
     sget-object v6, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
-    if-nez v6, :cond_68
+    if-nez v6, :cond_5
 
     invoke-virtual {v2}, Landroid/widget/LinearLayout;->getContext()Landroid/content/Context;
 
@@ -2238,50 +2269,50 @@
 
     sput-object v6, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
-    .line 296
-    :cond_68
+    .line 301
+    :cond_5
     sget-object v6, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
     invoke-static {v6}, Lcom/prometheus/camera/rev/SoftFocusPanel;->applyStyle(Landroid/widget/LinearLayout;)I
 
     move-result v6
 
-    .line 297
+    .line 302
     sget v7, Lcom/prometheus/camera/rev/SoftFocusPanel;->panelMode:I
 
-    if-eq v7, v1, :cond_74
+    if-eq v7, v1, :cond_6
 
     move v7, v4
 
-    goto :goto_75
+    goto :goto_0
 
-    :cond_74
+    :cond_6
     move v7, v5
 
-    .line 298
-    :goto_75
+    .line 303
+    :goto_0
     sput v1, Lcom/prometheus/camera/rev/SoftFocusPanel;->panelMode:I
 
-    .line 299
+    .line 304
     sget-object v8, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
     invoke-virtual {v8}, Landroid/widget/LinearLayout;->getParent()Landroid/view/ViewParent;
 
     move-result-object v8
 
-    if-eq v8, v2, :cond_a6
+    if-eq v8, v2, :cond_7
 
-    .line 300
+    .line 305
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->detach()V
 
-    .line 301
+    .line 306
     new-instance v13, Landroid/widget/LinearLayout$LayoutParams;
 
     const/4 v2, -0x2
 
     invoke-direct {v13, v2, v6}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 302
+    .line 307
     const-string v2, "fr"
 
     sget-object v9, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
@@ -2310,23 +2341,23 @@
 
     invoke-static {p0, v2, v3}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    goto :goto_a7
+    goto :goto_1
 
-    :cond_a6
+    :cond_7
     move v4, v7
 
-    .line 305
-    :goto_a7
+    .line 310
+    :goto_1
     sget-object p0, Lcom/prometheus/camera/rev/SoftFocusPanel;->panel:Landroid/widget/LinearLayout;
 
     invoke-virtual {p0, v5}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 306
+    .line 311
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->renderSelection()V
 
-    if-eqz v4, :cond_cc
+    if-eqz v4, :cond_8
 
-    .line 307
+    .line 312
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -2348,38 +2379,38 @@
     move-result-object p0
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->log(Ljava/lang/String;)V
-    :try_end_cc
-    .catchall {:try_start_3e .. :try_end_cc} :catchall_cf
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 309
-    :cond_cc
+    .line 314
+    :cond_8
     sput-boolean v5, Lcom/prometheus/camera/rev/SoftFocusPanel;->binding:Z
 
     return-void
 
-    :catchall_cf
+    :catchall_0
     move-exception p0
 
     sput-boolean v5, Lcom/prometheus/camera/rev/SoftFocusPanel;->binding:Z
 
-    .line 310
+    .line 315
     throw p0
 
-    .line 281
-    :cond_d3
-    :goto_d3
+    .line 286
+    :cond_9
+    :goto_2
     sget-object v0, Lcom/prometheus/camera/rev/SoftFocusPanel;->fragment:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    if-ne v0, p0, :cond_de
+    if-ne v0, p0, :cond_a
 
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->detach()V
 
-    .line 282
-    :cond_de
+    .line 287
+    :cond_a
     sput v3, Lcom/prometheus/camera/rev/SoftFocusPanel;->panelMode:I
 
     return-void
@@ -2399,7 +2430,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_25
+    if-eqz v0, :cond_1
 
     iget-object v0, p1, Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;->processName:Ljava/lang/String;
 
@@ -2407,12 +2438,12 @@
 
     move-result v0
 
-    if-nez v0, :cond_13
+    if-nez v0, :cond_0
 
-    goto :goto_25
+    goto :goto_0
 
     .line 76
-    :cond_13
+    :cond_0
     const-class v0, Landroid/app/Application;
 
     const-class v1, Landroid/content/Context;
@@ -2429,7 +2460,7 @@
 
     invoke-static {v0, p1, p0}, Lde/robv/android/xposed/XposedHelpers;->findAndHookMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)Lde/robv/android/xposed/XC_MethodHook$Unhook;
 
-    :cond_25
-    :goto_25
+    :cond_1
+    :goto_0
     return-void
 .end method

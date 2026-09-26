@@ -34,7 +34,7 @@
 
     move-result p0
 
-    if-nez p0, :cond_2c
+    if-nez p0, :cond_0
 
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$600()I
 
@@ -44,7 +44,7 @@
 
     move-result p0
 
-    if-eqz p0, :cond_2c
+    if-eqz p0, :cond_0
 
     .line 240
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
@@ -68,12 +68,12 @@
 
     move-result p0
 
-    if-eqz p0, :cond_2c
+    if-eqz p0, :cond_0
 
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$900(Ljava/lang/Object;)V
 
-    :cond_2c
+    :cond_0
     return-void
 .end method

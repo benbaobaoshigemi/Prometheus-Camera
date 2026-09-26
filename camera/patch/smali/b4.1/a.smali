@@ -58,6 +58,18 @@
 
     check-cast v1, Lv2/h;
 
+    invoke-virtual {v1}, Lv2/h;->J()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    invoke-virtual {v1}, Lcom/android/camera/data/data/c;->isEmpty()Z
+
+    move-result v2
+
+    if-nez v2, :cond_1
+
     invoke-static {}, LV9/M5;->a()La5/i$a;
 
     move-result-object v1
@@ -70,6 +82,7 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
+    :cond_1
     invoke-static {}, Lg2/a;->a()Lr2/f1;
 
     move-result-object v1
@@ -90,7 +103,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_1
+    if-eqz v2, :cond_2
 
     new-instance v2, La5/i$a;
 
@@ -132,7 +145,7 @@
 
     invoke-static {v2, v0}, LE0/d;->a(La5/i$a;Ljava/util/ArrayList;)V
 
-    :cond_1
+    :cond_2
     invoke-static {}, LV9/M5;->p()La5/i$a;
 
     move-result-object p0
@@ -155,7 +168,7 @@
 
     move-result p0
 
-    if-nez p0, :cond_2
+    if-nez p0, :cond_3
 
     sget-boolean p0, LJe/c;->k:Z
 
@@ -167,7 +180,7 @@
 
     move-result p0
 
-    if-eqz p0, :cond_2
+    if-eqz p0, :cond_3
 
     invoke-static {}, Lg2/a;->g()Lu2/Q;
 
@@ -177,7 +190,7 @@
 
     move-result p0
 
-    if-eqz p0, :cond_2
+    if-eqz p0, :cond_3
 
     invoke-static {}, LV9/M5;->f()La5/i$a;
 
@@ -185,7 +198,7 @@
 
     invoke-static {p0, v0}, LE0/d;->a(La5/i$a;Ljava/util/ArrayList;)V
 
-    :cond_2
+    :cond_3
     return-object v0
 .end method
 

@@ -53,21 +53,8 @@
 
     move-result v0
 
-    if-nez v0, :cond_0
+    if-eqz v0, :cond_0
 
-    const-string v0, "prometheus_log_enabled"
-
-    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    :cond_0
     invoke-static {}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$100()Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -98,6 +85,6 @@
 
     invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    :cond_1
+    :cond_0
     return-void
 .end method

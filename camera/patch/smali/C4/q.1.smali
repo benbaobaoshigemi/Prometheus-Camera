@@ -189,8 +189,13 @@
 
     const/16 v4, 0xa2
 
-    if-ne v3, v4, :ordinary_filter_item
+    if-eq v3, v4, :cond_1
 
+    const/16 v4, 0xb4
+
+    if-ne v3, v4, :cond_6
+
+    :cond_1
     invoke-virtual {p0}, Lv2/k0;->I()Ljava/util/ArrayList;
 
     move-result-object v0
@@ -199,11 +204,11 @@
 
     move-result v3
 
-    if-eqz v3, :video_filter_cond_1
+    if-eqz v3, :cond_2
 
-    goto :video_filter_goto_0
+    goto :goto_0
 
-    :video_filter_cond_1
+    :cond_2
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -216,7 +221,7 @@
 
     move-result v3
 
-    if-le v3, v2, :video_filter_cond_2
+    if-le v3, v2, :cond_3
 
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -226,7 +231,7 @@
 
     iget-object v1, v1, Lcom/android/camera/data/data/d;->q:Ljava/lang/String;
 
-    :video_filter_cond_2
+    :cond_3
     const/4 v2, 0x5
 
     invoke-virtual {p0, v2}, Lv2/k0;->F(I)Ljava/lang/String;
@@ -237,12 +242,12 @@
 
     move-result-object v3
 
-    :video_filter_cond_3
+    :cond_4
     invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v4
 
-    if-eqz v4, :video_filter_cond_4
+    if-eqz v4, :cond_5
 
     invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -256,17 +261,17 @@
 
     move-result v4
 
-    if-eqz v4, :video_filter_cond_3
+    if-eqz v4, :cond_4
 
     move-object v1, p0
 
-    :video_filter_cond_4
+    :cond_5
     invoke-interface {p1, v2, v0, v1}, LQ6/C;->ja(ILjava/util/List;Ljava/lang/String;)V
 
-    :video_filter_goto_0
+    :goto_0
     return-void
 
-    :ordinary_filter_item
+    :cond_6
     invoke-static {}, Lv2/k0;->s()Lcom/android/camera/data/data/d;
 
     move-result-object v0
@@ -352,13 +357,13 @@
 
     move-result v1
 
-    if-eqz v1, :cond_1
+    if-eqz v1, :cond_7
 
     const/4 v1, 0x3
 
     invoke-interface {p1, v0, p0, v1}, LQ6/i0;->g(III)V
 
-    :cond_1
+    :cond_7
     return-void
 
     :pswitch_17

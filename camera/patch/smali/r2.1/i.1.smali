@@ -188,10 +188,6 @@
     return-void
 
     :cond_0
-    iget v0, p0, Lr2/i;->f:I
-
-    const/4 v1, 0x1
-
     invoke-static {p1}, Lj9/f;->x4(Lj9/e;)Z
 
     move-result v2
@@ -634,6 +630,15 @@
 .method public final p()Z
     .locals 1
 
+    iget-boolean v0, p0, Lr2/i;->b:Z
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_0
     iget v0, p0, Lr2/i;->f:I
 
     invoke-virtual {p0, v0}, Lcom/android/camera/data/data/c;->getComponentValue(I)Ljava/lang/String;
@@ -851,15 +856,24 @@
 .method public final s(Z)V
     .locals 1
 
+    if-eqz p1, :cond_0
+
+    iget-boolean v0, p0, Lr2/i;->b:Z
+
+    if-nez v0, :cond_0
+
+    const/4 p1, 0x0
+
+    :cond_0
     iget v0, p0, Lr2/i;->f:I
 
-    if-eqz p1, :cond_0
+    if-eqz p1, :cond_1
 
     const-string p1, "1"
 
     goto :goto_0
 
-    :cond_0
+    :cond_1
     const-string p1, "0"
 
     :goto_0

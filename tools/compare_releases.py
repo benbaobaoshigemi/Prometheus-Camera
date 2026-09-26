@@ -125,8 +125,9 @@ def main():
             if first == second:
                 continue
             if name in ('module.prop', 'customize.sh', 'install-self-check.sh'):
-                normalize = lambda b: re.sub(rb'(?m)^versionCode=\d+', b'versionCode=VERSION',
-                                             re.sub(rb'Phoenix-\d+\.\d+\.\d+', b'Phoenix-VERSION', b))
+                normalize = lambda b: re.sub(rb'(?m)^(?:CAMERA_CODE|LSP_CODE)=\d+', b'APK_CODE=VERSION',
+                                             re.sub(rb'(?m)^versionCode=\d+', b'versionCode=VERSION',
+                                             re.sub(rb'Phoenix-\d+\.\d+\.\d+', b'Phoenix-VERSION', b)))
                 if normalize(first) == normalize(second):
                     versions.append(name)
                     continue

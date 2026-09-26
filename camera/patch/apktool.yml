@@ -1,5 +1,5 @@
 version: 2.12.1
-apkFileName: Phoenix_Camera_Phoenix-1.0.0.apk
+apkFileName: Phoenix_Camera_Phoenix-1.3.0.apk
 usesFramework:
   ids:
   - 1
@@ -9,8 +9,8 @@ sdkInfo:
 packageInfo:
   forcedPackageId: 127
 versionInfo:
-  versionCode: 760010100
-  versionName: Phoenix-1.1.0
+  versionCode: 760010300
+  versionName: Phoenix-1.3.0
 doNotCompress:
 - arsc
 - dex

@@ -23,7 +23,7 @@
 
 .field private static final PREFS:Ljava/lang/String; = "prometheus_custom_luts"
 
-.field public static final SLOT_COUNT:I = 0x42
+.field public static final SLOT_COUNT:I
 
 .field private static final TAG:Ljava/lang/String; = "PrometheusCustomLut"
 
@@ -57,6 +57,10 @@
 
     sput-object v0, Lcom/prometheus/camera/filters/CustomLutStore;->EFFECT_NAMES:[Ljava/lang/String;
 
+    sget v0, Lcom/prometheus/camera/filters/FilterContentContract;->USER_SLOT_COUNT:I
+
+    sput v0, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
+
     return-void
 .end method
 
@@ -70,7 +74,7 @@
 .end method
 
 .method public static availableSlotCount(Landroid/content/Context;)I
-    .locals 0
+    .locals 1
 
     .line 200
     invoke-static {p0}, Lcom/prometheus/camera/filters/CustomLutStore;->configuredSlots(Landroid/content/Context;)[I
@@ -79,7 +83,9 @@
 
     array-length p0, p0
 
-    rsub-int/lit8 p0, p0, 0x42
+    sget v0, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
+
+    sub-int p0, v0, p0
 
     return p0
 .end method
@@ -91,7 +97,7 @@
 
     if-lt p0, v0, :cond_0
 
-    const/16 v0, 0x42
+    sget v0, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
 
     if-gt p0, v0, :cond_0
 
@@ -190,7 +196,7 @@
     move v3, v2
 
     :goto_0
-    const/16 v4, 0x42
+    sget v4, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
 
     const/4 v5, 0x0
 
@@ -771,7 +777,7 @@
     move v2, v1
 
     :goto_0
-    const/16 v4, 0x42
+    sget v4, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
 
     if-gt v2, v4, :cond_1
 
@@ -3046,7 +3052,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    const/16 v1, 0x42
+    sget v1, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
 
     if-gt v0, v1, :cond_1
 
@@ -3783,7 +3789,7 @@
     const/4 v1, 0x1
 
     :goto_0
-    const/16 v2, 0x42
+    sget v2, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
 
     if-gt v1, v2, :cond_0
 
@@ -4580,11 +4586,8 @@
 
     if-eqz p1, :cond_4
 
-    .line 341
-    invoke-static {v2}, Lcom/prometheus/camera/filters/CustomLutStore;->deleteTree(Ljava/io/File;)V
-
     :goto_1
-    const/16 p1, 0x42
+    sget p1, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
 
     if-gt v7, p1, :cond_3
 
@@ -4600,6 +4603,8 @@
 
     .line 351
     :cond_3
+    invoke-static {v2}, Lcom/prometheus/camera/filters/CustomLutStore;->deleteTree(Ljava/io/File;)V
+
     monitor-exit v0
 
     return-void
@@ -5506,7 +5511,7 @@
 
     if-lt p0, v1, :cond_1
 
-    const/16 v1, 0x42
+    sget v1, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
 
     if-gt p0, v1, :cond_1
 
@@ -5814,7 +5819,9 @@
 
     move-result-object p0
 
-    const/16 v1, 0x43
+    sget v1, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
+
+    add-int/lit8 v1, v1, 0x1
 
     .line 359
     new-array v1, v1, [Z

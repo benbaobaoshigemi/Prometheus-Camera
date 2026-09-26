@@ -38,7 +38,7 @@
 
     move-result p0
 
-    if-eqz p0, :cond_2c
+    if-eqz p0, :cond_0
 
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -70,6 +70,6 @@
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1200(Ljava/lang/String;)V
 
-    :cond_2c
+    :cond_0
     return-void
 .end method

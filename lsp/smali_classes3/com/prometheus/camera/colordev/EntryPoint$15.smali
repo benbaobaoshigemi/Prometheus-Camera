@@ -88,7 +88,7 @@
     .line 332
     iget-object v4, p0, Lcom/prometheus/camera/colordev/EntryPoint$15;->val$switchClass:Ljava/lang/Class;
 
-    const-string v8, "普通拍照的底层 AI 场景调校；默认遵循相机，切换后强制开启或关闭"
+    const-string v8, "\u666e\u901a\u62cd\u7167\u7684\u5e95\u5c42 AI \u573a\u666f\u8c03\u6821\uff1b\u9ed8\u8ba4\u9075\u5faa\u76f8\u673a\uff0c\u5207\u6362\u540e\u5f3a\u5236\u5f00\u542f\u6216\u5173\u95ed"
 
     invoke-static {p1}, Lcom/prometheus/camera/colordev/XiaomiAsd;->checked(Landroid/content/Context;)Z
 

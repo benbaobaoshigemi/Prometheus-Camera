@@ -202,39 +202,29 @@
 
     iput-boolean v0, p0, Lv2/h;->Y:Z
 
-    const/16 v0, 0xa3
+    sget-boolean v0, LJe/c;->k:Z
 
-    const/16 v1, 0xba
+    sget-object v0, LJe/c$b;->a:LJe/c;
 
-    const/16 v2, 0xa2
+    iget-object v1, v0, LJe/c;->e:L藹藵藷薴藷藳薴藾藿藬藳藹藿薴藹藵藷藷藵藴薴藙藵藷藷藵藴;
 
-    const/16 v3, 0xe1
+    invoke-virtual {v1}, L藹藵藷薴藷藳薴藾藿藬藳藹藿薴藹藵藷藷藵藴薴藙藵藷藷藵藴;->A0()[I
 
-    const/16 v4, 0xad
+    move-result-object v1
 
-    const/16 v5, 0xaf
+    iput-object v1, p0, Lv2/h;->Z:[I
 
-    filled-new-array/range {v0 .. v5}, [I
+    iget-object v0, v0, LJe/c;->e:L藹藵藷薴藷藳薴藾藿藬藳藹藿薴藹藵藷藷藵藴薴藙藵藷藷藵藴;
 
-    move-result-object v0
+    invoke-virtual {v0}, L藹藵藷薴藷藳薴藾藿藬藳藹藿薴藹藵藷藷藵藴薴藙藵藷藷藵藴;->C0()[I
 
-    iput-object v0, p0, Lv2/h;->Z:[I
+    move-result-object v1
 
-    const/16 v0, 0xa7
+    iput-object v1, p0, Lv2/h;->a0:[I
 
-    const/16 v1, 0xb4
+    invoke-virtual {v0}, L藹藵藷薴藷藳薴藾藿藬藳藹藿薴藹藵藷藷藵藴薴藙藵藷藷藵藴;->A()I
 
-    const/16 v2, 0xa4
-
-    const/16 v3, 0xa9
-
-    filled-new-array {v0, v1, v2, v3}, [I
-
-    move-result-object v0
-
-    iput-object v0, p0, Lv2/h;->a0:[I
-
-    const/4 v0, 0x3
+    move-result v0
 
     iput v0, p0, Lv2/h;->b0:I
 
@@ -252,6 +242,51 @@
 
     iput-object p1, p0, Lv2/h;->h0:Ljava/util/ArrayList;
 
+    iget-object v0, p0, Lv2/h;->Z:[I
+
+    array-length v1, v0
+
+    const/4 v2, 0x0
+
+    :goto_0
+    if-ge v2, v1, :cond_1
+
+    aget v3, v0, v2
+
+    const/16 v4, 0xa3
+
+    if-eq v3, v4, :cond_0
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    add-int/lit8 v2, v1, 0x3
+
+    invoke-static {v0, v2}, Ljava/util/Arrays;->copyOf([II)[I
+
+    move-result-object v0
+
+    const/16 v2, 0xad
+
+    aput v2, v0, v1
+
+    add-int/lit8 v1, v1, 0x1
+
+    const/16 v2, 0xaf
+
+    aput v2, v0, v1
+
+    add-int/lit8 v1, v1, 0x1
+
+    const/16 v2, 0xe1
+
+    aput v2, v0, v1
+
+    iput-object v0, p0, Lv2/h;->Z:[I
+
+    :cond_1
     return-void
 .end method
 
@@ -723,6 +758,32 @@
 
     iget v0, p0, Lv2/h;->b0:I
 
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :cond_1
+
+    const/16 v0, 0xad
+
+    if-eq p1, v0, :cond_0
+
+    const/16 v0, 0xaf
+
+    if-eq p1, v0, :cond_0
+
+    const/16 v0, 0xe1
+
+    if-ne p1, v0, :cond_1
+
+    :cond_0
+    const/4 v0, 0x2
+
+    iput v0, p0, Lv2/h;->i:I
+
+    return-void
+
+    :cond_1
+    iget v0, p0, Lv2/h;->b0:I
+
     const/4 v1, 0x2
 
     const/4 v2, 0x0
@@ -735,70 +796,70 @@
 
     const/4 v6, 0x1
 
-    if-ne v0, v6, :cond_2
+    if-ne v0, v6, :cond_4
 
-    if-eq p1, v5, :cond_1
+    if-eq p1, v5, :cond_3
 
-    if-eq p1, v4, :cond_0
+    if-eq p1, v4, :cond_2
 
-    if-eq p1, v3, :cond_0
+    if-eq p1, v3, :cond_2
 
     iput v2, p0, Lv2/h;->i:I
-
-    return-void
-
-    :cond_0
-    iput v6, p0, Lv2/h;->i:I
-
-    return-void
-
-    :cond_1
-    iput v1, p0, Lv2/h;->i:I
 
     return-void
 
     :cond_2
-    const/4 v6, 0x3
+    iput v6, p0, Lv2/h;->i:I
 
-    if-eq v0, v1, :cond_4
-
-    if-ne v0, v6, :cond_3
-
-    goto :goto_0
+    return-void
 
     :cond_3
+    iput v1, p0, Lv2/h;->i:I
+
     return-void
 
     :cond_4
+    const/4 v6, 0x3
+
+    if-eq v0, v1, :cond_6
+
+    if-ne v0, v6, :cond_5
+
+    goto :goto_0
+
+    :cond_5
+    return-void
+
+    :cond_6
     :goto_0
-    if-eq p1, v5, :cond_6
+    if-eq p1, v5, :cond_8
 
-    if-eq p1, v4, :cond_6
+    if-eq p1, v4, :cond_8
 
-    if-eq p1, v3, :cond_6
+    if-eq p1, v3, :cond_8
 
     const/16 v0, 0xad
 
-    if-eq p1, v0, :cond_6
+    if-eq p1, v0, :cond_8
 
     const/16 v0, 0xaf
 
-    if-eq p1, v0, :cond_6
+    if-eq p1, v0, :cond_8
 
     const/16 v0, 0xe1
 
-    if-eq p1, v0, :cond_5
+    if-eq p1, v0, :cond_7
 
     iput v2, p0, Lv2/h;->i:I
 
     return-void
 
-    :cond_5
+    :cond_7
     iput v6, p0, Lv2/h;->i:I
 
     return-void
 
-    :cond_6
+    :cond_8
     const/4 p1, 0x4
 
     iput p1, p0, Lv2/h;->i:I

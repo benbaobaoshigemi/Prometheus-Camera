@@ -482,11 +482,11 @@
 .end method
 
 .method public E5()Z
-    .locals 0
+    .locals 1
 
-    instance-of p0, p0, L䑜䑐䑒䐑䑒䑖䐑䑛䑚䑉䑖䑜䑚䐑䑾䑑䑑䑖䑝䑞䑓䑚;
+    const/4 v0, 0x1
 
-    return p0
+    return v0
 .end method
 
 .method public E6()Z
@@ -4714,13 +4714,11 @@
 .end method
 
 .method public z4()Z
-    .locals 0
+    .locals 1
 
-    instance-of p0, p0, L䣑䣝䣟䢜䣟䣛䢜䣖䣗䣄䣛䣑䣗䢜䣳䣇䣀䣝䣀䣓;
+    const/4 v0, 0x1
 
-    xor-int/lit8 p0, p0, 0x1
-
-    return p0
+    return v0
 .end method
 
 .method public z5()Z

@@ -60,7 +60,7 @@
 .end method
 
 .method protected beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
-    .locals 3
+    .locals 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/Throwable;
@@ -104,6 +104,26 @@
 
     check-cast p0, Ljava/lang/String;
 
+    if-eqz p0, :cond_4
+
+    invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    const-string v0, "\u672c\u673a"
+
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
     .line 121
     invoke-static {p0}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->access$100(Ljava/lang/String;)Z
 
@@ -115,17 +135,20 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
-    move-result p0
+    move-result v1
 
-    if-nez p0, :cond_3
+    if-nez v1, :cond_3
 
-    return-void
+    move-object v0, p0
+
+    goto :goto_0
 
     :cond_2
     const-string v0, "17 Ultra by Leica"
 
     .line 122
     :cond_3
+    :goto_0
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
     const-string v1, "c"
@@ -144,5 +167,6 @@
 
     invoke-static {p0, v1, v0}, Lde/robv/android/xposed/XposedHelpers;->setObjectField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
 
+    :cond_4
     return-void
 .end method

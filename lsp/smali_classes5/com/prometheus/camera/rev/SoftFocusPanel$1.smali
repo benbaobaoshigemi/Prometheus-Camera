@@ -113,19 +113,19 @@
     invoke-interface {p0, p1}, Landroid/content/SharedPreferences;->registerOnSharedPreferenceChangeListener(Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V
 
     .line 101
-    :try_start_44
+    :try_start_0
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1300()V
 
     .line 102
     const-string p0, "installed modes=163,171,225,167"
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1200(Ljava/lang/String;)V
-    :try_end_4c
-    .catchall {:try_start_44 .. :try_end_4c} :catchall_4d
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     return-void
 
-    :catchall_4d
+    :catchall_0
     move-exception p0
 
     .line 104

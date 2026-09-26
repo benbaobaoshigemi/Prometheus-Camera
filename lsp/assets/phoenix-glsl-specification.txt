@@ -1,0 +1,47 @@
+GLSL 文件编写规范
+
+1. 文件格式
+文件扩展名为 .glsl，使用 UTF-8 编码。函数体内容不得为空，不得含 NUL 字符；文件总大小不超过 16384 字节（16 KiB）。不要包含 Markdown 代码围栏、解释文字或完整着色器程序。
+
+2. 注入位置
+文件内容直接替换以下函数内部的函数体：
+vec4 PREFIX_FUNC_colorDark(vec4 color, vec2 uv, float darkStrength)
+只提交函数体内的语句，不写函数签名或包围函数体的外层花括号。所有执行路径都必须返回 vec4。
+
+3. 可用输入
+color：vec4，调用方传入的当前颜色；在进入本函数之前可能已经过同一处理阶段中的其他运算。
+uv：vec2，调用方提供的纹理坐标。不能假定它具有像素坐标单位，也不能据此推断输出尺寸、宽高比或设备方向。
+darkStrength：float，调用方传入的强度值。调用方仅在该值大于 0.0 时执行本函数。
+INPUT(vec2)：返回 vec4，可按纹理坐标读取当前处理阶段的输入纹理。INPUT(uv) 不保证等于 color；重新采样不会自动包含调用方已对 color 执行的运算。
+
+4. 可用外部参数
+以下表达式的类型均为 float：
+PREFIX(CurrentTime)
+PREFIX(NoiseStrength)
+PREFIX(DarkStrength)
+PREFIX(SmoothStartValue)
+PREFIX(SmoothEndValue)
+PREFIX(Falloff)
+必须保留 PREFIX(...) 的写法。除上述参数和函数形参外，不假定存在其他外部变量。CurrentTime 的单位、起点与更新频率没有对自定义函数体作出保证。
+不提供分辨率、纹理尺寸、宽高比、帧编号、鼠标位置或其他纹理。不得使用 iResolution、iTime、resolution 等未定义标识符，也不得自行新增 uniform 或 sampler。
+
+5. 语言与语法
+使用兼容 OpenGL ES 2.0 / GLSL ES 1.00 的语法和内建函数。
+允许局部变量、表达式、条件分支以及符合该版本限制的循环。循环使用编译期可确定的边界；数组长度和索引方式必须符合 GLSL ES 1.00 的限制。
+注意 int 与 float、标量与向量的类型匹配；需要时使用显式转换。
+不得定义 main、mainImage 或其他函数。不得写 uniform、varying、attribute 等全局声明，不得写 #version、#extension、#include 等预处理指令。
+不得写 gl_FragColor 或使用 discard。
+不得使用 uint、整数位运算、textureSize、texelFetch、imageStore、SSBO、计算着色器或其他仅在更新版本中提供的功能。
+
+6. 数值与采样
+避免除零、对零向量执行 normalize、负数开平方、非正数取对数，以及不符合定义域的 pow 运算。
+smoothstep 的第二个边界必须大于第一个边界；反向过渡应使用 1.0 - smoothstep(...)。
+采样坐标越界时的行为取决于纹理状态；需要确定的边缘行为时自行限制坐标。
+没有输入色彩空间、线性化方式或 HDR 范围的保证，不能凭变量名作此假设。
+通常保留 color.a；若算法确实需要改变透明度，返回值仍须是 vec4。
+
+7. 最小合法函数体
+return color;
+
+8. 加载约束
+函数体会嵌入既有程序进行编译和链接。语法可编译不代表所有运行输入下都具有有效数值；运行时纹理状态、参数取值和视觉结果仍需实际验证。

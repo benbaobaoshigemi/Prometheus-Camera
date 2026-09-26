@@ -1,7 +1,6 @@
 #!/system/bin/sh
 
 # KernelSU/APatch merge ODM assets manually. Magisk keeps its system tree.
-# The photo shader library is mounted independently for every manager.
 
 MODDIR="${0%/*}"
 LOG="$MODDIR/mount.log"
@@ -32,15 +31,6 @@ echo "Root 管理器：${ROOT_FAMILY}，BusyBox=$BB"
 
 rm -f "$MODDIR/mount_failed"
 
-SHADER_LIBRARY="$MODDIR/payload/libMiPhotoFilter.so"
-PHOTO_LIBRARY=/odm/lib64/libMiPhotoFilter.so
-[ -s "$SHADER_LIBRARY" ] || fail "missing photo shader library"
-[ -f "$PHOTO_LIBRARY" ] || fail "missing target photo library"
-PHOTO_CONTEXT="$(/system/bin/stat -c %C "$PHOTO_LIBRARY")" || fail "read photo library context"
-chcon "$PHOTO_CONTEXT" "$SHADER_LIBRARY" || fail "label photo shader library"
-"$BB" mount -o bind "$SHADER_LIBRARY" "$PHOTO_LIBRARY" || fail "mount photo shader library"
-"$BB" cmp "$SHADER_LIBRARY" "$PHOTO_LIBRARY" || fail "verify photo shader library"
-echo "Phoenix photo shader library mounted successfully"
 
 case "$ROOT_FAMILY" in
   magisk)
@@ -104,10 +94,7 @@ build_merge_tree() {
 rm -rf "$MODDIR/.merge"
 mkdir -p "$MODDIR/.merge/camera" || fail "create camera merge root"
 
-MODULE_ODM="$MODDIR/odm"
-if [ ! -d "$MODULE_ODM/etc/camera/videofilter" ] && [ -d "$MODDIR/system/odm/etc/camera/videofilter" ]; then
-  MODULE_ODM="$MODDIR/system/odm"
-fi
+MODULE_ODM="$MODDIR/payload/odm"
 [ -d "$MODULE_ODM/etc/camera/videofilter" ] || fail "installer did not stage video filter directory"
 [ -d /odm/etc/camera/videofilter ] || fail "target video filter directory is missing"
 

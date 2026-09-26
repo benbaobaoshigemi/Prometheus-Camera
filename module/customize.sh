@@ -1,10 +1,10 @@
 #!/system/bin/sh
 
-VERSION="Phoenix-1.1.0"
+VERSION="Phoenix-1.3.0"
 LSP_PACKAGE="com.prometheus.camera.rev"
 CAMERA_PACKAGE="com.android.camera"
-LSP_APK="$MODPATH/Phoenix_LSP_Phoenix-1.1.0.apk"
-CAMERA_APK="$MODPATH/Phoenix_Camera_Phoenix-1.1.0.apk"
+LSP_APK="$MODPATH/Phoenix_LSP_Phoenix-1.3.0.apk"
+CAMERA_APK="$MODPATH/Phoenix_Camera_Phoenix-1.3.0.apk"
 AUDIT="$MODPATH/install-audit.log"
 
 : >"$AUDIT" || abort "! 无法创建安装日志"
@@ -16,6 +16,79 @@ BB=/data/adb/ksu/bin/busybox
 [ -x "$BB" ] || BB=/data/adb/magisk/busybox
 [ -x "$BB" ] || BB=/data/adb/ap/bin/busybox
 [ -x "$BB" ] || fail "BusyBox 不可用"
+
+# Resolve the active root manager before touching either application. KernelSU
+# and APatch may delegate standard module trees to a third-party metamodule;
+# Phoenix keeps its ODM payload outside those trees and asks the user to
+# acknowledge the active metamodule before installation continues.
+if [ "${APATCH:-}" = true ]; then
+  ROOT_FAMILY=apatch
+elif [ "${KSU:-}" = true ]; then
+  ROOT_FAMILY=ksu
+elif [ -n "${MAGISK_VER_CODE:-}" ]; then
+  ROOT_FAMILY=magisk
+else
+  fail "无法识别 Root 管理器"
+fi
+
+detect_metamodule() {
+  METAMODULE_PATH=""
+  METAMODULE_ID=""
+  METAMODULE_NAME=""
+  [ "$ROOT_FAMILY" = magisk ] && return 1
+
+  if [ -e /data/adb/metamodule ]; then
+    METAMODULE_PATH="$($BB readlink -f /data/adb/metamodule 2>/dev/null)"
+    [ -n "$METAMODULE_PATH" ] || METAMODULE_PATH=/data/adb/metamodule
+  elif [ -n "${KSU_METAMODULE:-}" ]; then
+    METAMODULE_PATH="$KSU_METAMODULE"
+  elif [ -n "${APATCH_METAMODULE:-}" ]; then
+    METAMODULE_PATH="$APATCH_METAMODULE"
+  elif [ -n "${KSU_HAS_METAMODULE:-}${APATCH_HAS_METAMODULE:-}${HYBRID_MOUNT:-}" ]; then
+    METAMODULE_PATH="由管理器环境声明（路径未知）"
+  else
+    return 1
+  fi
+
+  if [ -r "$METAMODULE_PATH/module.prop" ]; then
+    METAMODULE_ID="$(sed -n 's/^id=//p' "$METAMODULE_PATH/module.prop" | head -n 1)"
+    METAMODULE_NAME="$(sed -n 's/^name=//p' "$METAMODULE_PATH/module.prop" | head -n 1)"
+  fi
+  [ -n "$METAMODULE_ID" ] || METAMODULE_ID="未知"
+  [ -n "$METAMODULE_NAME" ] || METAMODULE_NAME="未知"
+  return 0
+}
+
+confirm_metamodule() {
+  ui_print "========================================"
+  ui_print "! 检测到第三方元模块"
+  ui_print "! 名称：$METAMODULE_NAME"
+  ui_print "! ID：$METAMODULE_ID"
+  ui_print "! Phoenix 将拒绝其挂载 Phoenix 的 ODM 载荷"
+  ui_print "! 开机后请检查 metamodule-check.log 确认未被元模块挂载"
+  ui_print "! 按音量+确认并继续；按音量-取消刷入"
+  ui_print "========================================"
+  while true; do
+    key_event="$($BB timeout 2 /system/bin/getevent -qlc 1 2>/dev/null)"
+    case "$key_event" in
+      *KEY_VOLUMEUP*DOWN*) break ;;
+      *KEY_VOLUMEDOWN*DOWN*) fail "用户取消：未确认第三方元模块风险" ;;
+    esac
+  done
+  {
+    printf 'rootFamily=%s\n' "$ROOT_FAMILY"
+    printf 'path=%s\n' "$METAMODULE_PATH"
+    printf 'id=%s\n' "$METAMODULE_ID"
+    printf 'name=%s\n' "$METAMODULE_NAME"
+    printf 'confirmedAt=%s\n' "$(date '+%Y-%m-%d %H:%M:%S')"
+  } >"$MODPATH/.phoenix-metamodule-confirmed" || fail "无法记录元模块确认状态"
+  audit "确认" "检测到元模块：$METAMODULE_NAME ($METAMODULE_ID)；用户已按音量+继续"
+  ui_print "- 已确认：继续安装并启用元模块挂载归属检查"
+}
+
+if detect_metamodule; then
+  confirm_metamodule
+fi
 
 inject_preset_luts() {
   camera_dir="/data/user/0/com.android.camera"
@@ -122,18 +195,6 @@ CAMERA_PATH="$(pm path "$CAMERA_PACKAGE" 2>/dev/null | sed -n 's/^package://p' |
 [ -n "$CAMERA_PATH" ] || fail "相机 APK 安装后不可见"
 ui_print "  · 相机已注册到系统"
 
-# Keep system/odm for Magisk; KernelSU/APatch use manual ODM subtree mounts.
-# Record the manager selected for this install. The post-fs-data
-# environment is not consistent across Magisk, KernelSU and APatch.
-if [ "${APATCH:-}" = true ]; then
-  ROOT_FAMILY=apatch
-elif [ "${KSU:-}" = true ]; then
-  ROOT_FAMILY=ksu
-elif [ -n "${MAGISK_VER_CODE:-}" ]; then
-  ROOT_FAMILY=magisk
-else
-  fail "无法识别 Root 管理器"
-fi
 printf '%s\n' "$ROOT_FAMILY" > "$MODPATH/.phoenix-root-family" || fail "无法记录 Root 管理器"
 
 stage "整理 ODM 挂载目录"
@@ -142,10 +203,11 @@ if [ "$ROOT_FAMILY" = magisk ]; then
   ODM_DIR="$MODPATH/system/odm"
   ui_print "  · Magisk：保持 system/odm 布局，跳过 ODM 目录手动合并"
 else
-  [ ! -e "$MODPATH/odm" ] || fail "模块 ODM 挂载目录已存在，拒绝覆盖"
-  mv "$MODPATH/system/odm" "$MODPATH/odm" || fail "无法整理 ODM 挂载目录"
-  ODM_DIR="$MODPATH/odm"
-  ui_print "  · ODM 目录已转入 post-fs-data 合并入口（$ROOT_FAMILY）"
+  mkdir -p "$MODPATH/payload" || fail "无法创建模块私有载荷目录"
+  [ ! -e "$MODPATH/payload/odm" ] || fail "模块私有 ODM 载荷目录已存在，拒绝覆盖"
+  mv "$MODPATH/system/odm" "$MODPATH/payload/odm" || fail "无法整理 ODM 载荷目录"
+  ODM_DIR="$MODPATH/payload/odm"
+  ui_print "  · ODM 已移入 Phoenix 私有载荷目录（$ROOT_FAMILY）"
   rmdir "$MODPATH/system" 2>/dev/null || true
 fi
 
@@ -162,11 +224,8 @@ set_perm "$MODPATH/service.sh" 0 0 0755
 set_perm "$MODPATH/post-fs-data.sh" 0 0 0755
 set_perm "$MODPATH/sync-local-watermarks.sh" 0 0 0755
 set_perm "$MODPATH/install-self-check.sh" 0 0 0755
+set_perm "$MODPATH/verify-mount-owner.sh" 0 0 0755
 set_perm "$MODPATH/sync-by-leica-assets.sh" 0 0 0755
-for script in init-formula.sh sync-formula.sh formula-service.sh formula-event.sh; do
-  set_perm "$MODPATH/$script" 0 0 0755
-done
-set_perm_recursive "$MODPATH/formulas" 0 0 0755 0644
 set_perm_recursive "$MODPATH/payload" 0 0 0755 0644
 
 stage "停止相机与相册编辑器，准备写入文件"
@@ -221,8 +280,6 @@ if [ "$seed_status" -ne 0 ]; then
   fail "本地水印写入失败"
 fi
 
-stage "初始化暗角着色器"
-sh "$MODPATH/init-formula.sh" || fail "暗角着色器初始化失败"
 
 stage "校验安装结果"
 check_output="$(sh "$MODPATH/install-self-check.sh" "$MODPATH" "$VERSION" \

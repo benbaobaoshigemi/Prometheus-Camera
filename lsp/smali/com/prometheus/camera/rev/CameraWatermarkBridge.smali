@@ -100,6 +100,40 @@
     return-object p0
 .end method
 
+.method static captureSelection(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;Ljava/lang/String;)Ljava/lang/String;
+    .locals 1
+
+    invoke-static {p0, p1}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->selectedModel(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->isLeica(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    const-string v0, "17 Ultra by Leica"
+
+    invoke-virtual {v0, p2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 p0, 0x0
+
+    return-object p0
+
+    :cond_0
+    invoke-static {p0}, Lcom/prometheus/camera/settings/DeviceNameRouting;->baseName(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    :cond_1
+    return-object p0
+.end method
+
 .method private static firstContext([Ljava/lang/Object;)Landroid/content/Context;
     .locals 5
 
@@ -171,6 +205,46 @@
     check-cast p0, Landroid/content/Context;
 
     return-object p0
+.end method
+
+.method private static hookCaptureIdentity(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)V
+    .locals 3
+
+    new-instance v0, Lcom/prometheus/camera/rev/WatermarkAppliedModelHook;
+
+    invoke-direct {v0, p0, p1}, Lcom/prometheus/camera/rev/WatermarkAppliedModelHook;-><init>(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)V
+
+    const-class v1, Ljava/lang/String;
+
+    sget-object v2, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+
+    filled-new-array {v1, v1, v2, v0}, [Ljava/lang/Object;
+
+    move-result-object v0
+
+    const-string v1, "com.xiaomi.cam.watermark.a"
+
+    const-string v2, "J0"
+
+    invoke-static {v1, p0, v2, v0}, Lde/robv/android/xposed/XposedHelpers;->findAndHookMethod(Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;[Ljava/lang/Object;)Lde/robv/android/xposed/XC_MethodHook$Unhook;
+
+    new-instance v0, Lcom/prometheus/camera/rev/WatermarkCaptureIdentityHook;
+
+    invoke-direct {v0, p0, p1}, Lcom/prometheus/camera/rev/WatermarkCaptureIdentityHook;-><init>(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)V
+
+    const-class v1, Ljava/util/HashMap;
+
+    filled-new-array {v1, v0}, [Ljava/lang/Object;
+
+    move-result-object v0
+
+    const-string v1, "ea.d"
+
+    const-string v2, "a"
+
+    invoke-static {v1, p0, v2, v0}, Lde/robv/android/xposed/XposedHelpers;->findAndHookMethod(Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;[Ljava/lang/Object;)Lde/robv/android/xposed/XC_MethodHook$Unhook;
+
+    return-void
 .end method
 
 .method private static hookDynamicLeicaBitmapGate(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)V
@@ -349,6 +423,8 @@
     .line 30
     invoke-static {p0, v2}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->hookSelectedProduct(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)V
 
+    invoke-static {p0, v2}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->hookCaptureIdentity(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)V
+
     .line 31
     invoke-static {p0, v2}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->hookDynamicLeicaText(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)V
 
@@ -465,4 +541,78 @@
 
     :goto_0
     return p0
+.end method
+
+.method static ordinarySelection(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)Ljava/lang/String;
+    .locals 1
+
+    invoke-static {p0, p1}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->selectedModel(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->isLeica(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 p0, 0x0
+
+    :cond_0
+    return-object p0
+.end method
+
+.method static selectedModel(Ljava/lang/ClassLoader;Ljava/lang/reflect/Method;)Ljava/lang/String;
+    .locals 2
+
+    invoke-static {p0}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->globalContext(Ljava/lang/ClassLoader;)Landroid/content/Context;
+
+    move-result-object p0
+
+    const/4 v0, 0x0
+
+    if-eqz p0, :cond_0
+
+    filled-new-array {p0}, [Ljava/lang/Object;
+
+    move-result-object p0
+
+    invoke-virtual {p1, v0, p0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/String;
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    const-string v1, "\u672c\u673a"
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    const-string v1, "leitzphone powered by xiaomi"
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    return-object p0
+
+    :cond_0
+    return-object v0
 .end method

@@ -1400,7 +1400,7 @@
 
     if-lt p0, v0, :cond_0
 
-    const/16 v0, 0x42
+    sget v0, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
 
     if-gt p0, v0, :cond_0
 

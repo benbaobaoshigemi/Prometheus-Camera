@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    if-eqz v1, :cond_ac
+    if-eqz v1, :cond_2
 
     .line 175
     const-class v2, Lcom/prometheus/camera/rev/FeatureEntryPoint;
@@ -73,12 +73,12 @@
 
     move-result-object v2
 
-    if-nez v2, :cond_2b
+    if-nez v2, :cond_0
 
-    goto/16 :goto_ac
+    goto/16 :goto_0
 
     .line 177
-    :cond_2b
+    :cond_0
     const-class v2, Lcom/prometheus/camera/rev/FeatureEntryPoint;
 
     const-string v5, "prometheus_soft_focus_panel_enabled"
@@ -91,12 +91,12 @@
 
     move-result-object v0
 
-    if-eqz v0, :cond_3a
+    if-eqz v0, :cond_1
 
     return-void
 
     .line 178
-    :cond_3a
+    :cond_1
     const-string v0, "requireContext"
 
     new-array p1, p1, [Ljava/lang/Object;
@@ -214,7 +214,7 @@
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1200(Ljava/lang/String;)V
 
-    :cond_ac
-    :goto_ac
+    :cond_2
+    :goto_0
     return-void
 .end method

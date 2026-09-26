@@ -21,7 +21,7 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 338
+    .line 343
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +32,7 @@
 .method public invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
 
-    .line 340
+    .line 345
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -43,9 +43,9 @@
 
     const/4 v2, 0x0
 
-    if-ne p0, v0, :cond_39
+    if-ne p0, v0, :cond_3
 
-    .line 341
+    .line 346
     const-string p0, "hashCode"
 
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
@@ -56,7 +56,7 @@
 
     move-result p0
 
-    if-eqz p0, :cond_1f
+    if-eqz p0, :cond_0
 
     invoke-static {p1}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
@@ -68,8 +68,8 @@
 
     return-object p0
 
-    .line 342
-    :cond_1f
+    .line 347
+    :cond_0
     const-string p0, "equals"
 
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
@@ -80,32 +80,32 @@
 
     move-result p0
 
-    if-eqz p0, :cond_36
+    if-eqz p0, :cond_2
 
     aget-object p0, p3, v2
 
-    if-ne p1, p0, :cond_30
+    if-ne p1, p0, :cond_1
 
-    goto :goto_31
+    goto :goto_0
 
-    :cond_30
+    :cond_1
     move v1, v2
 
-    :goto_31
+    :goto_0
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p0
 
     return-object p0
 
-    .line 343
-    :cond_36
+    .line 348
+    :cond_2
     const-string p0, "SoftFocusSelectionListener"
 
     return-object p0
 
-    .line 345
-    :cond_39
+    .line 350
+    :cond_3
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
     move-result-object p0
@@ -116,12 +116,12 @@
 
     move-result p0
 
-    if-eqz p0, :cond_61
+    if-eqz p0, :cond_4
 
-    .line 346
+    .line 351
     const-string p0, "U6.c"
 
-    .line 347
+    .line 352
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$000()Ljava/lang/ClassLoader;
 
     move-result-object p2
@@ -132,29 +132,29 @@
 
     new-array p2, v2, [Ljava/lang/Object;
 
-    .line 346
+    .line 351
     invoke-static {p0, p1, p2}, Lde/robv/android/xposed/XposedHelpers;->callStaticMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Ljava/lang/Boolean;
 
-    .line 347
+    .line 352
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p0
 
     xor-int/2addr p0, v1
 
-    .line 346
+    .line 351
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p0
 
     return-object p0
 
-    .line 349
-    :cond_61
+    .line 354
+    :cond_4
     const-string p0, "a"
 
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
@@ -165,9 +165,9 @@
 
     move-result p0
 
-    if-eqz p0, :cond_7a
+    if-eqz p0, :cond_5
 
-    .line 350
+    .line 355
     aget-object p0, p3, v1
 
     check-cast p0, Ljava/lang/String;
@@ -182,8 +182,8 @@
 
     return-object p0
 
-    .line 353
-    :cond_7a
+    .line 358
+    :cond_5
     new-instance p0, Ljava/lang/IllegalStateException;
 
     new-instance p1, Ljava/lang/StringBuilder;

@@ -52,16 +52,9 @@
 
     const-string v1, "prometheus_log_enabled"
 
-    if-nez v0, :cond_0
-
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_1
 
     .line 156
-    :cond_0
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     iget-object p1, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
@@ -96,14 +89,14 @@
 
     move-result v1
 
-    if-eqz v1, :cond_1
+    if-eqz v1, :cond_0
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_0
 
     invoke-static {p1}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->access$200(Z)V
 
     .line 159
-    :cond_1
+    :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "Phoenix: preference i key="
@@ -130,6 +123,6 @@
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->logExternal(Ljava/lang/String;)V
 
-    :cond_2
+    :cond_1
     return-void
 .end method

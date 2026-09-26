@@ -304,56 +304,6 @@
 
     .line 91
     :cond_1
-    invoke-static {v2, v0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->find(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v2
-
-    if-nez v2, :cond_2
-
-    .line 93
-    const-string v8, "prometheus_log_enabled"
-
-    const-string v9, "Phoenix\u65e5\u5fd7"
-
-    const-string v10, "\u5141\u8bb8\u5173\u95edPhoenix\u8c03\u8bd5\u65e5\u5fd7"
-
-    invoke-static {}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->prefs()Landroid/content/SharedPreferences;
-
-    move-result-object v2
-
-    const/4 v6, 0x1
-
-    invoke-interface {v2, v0, v6}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v11
-
-    move-object v6, v5
-
-    move-object v7, p0
-
-    invoke-static/range {v6 .. v11}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->newSwitch(Ljava/lang/Class;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/Object;
-
-    move-result-object p0
-
-    .line 94
-    invoke-static {v4, v0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->listener(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    invoke-static {p0, v13, v0}, Lde/robv/android/xposed/XposedHelpers;->setObjectField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
-
-    .line 95
-    filled-new-array {p0}, [Ljava/lang/Object;
-
-    move-result-object v0
-
-    invoke-static {v3, v12, v0}, Lde/robv/android/xposed/XposedHelpers;->callMethod(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 96
-    invoke-static {v3, p0, v1}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->placeAfter(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 98
-    :cond_2
     const-string p0, "laboratory preferences present"
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->log(Ljava/lang/String;)V

@@ -75,7 +75,7 @@
 
     const/4 v4, 0x1
 
-    if-eqz v3, :cond_2
+    if-eqz v3, :cond_1
 
     iget-object p0, p0, Lcom/prometheus/camera/colordev/EntryPoint$26;->val$loader:Ljava/lang/ClassLoader;
 
@@ -86,7 +86,7 @@
 
     const/16 v3, 0xa3
 
-    if-ne p0, v3, :cond_2
+    if-ne p0, v3, :cond_1
 
     invoke-static {v2}, Lcom/prometheus/camera/colordev/EntryPoint;->access$1700(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
@@ -107,14 +107,14 @@
     return-void
 
     .line 706
-    :cond_2
+    :cond_1
     const-string p0, "com.xiaomi.mivi2.render"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
-    if-eqz p0, :cond_5
+    if-eqz p0, :cond_4
 
     .line 707
     invoke-static {v2}, Lcom/prometheus/camera/colordev/EntryPoint;->access$1700(Landroid/content/Context;)Landroid/content/SharedPreferences;
@@ -127,7 +127,7 @@
 
     move-result p0
 
-    if-nez p0, :cond_5
+    if-nez p0, :cond_4
 
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
@@ -135,12 +135,12 @@
 
     instance-of p0, p0, [B
 
-    if-nez p0, :cond_3
+    if-nez p0, :cond_2
 
     goto :goto_0
 
     .line 711
-    :cond_3
+    :cond_2
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
     aget-object p0, p0, v4
@@ -151,12 +151,12 @@
 
     move-result-object p0
 
-    if-nez p0, :cond_4
+    if-nez p0, :cond_3
 
     return-void
 
     .line 713
-    :cond_4
+    :cond_3
     iget-object p1, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
     aput-object p0, p1, v4
@@ -166,7 +166,7 @@
 
     move-result p0
 
-    if-nez p0, :cond_5
+    if-nez p0, :cond_4
 
     .line 715
     invoke-static {v4}, Lcom/prometheus/camera/colordev/EntryPoint;->access$3602(Z)Z
@@ -176,7 +176,7 @@
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->logExternal(Ljava/lang/String;)V
 
-    :cond_5
+    :cond_4
     :goto_0
     return-void
 .end method

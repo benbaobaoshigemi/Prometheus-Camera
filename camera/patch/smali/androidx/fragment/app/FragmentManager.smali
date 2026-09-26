@@ -3481,7 +3481,7 @@
 
     check-cast v3, Ljava/lang/String;
 
-    const-string v4, "result_"
+    const-string/jumbo v4, "result_"
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -4712,7 +4712,7 @@
 
     check-cast v3, Ljava/lang/String;
 
-    const-string v4, "result_"
+    const-string/jumbo v4, "result_"
 
     invoke-static {v4, v3}, LB3/c;->e(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 

@@ -34,13 +34,13 @@
 
     move-result p0
 
-    if-nez p0, :cond_ae
+    if-nez p0, :cond_6
 
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$300()Z
 
     move-result p0
 
-    if-eqz p0, :cond_ae
+    if-eqz p0, :cond_6
 
     sget-object p0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
@@ -56,12 +56,12 @@
 
     move-result p0
 
-    if-eqz p0, :cond_1e
+    if-eqz p0, :cond_0
 
-    goto/16 :goto_ae
+    goto/16 :goto_1
 
     .line 217
-    :cond_1e
+    :cond_0
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$600()I
 
     move-result p0
@@ -71,12 +71,12 @@
 
     move-result v0
 
-    if-nez v0, :cond_29
+    if-nez v0, :cond_1
 
     return-void
 
     .line 219
-    :cond_29
+    :cond_1
     iget-object v0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
     const/4 v1, 0x0
@@ -109,21 +109,21 @@
 
     move-result v3
 
-    if-ne v0, v2, :cond_4c
+    if-ne v0, v2, :cond_2
 
     .line 222
     invoke-static {p0, v0, v3}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1500(III)V
 
-    goto :goto_51
+    goto :goto_0
 
     .line 223
-    :cond_4c
+    :cond_2
     iget-object v2, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
     invoke-static {v2, p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1600(Ljava/lang/Object;I)V
 
     .line 224
-    :goto_51
+    :goto_0
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1700(I)I
 
     move-result v2
@@ -145,7 +145,7 @@
     monitor-enter v4
 
     .line 228
-    :try_start_63
+    :try_start_0
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1900(I)Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;
 
     move-result-object v5
@@ -153,17 +153,17 @@
     .line 229
     iget v6, v5, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->reportedNative:I
 
-    if-ne v6, v3, :cond_6f
+    if-ne v6, v3, :cond_3
 
     iget v6, v5, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->reportedEffective:I
 
-    if-eq v6, v2, :cond_70
+    if-eq v6, v2, :cond_4
 
-    :cond_6f
+    :cond_3
     const/4 v1, 0x1
 
     .line 230
-    :cond_70
+    :cond_4
     iput v3, v5, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->reportedNative:I
 
     .line 231
@@ -171,10 +171,10 @@
 
     .line 232
     monitor-exit v4
-    :try_end_75
-    .catchall {:try_start_63 .. :try_end_75} :catchall_ab
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    if-eqz v1, :cond_aa
+    if-eqz v1, :cond_5
 
     .line 233
     new-instance v1, Ljava/lang/StringBuilder;
@@ -221,21 +221,21 @@
     .line 233
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1200(Ljava/lang/String;)V
 
-    :cond_aa
+    :cond_5
     return-void
 
-    :catchall_ab
+    :catchall_0
     move-exception p0
 
     .line 232
-    :try_start_ac
+    :try_start_1
     monitor-exit v4
-    :try_end_ad
-    .catchall {:try_start_ac .. :try_end_ad} :catchall_ab
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     throw p0
 
-    :cond_ae
-    :goto_ae
+    :cond_6
+    :goto_1
     return-void
 .end method

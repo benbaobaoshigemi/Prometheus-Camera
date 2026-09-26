@@ -92,16 +92,51 @@
 
     :cond_1
     :goto_0
+    if-eqz p0, :cond_2
+
+    invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    const-string v0, "\u672c\u673a"
+
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
     invoke-static {p0}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->access$100(Ljava/lang/String;)Z
 
     move-result v0
 
-    if-eqz v0, :cond_2
+    if-nez v0, :cond_5
+
+    iget-object v0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
+
+    const/4 v2, 0x1
+
+    aput-object p0, v0, v2
+
+    return-void
+
+    :cond_2
+    invoke-static {p0}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->access$100(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
 
     goto :goto_1
 
     .line 93
-    :cond_2
+    :cond_3
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
     const/4 v0, 0x1
@@ -110,7 +145,7 @@
 
     instance-of p0, p0, Ljava/lang/String;
 
-    if-eqz p0, :cond_3
+    if-eqz p0, :cond_4
 
     .line 94
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
@@ -121,21 +156,22 @@
 
     goto :goto_1
 
-    :cond_3
+    :cond_4
     move-object p0, v1
 
     .line 95
+    :cond_5
     :goto_1
     invoke-static {p0}, Lcom/prometheus/camera/rev/CameraWatermarkBridge;->access$100(Ljava/lang/String;)Z
 
     move-result v0
 
-    if-nez v0, :cond_4
+    if-nez v0, :cond_6
 
     return-void
 
     .line 96
-    :cond_4
+    :cond_6
     iget-object v0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
     const-string v2, "p"
@@ -154,7 +190,7 @@
 
     const/16 v0, 0xc
 
-    if-ge p1, v0, :cond_5
+    if-ge p1, v0, :cond_7
 
     .line 99
     new-instance p1, Ljava/lang/StringBuilder;
@@ -171,6 +207,6 @@
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/FeatureEntryPoint;->logExternal(Ljava/lang/String;)V
 
-    :cond_5
+    :cond_7
     return-void
 .end method

@@ -45,11 +45,11 @@
 
     move-result p2
 
-    if-nez p2, :cond_9
+    if-nez p2, :cond_0
 
     return-void
 
-    :cond_9
+    :cond_0
     const/4 p2, 0x1
 
     .line 85

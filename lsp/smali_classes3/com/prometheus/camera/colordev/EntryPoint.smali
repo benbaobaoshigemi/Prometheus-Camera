@@ -54,13 +54,13 @@
 
 .field private static final KEY_CLASSIC_STYLE:Ljava/lang/String; = "pref_prometheus_classic_style"
 
-.field private static final KEY_XIAOMI_ASD:Ljava/lang/String; = "pref_prometheus_xiaomi_ai_asd"
-
 .field private static final KEY_VIGNETTE:Ljava/lang/String; = "pref_prometheus_classic_vignette"
 
 .field private static final KEY_WATERMARK:Ljava/lang/String; = "pref_camera_watermark_type_key"
 
 .field private static final KEY_WATERMARK_DEVICE_NAME:Ljava/lang/String; = "pref_prometheus_watermark_device_name"
+
+.field private static final KEY_XIAOMI_ASD:Ljava/lang/String; = "pref_prometheus_xiaomi_ai_asd"
 
 .field private static final PHOTO_MODULE:I = 0xa3
 

@@ -15845,6 +15845,8 @@
     <public type="layout" name="epk" id="0x7f0e0003" />
     <public type="layout" name="epl" id="0x7f0e0004" />
     <public type="layout" name="epm" id="0x7f0e0005" />
+    <public type="layout" name="phoenix_vignette_strength" id="0x7f0e0006" />
+    <public type="layout" name="phoenix_vignette_switch" id="0x7f0e0007" />
     <public type="layout" name="epn" id="0x7f0e0008" />
     <public type="layout" name="epo" id="0x7f0e0009" />
     <public type="layout" name="epp" id="0x7f0e000a" />
@@ -18340,6 +18342,9 @@
     <public type="string" name="prometheus_gallery_filter_99" id="0x7f1402e9" />
     <public type="string" name="prometheus_metadata_sync_title" id="0x7f1402ea" />
     <public type="string" name="prometheus_watermark_device_title" id="0x7f1402eb" />
+    <public type="string" name="phoenix_vignette_experimental_title" id="0x7f1402ec" />
+    <public type="string" name="phoenix_vignette_title" id="0x7f1402ed" />
+    <public type="string" name="prometheus_backup_title" id="0x7f1402ee" />
     <public type="string" name="fqb" id="0x7f1402f0" />
     <public type="string" name="fqc" id="0x7f1402f2" />
     <public type="string" name="fqd" id="0x7f1402f3" />

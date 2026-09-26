@@ -1080,7 +1080,7 @@
 
     if-lt p2, p3, :cond_6
 
-    const/16 v0, 0x42
+    sget v0, Lcom/prometheus/camera/filters/CustomLutStore;->SLOT_COUNT:I
 
     if-le p2, v0, :cond_3
 

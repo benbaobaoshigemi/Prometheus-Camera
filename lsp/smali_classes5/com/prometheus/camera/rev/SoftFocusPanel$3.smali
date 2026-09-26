@@ -45,14 +45,14 @@
 
     aget-object v0, v0, v1
 
-    if-eqz p0, :cond_3f
+    if-eqz p0, :cond_1
 
-    if-nez v0, :cond_12
+    if-nez v0, :cond_0
 
-    goto :goto_3f
+    goto :goto_0
 
     .line 198
-    :cond_12
+    :cond_0
     const-string v1, "o"
 
     invoke-static {p0, v1}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
@@ -64,7 +64,7 @@
 
     move-result v0
 
-    if-eq p0, v0, :cond_3f
+    if-eq p0, v0, :cond_1
 
     .line 201
     iget-object p1, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
@@ -96,7 +96,7 @@
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1200(Ljava/lang/String;)V
 
-    :cond_3f
-    :goto_3f
+    :cond_1
+    :goto_0
     return-void
 .end method

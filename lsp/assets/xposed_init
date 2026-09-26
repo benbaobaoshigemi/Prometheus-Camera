@@ -3,4 +3,13 @@ com.prometheus.camera.colordev.EntryPoint
 
 com.prometheus.camera.rev.FeatureEntryPoint
 com.prometheus.camera.rev.SoftFocusPanel
-com.prometheus.camera.rev.VignetteSettings
+com.prometheus.camera.rev.StreetUiEntryPoint
+com.prometheus.camera.rev.AppPhotoEffects
+com.prometheus.camera.rev.VideoLutCatalog
+com.prometheus.camera.rev.VideoLutMonitor
+com.prometheus.camera.rev.VideoLutQuality
+com.prometheus.camera.rev.StreetCapabilities
+com.prometheus.camera.rev.StreetPortraitStyle
+com.prometheus.camera.rev.WatermarkFilterIcon
+com.prometheus.camera.rev.PhoenixCompatFix
+com.nezha.q0fix.PhoenixQ0Fix

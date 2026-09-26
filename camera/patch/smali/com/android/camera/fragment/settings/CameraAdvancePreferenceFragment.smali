@@ -100,6 +100,34 @@
 
     invoke-direct {v0, v1, v2}, Landroidx/preference/Preference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
+    const-string v1, "pref_prometheus_backup_restore"
+
+    invoke-virtual {v0, v1}, Landroidx/preference/Preference;->a0(Ljava/lang/String;)V
+
+    const-string/jumbo v1, "\u5907\u4efd\u4e0e\u6062\u590d"
+
+    invoke-virtual {v0, v1}, Landroidx/preference/Preference;->e0(Ljava/lang/String;)V
+
+    const-string/jumbo v1, "\u5bfc\u51fa\u548c\u5bfc\u5165\u76f8\u673a\u4e0e Phoenix \u8bbe\u7f6e\uff0c\u652f\u6301\u6309\u6a21\u5f0f"
+
+    invoke-virtual {v0, v1}, Landroidx/preference/Preference;->c0(Ljava/lang/CharSequence;)V
+
+    const/4 v1, 0x0
+
+    iput-boolean v1, v0, Landroidx/preference/Preference;->t:Z
+
+    invoke-virtual {v3, v0}, Landroidx/preference/PreferenceGroup;->j0(Landroidx/preference/Preference;)Z
+
+    new-instance v0, Landroidx/preference/Preference;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireActivity()Landroidx/fragment/app/l;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    invoke-direct {v0, v1, v2}, Landroidx/preference/Preference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
     const-string v1, "pref_prometheus_watermark_device_name"
 
     invoke-virtual {v0, v1}, Landroidx/preference/Preference;->a0(Ljava/lang/String;)V
@@ -394,13 +422,32 @@
     return p0
 
     :cond_1
-    const-string v1, "pref_prometheus_watermark_device_name"
+    const-string v1, "pref_prometheus_backup_restore"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
+
+    const-class v0, Lcom/android/camera/fragment/settings/PreferenceExtraActivity;
+
+    const-string v1, "com.prometheus.camera.backup.BackupPreferenceFragment"
+
+    invoke-virtual {p0, v0, v1}, Lcom/android/camera/fragment/settings/b;->goToActivity(Ljava/lang/Class;Ljava/lang/String;)V
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :cond_2
+    const-string v1, "pref_prometheus_watermark_device_name"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
 
     const-class v0, Lcom/android/camera/fragment/settings/PreferenceExtraActivity;
 
@@ -412,7 +459,7 @@
 
     return p0
 
-    :cond_2
+    :cond_3
     invoke-super {p0, p1}, Lcom/android/camera/fragment/settings/CameraPreferenceFragment;->onPreferenceClick(Landroidx/preference/Preference;)Z
 
     move-result p0
@@ -466,7 +513,7 @@
     :cond_2
     iget-object v0, p0, Lcom/android/camera/fragment/settings/b;->mPreferenceGroup:Landroidx/preference/PreferenceScreen;
 
-    const-string v1, "pref_prometheus_watermark_device_name"
+    const-string v1, "pref_prometheus_backup_restore"
 
     invoke-virtual {v0, v1}, Landroidx/preference/PreferenceGroup;->k0(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
 
@@ -477,5 +524,18 @@
     iput-object p0, v0, Landroidx/preference/Preference;->f:Landroidx/preference/Preference$d;
 
     :cond_3
+    iget-object v0, p0, Lcom/android/camera/fragment/settings/b;->mPreferenceGroup:Landroidx/preference/PreferenceScreen;
+
+    const-string v1, "pref_prometheus_watermark_device_name"
+
+    invoke-virtual {v0, v1}, Landroidx/preference/PreferenceGroup;->k0(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_4
+
+    iput-object p0, v0, Landroidx/preference/Preference;->f:Landroidx/preference/Preference$d;
+
+    :cond_4
     return-void
 .end method

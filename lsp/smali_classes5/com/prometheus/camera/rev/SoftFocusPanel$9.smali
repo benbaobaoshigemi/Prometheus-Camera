@@ -30,7 +30,7 @@
         }
     .end annotation
 
-    .line 275
+    .line 280
     iput-object p1, p0, Lcom/prometheus/camera/rev/SoftFocusPanel$9;->val$top:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +43,7 @@
 .method public run()V
     .locals 0
 
-    .line 275
+    .line 280
     iget-object p0, p0, Lcom/prometheus/camera/rev/SoftFocusPanel$9;->val$top:Ljava/lang/Object;
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$1100(Ljava/lang/Object;)V

@@ -57,21 +57,21 @@
     .line 62
     iget-boolean v0, p0, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->initialized:Z
 
-    if-eqz v0, :cond_e
+    if-eqz v0, :cond_0
 
     iget v0, p0, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->filterId:I
 
-    if-ne v0, p1, :cond_e
+    if-ne v0, p1, :cond_0
 
     iget v0, p0, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->filterSoft:I
 
-    if-ne v0, p2, :cond_e
+    if-ne v0, p2, :cond_0
 
     const/4 p0, 0x0
 
     return p0
 
-    :cond_e
+    :cond_0
     const/4 v0, 0x1
 
     .line 63
@@ -97,10 +97,10 @@
     .line 70
     iget v0, p0, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->override:I
 
-    if-gez v0, :cond_6
+    if-gez v0, :cond_0
 
     iget v0, p0, Lcom/prometheus/camera/rev/SoftFocusPanel$Selection;->filterSoft:I
 
-    :cond_6
+    :cond_0
     return v0
 .end method

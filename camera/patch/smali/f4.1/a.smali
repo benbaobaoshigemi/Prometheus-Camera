@@ -96,6 +96,18 @@
 
     check-cast v0, Lv2/h;
 
+    invoke-virtual {v0}, Lv2/h;->J()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    invoke-virtual {v0}, Lcom/android/camera/data/data/c;->isEmpty()Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
     invoke-static {}, LV9/M5;->a()La5/i$a;
 
     move-result-object v0
@@ -108,6 +120,7 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
+    :cond_1
     invoke-static {}, Lg2/a;->g()Lu2/Q;
 
     move-result-object v0
@@ -132,13 +145,13 @@
 
     move-result v1
 
-    if-eqz v1, :cond_2
+    if-eqz v1, :cond_3
 
     const/16 v1, 0xc1
 
     const v2, 0x800003
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_2
 
     new-instance v0, La5/i$a;
 
@@ -185,7 +198,7 @@
 
     goto :goto_1
 
-    :cond_1
+    :cond_2
     new-instance v0, La5/i$a;
 
     invoke-direct {v0}, La5/i$a;-><init>()V
@@ -228,7 +241,7 @@
 
     goto :goto_0
 
-    :cond_2
+    :cond_3
     :goto_1
     invoke-static {}, LV9/M5;->p()La5/i$a;
 
@@ -252,19 +265,19 @@
 
     check-cast v0, Lr2/c0;
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_4
 
     invoke-virtual {v0}, Lr2/c0;->z()Z
 
     move-result v1
 
-    if-eqz v1, :cond_3
+    if-eqz v1, :cond_4
 
     invoke-virtual {v0}, Lr2/c0;->L()Z
 
     move-result v0
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_4
 
     sget-object v0, LJe/c$b;->a:LJe/c;
 
@@ -274,7 +287,7 @@
 
     move-result v0
 
-    if-nez v0, :cond_3
+    if-nez v0, :cond_4
 
     invoke-static {}, LV9/M5;->F()La5/i$a;
 
@@ -282,7 +295,7 @@
 
     invoke-static {v0, p0}, LE0/d;->a(La5/i$a;Ljava/util/ArrayList;)V
 
-    :cond_3
+    :cond_4
     return-object p0
 .end method
 

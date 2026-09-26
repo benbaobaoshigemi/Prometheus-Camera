@@ -1684,7 +1684,7 @@
     const/16 v13, -0x67
 
     :goto_16
-    const-string v0, "result_code"
+    const-string/jumbo v0, "result_code"
 
     invoke-virtual {v11, v0, v13}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
@@ -1943,8 +1943,6 @@
     invoke-virtual {v11, v9, v0}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
     return-object v11
-
-    nop
 
     :sswitch_data_0
     .sparse-switch

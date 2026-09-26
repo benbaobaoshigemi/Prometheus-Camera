@@ -18,7 +18,7 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 484
+    .line 489
     invoke-direct {p0}, Lde/robv/android/xposed/XC_MethodHook;-><init>()V
 
     return-void
@@ -29,7 +29,7 @@
 .method protected beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
     .locals 2
 
-    .line 486
+    .line 491
     sget-object p0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$2900()Ljava/lang/ThreadLocal;
@@ -44,7 +44,7 @@
 
     move-result p0
 
-    if-eqz p0, :cond_36
+    if-eqz p0, :cond_0
 
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
@@ -62,9 +62,9 @@
 
     move-result p0
 
-    if-eqz p0, :cond_36
+    if-eqz p0, :cond_0
 
-    .line 487
+    .line 492
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
     invoke-static {}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$2700()I
@@ -77,7 +77,7 @@
 
     aput-object v1, p0, v0
 
-    .line 488
+    .line 493
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->args:[Ljava/lang/Object;
 
     const/4 p1, 0x1
@@ -88,6 +88,6 @@
 
     aput-object v0, p0, p1
 
-    :cond_36
+    :cond_0
     return-void
 .end method

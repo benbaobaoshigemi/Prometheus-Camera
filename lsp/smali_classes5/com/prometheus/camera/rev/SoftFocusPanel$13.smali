@@ -18,7 +18,7 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 463
+    .line 468
     invoke-direct {p0}, Lde/robv/android/xposed/XC_MethodHook;-><init>()V
 
     return-void
@@ -29,16 +29,16 @@
 .method protected afterHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
     .locals 2
 
-    .line 465
+    .line 470
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
     invoke-static {p0}, Lcom/prometheus/camera/rev/SoftFocusPanel;->access$2800(Ljava/lang/Object;)Z
 
     move-result p0
 
-    if-eqz p0, :cond_1f
+    if-eqz p0, :cond_0
 
-    .line 466
+    .line 471
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
     const-string v0, "mFilterDegree"
@@ -47,12 +47,12 @@
 
     invoke-static {p0, v0, v1}, Lde/robv/android/xposed/XposedHelpers;->setIntField(Ljava/lang/Object;Ljava/lang/String;I)V
 
-    .line 467
+    .line 472
     iget-object p0, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
     iget-object p1, p1, Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;->thisObject:Ljava/lang/Object;
 
-    .line 468
+    .line 473
     const-string v0, "mType"
 
     invoke-static {p1, v0}, Lde/robv/android/xposed/XposedHelpers;->getIntField(Ljava/lang/Object;Ljava/lang/String;)I
@@ -61,9 +61,9 @@
 
     or-int/lit8 p1, p1, 0x1
 
-    .line 467
+    .line 472
     invoke-static {p0, v0, p1}, Lde/robv/android/xposed/XposedHelpers;->setIntField(Ljava/lang/Object;Ljava/lang/String;I)V
 
-    :cond_1f
+    :cond_0
     return-void
 .end method

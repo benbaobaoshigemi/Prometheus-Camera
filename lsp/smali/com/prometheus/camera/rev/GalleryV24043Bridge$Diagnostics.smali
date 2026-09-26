@@ -25,6 +25,8 @@
 
 .field private static file:Ljava/io/File;
 
+.field private static generation:J
+
 .field private static listPublished:Z
 
 .field private static uiProbeInstalled:Z
@@ -146,6 +148,8 @@
 
     .line 49
     :try_start_0
+    invoke-static {}, Lcom/prometheus/camera/rev/GalleryV24043Bridge$Diagnostics;->refreshSession()V
+
     sget-object v1, Lcom/prometheus/camera/rev/GalleryV24043Bridge$Diagnostics;->BUFFER:Ljava/lang/StringBuilder;
 
     new-instance v2, Ljava/text/SimpleDateFormat;
@@ -635,6 +639,37 @@
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
     throw v1
+.end method
+
+.method private static refreshSession()V
+    .locals 4
+
+    invoke-static {}, Lcom/prometheus/camera/rev/PhoenixFileLogger;->generation()J
+
+    move-result-wide v0
+
+    sget-wide v2, Lcom/prometheus/camera/rev/GalleryV24043Bridge$Diagnostics;->generation:J
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    sput-wide v0, Lcom/prometheus/camera/rev/GalleryV24043Bridge$Diagnostics;->generation:J
+
+    const/4 v0, 0x0
+
+    sput-object v0, Lcom/prometheus/camera/rev/GalleryV24043Bridge$Diagnostics;->uri:Landroid/net/Uri;
+
+    sput-object v0, Lcom/prometheus/camera/rev/GalleryV24043Bridge$Diagnostics;->file:Ljava/io/File;
+
+    sget-object v0, Lcom/prometheus/camera/rev/GalleryV24043Bridge$Diagnostics;->BUFFER:Ljava/lang/StringBuilder;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->setLength(I)V
+
+    :cond_0
+    return-void
 .end method
 
 .method private static scan(Landroid/view/View;Ljava/lang/StringBuilder;[I)V

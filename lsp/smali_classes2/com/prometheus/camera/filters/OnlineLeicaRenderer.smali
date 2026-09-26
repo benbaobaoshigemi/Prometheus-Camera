@@ -28,7 +28,7 @@
 
 .field private static final PHASE_Y:F = -0.2f
 
-.field private static final PIPELINE_VERSION:Ljava/lang/String; = "desktopvf-455.3-141.665-s0.9849-v4"
+.field private static final PIPELINE_VERSION:Ljava/lang/String; = "desktopvf-447.5-139.75-s0.999475-v5"
 
 .field private static final PREFS:Ljava/lang/String; = "prometheus_camera_settings"
 
@@ -50,15 +50,15 @@
 
 .field private static final TAG:Ljava/lang/String; = "OnlineLeicaRenderer"
 
-.field private static final TEXT_LEFT:F = 706.75f
+.field private static final TEXT_LEFT:F = 706.8281f
 
-.field private static final TEXT_SIZE:F = 141.665f
+.field private static final TEXT_SIZE:F = 139.75f
 
-.field private static final TEXT_TOP:F = 29.375f
+.field private static final TEXT_TOP:F = 29.5625f
 
-.field private static final UNIFORM_SCALE:F = 0.9849f
+.field private static final UNIFORM_SCALE:F = 0.999475f
 
-.field private static final WEIGHT:F = 455.3f
+.field private static final WEIGHT:F = 447.5f
 
 .field private static final WHITESPACE:Ljava/util/regex/Pattern;
 
@@ -727,7 +727,7 @@
 
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v3, "desktopvf-455.3-141.665-s0.9849-v4\nC815CEF93EA0398B8E8DC6A5A1F25597BD1D54600CF46C8B60419E5445312308\n0AB4BF2B4FBE0A1DF157D2518E20842A2F81ED8ABD9A60A3C042144D9970A479\nreference=1732x160;normal=648..1239;whiteShadow=634..1206\n"
+    const-string v3, "desktopvf-447.5-139.75-s0.999475-v5\nC815CEF93EA0398B8E8DC6A5A1F25597BD1D54600CF46C8B60419E5445312308\n0AB4BF2B4FBE0A1DF157D2518E20842A2F81ED8ABD9A60A3C042144D9970A479\nreference=1732x160;normal=648..1239;whiteShadow=634..1206\n"
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -874,7 +874,7 @@
 
     if-eqz v0, :cond_2
 
-    const/16 p0, -0x100
+    const p0, -0xb2dffe
 
     return p0
 
@@ -930,7 +930,7 @@
 
     move-object/from16 v2, p3
 
-    if-eqz v1, :cond_5
+    if-eqz v1, :cond_6
 
     .line 562
     invoke-virtual/range {p2 .. p2}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -941,7 +941,7 @@
 
     move-result v3
 
-    if-nez v3, :cond_5
+    if-nez v3, :cond_6
 
     .line 565
     invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
@@ -988,15 +988,13 @@
     move-result v5
 
     .line 570
-    const-string v6, "white_shadow"
-
-    invoke-virtual {v2, v6}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    invoke-static {v2}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer;->isWhiteShadow(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    const v6, 0x3f77c517
+    const v6, 0x3f7968bc
 
     mul-float/2addr v4, v6
 
@@ -1018,7 +1016,7 @@
 
     add-int/2addr v6, v4
 
-    if-lez v6, :cond_4
+    if-lez v6, :cond_5
 
     .line 581
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Bitmap;->getHeight()I
@@ -1098,45 +1096,30 @@
     add-int/lit16 v12, v5, 0x6c4
 
     .line 591
-    invoke-static {v3, v1, v10, v12}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer;->renderNormalLayer(Landroid/graphics/Paint;Ljava/lang/String;II)Landroid/graphics/Bitmap;
-
-    move-result-object v1
+    const v13, -0x41b33333    # -0.2f
 
     if-eqz v2, :cond_3
 
-    .line 594
-    new-instance v2, Landroid/graphics/Rect;
+    const v13, -0x41666666    # -0.3f
 
-    const/16 v3, 0x4d7
+    :cond_3
+    invoke-static {v3, v1, v10, v12, v13}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer;->renderLayer(Landroid/graphics/Paint;Ljava/lang/String;IIF)Landroid/graphics/Bitmap;
 
-    add-int/2addr v5, v3
+    move-result-object v1
 
-    .line 596
-    invoke-virtual/range {p1 .. p1}, Landroid/graphics/Bitmap;->getHeight()I
+    if-eqz v2, :cond_4
 
-    move-result v3
+    move-object/from16 v2, p3
 
-    const/16 v10, 0x288
-
-    invoke-direct {v2, v10, v11, v5, v3}, Landroid/graphics/Rect;-><init>(IIII)V
-
-    new-instance v3, Landroid/graphics/Rect;
-
-    .line 598
-    invoke-virtual/range {p1 .. p1}, Landroid/graphics/Bitmap;->getHeight()I
-
-    move-result v5
-
-    const/16 v10, 0x27a
-
-    invoke-direct {v3, v10, v11, v4, v5}, Landroid/graphics/Rect;-><init>(IIII)V
-
-    .line 594
-    invoke-virtual {v8, v1, v2, v3, v9}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
+    invoke-static {v8, v1, v9, v2}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer;->drawWhiteShadow(Landroid/graphics/Canvas;Landroid/graphics/Bitmap;Landroid/graphics/Paint;Ljava/lang/String;)V
 
     goto :goto_3
 
-    :cond_3
+    :cond_4
+    move-object/from16 v2, p3
+
+    invoke-static {v9, v2}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer;->setModelColor(Landroid/graphics/Paint;Ljava/lang/String;)V
+
     const/4 v2, 0x0
 
     .line 600
@@ -1144,6 +1127,10 @@
 
     .line 602
     :goto_3
+    const/4 v2, 0x0
+
+    invoke-virtual {v9, v2}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
+
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
     .line 604
@@ -1175,7 +1162,7 @@
     return-object v7
 
     .line 577
-    :cond_4
+    :cond_5
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     const-string v1, "Rendered watermark width is invalid"
@@ -1185,7 +1172,7 @@
     throw v0
 
     .line 563
-    :cond_5
+    :cond_6
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     const-string v1, "Model name is empty"
@@ -1396,7 +1383,7 @@
 
     sget-object p0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const v1, 0x43e3a666    # 455.3f
+    const v1, 0x43dfc000    # 447.5f
 
     .line 615
     invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
@@ -1408,7 +1395,7 @@
     move-result-object v1
 
     .line 614
-    const-string v2, "\'wght\' %.1f, \'wdth\' 100"
+    const-string v2, "\'wght\' %.1f"
 
     invoke-static {p0, v2, v1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1433,7 +1420,7 @@
     .line 618
     invoke-virtual {v0, p0}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    const p0, 0x430daa3d
+    const p0, 0x430bc000    # 139.75f
 
     mul-float/2addr p0, p2
 
@@ -1446,48 +1433,10 @@
     invoke-virtual {v0, p0}, Landroid/graphics/Paint;->setTextScaleX(F)V
 
     .line 621
-    invoke-static {p1}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer;->colorFor(Ljava/lang/String;)I
-
-    move-result p0
+    const/4 p0, -0x1
 
     invoke-virtual {v0, p0}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 622
-    const-string p0, "_shadow"
-
-    invoke-virtual {p1, p0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
-    move-result p0
-
-    if-eqz p0, :cond_1
-
-    .line 623
-    invoke-virtual {v0}, Landroid/graphics/Paint;->getColor()I
-
-    move-result p0
-
-    const/high16 p1, -0x1000000
-
-    if-ne p0, p1, :cond_0
-
-    const p0, -0x7f000001
-
-    goto :goto_0
-
-    :cond_0
-    const/high16 p0, -0x80000000
-
-    :goto_0
-    const/high16 p1, 0x40400000    # 3.0f
-
-    mul-float/2addr p2, p1
-
-    const/4 p1, 0x0
-
-    .line 625
-    invoke-virtual {v0, p2, p1, p1, p0}, Landroid/graphics/Paint;->setShadowLayer(FFFI)V
-
-    :cond_1
     return-object v0
 .end method
 
@@ -1843,6 +1792,47 @@
     invoke-direct {v0, v1, p0}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     throw v0
+.end method
+
+.method private static drawWhiteShadow(Landroid/graphics/Canvas;Landroid/graphics/Bitmap;Landroid/graphics/Paint;Ljava/lang/String;)V
+    .locals 3
+
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->getWidth()I
+
+    move-result v0
+
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->getHeight()I
+
+    move-result v1
+
+    invoke-static {p1, v0, v1}, Lcom/prometheus/camera/filters/LeicaShadowRenderer;->render(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+
+    move-result-object p1
+
+    const-string v1, "xiaomi_CCFFFFFF_shadow.webp"
+
+    invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const/16 v1, 0xcc
+
+    invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setAlpha(I)V
+
+    :cond_0
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, p1, v0, v0, p2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
+
+    const/16 v1, 0xff
+
+    invoke-virtual {p2, v1}, Landroid/graphics/Paint;->setAlpha(I)V
+
+    invoke-virtual {p1}, Landroid/graphics/Bitmap;->recycle()V
+
+    return-void
 .end method
 
 .method public static eligibilityDeviceName(Ljava/lang/String;)Ljava/lang/String;
@@ -2517,6 +2507,31 @@
     return p0
 .end method
 
+.method private static isWhiteShadow(Ljava/lang/String;)Z
+    .locals 1
+
+    const-string v0, "xiaomi_white_shadow.webp"
+
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const-string v0, "xiaomi_CCFFFFFF_shadow.webp"
+
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
 .method private static persistedSelection(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
@@ -2571,7 +2586,7 @@
 
     new-instance v5, Ljava/lang/StringBuilder;
 
-    const-string v6, "desktopvf-455.3-141.665-s0.9849-v4\n"
+    const-string v6, "desktopvf-447.5-139.75-s0.999475-v5\n"
 
     invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -2703,7 +2718,7 @@
 
     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v10, "\npipeline\tdesktopvf-455.3-141.665-s0.9849-v4\nfont\tC815CEF93EA0398B8E8DC6A5A1F25597BD1D54600CF46C8B60419E5445312308\nsource\t0AB4BF2B4FBE0A1DF157D2518E20842A2F81ED8ABD9A60A3C042144D9970A479\ncanvas\treference=1732x160;normal=648..1239;whiteShadow=634..1206\n"
+    const-string v10, "\npipeline\tdesktopvf-447.5-139.75-s0.999475-v5\nfont\tC815CEF93EA0398B8E8DC6A5A1F25597BD1D54600CF46C8B60419E5445312308\nsource\t0AB4BF2B4FBE0A1DF157D2518E20842A2F81ED8ABD9A60A3C042144D9970A479\ncanvas\treference=1732x160;normal=648..1239;whiteShadow=634..1206\n"
 
     .line 371
     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -3247,7 +3262,7 @@
     throw p0
 .end method
 
-.method private static renderNormalLayer(Landroid/graphics/Paint;Ljava/lang/String;II)Landroid/graphics/Bitmap;
+.method private static renderLayer(Landroid/graphics/Paint;Ljava/lang/String;IIF)Landroid/graphics/Bitmap;
     .locals 6
 
     .line 632
@@ -3325,7 +3340,7 @@
 
     invoke-direct {p3}, Landroid/graphics/Matrix;-><init>()V
 
-    const v1, -0x41b33333    # -0.2f
+    move v1, p4
 
     int-to-float p2, p2
 
@@ -3354,6 +3369,18 @@
 
     .line 650
     invoke-static {p0}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer;->applyAlphaLut(Landroid/graphics/Bitmap;)V
+
+    return-object p0
+.end method
+
+.method private static renderNormalLayer(Landroid/graphics/Paint;Ljava/lang/String;II)Landroid/graphics/Bitmap;
+    .locals 1
+
+    const v0, -0x41b33333    # -0.2f
+
+    invoke-static {p0, p1, p2, p3, v0}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer;->renderLayer(Landroid/graphics/Paint;Ljava/lang/String;IIF)Landroid/graphics/Bitmap;
+
+    move-result-object p0
 
     return-object p0
 .end method
@@ -3442,6 +3469,24 @@
     invoke-direct {v1, p0, p1}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer$2;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
+
+    return-void
+.end method
+
+.method private static setModelColor(Landroid/graphics/Paint;Ljava/lang/String;)V
+    .locals 2
+
+    invoke-static {p1}, Lcom/prometheus/camera/filters/OnlineLeicaRenderer;->colorFor(Ljava/lang/String;)I
+
+    move-result p1
+
+    new-instance v0, Landroid/graphics/PorterDuffColorFilter;
+
+    sget-object v1, Landroid/graphics/PorterDuff$Mode;->SRC_IN:Landroid/graphics/PorterDuff$Mode;
+
+    invoke-direct {v0, p1, v1}, Landroid/graphics/PorterDuffColorFilter;-><init>(ILandroid/graphics/PorterDuff$Mode;)V
+
+    invoke-virtual {p0, v0}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
 
     return-void
 .end method

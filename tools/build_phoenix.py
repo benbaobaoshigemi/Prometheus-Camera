@@ -160,7 +160,16 @@ def build_lsp(args, version, work, output):
     temporary.replace(output)
 
 
-def build_module(version, camera, lsp, output):
+def build_module(version, camera, lsp, output, sdk):
+    def apk_version_code(path):
+        aapt = sdk / ('aapt.exe' if os.name == 'nt' else 'aapt')
+        badging = subprocess.check_output([str(aapt), 'dump', 'badging', str(path)], text=True)
+        match = re.search(r"^package: .*versionCode='(\d+)'", badging, re.M)
+        if not match:
+            raise ValueError(f'Cannot read APK versionCode: {path}')
+        return match.group(1)
+    camera_code = apk_version_code(camera)
+    lsp_code = apk_version_code(lsp)
     temporary = output.with_suffix('.pending.zip')
     with zipfile.ZipFile(temporary, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
         for name, source in sorted(source_files(ROOT / 'module').items()):
@@ -170,6 +179,8 @@ def build_module(version, camera, lsp, output):
                 value = re.sub(r'Phoenix-\d+\.\d+\.\d+', version['versionName'], value)
                 value = re.sub(r'(?m)^versionCode=\d+',
                                f"versionCode={version['moduleVersionCode']}", value)
+                value = re.sub(r'(?m)^(CAMERA_CODE=)\d+', rf'\g<1>{camera_code}', value)
+                value = re.sub(r'(?m)^(LSP_CODE=)\d+', rf'\g<1>{lsp_code}', value)
                 data = value.encode('utf-8')
             info = zipfile.ZipInfo(name)
             info.compress_type = zipfile.ZIP_DEFLATED
@@ -224,7 +235,7 @@ def main():
         products.append(lsp)
     if args.mode == 'all':
         print('[3/3] All-in-One: package module and APKs', flush=True)
-        build_module(version, camera, lsp, module)
+        build_module(version, camera, lsp, module, args.sdk)
         products.append(module)
     revision = subprocess.run(['git', '-C', str(ROOT), 'rev-parse', 'HEAD'],
                               text=True, capture_output=True)

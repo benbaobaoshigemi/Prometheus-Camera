@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DIRECTORIES = ('camera', 'lsp', 'module', 'tools')
 FILES = ('.gitignore', '.gitattributes', 'README.md', 'AI_CONTEXT.md', 'LICENSE', 'version.json', 'supported-camera.json',
-         'third-party.json', 'verification.json')
+         'third-party.json', 'verification.json', 'CHANGELOG.md', 'RELEASE_NOTES_1.3.0.md')
 EXCLUDED = {'lsp/original', 'lsp/build', 'lsp/dist', 'tools/vendor', 'tools/__pycache__'}
 
 
