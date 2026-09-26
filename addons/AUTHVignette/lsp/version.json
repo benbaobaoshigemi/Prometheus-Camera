@@ -1,0 +1,9 @@
+{
+  "packageName": "com.phoenix.camera.authvignette",
+  "productName": "PhoenixAddon-AUTHVignette",
+  "releaseVersion": "V1.1.0",
+  "versionName": "PhoenixAddon-AUTHVignette-V1.1.0",
+  "versionCode": 2012100,
+  "moduleVersionCode": 2012100,
+  "phoenixCompatibility": "all-os4-base-unchanged"
+}

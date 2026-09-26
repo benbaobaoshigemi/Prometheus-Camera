@@ -8,6 +8,7 @@
 
 - `Phoenix_Phoenix-1.3.0_AllInOne.zip`：Camera、LSP 与根模块整合包。
 - `Phoenix-1.3.0-source.zip`：可重建的源码和构建工具；不含官方底包与签名私钥。
+- `PhoenixAddon-AUTHVignette-V1.1.0-Package.zip` 与 `PhoenixAddon-AUTHVignette-V1.1.0-Source.zip`：独立暗角 Addon 及其源码，版本独立于主 Phoenix，不在主整合包内。
 
 升级时保留相机和相册编辑器的数据。首次安装及环境要求见 [README](README.md)。版本号：Camera `760010300`，LSP/模块 `2010300`。
 
