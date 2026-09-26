@@ -15,6 +15,7 @@
     "module": "Static files equal except version and APK version-check constants; embedded APKs equal standalone release APKs."
   },
   "build": "Unified Camera/LSP/All-in-One build completed from the 1.3.0 public source checkout using the supported OS4 official Camera APK.",
+  "sourceArchiveRebuild": "Passed: extracted the source ZIP into a clean directory and rebuilt Camera, LSP and All-in-One; APK ZIP entry names and payload CRCs match the release build. Whole APK bytes differ because packaging/signing metadata is not reproducible.",
   "deviceValidation": "not performed for 1.3.0",
   "notVerified": [
     "Installation or runtime on device with the 1.3.0 artifacts.",
