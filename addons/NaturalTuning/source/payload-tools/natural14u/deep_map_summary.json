@@ -1,0 +1,139 @@
+{
+ "wide/gamma15_ipe_v2": {
+  "A_14U_only_node_generic_style_delta": 556,
+  "natural_already": 1275,
+  "C_18PM_natural_shares_vivid_deep_data": 34,
+  "E_no_18PM_name": 6,
+  "B_18PM_natural_drops_feature_node": 5
+ },
+ "wide/cc14_ipe_v2": {
+  "natural_already": 1732,
+  "A_14U_only_node_generic_style_delta": 123,
+  "C_18PM_natural_shares_vivid_deep_data": 17,
+  "E_no_18PM_name": 4
+ },
+ "wide/ltm202_ipe_v2": {
+  "A_14U_only_node_generic_style_delta": 273,
+  "natural_already": 1255,
+  "B_18PM_natural_drops_feature_node": 288,
+  "D_18PM_natural_has_own_deep_node": 12,
+  "C_18PM_natural_shares_vivid_deep_data": 42,
+  "E_no_18PM_name": 6
+ },
+ "wide/cv12_ipe_v2": {
+  "natural_already": 1189,
+  "A_14U_only_node_generic_style_delta": 594,
+  "C_18PM_natural_shares_vivid_deep_data": 32,
+  "?": 47,
+  "D_18PM_natural_has_own_deep_node": 5,
+  "E_no_18PM_name": 9
+ },
+ "wide/tdl11_ipe_v2": {
+  "A_14U_only_node_generic_style_delta": 566,
+  "natural_already": 1297,
+  "D_18PM_natural_has_own_deep_node": 5,
+  "E_no_18PM_name": 8
+ },
+ "ultra/gamma15_ipe_v2": {
+  "natural_already": 317,
+  "A_14U_only_node_generic_style_delta": 49,
+  "E_no_18PM_name": 16,
+  "C_18PM_natural_shares_vivid_deep_data": 43
+ },
+ "ultra/cc14_ipe_v2": {
+  "natural_already": 379,
+  "A_14U_only_node_generic_style_delta": 19,
+  "C_18PM_natural_shares_vivid_deep_data": 14,
+  "E_no_18PM_name": 12,
+  "D_18PM_natural_has_own_deep_node": 1
+ },
+ "ultra/ltm202_ipe_v2": {
+  "natural_already": 335,
+  "A_14U_only_node_generic_style_delta": 33,
+  "C_18PM_natural_shares_vivid_deep_data": 46,
+  "E_no_18PM_name": 11
+ },
+ "ultra/cv12_ipe_v2": {
+  "natural_already": 356,
+  "A_14U_only_node_generic_style_delta": 21,
+  "C_18PM_natural_shares_vivid_deep_data": 36,
+  "E_no_18PM_name": 11,
+  "D_18PM_natural_has_own_deep_node": 1
+ },
+ "ultra/tdl11_ipe_v2": {
+  "natural_already": 363,
+  "A_14U_only_node_generic_style_delta": 15,
+  "C_18PM_natural_shares_vivid_deep_data": 36,
+  "E_no_18PM_name": 10,
+  "D_18PM_natural_has_own_deep_node": 1
+ },
+ "tele3x/gamma15_ipe_v2": {
+  "natural_already": 368,
+  "A_14U_only_node_generic_style_delta": 85,
+  "E_no_18PM_name": 10,
+  "C_18PM_natural_shares_vivid_deep_data": 22,
+  "C0_same_generic": 1,
+  "B_18PM_natural_drops_feature_node": 1
+ },
+ "tele3x/cc14_ipe_v2": {
+  "natural_already": 399,
+  "A_14U_only_node_generic_style_delta": 65,
+  "E_no_18PM_name": 9,
+  "C_18PM_natural_shares_vivid_deep_data": 11,
+  "D_18PM_natural_has_own_deep_node": 3
+ },
+ "tele3x/ltm202_ipe_v2": {
+  "natural_already": 372,
+  "A_14U_only_node_generic_style_delta": 80,
+  "C_18PM_natural_shares_vivid_deep_data": 24,
+  "E_no_18PM_name": 10,
+  "D_18PM_natural_has_own_deep_node": 1
+ },
+ "tele3x/cv12_ipe_v2": {
+  "natural_already": 375,
+  "C0_same_generic": 80,
+  "E_no_18PM_name": 11,
+  "C_18PM_natural_shares_vivid_deep_data": 10,
+  "?": 11
+ },
+ "tele3x/tdl11_ipe_v2": {
+  "natural_already": 402,
+  "A_14U_only_node_generic_style_delta": 73,
+  "E_no_18PM_name": 9,
+  "D_18PM_natural_has_own_deep_node": 3
+ },
+ "tele5x/gamma15_ipe_v2": {
+  "natural_already": 469,
+  "A_14U_only_node_generic_style_delta": 90,
+  "E_no_18PM_name": 10,
+  "C_18PM_natural_shares_vivid_deep_data": 34,
+  "C0_same_generic": 1,
+  "B_18PM_natural_drops_feature_node": 1
+ },
+ "tele5x/cc14_ipe_v2": {
+  "natural_already": 492,
+  "A_14U_only_node_generic_style_delta": 89,
+  "E_no_18PM_name": 9,
+  "C_18PM_natural_shares_vivid_deep_data": 13,
+  "D_18PM_natural_has_own_deep_node": 2
+ },
+ "tele5x/ltm202_ipe_v2": {
+  "natural_already": 461,
+  "A_14U_only_node_generic_style_delta": 97,
+  "C_18PM_natural_shares_vivid_deep_data": 36,
+  "E_no_18PM_name": 10,
+  "D_18PM_natural_has_own_deep_node": 1
+ },
+ "tele5x/cv12_ipe_v2": {
+  "natural_already": 516,
+  "C0_same_generic": 68,
+  "E_no_18PM_name": 11,
+  "C_18PM_natural_shares_vivid_deep_data": 10
+ },
+ "tele5x/tdl11_ipe_v2": {
+  "natural_already": 493,
+  "A_14U_only_node_generic_style_delta": 100,
+  "E_no_18PM_name": 10,
+  "D_18PM_natural_has_own_deep_node": 2
+ }
+}

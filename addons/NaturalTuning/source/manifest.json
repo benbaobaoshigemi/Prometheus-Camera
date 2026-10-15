@@ -1,0 +1,261 @@
+{
+ "product": "PhoenixAddon-NaturalTuning",
+ "version": "V1.4.0",
+ "files": [
+  {
+   "path": "README.md",
+   "size": 4022,
+   "sha256": "41cfc6e00ad575f7089dd27f9cc9263bad0da2be409fb2b1c0d70b8c4eba1891"
+  },
+  {
+   "path": "lsp/AndroidManifest.xml",
+   "size": 794,
+   "sha256": "04896e5473489ff9d6948ff42de7f9476a00c1d9203c7e8b4c4e5c287e6d5b3b"
+  },
+  {
+   "path": "lsp/assets/xposed_init",
+   "size": 42,
+   "sha256": "18b756ee83315d1215ba4fa1cb285a223a6adc47ff278d8300d660a6fd022d59"
+  },
+  {
+   "path": "lsp/java/com/prometheus/camera/rev/NaturalSettings.java",
+   "size": 9690,
+   "sha256": "18308253b4835035f2d6891b17afed5a257aebc6c1a598f79cada28624894930"
+  },
+  {
+   "path": "lsp/res/values/arrays.xml",
+   "size": 163,
+   "sha256": "1207aaafbfd5cf2450c3e0fcff159b799daec2d87cd6ddbf20d986ffc10cce8f"
+  },
+  {
+   "path": "lsp/version.json",
+   "size": 297,
+   "sha256": "a940992f310bc22d8e6375e51d751fe06110edbfecdcda2dc5daeef16c601d04"
+  },
+  {
+   "path": "module/common.sh",
+   "size": 3031,
+   "sha256": "edf435926f3a91d40258921427d2723f09bc6530dbde072dd9a7de1846a7ed81"
+  },
+  {
+   "path": "module/customize.sh",
+   "size": 1702,
+   "sha256": "4bb5f49bfcfc2fbe9a10fdd9876b5a7c66b1fb6ab2faa6757deacb44337ed6ba"
+  },
+  {
+   "path": "module/hot-apply.sh",
+   "size": 302,
+   "sha256": "8471a719ee44e50c7e2eabc163421c80a3c55b9908d8f8858c05d1b7ad77c56e"
+  },
+  {
+   "path": "module/hot-remove.sh",
+   "size": 222,
+   "sha256": "2a65fd873ef179411787d97efd3cb12a214c2f58538a53a236aabe62385bd731"
+  },
+  {
+   "path": "module/natural-event.sh",
+   "size": 711,
+   "sha256": "7a33bf73ccc3232d5fd6f002a2c34c044cbfdc05f341e909193c34b24bcf3181"
+  },
+  {
+   "path": "module/natural-service.sh",
+   "size": 474,
+   "sha256": "1ed3c1d4cb7a1bc57153fb74c8b530163efad1d7987dd3942175802560993c71"
+  },
+  {
+   "path": "module/post-fs-data.sh",
+   "size": 459,
+   "sha256": "8052b285ff27eaff4946e10e0b4bb9bc4bdb1a3c802858ab7d3e848e0ec4244f"
+  },
+  {
+   "path": "module/service.sh",
+   "size": 182,
+   "sha256": "a0d2c79717cdd28784cd4aafd0e0e598d2fa6e9cd570b3b08d5281f8148bbcc7"
+  },
+  {
+   "path": "module/uninstall.sh",
+   "size": 205,
+   "sha256": "c131a7e9106ec11dba5eef5770f2433ae43d4bb510a8c8047e859d82509ac218"
+  },
+  {
+   "path": "payload-tools/ana/dict.py",
+   "size": 1322,
+   "sha256": "59687d36da52c69a6d7ac727c8589ce82e85f95da6991ae60c5957c1383f390e"
+  },
+  {
+   "path": "payload-tools/ana/resolve.py",
+   "size": 1452,
+   "sha256": "f3c888fa77e7fe74c75cfc9ffa02c20b05b0ecd0b4e55593ee9abb7e77741061"
+  },
+  {
+   "path": "payload-tools/ana/schema.py",
+   "size": 2226,
+   "sha256": "967775ec9e5eace8d5ae1a50fcad88ef49940219d7f59a12b0c9fcf9cba60b6a"
+  },
+  {
+   "path": "payload-tools/ana/tree.py",
+   "size": 1132,
+   "sha256": "3c072804f7cafde7c70d03f1529a97884bb4ba71854762f16135070e772ff2b6"
+  },
+  {
+   "path": "payload-tools/ana/tuned.py",
+   "size": 3066,
+   "sha256": "b1a6d05e0532a6664f25f16b38ac2a65055995f737e522d20ba47abe9a396bc4"
+  },
+  {
+   "path": "payload-tools/ltm-emu/common.py",
+   "size": 1236,
+   "sha256": "3bf85cdac7a2a4b06dc30b97b830e07645ca90ddf0edad95febf3e6741b65dd1"
+  },
+  {
+   "path": "payload-tools/ltm-emu/emu14.py",
+   "size": 1551,
+   "sha256": "5fd4c4b05498a9b4f8fc9ac098ebf25e314f5dc72241a02840bef418500aeaf8"
+  },
+  {
+   "path": "payload-tools/ltm-emu/harness.py",
+   "size": 2971,
+   "sha256": "7cf6eaf4e0f3c950e9ff50465a6050ed15f6d9767bbcf4f9d8b496e27a8ed1df"
+  },
+  {
+   "path": "payload-tools/ltm-emu/load.py",
+   "size": 1016,
+   "sha256": "2d5420f953f46807c7e892ffb717d409103971a4b9c2c590effe5d552cc5b0cc"
+  },
+  {
+   "path": "payload-tools/ltm-emu/run1.py",
+   "size": 1738,
+   "sha256": "708679e0d7aa02c38de79f1caf4b02c1a8a2e19bdccd1a42de89813a91b3709b"
+  },
+  {
+   "path": "payload-tools/ltm-emu/run2.py",
+   "size": 1422,
+   "sha256": "293797512e73a05ccb1c14970d0fe8fcb44ee6690f67f276b5e8ab2921bafd49"
+  },
+  {
+   "path": "payload-tools/ltm-emu/run3.py",
+   "size": 843,
+   "sha256": "372aa432da2b42a4d0c374358dd52106ff513910af95bf5e0bfc34c65e001684"
+  },
+  {
+   "path": "payload-tools/ltm-emu/run4.py",
+   "size": 1953,
+   "sha256": "d77596e4c8c20dd9b131d975f81ee2eb85f10d796546e8e287efb31fae9081cb"
+  },
+  {
+   "path": "payload-tools/ltm-emu/run5.py",
+   "size": 1107,
+   "sha256": "74141c3fee931969734bdd7c71fce34d0f3029a5d7408fe59656b9f80de92f8a"
+  },
+  {
+   "path": "payload-tools/natural14u/build_natural_tuned.py",
+   "size": 15733,
+   "sha256": "06aa400c1a0a59f376792798582d06db257d6586ebde9b2b734c39405b371aaf"
+  },
+  {
+   "path": "payload-tools/natural14u/deep_final.json",
+   "size": 16791,
+   "sha256": "e278ce6e3a10012f340517d14d2dea278fd13100c01322d193470f51ddd5e185"
+  },
+  {
+   "path": "payload-tools/natural14u/deep_final.py",
+   "size": 2339,
+   "sha256": "40032ba8b8683650d755f836031017e215aaecceb618be66980218783b477938"
+  },
+  {
+   "path": "payload-tools/natural14u/deep_map.json",
+   "size": 229344,
+   "sha256": "14e651b6fc366458b0a75e25ea583ac6c0495eb5a7220bf701ff144c812394db"
+  },
+  {
+   "path": "payload-tools/natural14u/deep_map.py",
+   "size": 5302,
+   "sha256": "152dce4c5e8cff1ee2466a91d53587d1f00ca2abd40fab894bc312f5ecc6736b"
+  },
+  {
+   "path": "payload-tools/natural14u/deep_map_summary.json",
+   "size": 4104,
+   "sha256": "bf6cae4c626f97299e7334a230c693c206da7361da91fdb7467e5663b4bc66dc"
+  },
+  {
+   "path": "payload-tools/natural14u/deep_plan.json",
+   "size": 272230,
+   "sha256": "04887c65c9cb4e79188623a08d42f5475a58082cbdb020c3d02de676e5c68aa1"
+  },
+  {
+   "path": "payload-tools/natural14u/enum14u_camera_qcom.json",
+   "size": 5697,
+   "sha256": "af046ccd2b047116a06c2869a01e57de7854191498e146453ad05d48828ecf67"
+  },
+  {
+   "path": "payload-tools/natural14u/gen_deep_plan.py",
+   "size": 4707,
+   "sha256": "f59389fb03097977019ac012800274c2081dff8a7b83ae9825965bdc0151be4c"
+  },
+  {
+   "path": "payload-tools/natural14u/ltm_port.py",
+   "size": 14271,
+   "sha256": "446dfdbc867ccd827f82a6b3d26211396072cdb74040d360cd0eea55acdbca45"
+  },
+  {
+   "path": "payload-tools/natural14u/node_port.py",
+   "size": 11279,
+   "sha256": "67fc2fb8bb3e73004c613705a1ec80f3bb5716fa5e261d1d2bbeaf502b1dc0af"
+  },
+  {
+   "path": "payload-tools/natural14u/survey_ltm.py",
+   "size": 1851,
+   "sha256": "aa7185839d07cf361a312d6f3176a7a8e490605af7a7469426d66733969bce48"
+  },
+  {
+   "path": "payload-tools/natural14u/verify_deep.py",
+   "size": 2953,
+   "sha256": "c1d0a2abbfeb463393cce1a3da10bd70ec1c4c92da48fcabb584ee146a6c30ee"
+  },
+  {
+   "path": "payload-tools/natural14u/verify_ltm.py",
+   "size": 4021,
+   "sha256": "e9a6100e1223ff727ed8da191c8e1ef772a2d5ecbe3eaed223fc3b09c91c4e9d"
+  },
+  {
+   "path": "payload-tools/natural14u/verify_nodes.py",
+   "size": 3216,
+   "sha256": "87f4805dee17eda037a0616dae58c51e392fadf736764368c418681e02c4b917"
+  },
+  {
+   "path": "payload-tools/natural14u/verify_resolution.py",
+   "size": 3175,
+   "sha256": "b0a69e7f845100771f7dcb961cf9219a11e515c91fded04cb8f489e312babfba"
+  },
+  {
+   "path": "payload-tools/viv-color/build_vibr_tone_tuning.py",
+   "size": 13947,
+   "sha256": "a404cd9bbfc1871c08187bad2208d7009ba835fafdc4b6ea509f45d67a2e5667"
+  },
+  {
+   "path": "payload-tools/viv-color/extract_color_regions_all_lenses.py",
+   "size": 6217,
+   "sha256": "bfc7204157aa952ead395b82a5c422b877f1a43716791178a36a7b8613e8d548"
+  },
+  {
+   "path": "payload-tools/viv-color/extract_color_symbol_regions.py",
+   "size": 7936,
+   "sha256": "59d855e569a9f7171a06c22ab7060f2d770f0f3c8ec6742dd185c495cf20cb4f"
+  },
+  {
+   "path": "payload-tools/viv-color/resolve_tuned_mode.py",
+   "size": 4397,
+   "sha256": "724a8290aa207d5145e529ed2f1ec11ab05eebd4f01cb992a0eba6425c5fec47"
+  },
+  {
+   "path": "payload-tools/viv-color/symbol_table_probe.py",
+   "size": 4381,
+   "sha256": "49c8e9da86015b0f488cf2b8eb32bbe49a449608ee85ad7e9838809ca2b75eb7"
+  },
+  {
+   "path": "version.json",
+   "size": 337,
+   "sha256": "f13d617e9023e5ead91958039df1f61e982ebb85bcb9162b7238af5727fce3ce"
+  }
+ ]
+}

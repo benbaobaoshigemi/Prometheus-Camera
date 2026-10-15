@@ -26,6 +26,7 @@ Addon 独立于 Phoenix 主线发布并使用自己的版本号。每个 Addon �
 | --- | --- | --- |
 | [`PhoenixAddon-LegendM3`](addons/LegendM3/) | V1.0.0 | 徕卡经典 M3 成像链路及相册后处理兼容 |
 | [`PhoenixAddon-AUTHVignette`](addons/AUTHVignette/) | V1.1.0 | 可选的徕卡经典暗角着色器，单独安装、单独停用 |
+| [`PhoenixAddon-NaturalTuning`](addons/NaturalTuning/) | V1.4.0 | 徕卡生动拍照改用小米 18 Pro Max「原色」成像，设置页开关按需挂载 |
 
 ## 兼容范围与前置环境
 

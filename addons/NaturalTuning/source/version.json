@@ -1,0 +1,10 @@
+{
+  "moduleId": "phoenix_natural_tuning",
+  "productName": "PhoenixAddon-NaturalTuning",
+  "releaseVersion": "V1.4.0",
+  "versionName": "PhoenixAddon-NaturalTuning-V1.4.0",
+  "moduleVersionCode": 2014000,
+  "phoenixCompatibility": "all-os4-base-unchanged",
+  "targetDevice": "aurora",
+  "lenses": ["wide", "ultra", "tele3x", "tele5x"]
+}

@@ -1,0 +1,9 @@
+{
+  "packageName": "com.phoenix.camera.naturaltuning",
+  "productName": "PhoenixAddon-NaturalTuning",
+  "releaseVersion": "V1.4.0",
+  "versionName": "PhoenixAddon-NaturalTuning-V1.4.0",
+  "versionCode": 2014000,
+  "moduleVersionCode": 2014000,
+  "phoenixCompatibility": "all-os4-base-unchanged"
+}

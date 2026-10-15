@@ -1,0 +1,43 @@
+{
+  "version": {
+    "moduleId": "phoenix_natural_tuning",
+    "productName": "PhoenixAddon-NaturalTuning",
+    "releaseVersion": "V1.4.0",
+    "versionName": "PhoenixAddon-NaturalTuning-V1.4.0",
+    "moduleVersionCode": 2014000,
+    "phoenixCompatibility": "all-os4-base-unchanged",
+    "targetDevice": "aurora",
+    "lenses": [
+      "wide",
+      "ultra",
+      "tele3x",
+      "tele5x"
+    ]
+  },
+  "zip": "G:\\LEICA\\nrv\\OS4\\Phoenix\\addons\\NaturalTuning\\release\\PhoenixAddon-NaturalTuning-V1.4.0.zip",
+  "zipSha256": "975d19b93ed9ce0fdd4975b859c7dd223cc27c5cdd41b6f2c83384c8e4980267",
+  "zipBytes": 32996839,
+  "files": [
+    {
+      "name": "com.qti.tuned.aurora_semco_LYT900_wide.bin",
+      "stockSha256": "7fe3c2d859398efc760bb779e40d9a8d9bc0732f69990173e62f821056ec93dc",
+      "naturalSha256": "b884f67787d9f923c03d5ff426991eea7eb62cda0634780552680237a15615fb"
+    },
+    {
+      "name": "com.qti.tuned.aurora_semco_imx858_ultra.bin",
+      "stockSha256": "163fcbe084e90adcd99dbc7315aea2a212def8a3f74e1fff9f6af9dc032ee09c",
+      "naturalSha256": "791ce78c0cb3467a8bd72319295f1a7426b3cc1f2629f2dfc6491e906d5d0b95"
+    },
+    {
+      "name": "com.qti.tuned.aurora_ofilm_imx858_tele3x.bin",
+      "stockSha256": "03b4bedae334cfc8607ca4f3dfd7d03d1e225674d48804ed2f14f814af5802b2",
+      "naturalSha256": "f3422217043687a55819cf3887a8e381a8bff70aa1c5775cc36ffdb1ec2cc63d"
+    },
+    {
+      "name": "com.qti.tuned.aurora_semco_imx858_tele5x.bin",
+      "stockSha256": "c298b2579d1b481c4b43e80116d9953ce6ae42bb86697b79daec20d38fad28d9",
+      "naturalSha256": "0cf3d4012fcba119b32c3d4a5fd2c4c9fedc8c8967c17461c4ab1e28ae818e1b"
+    }
+  ],
+  "deviceValidation": "static only: exhaustive mode resolution (verify_deep BAD 0), LTM202 engine emulation, CV12/TDL11 value check; not installed on device"
+}
