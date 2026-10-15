@@ -4,8 +4,33 @@
  "files": [
   {
    "path": "README.md",
-   "size": 3970,
-   "sha256": "dbedd99f0934c5608f556c5c259c2ca7ecd6b4efabc88781fe2e5b72e569ce11"
+   "size": 6222,
+   "sha256": "0076eeac0eadbd744918c12910cdceee2f56648955ca706f4b28f01f7e9c4644"
+  },
+  {
+   "path": "docs/14U原色_LTM移植研究.md",
+   "size": 9528,
+   "sha256": "db2d178c77231b5000b40c61a504017cccb5fff9ea5830eb37b65df384d7319a"
+  },
+  {
+   "path": "docs/14U原色_剩余节点移植.md",
+   "size": 2098,
+   "sha256": "65f6f73d7e9c388fcb79f1072d27d2670dabb39e2fa9dcadccaef2627085268d"
+  },
+  {
+   "path": "docs/14U原色_深层节点静态分析.md",
+   "size": 9487,
+   "sha256": "8f5e2ac2a6f02c0063a3f5b8d7c9402468ed46e2bf28c778339afddf616d9ec7"
+  },
+  {
+   "path": "docs/14U原色_组合设计.md",
+   "size": 3813,
+   "sha256": "09ffffaf1ab713bc89f2fa5d8f9ca4e0fa9ac0b27f3a5ce3bc81ed0f492ce84a"
+  },
+  {
+   "path": "docs/原色_vs_生动_管线分析.md",
+   "size": 10106,
+   "sha256": "cd33939790dfacbc5eed5243a23bc6f112de804d95209b7b3355f768485bfe86"
   },
   {
    "path": "lsp/AndroidManifest.xml",
@@ -78,9 +103,134 @@
    "sha256": "c131a7e9106ec11dba5eef5770f2433ae43d4bb510a8c8047e859d82509ac218"
   },
   {
+   "path": "payload-tools/ana/allcams.py",
+   "size": 899,
+   "sha256": "29e9d4700d45a84291d3215866a34c60ce4de28ee3d02abdd72fecaee7abb33c"
+  },
+  {
+   "path": "payload-tools/ana/anchors18.py",
+   "size": 1219,
+   "sha256": "81cbbd58e18aac6e044731857109eb85ceb28bfa5bba43627ba681204b553682"
+  },
+  {
+   "path": "payload-tools/ana/armdis.py",
+   "size": 1070,
+   "sha256": "d3900533adb25fb1ab51c58820ebb93b49d5835a32390cf7645414a78f87678a"
+  },
+  {
+   "path": "payload-tools/ana/cc13_14u.py",
+   "size": 1990,
+   "sha256": "a73f6b06ee6a291c67363edc13f711099ce824d64c45d73227d0fc0b155dbe4b"
+  },
+  {
+   "path": "payload-tools/ana/ccm_rel.py",
+   "size": 1720,
+   "sha256": "69b6522005c2025e1586527414d79c199d7cd69b35b6490054c492222df7626b"
+  },
+  {
+   "path": "payload-tools/ana/cfgdec.py",
+   "size": 707,
+   "sha256": "c6c8c34ec14c90b1058895df21229d7dcff87a9bd4547f094f03881008bf47d1"
+  },
+  {
+   "path": "payload-tools/ana/cmpstyle.py",
+   "size": 1141,
+   "sha256": "649c60da1d33e7bd49d379e9c0bd7410e53920861c09ca1a3bdaf9044abae833"
+  },
+  {
+   "path": "payload-tools/ana/cmscan.py",
+   "size": 1010,
+   "sha256": "4825d2f4ddf720c171c59ae128e3ba6a0bc2c051f7215c6c18d9b2af9896cf18"
+  },
+  {
+   "path": "payload-tools/ana/consensus.py",
+   "size": 2940,
+   "sha256": "826717b82657bb5d2d79e531ebf6e6c42357fb8dd2df382bea23e08ff375a504"
+  },
+  {
+   "path": "payload-tools/ana/cvlook.py",
+   "size": 140,
+   "sha256": "338458449b1d24604cd262abc15803c0ed01c452f315810c3ceebee4544dccc3"
+  },
+  {
    "path": "payload-tools/ana/dict.py",
    "size": 1322,
    "sha256": "59687d36da52c69a6d7ac727c8589ce82e85f95da6991ae60c5957c1383f390e"
+  },
+  {
+   "path": "payload-tools/ana/diffmod.py",
+   "size": 1856,
+   "sha256": "cd504b12b72cc0f7c14ab350b6e57ab58c1250397f15bc842b3efdcd6f09bcd9"
+  },
+  {
+   "path": "payload-tools/ana/dumpmod.py",
+   "size": 1353,
+   "sha256": "0db295ba8c53119939ed96e5fe5e412c865c571269c08006c2c132966864272b"
+  },
+  {
+   "path": "payload-tools/ana/fieldA.py",
+   "size": 1874,
+   "sha256": "5a3060b090e0565876d4f826ac694f64b10a4d4d3528c84326807d399b714f1f"
+  },
+  {
+   "path": "payload-tools/ana/fieldsum.py",
+   "size": 2085,
+   "sha256": "75bd6493461ca781249e89ef110ae98bc8564e4d29a207511e985896744c0381"
+  },
+  {
+   "path": "payload-tools/ana/fullcmp.py",
+   "size": 1558,
+   "sha256": "e79a792a907dc9ea5769a8ca7781eb69b359c54f5eb95b2539e3f854a571fec3"
+  },
+  {
+   "path": "payload-tools/ana/kinds.py",
+   "size": 637,
+   "sha256": "70dd5e6591f827b59997decf49c0ee4270782a3de3990ccae03707d2b3df80e3"
+  },
+  {
+   "path": "payload-tools/ana/lenssum.py",
+   "size": 2298,
+   "sha256": "513d7234f489603ac227e3f71e17f69371f406821d2f02b3205df8b58cfdf39c"
+  },
+  {
+   "path": "payload-tools/ana/ltmdiff.py",
+   "size": 1890,
+   "sha256": "5003e3c72ff98481a90b45823d7605fc2b6291cd9d2acf87b8f05fed1568be62"
+  },
+  {
+   "path": "payload-tools/ana/ltmdiff2.py",
+   "size": 591,
+   "sha256": "4e6dd08e3013d44a2538769c3f5134c326cf96a114393148616370df2bed80be"
+  },
+  {
+   "path": "payload-tools/ana/ltmgrid.py",
+   "size": 951,
+   "sha256": "c85e7f98b2ba54359a28a9fe4aa4218dce693febc31e701e986cf952f3a1bfd9"
+  },
+  {
+   "path": "payload-tools/ana/moddiff.py",
+   "size": 1342,
+   "sha256": "457105d4dcce4a9ff8bb34475beabf755758c3beb3b8b3ff23ba8ecd0e8971c3"
+  },
+  {
+   "path": "payload-tools/ana/modes.py",
+   "size": 736,
+   "sha256": "843bcd6ff04ee17f247081bcb4b3e8837f63377c19373f40c5b951eb663c141f"
+  },
+  {
+   "path": "payload-tools/ana/prov.py",
+   "size": 963,
+   "sha256": "bc174fbac2cdfecd1c8790f6a4e4dd10ad64b1123e3fe4a3d082eba0fcae275d"
+  },
+  {
+   "path": "payload-tools/ana/provsum.py",
+   "size": 953,
+   "sha256": "28bf780371ba6512692cb602f44ba09b57b20afa8ec2a632c082ebc37a1af711"
+  },
+  {
+   "path": "payload-tools/ana/rccm.py",
+   "size": 2196,
+   "sha256": "509c462ae21ed575fffc193aaa1cca691c500f9ef23a10dc49a3e605f20a05d7"
   },
   {
    "path": "payload-tools/ana/resolve.py",
@@ -93,6 +243,26 @@
    "sha256": "967775ec9e5eace8d5ae1a50fcad88ef49940219d7f59a12b0c9fcf9cba60b6a"
   },
   {
+   "path": "payload-tools/ana/show.py",
+   "size": 874,
+   "sha256": "597c62cd84d82c3cf27f4b4ddc5040a4a94ef0da7086d6a0e9512d93ba240b4c"
+  },
+  {
+   "path": "payload-tools/ana/styledev.py",
+   "size": 2687,
+   "sha256": "cbb6efd5c68c16229885da19f27f679066e25db6853c2c2367d0234b534766dc"
+  },
+  {
+   "path": "payload-tools/ana/tmcpaths.py",
+   "size": 1145,
+   "sha256": "f913ac904dff5f866be35087907bb7722c93d28887d6a8c635bb4036449026f1"
+  },
+  {
+   "path": "payload-tools/ana/tonectl.py",
+   "size": 1688,
+   "sha256": "43a6f5fe497100655e685b05e449b2b39f11c08618a0da4c1c1757cea12fe172"
+  },
+  {
    "path": "payload-tools/ana/tree.py",
    "size": 1100,
    "sha256": "777549b44950fa7e43b2e45113db1502728ace5065e079d1ede75b4ae7ba718b"
@@ -101,6 +271,61 @@
    "path": "payload-tools/ana/tuned.py",
    "size": 3001,
    "sha256": "ac1e61ddcbba0153480e8e33922fd263fce084dda4193f636dea8301e970ad20"
+  },
+  {
+   "path": "payload-tools/ana/xref.py",
+   "size": 1882,
+   "sha256": "f32e341a2d2bee161a3cd5d47af660909d7d3a5b0b78d325248970c63c7c4ba5"
+  },
+  {
+   "path": "payload-tools/device/ab.sh",
+   "size": 57,
+   "sha256": "08cf2dba7d2a82ec71f2eacdf43a0ee3d279902cfb52971c1dcf776c8fb1431a"
+  },
+  {
+   "path": "payload-tools/device/e2e.sh",
+   "size": 860,
+   "sha256": "a978b14ac8cf2978f622b94ffe09ef7a2ed9fb7ade969d68e21f9fe68ed95943"
+  },
+  {
+   "path": "payload-tools/device/mount.sh",
+   "size": 381,
+   "sha256": "239c2f3fcede236b94c484e97c97b3b9651d771c55477c2139548724459f3ebb"
+  },
+  {
+   "path": "payload-tools/device/probe.sh",
+   "size": 249,
+   "sha256": "6c71783d4ba12635c53da6463ea3eed2773a2031aaafb4ac44d660ce4e8c0079"
+  },
+  {
+   "path": "payload-tools/device/setstyle.sh",
+   "size": 464,
+   "sha256": "c8821e3bc91a9bfd77dc701fe763c6d859b82d5bac800b84ba070928e5ea113b"
+  },
+  {
+   "path": "payload-tools/device/shot1x.sh",
+   "size": 356,
+   "sha256": "f0085d52288e7a7f8f94b07d0bf8b900e261225e617a4cd4a10054193b4ad69b"
+  },
+  {
+   "path": "payload-tools/device/shotx.sh",
+   "size": 356,
+   "sha256": "34c6e6d00560035886ac4df5ca7d18dd56142e5da1e6f9b09414ed01a014ad5e"
+  },
+  {
+   "path": "payload-tools/device/stage.sh",
+   "size": 311,
+   "sha256": "1bde66fb96cd7d30c7d73acce72bad8693d8c140535206e8d0b37ee8a9ade827"
+  },
+  {
+   "path": "payload-tools/device/umount.sh",
+   "size": 184,
+   "sha256": "e986604c143b48cf20d22da8fb646a5701a97a1b05fe50099460a271ff99c146"
+  },
+  {
+   "path": "payload-tools/device/watch.sh",
+   "size": 285,
+   "sha256": "f4cb14457601ca5f5a3632a5eff5a19a6523ae23dba37be4c9d964e506116f45"
   },
   {
    "path": "payload-tools/ltm-emu/common.py",
@@ -153,6 +378,21 @@
    "sha256": "6038a6b0f794117a0eb15a37b872b5b1df633b00c849068ab960957a92b5c43c"
   },
   {
+   "path": "payload-tools/natural14u/build_natural_tuned_v3.py",
+   "size": 12848,
+   "sha256": "af88a22b66ed831a68ab3185e9c89fda1100c845dbfdb808b8dba6ebec90f0c5"
+  },
+  {
+   "path": "payload-tools/natural14u/check_lists.py",
+   "size": 1012,
+   "sha256": "91ddd1495c8b2fa1ce40bdf87989b60c783db8953d0dc6747233576b5c2c448a"
+  },
+  {
+   "path": "payload-tools/natural14u/coverage.py",
+   "size": 961,
+   "sha256": "d21fe34a6ed5429b189af3ec6556487f3008143160d77111fe2db6ce111c1cba"
+  },
+  {
    "path": "payload-tools/natural14u/deep_final.json",
    "size": 16791,
    "sha256": "e278ce6e3a10012f340517d14d2dea278fd13100c01322d193470f51ddd5e185"
@@ -183,9 +423,29 @@
    "sha256": "04887c65c9cb4e79188623a08d42f5475a58082cbdb020c3d02de676e5c68aa1"
   },
   {
+   "path": "payload-tools/natural14u/deep_top.py",
+   "size": 1101,
+   "sha256": "b739a45c56b5c1ace97d5cd97e1e8c4aeb446819da2a7e83c42681842438f1c9"
+  },
+  {
+   "path": "payload-tools/natural14u/deep_videochk.py",
+   "size": 926,
+   "sha256": "bdda94221dcfb5d417ef14667c5f5917c047e217c8063d77d999bf6bb9a5520a"
+  },
+  {
+   "path": "payload-tools/natural14u/diag.py",
+   "size": 1455,
+   "sha256": "4e3a2fbfb870c7fa550d9d9c6c2bf2c09b019c3e975603ceb5c410ec97605712"
+  },
+  {
    "path": "payload-tools/natural14u/enum14u_camera_qcom.json",
    "size": 5697,
    "sha256": "af046ccd2b047116a06c2869a01e57de7854191498e146453ad05d48828ecf67"
+  },
+  {
+   "path": "payload-tools/natural14u/enum14u_tables.py",
+   "size": 1254,
+   "sha256": "cc1f43acd2fdb3e80b604838a1d32d9078b452b49d7327c3bc4311760268b9b5"
   },
   {
    "path": "payload-tools/natural14u/gen_deep_plan.py",
@@ -201,6 +461,16 @@
    "path": "payload-tools/natural14u/node_port.py",
    "size": 10989,
    "sha256": "33b74868d2bdd8da23b77de8cedcf98deace7f0f7bfc3720f6cbe2542d2233da"
+  },
+  {
+   "path": "payload-tools/natural14u/survey2.py",
+   "size": 859,
+   "sha256": "1b4af033ff09fd0fa5057eed037b896e8fb0f28fe4597c05cfa7ff5a4934b933"
+  },
+  {
+   "path": "payload-tools/natural14u/survey3.py",
+   "size": 943,
+   "sha256": "21cc80a753e7025dbef3aea71541ac4e23a55bf2ad5ae99465c569e6b8ceda93"
   },
   {
    "path": "payload-tools/natural14u/survey_ltm.py",

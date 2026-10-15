@@ -28,8 +28,8 @@
 | `PhoenixAddon-NaturalTuning-V1.4.0.zip` | `975D19B93ED9CE0FDD4975B859C7DD223CC27C5CDD41B6F2C83384C8E4980267` |
 | `PhoenixAddon-NaturalTuning-V1.4.0-LSP.apk` | `AC6E0ED8023807A93BE69E475A7E8F61375474281113E3565558EFBCA05BF3C2` |
 | `PhoenixAddon-NaturalTuning-V1.4.0-validation.json` | `2CE61B7094E326E38EA6E6C19162D36EB999F945CFF4DC636DCA39AD807BDC0D` |
-| `PhoenixAddon-NaturalTuning-V1.4.0-Source.zip` | `41E0FCB409E19A8C63DFEAC36574AED74AB75C28314FC9FC3B470E5CBDBDA821` |
+| `PhoenixAddon-NaturalTuning-V1.4.0-Source.zip` | `6AE02D9BC98E34B13ED5D7DCB8057F25D963C5234F8DEE0EEA7B96C1981896C7` |
 
-源码带逐文件 `manifest.json`。源码不包含 14U / 18PM 原厂 tuned bin、相机库或签名私钥。
+源码带逐文件 `manifest.json`，包含分析与设计记录、tuned bin / 配置解码脚本和近似计算代码。源码不包含 14U / 18PM 原厂 tuned bin、解密后的配置、相机库、反编译结果或签名私钥。
 
 仅限小米 14 Ultra 使用。
