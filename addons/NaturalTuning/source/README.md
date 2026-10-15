@@ -42,6 +42,24 @@ su -M -c 'sh /data/adb/modules/phoenix_natural_tuning/hot-remove.sh'
   - `natural14u/verify_deep.py`、`verify_ltm.py`、`verify_nodes.py`：请求级穷举、LTM 仿真与节点数值验证。
   - `ana/`、`viv-color/`：tuned bin 解析等通用模块；`ltm-emu/`：在 14U `camera.qcom.sm8650.so` 上用 unicorn 运行 LTM 引擎的仿真脚本（需自备该库）。
 
+## 研究、取舍与解码
+
+- `docs/`：做这个 Addon 时的分析与设计记录，说明每一步为什么这样取舍。
+  - `原色_vs_生动_管线分析.md`：18PM 原色与徕卡生动逐节点对比，风格走 tuning 的 Feature0 维度。
+  - `14U原色_LTM移植研究.md`：18PM 原色的静态 LTM 能否移植到 14U：引擎同源的代码级证据、14U 引擎仿真、实施与上机结果，以及仍未证明的部分。
+  - `14U原色_剩余节点移植.md`：18PM 原色相对生动的其余差异逐项结论（CV12 / 2D LUT 等）。
+  - `14U原色_深层节点静态分析.md`：14U 与 18PM 模式枚举按名字映射、深层记录的分类与处理规则、多帧中间阶段为何保持原样。
+  - `14U原色_组合设计.md`：18PM 生动 / 18PM 原色 / 14U 生动三者的组合公式：CCM 分层、相对标定的风格偏离、Gamma、平台代际节点。
+- 解码：
+  - `payload-tools/ana/tuned.py`、`schema.py`、`dict.py`、`resolve.py`、`tree.py`：18PM Parameter Parser V7.1.1 tuned bin 解码（第 4 段内嵌完整 schema，可全字段解码；`a&1` 表示 int 按 float32 存储）。
+  - `payload-tools/ana/cfgdec.py`：小米相机配置 `encrypted_data:` 解密（Base64 后与 32 字节密钥循环异或）。密钥不在脚本里，运行时从自备的 `libcom.xiaomi.camera.configmanager.so` 读取。
+- 近似计算：
+  - `natural14u/ltm_port.py`：LTM 增量按 CamX 区间节点重建并在区间之间补采样点。原厂在区间之间插值的是 LTM 参数，再经非线性引擎；烘焙后插值的是引擎结果，补采样点是为了缩小两者在陡峭过渡区的差距（误差见下文）。
+  - `natural14u/node_port.py`：CV12 / TDL11 在同一触发点上取 18PM（原色 − 生动），连续轴按区间线性插值。
+  - `ltm-emu/`：用 unicorn 在 14U 引擎上仿真 LTM，作为近似误差的真值。
+  - `ana/*.py` 其余脚本、`natural14u/` 其余脚本：节点差分、覆盖统计、枚举表导出等过程工具；`device/`：上机挂载与 A/B 拍摄脚本。
+- 未收录：解密后的小米配置、从 tuned bin 导出的数据、小米相机 APK、CamX 反编译结果。这些属于小米 / 高通的专有内容或由其直接导出。
+
 ## 验证（静态）
 
 - 所有请求、5 个节点逐一核对，与计划一致（CC14 少数没有增艳档的图按规则保持原样）。
